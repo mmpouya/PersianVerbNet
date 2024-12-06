@@ -1,0 +1,133 @@
+@prefix ex: <http://example.org/> .
+@prefix vnclass: <http://example.org/vnclass/> .
+
+vnclass:VNCLASS a vnclass:VNCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "keep-15.2" .
+
+vnclass:ARG a vnclass:ARG ;
+    vnclass:type "Event",
+        "ThemRole" ;
+    vnclass:value "Agent",
+        "E",
+        "Location",
+        "Theme" .
+
+vnclass:ARGS a vnclass:ARGS ;
+    ex:hasChild vnclass:ARG .
+
+vnclass:DESCRIPTION a vnclass:DESCRIPTION ;
+    vnclass:descriptionNumber "",
+        "0.2" ;
+    vnclass:primary "NP V NP",
+        "NP V NP PP.location" ;
+    vnclass:secondary "Basic Transitive",
+        "NP-PP; locative-PP" ;
+    vnclass:xtag "" .
+
+vnclass:EXAMPLE a vnclass:EXAMPLE ;
+    ex:hasValue "Many small investors kept Belgium store securities.",
+        "Michelle kept the papers in the desk." .
+
+vnclass:EXAMPLES a vnclass:EXAMPLES ;
+    ex:hasChild vnclass:EXAMPLE .
+
+vnclass:FRAME a vnclass:FRAME ;
+    ex:hasChild vnclass:DESCRIPTION,
+        vnclass:EXAMPLES,
+        vnclass:SEMANTICS,
+        vnclass:SYNTAX .
+
+vnclass:FRAMES a vnclass:FRAMES ;
+    ex:hasChild vnclass:FRAME .
+
+vnclass:MEMBER a vnclass:MEMBER ;
+    vnclass:features "" ;
+    vnclass:fn_mapping "Forming_relationships",
+        "Inhibit_movement",
+        "None",
+        "Storing" ;
+    vnclass:grouping "",
+        "hold.03",
+        "keep.03",
+        "leave.02",
+        "stock.01",
+        "store.01" ;
+    vnclass:name "hoard",
+        "hold",
+        "keep",
+        "leave",
+        "stock",
+        "stockpile",
+        "store" ;
+    vnclass:verbnet_key "hoard#1",
+        "hold#8",
+        "keep#2",
+        "leave#5",
+        "stock#1",
+        "stockpile#1",
+        "store#2" ;
+    vnclass:wn "hoard%2:40:01",
+        "hold%2:42:00 hold%2:40:02",
+        "keep%2:40:13 keep%2:40:12 keep%2:40:10",
+        "leave%2:40:06 leave%2:31:02",
+        "stock%2:40:00",
+        "stockpile%2:40:00",
+        "store%2:40:00 store%2:40:02" .
+
+vnclass:MEMBERS a vnclass:MEMBERS ;
+    ex:hasChild vnclass:MEMBER .
+
+vnclass:NP a vnclass:NP ;
+    ex:hasChild vnclass:SYNRESTRS ;
+    vnclass:value "Agent",
+        "Location",
+        "Theme" .
+
+vnclass:PRED a vnclass:PRED ;
+    ex:hasChild vnclass:ARGS ;
+    vnclass:value "has_location",
+        "has_possession" .
+
+vnclass:PREP a vnclass:PREP ;
+    ex:hasChild vnclass:SELRESTRS .
+
+vnclass:SELRESTR a vnclass:SELRESTR ;
+    vnclass:Value "+",
+        "-" ;
+    vnclass:type "animate",
+        "loc",
+        "location",
+        "organization",
+        "region" .
+
+vnclass:SEMANTICS a vnclass:SEMANTICS ;
+    ex:hasChild vnclass:PRED .
+
+vnclass:SUBCLASSES a vnclass:SUBCLASSES .
+
+vnclass:SYNRESTRS a vnclass:SYNRESTRS .
+
+vnclass:SYNTAX a vnclass:SYNTAX ;
+    ex:hasChild vnclass:NP,
+        vnclass:PREP,
+        vnclass:VERB .
+
+vnclass:THEMROLE a vnclass:THEMROLE ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:type "Agent",
+        "Location",
+        "Theme" .
+
+vnclass:THEMROLES a vnclass:THEMROLES ;
+    ex:hasChild vnclass:THEMROLE .
+
+vnclass:VERB a vnclass:VERB .
+
+vnclass:SELRESTRS a vnclass:SELRESTRS ;
+    ex:hasChild vnclass:SELRESTR ;
+    vnclass:logic "or" .
+

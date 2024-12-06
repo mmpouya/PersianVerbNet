@@ -1,0 +1,259 @@
+@prefix ex: <http://example.org/> .
+@prefix vnclass: <http://example.org/vnclass/> .
+
+vnclass:VNCLASS a vnclass:VNCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "send-11.1" .
+
+vnclass:ARG a vnclass:ARG ;
+    vnclass:type "Event",
+        "PredSpecific",
+        "ThemRole" ;
+    vnclass:value "?Destination",
+        "?Initial_Location",
+        "Agent",
+        "Destination",
+        "Initial_Location",
+        "Theme",
+        "Trajectory",
+        "e1",
+        "e2",
+        "e4",
+        "ë3" .
+
+vnclass:ARGS a vnclass:ARGS ;
+    ex:hasChild vnclass:ARG .
+
+vnclass:DESCRIPTION a vnclass:DESCRIPTION ;
+    vnclass:descriptionNumber "",
+        "0.2",
+        "2.1" ;
+    vnclass:primary "NP V NP",
+        "NP V NP PP.destination",
+        "NP V NP PP.destination PP.initial_location",
+        "NP V NP PP.initial_location",
+        "NP V NP PP.initial_location PP.destination",
+        "NP V NP-Dative NP" ;
+    vnclass:secondary "Basic Transitive",
+        "Dative",
+        "NP-PP-PP; Goal-PP Initial_Location-PP",
+        "NP-PP-PP; Initial_Location-PP Goal-PP",
+        "NP-PP; Goal-PP",
+        "NP-PP; Initial_Location-PP" ;
+    vnclass:xtag "",
+        "0.2" .
+
+vnclass:EXAMPLE a vnclass:EXAMPLE ;
+    ex:hasValue "Nora sent me the book.",
+        "Nora sent the book from Paris to London.",
+        "Nora sent the book from Paris.",
+        "Nora sent the book to London.",
+        "Nora sent the book.",
+        "TransCanada is shifting its HQ to Calgary from Toronto." .
+
+vnclass:EXAMPLES a vnclass:EXAMPLES ;
+    ex:hasChild vnclass:EXAMPLE .
+
+vnclass:FRAME a vnclass:FRAME ;
+    ex:hasChild vnclass:DESCRIPTION,
+        vnclass:EXAMPLES,
+        vnclass:SEMANTICS,
+        vnclass:SYNTAX .
+
+vnclass:MEMBER a vnclass:MEMBER ;
+    vnclass:features "" ;
+    vnclass:fn_mapping "Bringing",
+        "Causation",
+        "Cause_motion",
+        "Delivery",
+        "Giving",
+        "Importing",
+        "None",
+        "Sending" ;
+    vnclass:grouping "",
+        "convey.02",
+        "deliver.05",
+        "dispatch.01",
+        "drive.02",
+        "express.03",
+        "hand.01",
+        "mail.01",
+        "pass.04 pass.08",
+        "port.03",
+        "post.03",
+        "return.02 return.03",
+        "send.01 send.03",
+        "shift.01",
+        "ship.01",
+        "slip.01",
+        "sneak.02",
+        "transfer.01 transfer.02",
+        "transmit.01",
+        "transport.01",
+        "wire.03" ;
+    vnclass:name "FedEx",
+        "UPS",
+        "airmail",
+        "convey",
+        "deliver",
+        "dispatch",
+        "drive",
+        "export",
+        "express",
+        "forward",
+        "hand",
+        "handdeliver",
+        "import",
+        "mail",
+        "pass",
+        "pass_on",
+        "port",
+        "post",
+        "return",
+        "send",
+        "shift",
+        "ship",
+        "shunt",
+        "slip",
+        "smuggle",
+        "sneak",
+        "transfer",
+        "transmit",
+        "transport",
+        "transship",
+        "wire" ;
+    vnclass:verbnet_key "FedEx#1",
+        "UPS#1",
+        "airmail#1",
+        "convey#2",
+        "deliver#2",
+        "dispatch#2",
+        "drive#6",
+        "export#1",
+        "express#2",
+        "forward#1",
+        "hand#1",
+        "handdeliver#1",
+        "import#1",
+        "mail#1",
+        "pass#6",
+        "pass_on#1",
+        "port#1",
+        "post#1",
+        "return#5",
+        "send#2",
+        "shift#3",
+        "ship#1",
+        "shunt#1",
+        "slip#2",
+        "smuggle#1",
+        "sneak#2",
+        "transfer#2",
+        "transmit#1",
+        "transport#2",
+        "transship#1",
+        "wire#2" ;
+    vnclass:wn "",
+        "airmail%2:32:00",
+        "convey%2:40:10 convey%2:38:00 convey%2:35:00",
+        "deliver%2:35:00",
+        "dispatch%2:38:00",
+        "drive%2:38:02",
+        "export%2:40:00",
+        "express%2:32:09",
+        "forward%2:38:00",
+        "hand%2:40:00",
+        "import%2:40:00",
+        "mail%2:35:00 mail%2:32:00",
+        "pass%2:40:00 pass%2:32:01",
+        "pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00",
+        "port%2:35:07",
+        "post%2:32:02",
+        "return%2:40:08 return%2:35:01",
+        "send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02",
+        "shift%2:38:02",
+        "ship%2:38:00",
+        "shunt%2:38:00",
+        "slip%2:40:10",
+        "smuggle%2:40:00",
+        "sneak%2:40:00 sneak%2:40:10",
+        "transfer%2:40:01 transfer%2:35:00",
+        "transmit%2:40:10 transmit%2:35:00",
+        "transport%2:38:00 transport%2:38:01 transport%2:35:01",
+        "transship%2:38:00",
+        "wire%2:32:00" .
+
+vnclass:NP a vnclass:NP ;
+    ex:hasChild vnclass:SYNRESTRS ;
+    vnclass:value "Agent",
+        "Destination",
+        "Initial_Location",
+        "Theme" .
+
+vnclass:PRED a vnclass:PRED ;
+    ex:hasChild vnclass:ARGS ;
+    vnclass:bool "!" ;
+    vnclass:value "cause",
+        "do",
+        "has_location",
+        "motion" .
+
+vnclass:PREP a vnclass:PREP ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:value "to" .
+
+vnclass:SELRESTR a vnclass:SELRESTR ;
+    vnclass:Value "+",
+        "-" ;
+    vnclass:type "animate",
+        "concrete",
+        "location",
+        "organization",
+        "region",
+        "src" .
+
+vnclass:SEMANTICS a vnclass:SEMANTICS ;
+    ex:hasChild vnclass:PRED .
+
+vnclass:SYNRESTRS a vnclass:SYNRESTRS .
+
+vnclass:SYNTAX a vnclass:SYNTAX ;
+    ex:hasChild vnclass:NP,
+        vnclass:PREP,
+        vnclass:VERB .
+
+vnclass:THEMROLE a vnclass:THEMROLE ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:type "Agent",
+        "Destination",
+        "Initial_Location",
+        "Theme" .
+
+vnclass:VERB a vnclass:VERB .
+
+vnclass:VNSUBCLASS a vnclass:VNSUBCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "send-11.1-1" .
+
+vnclass:FRAMES a vnclass:FRAMES ;
+    ex:hasChild vnclass:FRAME .
+
+vnclass:MEMBERS a vnclass:MEMBERS ;
+    ex:hasChild vnclass:MEMBER .
+
+vnclass:SELRESTRS a vnclass:SELRESTRS ;
+    ex:hasChild vnclass:SELRESTR ;
+    vnclass:logic "or" .
+
+vnclass:SUBCLASSES a vnclass:SUBCLASSES ;
+    ex:hasChild vnclass:VNSUBCLASS .
+
+vnclass:THEMROLES a vnclass:THEMROLES ;
+    ex:hasChild vnclass:THEMROLE .
+

@@ -1,0 +1,94 @@
+@prefix ex: <http://example.org/> .
+@prefix vnclass: <http://example.org/vnclass/> .
+
+vnclass:VNCLASS a vnclass:VNCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "earn-54.6" .
+
+vnclass:ARG a vnclass:ARG ;
+    vnclass:type "Event",
+        "ThemRole" ;
+    vnclass:value "Asset",
+        "Theme",
+        "e1" .
+
+vnclass:ARGS a vnclass:ARGS ;
+    ex:hasChild vnclass:ARG .
+
+vnclass:DESCRIPTION a vnclass:DESCRIPTION ;
+    vnclass:descriptionNumber "0.2" ;
+    vnclass:primary "NP V NP" ;
+    vnclass:secondary "Transitive" ;
+    vnclass:xtag "" .
+
+vnclass:EXAMPLE a vnclass:EXAMPLE ;
+    ex:hasValue "The auction raised $2 million." .
+
+vnclass:EXAMPLES a vnclass:EXAMPLES ;
+    ex:hasChild vnclass:EXAMPLE .
+
+vnclass:FRAME a vnclass:FRAME ;
+    ex:hasChild vnclass:DESCRIPTION,
+        vnclass:EXAMPLES,
+        vnclass:SEMANTICS,
+        vnclass:SYNTAX .
+
+vnclass:FRAMES a vnclass:FRAMES ;
+    ex:hasChild vnclass:FRAME .
+
+vnclass:MEMBER a vnclass:MEMBER ;
+    vnclass:features "" ;
+    vnclass:fn_mapping "None" ;
+    vnclass:grouping "" ;
+    vnclass:name "attract",
+        "bring",
+        "bring_in",
+        "earn",
+        "fetch",
+        "raise" ;
+    vnclass:verbnet_key "attract#1",
+        "bring#2",
+        "bring_in#1",
+        "earn#1",
+        "fetch#1",
+        "raise#3" ;
+    vnclass:wn "" .
+
+vnclass:MEMBERS a vnclass:MEMBERS ;
+    ex:hasChild vnclass:MEMBER .
+
+vnclass:NP a vnclass:NP ;
+    ex:hasChild vnclass:SYNRESTRS ;
+    vnclass:value "Asset",
+        "Theme" .
+
+vnclass:PRED a vnclass:PRED ;
+    ex:hasChild vnclass:ARGS ;
+    vnclass:value "earn" .
+
+vnclass:SELRESTRS a vnclass:SELRESTRS .
+
+vnclass:SEMANTICS a vnclass:SEMANTICS ;
+    ex:hasChild vnclass:PRED .
+
+vnclass:SUBCLASSES a vnclass:SUBCLASSES .
+
+vnclass:SYNRESTRS a vnclass:SYNRESTRS .
+
+vnclass:SYNTAX a vnclass:SYNTAX ;
+    ex:hasChild vnclass:NP,
+        vnclass:VERB .
+
+vnclass:THEMROLE a vnclass:THEMROLE ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:type "Asset",
+        "Theme" .
+
+vnclass:THEMROLES a vnclass:THEMROLES ;
+    ex:hasChild vnclass:THEMROLE .
+
+vnclass:VERB a vnclass:VERB .
+

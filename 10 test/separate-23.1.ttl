@@ -1,0 +1,190 @@
+@prefix ex: <http://example.org/> .
+@prefix vnclass: <http://example.org/vnclass/> .
+
+vnclass:VNCLASS a vnclass:VNCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "separate-23.1" .
+
+vnclass:ADV a vnclass:ADV .
+
+vnclass:ARG a vnclass:ARG ;
+    vnclass:type "Event",
+        "ThemRole" ;
+    vnclass:value "Agent",
+        "Co-Patient",
+        "Patient",
+        "Patient_I",
+        "Patient_J",
+        "e1",
+        "e2",
+        "e3" .
+
+vnclass:ARGS a vnclass:ARGS ;
+    ex:hasChild vnclass:ARG .
+
+vnclass:DESCRIPTION a vnclass:DESCRIPTION ;
+    vnclass:descriptionNumber "",
+        "1.1.1",
+        "2.5.1",
+        "2.5.4" ;
+    vnclass:primary "NP V",
+        "NP V ADVP-Middle",
+        "NP V ADVP-Middle PP",
+        "NP V NP",
+        "NP V NP PP.co-patient",
+        "NP V PP.co-patient" ;
+    vnclass:secondary "Middle Construction",
+        "NP-PP; from-PP",
+        "PP; from-PP",
+        "PP; with-PP",
+        "Simple Reciprocal Intransitive",
+        "Simple Reciprocal Transitive" ;
+    vnclass:xtag "" .
+
+vnclass:EXAMPLE a vnclass:EXAMPLE ;
+    ex:hasValue "I separated the yolk and the white.",
+        "I separated the yolk from the white.",
+        "The cream separated easily from the milk.",
+        "The egg yolks and egg whites separated easily.",
+        "The yolk and the white separated.",
+        "The yolk divided from the white.",
+        "The yolk parted with the white." .
+
+vnclass:EXAMPLES a vnclass:EXAMPLES ;
+    ex:hasChild vnclass:EXAMPLE .
+
+vnclass:FRAME a vnclass:FRAME ;
+    ex:hasChild vnclass:DESCRIPTION,
+        vnclass:EXAMPLES,
+        vnclass:SEMANTICS,
+        vnclass:SYNTAX .
+
+vnclass:MEMBER a vnclass:MEMBER ;
+    vnclass:features "" ;
+    vnclass:fn_mapping "Differentiation",
+        "Forming_relationships",
+        "None" ;
+    vnclass:grouping "",
+        "differentiate.01 differentiate.03",
+        "disconnect.01 disconnect.02",
+        "dissimilate.01",
+        "divide.01 divide.02 divide.04",
+        "divorce.01 divorce.02",
+        "part.01 part.02 part.03 part.04",
+        "separate.01",
+        "sever.01 sever.02" ;
+    vnclass:name "decouple",
+        "differentiate",
+        "disassociate",
+        "disconnect",
+        "disentangle",
+        "dissimilate",
+        "dissociate",
+        "divide",
+        "divorce",
+        "part",
+        "segregate",
+        "separate",
+        "sever",
+        "uncoil" ;
+    vnclass:verbnet_key "decouple#1",
+        "differentiate#2",
+        "disassociate#1",
+        "disconnect#2",
+        "disentangle#1",
+        "dissimilate#1",
+        "dissociate#1",
+        "divide#3",
+        "divorce#2",
+        "part#2",
+        "segregate#2",
+        "separate#3",
+        "sever#2",
+        "uncoil#1" ;
+    vnclass:wn "",
+        "decouple%2:31:00",
+        "differentiate%2:31:01 differentiate%2:30:00",
+        "disassociate%2:41:00",
+        "disconnect%2:35:03 disconnect%2:35:00",
+        "disentangle%2:35:02 disentangle%2:42:00",
+        "dissimilate%2:30:02 dissimilate%2:30:01 dissimilate%2:30:00",
+        "dissociate%2:41:00",
+        "divide%2:42:00 divide%2:35:00 divide%2:35:01",
+        "divorce%2:41:01 divorce%2:41:00",
+        "part%2:38:02 part%2:41:00 part%2:35:00 part%2:35:01",
+        "segregate%2:41:00",
+        "separate%2:42:00 separate%2:35:01 separate%2:35:00 separate%2:35:02 separate%2:41:02 separate%2:38:00",
+        "sever%2:35:01 sever%2:35:00" .
+
+vnclass:NP a vnclass:NP ;
+    ex:hasChild vnclass:SYNRESTRS ;
+    vnclass:value "Agent",
+        "Co-Patient",
+        "Patient" .
+
+vnclass:PRED a vnclass:PRED ;
+    ex:hasChild vnclass:ARGS ;
+    vnclass:bool "!" ;
+    vnclass:value "attached",
+        "cause",
+        "do" .
+
+vnclass:PREP a vnclass:PREP ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:value "from",
+        "with" .
+
+vnclass:SELRESTR a vnclass:SELRESTR ;
+    vnclass:Value "+" ;
+    vnclass:type "animate" .
+
+vnclass:SEMANTICS a vnclass:SEMANTICS ;
+    ex:hasChild vnclass:PRED .
+
+vnclass:SYNRESTR a vnclass:SYNRESTR ;
+    vnclass:Value "+" ;
+    vnclass:type "plural" .
+
+vnclass:SYNRESTRS a vnclass:SYNRESTRS ;
+    ex:hasChild vnclass:SYNRESTR .
+
+vnclass:SYNTAX a vnclass:SYNTAX ;
+    ex:hasChild vnclass:ADV,
+        vnclass:NP,
+        vnclass:PREP,
+        vnclass:VERB .
+
+vnclass:THEMROLE a vnclass:THEMROLE ;
+    ex:hasChild vnclass:SELRESTRS ;
+    vnclass:type "Agent",
+        "Co-Patient",
+        "Patient" .
+
+vnclass:VERB a vnclass:VERB .
+
+vnclass:VNSUBCLASS a vnclass:VNSUBCLASS ;
+    ex:hasChild vnclass:FRAMES,
+        vnclass:MEMBERS,
+        vnclass:SUBCLASSES,
+        vnclass:THEMROLES ;
+    vnclass:ID "separate-23.1-1",
+        "separate-23.1-1-1" .
+
+vnclass:FRAMES a vnclass:FRAMES ;
+    ex:hasChild vnclass:FRAME .
+
+vnclass:MEMBERS a vnclass:MEMBERS ;
+    ex:hasChild vnclass:MEMBER .
+
+vnclass:SELRESTRS a vnclass:SELRESTRS ;
+    ex:hasChild vnclass:SELRESTR .
+
+vnclass:SUBCLASSES a vnclass:SUBCLASSES ;
+    ex:hasChild vnclass:VNSUBCLASS .
+
+vnclass:THEMROLES a vnclass:THEMROLES ;
+    ex:hasChild vnclass:THEMROLE .
+
