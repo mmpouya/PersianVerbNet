@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14"
+     xmlns:go="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAgent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAgent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAsset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAsset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasBeneficiary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasBeneficiary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasCo-Theme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasExperiencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasExperiencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasExtent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasGoal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasGoal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasInitial-Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasInitial-Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasInstrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasInstrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAgent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAgent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAsset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAsset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotBeneficiary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotBeneficiary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotCo-Theme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotExperiencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotExperiencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotExtent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotGoal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotGoal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotInitial-Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotInitial-Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotInstrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotInstrument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPatient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPatient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPivot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPivot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPredicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotPredicate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotRecipient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotRecipient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotReflexive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotReflexive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotResult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotResult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotSource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotStimulus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotStimulus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTheme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTheme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#event"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTopic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTopic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTrajectory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotTrajectory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasNotThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPatient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPatient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPivot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPivot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPredicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasPredicate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasRecipient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasRecipient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasReflexive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasReflexive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasResult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasResult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#reach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasSource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasStimulus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasStimulus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTheme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTheme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTopic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTopic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTrajectory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTrajectory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasThemrole"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#reach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#reach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasGoal"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sarayetell/ontologies/2024/11/untitled-ontology-14#HasTheme"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
