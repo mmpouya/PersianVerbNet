@@ -1,0 +1,35 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abide_by rdfs:subClassOf go:abide_by-93.2 .
+
+go:adhere_to rdfs:subClassOf go:abide_by-93.2 .
+
+go:follow rdfs:subClassOf go:abide_by-93.2 .
+
+go:heed rdfs:subClassOf go:abide_by-93.2 .
+
+go:keep_to rdfs:subClassOf go:abide_by-93.2 .
+
+go:obey rdfs:subClassOf go:abide_by-93.2 .
+
+go:observe rdfs:subClassOf go:abide_by-93.2 .
+
+go:abide_by-93.2 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#abide_by-93.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+
