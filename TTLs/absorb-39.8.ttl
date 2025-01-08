@@ -1,0 +1,19 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:absorb rdfs:subClassOf go:absorb-39.8 .
+
+go:ingest rdfs:subClassOf go:absorb-39.8 .
+
+go:take rdfs:subClassOf go:absorb-39.8 .
+
+go:absorb-39.8 rdfs:subClassOf go:hasGoal,
+        go:hasSource,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 
