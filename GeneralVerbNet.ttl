@@ -1,0 +1,2586 @@
+@prefix : <http://tavasi.majles.ir/ontology/> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://tavasi.majles.ir/ontology/general/VerbNet> .
+
+<http://tavasi.majles.ir/ontology/general/VerbNet> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://tavasi.majles.ir/ontology/general#EventHas
+go:EventHas rdf:type owl:ObjectProperty .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasAsset
+go:EventHasAsset rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasAttribute
+go:EventHasAttribute rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasBeneficiary
+go:EventHasBeneficiary rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasCause
+go:EventHasCause rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasCo-Agent
+go:EventHasCo-Agent rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasCo-Patient
+go:EventHasCo-Patient rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasCo-Theme
+go:EventHasCo-Theme rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasDestination
+go:EventHasDestination rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasExperiencer
+go:EventHasExperiencer rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasExtent
+go:EventHasExtent rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasGoal
+go:EventHasGoal rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasInitial_Location
+go:EventHasInitial_Location rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasInstrument
+go:EventHasInstrument rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasLocation
+go:EventHasLocation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasMaterial
+go:EventHasMaterial rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasPatient
+go:EventHasPatient rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasPivot
+go:EventHasPivot rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasPredicate
+go:EventHasPredicate rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasProduct
+go:EventHasProduct rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasRecipient
+go:EventHasRecipient rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasReflexive
+go:EventHasReflexive rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasResult
+go:EventHasResult rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasSource
+go:EventHasSource rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasStimulus
+go:EventHasStimulus rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasTheme
+go:EventHasTheme rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasTime
+go:EventHasTime rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasTopic
+go:EventHasTopic rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasTrajectory
+go:EventHasTrajectory rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf go:EventHas .
+
+
+###  http://tavasi.majles.ir/ontology/general#EventHasValue
+go:EventHasValue rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf go:EventHas .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://tavasi.majles.ir/ontology/general#HasAgent
+go:HasAgent rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Agent: 
+Actor in an event who initiates and carries out the event intentionally or consciously, and who exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasAsset
+go:HasAsset rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Asset:
+Value that is a concrete object.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasAttribute
+go:HasAttribute rdf:type owl:Class ;
+                rdfs:subClassOf go:HasThemrole ;
+                rdfs:comment """Attribue:
+Undergoer that is a property of an entity or entities, as opposed to the entity itself.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasBeneficiary
+go:HasBeneficiary rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasThemrole ;
+                  rdfs:comment """Beneficiary:
+Undergoer in a state or an event that is (potentially) advantaged or disadvantaged by the event or state.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasCause
+go:HasCause rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Cause:
+Actor in an event (that may be animate or inanimate) that initiates the event, but that does not act with any intentionality or consciousness; it exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasCo-Agent
+go:HasCo-Agent rdf:type owl:Class ;
+               rdfs:subClassOf go:HasThemrole ;
+               rdfs:comment """Agent:
+Agent who is acting in coordination or reciprocally with another agent while participating in the same event (specific to events with symmetrical participants).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasCo-Patient
+go:HasCo-Patient rdf:type owl:Class ;
+                 rdfs:subClassOf go:HasThemrole ;
+                 rdfs:comment """Patient:
+Patient that participates in an event with another patient, both participate equally in the event (specific to events with symmetrical participants).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasCo-Theme
+go:HasCo-Theme rdf:type owl:Class ;
+               rdfs:subClassOf go:HasThemrole ;
+               rdfs:comment """Theme:
+Theme that participates in an event or state with another Theme; both participate equally (thereby distinguishing this role from Pivot; specific to events with symmetrical participants).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasDestination
+go:HasDestination rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasThemrole ;
+                  rdfs:comment """Destination:
+Goal that is a concrete, physical location.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasExperiencer
+go:HasExperiencer rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasThemrole ;
+                  rdfs:comment """Experiencer:
+Patient that is aware of the event undergone (specific to events of perception).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasExtent
+go:HasExtent rdf:type owl:Class ;
+             rdfs:subClassOf go:HasThemrole ;
+             rdfs:comment """Extent:
+Value indicating the amount of measurable change to a participant over the course of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasGoal
+go:HasGoal rdf:type owl:Class ;
+           rdfs:subClassOf go:HasThemrole ;
+           rdfs:comment """Goal:
+Place that is the end point of an action and exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasInitial-Location
+go:HasInitial-Location rdf:type owl:Class ;
+                       rdfs:subClassOf go:HasThemrole ;
+                       rdfs:comment """Initial_Location:
+Source that indicates the concrete, physical location where an event begins or a state becomes true.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasInstrument
+go:HasInstrument rdf:type owl:Class ;
+                 rdfs:subClassOf go:HasThemrole ;
+                 rdfs:comment """Instrument
+Undergoer in an event that is manipulated by an agent, and with which an intentional act is performed; it exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasLocation
+go:HasLocation rdf:type owl:Class ;
+               rdfs:subClassOf go:HasThemrole ;
+               rdfs:comment """Location:
+Place that is concrete.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasMaterial
+go:HasMaterial rdf:type owl:Class ;
+               rdfs:subClassOf go:HasThemrole ;
+               rdfs:comment """Material:
+Patient that exists at the starting point of action (inheritance from Source), which is transformed through the event into a new entity; concrete or abstract.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotAgent
+go:HasNotAgent rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotAsset
+go:HasNotAsset rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotAttribute
+go:HasNotAttribute rdf:type owl:Class ;
+                   rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotBeneficiary
+go:HasNotBeneficiary rdf:type owl:Class ;
+                     rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotCause
+go:HasNotCause rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotCo-Agent
+go:HasNotCo-Agent rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotCo-Patient
+go:HasNotCo-Patient rdf:type owl:Class ;
+                    rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotCo-Theme
+go:HasNotCo-Theme rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotDestination
+go:HasNotDestination rdf:type owl:Class ;
+                     rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotExperiencer
+go:HasNotExperiencer rdf:type owl:Class ;
+                     rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotExtent
+go:HasNotExtent rdf:type owl:Class ;
+                rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotGoal
+go:HasNotGoal rdf:type owl:Class ;
+              rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotInitial-Location
+go:HasNotInitial-Location rdf:type owl:Class ;
+                          rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotInstrument
+go:HasNotInstrument rdf:type owl:Class ;
+                    rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotLocation
+go:HasNotLocation rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotMaterial
+go:HasNotMaterial rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotPatient
+go:HasNotPatient rdf:type owl:Class ;
+                 rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotPivot
+go:HasNotPivot rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotPredicate
+go:HasNotPredicate rdf:type owl:Class ;
+                   rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotProduct
+go:HasNotProduct rdf:type owl:Class ;
+                 rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotRecipient
+go:HasNotRecipient rdf:type owl:Class ;
+                   rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotReflexive
+go:HasNotReflexive rdf:type owl:Class ;
+                   rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotResult
+go:HasNotResult rdf:type owl:Class ;
+                rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotSource
+go:HasNotSource rdf:type owl:Class ;
+                rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotStimulus
+go:HasNotStimulus rdf:type owl:Class ;
+                  rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotTheme
+go:HasNotTheme rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotThemrole
+go:HasNotThemrole rdf:type owl:Class ;
+                  rdfs:subClassOf go:event ;
+                  owl:disjointWith go:HasThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotTime
+go:HasNotTime rdf:type owl:Class ;
+              rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotTopic
+go:HasNotTopic rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotTrajectory
+go:HasNotTrajectory rdf:type owl:Class ;
+                    rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasNotValue
+go:HasNotValue rdf:type owl:Class ;
+               rdfs:subClassOf go:HasNotThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasPatient
+go:HasPatient rdf:type owl:Class ;
+              rdfs:subClassOf go:HasThemrole ;
+              rdfs:comment """Patient:
+Undergoer in an event that experiences a change of state, location or condition, that is causally involved or directly affected by other participants, and exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasPivot
+go:HasPivot rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Pivot:
+Theme that participates in an event with another theme unequally. Pivot is much more central to the event (thereby distinguishing it from Co-Theme).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasPredicate
+go:HasPredicate rdf:type owl:Class ;
+                rdfs:subClassOf go:HasThemrole ;
+                rdfs:comment """Participant:
+Entity involved in a state or event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasProduct
+go:HasProduct rdf:type owl:Class ;
+              rdfs:subClassOf go:HasThemrole ;
+              rdfs:comment """Product:
+Result that is a concrete object.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasRecipient
+go:HasRecipient rdf:type owl:Class ;
+                rdfs:subClassOf go:HasThemrole ;
+                rdfs:comment """Recipient:
+Destination that is animate.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasReflexive
+go:HasReflexive rdf:type owl:Class ;
+                rdfs:subClassOf go:HasThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasResult
+go:HasResult rdf:type owl:Class ;
+             rdfs:subClassOf go:HasThemrole ;
+             rdfs:comment """Result:
+Goal that comes into existence through the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasSource
+go:HasSource rdf:type owl:Class ;
+             rdfs:subClassOf go:HasThemrole ;
+             rdfs:comment """Source:
+Place that is the starting point of action; exists independently of the event.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasStimulus
+go:HasStimulus rdf:type owl:Class ;
+               rdfs:subClassOf go:HasThemrole ;
+               rdfs:comment """Stimulus:
+Cause in an event that elicits an emotional or psychological response (specific to events of perception)""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasTheme
+go:HasTheme rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Theme:
+Undergoer that is central to an event or state that does not have control over the way the event occurs, is not structurally changed by the event, and/or is characterized as being in a certain position or condition throughout the state.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasThemrole
+go:HasThemrole rdf:type owl:Class ;
+               rdfs:subClassOf go:event .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasTime
+go:HasTime rdf:type owl:Class ;
+           rdfs:subClassOf go:HasThemrole ;
+           rdfs:comment """Time:
+Participant that indicates an instant or an interval of time during which a state exists or an event took place.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasTopic
+go:HasTopic rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Topic:
+Theme characterized by information content transferred to another participant (specific to events of communication).""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasTrajectory
+go:HasTrajectory rdf:type owl:Class ;
+                 rdfs:subClassOf go:HasThemrole .
+
+
+###  http://tavasi.majles.ir/ontology/general#HasValue
+go:HasValue rdf:type owl:Class ;
+            rdfs:subClassOf go:HasThemrole ;
+            rdfs:comment """Value:
+Place along a formal scale.""" .
+
+
+###  http://tavasi.majles.ir/ontology/general#abstract
+go:abstract rdf:type owl:Class ;
+            rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#accompany-51.7
+go:accompany-51.7 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#acquiesce-95
+go:acquiesce-95 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#095-Acquiesce_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#addict-96
+go:addict-96 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#096-Addict_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#adjust-26.9
+go:adjust-26.9 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#admire-31.2
+go:admire-31.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)> .
+
+
+###  http://tavasi.majles.ir/ontology/general#admit-65
+go:admit-65 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#065-Admit_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#adopt-93
+go:adopt-93 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#093-Adopt_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#advise-37.9
+go:advise-37.9 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#allow-64
+go:allow-64 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#064-Allow_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#amalgamate-22.2
+go:amalgamate-22.2 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#amuse-31.1
+go:amuse-31.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)> .
+
+
+###  http://tavasi.majles.ir/ontology/general#animal
+go:animal rdf:type owl:Class ;
+          rdfs:subClassOf go:animate .
+
+
+###  http://tavasi.majles.ir/ontology/general#animal_sounds-38
+go:animal_sounds-38 rdf:type owl:Class ;
+                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#038-Verbs_of_Sounds_Made_by_Animals> .
+
+
+###  http://tavasi.majles.ir/ontology/general#animate
+go:animate rdf:type owl:Class ;
+           rdfs:subClassOf go:int-control ,
+                           go:natural .
+
+
+###  http://tavasi.majles.ir/ontology/general#appeal-31.4
+go:appeal-31.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)> .
+
+
+###  http://tavasi.majles.ir/ontology/general#appear-48.1.1
+go:appear-48.1.1 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#appoint-29.1
+go:appoint-29.1 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#approve-77
+go:approve-77 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#077-Approve_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#artifact
+go:artifact rdf:type owl:Class ;
+            rdfs:subClassOf go:phys-obj .
+
+
+###  http://tavasi.majles.ir/ontology/general#assessment-34.1
+go:assessment-34.1 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#034-Verbs_of_Assessment> .
+
+
+###  http://tavasi.majles.ir/ontology/general#assuming_position-50
+go:assuming_position-50 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#050-Verbs_of_Assuming_a_Position> .
+
+
+###  http://tavasi.majles.ir/ontology/general#avoid-52
+go:avoid-52 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#052-Avoid_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#banish-10.2
+go:banish-10.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#base-97.1
+go:base-97.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#097-Verbs_of_Basing_and_Deducing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#battle-36.4
+go:battle-36.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction> .
+
+
+###  http://tavasi.majles.ir/ontology/general#beg-58.2
+go:beg-58.2 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#058-Verbs_of_Urging_and_Begging> .
+
+
+###  http://tavasi.majles.ir/ontology/general#begin-55.1
+go:begin-55.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#being_dressed-41.3.3
+go:being_dressed-41.3.3 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#bend-45.2
+go:bend-45.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#berry-13.7
+go:berry-13.7 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#bill-54.5
+go:bill-54.5 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#body-part
+go:body-part rdf:type owl:Class ;
+             rdfs:subClassOf go:animate .
+
+
+###  http://tavasi.majles.ir/ontology/general#body_internal_motion-49
+go:body_internal_motion-49 rdf:type owl:Class ;
+                           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#049-Verbs_of_Body-Internal_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#body_internal_states-40.6
+go:body_internal_states-40.6 rdf:type owl:Class ;
+                             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#braid-41.2.2
+go:braid-41.2.2 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#break-45.1
+go:break-45.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#breathe-40.1.2
+go:breathe-40.1.2 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#bring-11.3
+go:bring-11.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> .
+
+
+###  http://tavasi.majles.ir/ontology/general#build-26.1
+go:build-26.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#bulge-47.5.3
+go:bulge-47.5.3 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#bump-18.4
+go:bump-18.4 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact> .
+
+
+###  http://tavasi.majles.ir/ontology/general#butter-9.9
+go:butter-9.9 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#calabratable_cos_45.6
+go:calabratable_cos_45.6 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#calve-28
+go:calve-28 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#028-Calve_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#captain-29.8
+go:captain-29.8 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#care-88.1
+go:care-88.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#088-Verbs_of_Caring_and_Empathizing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#carry-11.4
+go:carry-11.4 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> .
+
+
+###  http://tavasi.majles.ir/ontology/general#carve-21.2
+go:carve-21.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#021-Verbs_of_Cutting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#change_bodily_state-40.8.4
+go:change_bodily_state-40.8.4 rdf:type owl:Class ;
+                              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#characterize-29.2
+go:characterize-29.2 rdf:type owl:Class ;
+                     rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#chase-51.6
+go:chase-51.6 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cheat-10.6
+go:cheat-10.6 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#chew-39.2
+go:chew-39.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#chit_chat-37.6
+go:chit_chat-37.6 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#classify-29.10
+go:classify-29.10 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#clear-10.3
+go:clear-10.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cling-22.5
+go:cling-22.5 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#coil-9.6
+go:coil-9.6 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#coloring-24
+go:coloring-24 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#024-Verbs_of_Coloring> .
+
+
+###  http://tavasi.majles.ir/ontology/general#comestible
+go:comestible rdf:type owl:Class ;
+              rdfs:subClassOf go:phys-obj .
+
+
+###  http://tavasi.majles.ir/ontology/general#communication
+go:communication rdf:type owl:Class ;
+                 rdfs:subClassOf go:abstract .
+
+
+###  http://tavasi.majles.ir/ontology/general#complain-37.8
+go:complain-37.8 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#complete-55.2
+go:complete-55.2 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#comprehend-87.2
+go:comprehend-87.2 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#087-Verbs_of_Focusing_and_Comprehending> .
+
+
+###  http://tavasi.majles.ir/ontology/general#concealment-16
+go:concealment-16 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#016-Verbs_of_Concealment> .
+
+
+###  http://tavasi.majles.ir/ontology/general#concrete
+go:concrete rdf:type owl:Class ;
+            rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#confess-37.10
+go:confess-37.10 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#confine-92
+go:confine-92 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#092-Confine_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#confront-98
+go:confront-98 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#098-Confront_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#conjecture-29.5
+go:conjecture-29.5 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#consider-29.9
+go:consider-29.9 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#conspire-71
+go:conspire-71 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#071-Conspire_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#consume-66
+go:consume-66 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#066-Consume_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#contiguous_location-47.8
+go:contiguous_location-47.8 rdf:type owl:Class ;
+                            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#continue-55.3
+go:continue-55.3 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#contribute-13.2
+go:contribute-13.2 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#convert-26.6.2
+go:convert-26.6.2 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cooking-45.3
+go:cooking-45.3 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cooperate-73
+go:cooperate-73 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#073-Cooperate_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cope-83
+go:cope-83 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#083-Cope_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#correlate-86.1
+go:correlate-86.1 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#086-Verbs_of_Correlating_and_Relating> .
+
+
+###  http://tavasi.majles.ir/ontology/general#correspond-36.1
+go:correspond-36.1 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cost-54.2
+go:cost-54.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#crane-40.3.2
+go:crane-40.3.2 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#create-26.4
+go:create-26.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#currency
+go:currency rdf:type owl:Class ;
+            rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#curtsey-40.3.3
+go:curtsey-40.3.3 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#cut-21.1
+go:cut-21.1 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#021-Verbs_of_Cutting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#debone-10.8
+go:debone-10.8 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#declare-29.4
+go:declare-29.4 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#dedicate-79
+go:dedicate-79 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#079-Dedicate_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#deduce-97.2
+go:deduce-97.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#097-Verbs_of_Basing_and_Deducing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#defend-85
+go:defend-85 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#085-Defend_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#destroy-44
+go:destroy-44 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#044-Destroy_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#devour-39.4
+go:devour-39.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#differ-23.4
+go:differ-23.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling> .
+
+
+###  http://tavasi.majles.ir/ontology/general#dine-39.5
+go:dine-39.5 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#disappearance-48.2
+go:disappearance-48.2 rdf:type owl:Class ;
+                      rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#disassemble-23.3
+go:disassemble-23.3 rdf:type owl:Class ;
+                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling> .
+
+
+###  http://tavasi.majles.ir/ontology/general#discover-84
+go:discover-84 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#084-Discover_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#dress-41.1.1
+go:dress-41.1.1 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#dressing_well-41.3.2
+go:dressing_well-41.3.2 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#drive-11.5
+go:drive-11.5 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> .
+
+
+###  http://tavasi.majles.ir/ontology/general#dub-29.3
+go:dub-29.3 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#eat-39.1
+go:eat-39.1 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#elongated
+go:elongated rdf:type owl:Class ;
+             rdfs:subClassOf go:pointed .
+
+
+###  http://tavasi.majles.ir/ontology/general#empathize-88.2
+go:empathize-88.2 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#088-Verbs_of_Caring_and_Empathizing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#enforce-63
+go:enforce-63 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#063-Enforce_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#engender-27
+go:engender-27 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#027-Engender_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#ensure-99
+go:ensure-99 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#099-Ensure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#entity
+go:entity rdf:type owl:Class .
+
+
+###  http://tavasi.majles.ir/ontology/general#entity_specific_cos-45.5
+go:entity_specific_cos-45.5 rdf:type owl:Class ;
+                            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#entity_specific_modes_being-47.2
+go:entity_specific_modes_being-47.2 rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#equip-13.4.2
+go:equip-13.4.2 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#escape-51.1
+go:escape-51.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#establish-55.5
+go:establish-55.5 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#estimate-34.2
+go:estimate-34.2 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#034-Verbs_of_Assessment> .
+
+
+###  http://tavasi.majles.ir/ontology/general#event
+go:event rdf:type owl:Class .
+
+
+###  http://tavasi.majles.ir/ontology/general#exceed-90
+go:exceed-90 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#090-Exceed_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#exchange-13.6
+go:exchange-13.6 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#exhale-40.1.3
+go:exhale-40.1.3 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#exist-47.1
+go:exist-47.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#feeding-39.7
+go:feeding-39.7 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#ferret-35.6
+go:ferret-35.6 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#fill-9.8
+go:fill-9.8 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#fire-10.10
+go:fire-10.10 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#fit-54.3
+go:fit-54.3 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#flinch-40.5
+go:flinch-40.5 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#floss-41.2.1
+go:floss-41.2.1 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#focus-87.1
+go:focus-87.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#087-Verbs_of_Focusing_and_Comprehending> .
+
+
+###  http://tavasi.majles.ir/ontology/general#forbid-67
+go:forbid-67 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#067-Forbid_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#force
+go:force rdf:type owl:Class ;
+         rdfs:subClassOf go:int-control .
+
+
+###  http://tavasi.majles.ir/ontology/general#force-59
+go:force-59 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#059-Force_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#free-80
+go:free-80 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#080-Free_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#fulfilling-13.4.1
+go:fulfilling-13.4.1 rdf:type owl:Class ;
+                     rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#funnel-9.3
+go:funnel-9.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#future_having-13.3
+go:future_having-13.3 rdf:type owl:Class ;
+                      rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#garment
+go:garment rdf:type owl:Class ;
+           rdfs:subClassOf go:artifact .
+
+
+###  http://tavasi.majles.ir/ontology/general#get-13.5.1
+go:get-13.5.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#give-13.1
+go:give-13.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#gobble-39.3
+go:gobble-39.3 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#gorge-39.6
+go:gorge-39.6 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#groom-41.1.2
+go:groom-41.1.2 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#grow-26.2
+go:grow-26.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#help-72
+go:help-72 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#072-Help_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#herd-47.5.2
+go:herd-47.5.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#hiccup-40.1.1
+go:hiccup-40.1.1 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#hire-13.5.3
+go:hire-13.5.3 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#hit-18.1
+go:hit-18.1 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact> .
+
+
+###  http://tavasi.majles.ir/ontology/general#hold-15.1
+go:hold-15.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#015-Hold_and_Keep_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#human
+go:human rdf:type owl:Class ;
+         rdfs:subClassOf go:animate .
+
+
+###  http://tavasi.majles.ir/ontology/general#hunt-35.1
+go:hunt-35.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#hurt-40.8.3
+go:hurt-40.8.3 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#idea
+go:idea rdf:type owl:Class ;
+        rdfs:subClassOf go:abstract .
+
+
+###  http://tavasi.majles.ir/ontology/general#illustrate-25.3
+go:illustrate-25.3 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#image-impression-25.1
+go:image-impression-25.1 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#indicate-78
+go:indicate-78 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#078-Indicate_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#inquire-37.1.2
+go:inquire-37.1.2 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#instr_communication-37.4
+go:instr_communication-37.4 rdf:type owl:Class ;
+                            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#int-control
+go:int-control rdf:type owl:Class ;
+               rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#interrogate-37.1.3
+go:interrogate-37.1.3 rdf:type owl:Class ;
+                      rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#investigate-35.4
+go:investigate-35.4 rdf:type owl:Class ;
+                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#involve-107
+go:involve-107 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#107-Involve_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#judgment-33
+go:judgment-33 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#033-Judgment_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#keep-15.2
+go:keep-15.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#015-Hold_and_Keep_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#knead-26.5
+go:knead-26.5 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#learn-14
+go:learn-14 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#014-Learn_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#leave-51.2
+go:leave-51.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#lecture-37.11
+go:lecture-37.11 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#light_emission-43.1
+go:light_emission-43.1 rdf:type owl:Class ;
+                       rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission> .
+
+
+###  http://tavasi.majles.ir/ontology/general#limit-76
+go:limit-76 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#076-Limit_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#linger-53.1
+go:linger-53.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#053-Verbs_of_Lingering_and_Rushing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#location
+go:location rdf:type owl:Class ;
+            rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#lodge-46
+go:lodge-46 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#046-Lodge_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#long-32.2
+go:long-32.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#032-Verbs_of_Desire> .
+
+
+###  http://tavasi.majles.ir/ontology/general#machine
+go:machine rdf:type owl:Class ;
+           rdfs:subClassOf go:artifact ,
+                           go:int-control .
+
+
+###  http://tavasi.majles.ir/ontology/general#manner_speaking-37.3
+go:manner_speaking-37.3 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#marry-36.2
+go:marry-36.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction> .
+
+
+###  http://tavasi.majles.ir/ontology/general#marvel-31.3
+go:marvel-31.3 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)> .
+
+
+###  http://tavasi.majles.ir/ontology/general#masquerade-29.6
+go:masquerade-29.6 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#matter-91
+go:matter-91 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#091-Matter_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#meander-47.8
+go:meander-47.8 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#meet-36.3
+go:meet-36.3 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction> .
+
+
+###  http://tavasi.majles.ir/ontology/general#mine-10.9
+go:mine-10.9 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#mix-22.1
+go:mix-22.1 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#modes_of_being_with_motion-47.3
+go:modes_of_being_with_motion-47.3 rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#multiply-108
+go:multiply-108 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#108-Multiply_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#murder-42.1
+go:murder-42.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#042-Verbs_of_Killing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#natural
+go:natural rdf:type owl:Class ;
+           rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#neglect-75
+go:neglect-75 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#075-Neglect_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#non-rigid
+go:non-rigid rdf:type owl:Class ;
+             rdfs:subClassOf go:rigid .
+
+
+###  http://tavasi.majles.ir/ontology/general#nonvehicle-51.4.2
+go:nonvehicle-51.4.2 rdf:type owl:Class ;
+                     rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#nonverbal_expression-40.2
+go:nonverbal_expression-40.2 rdf:type owl:Class ;
+                             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#object
+go:object rdf:type owl:Class ;
+          rdfs:subClassOf go:location .
+
+
+###  http://tavasi.majles.ir/ontology/general#obtain-13.5.2
+go:obtain-13.5.2 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> .
+
+
+###  http://tavasi.majles.ir/ontology/general#occurrence-48.3
+go:occurrence-48.3 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#order-60
+go:order-60 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#060-Order_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#organization
+go:organization rdf:type owl:Class ;
+                rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#orphan-29.7
+go:orphan-29.7 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> .
+
+
+###  http://tavasi.majles.ir/ontology/general#other_cos-45.4
+go:other_cos-45.4 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> .
+
+
+###  http://tavasi.majles.ir/ontology/general#overstate-37.12
+go:overstate-37.12 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#own-100
+go:own-100 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#100-Own_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#pain-40.8.1
+go:pain-40.8.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#patent-101
+go:patent-101 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#101-Patent_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#pay-68
+go:pay-68 rdf:type owl:Class ;
+          rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#068-Pay_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#peer-30.3
+go:peer-30.3 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception> .
+
+
+###  http://tavasi.majles.ir/ontology/general#pelt-17.2
+go:pelt-17.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#017-Verbs_of_Throwing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#performance-26.7
+go:performance-26.7 rdf:type owl:Class ;
+                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#phys-obj
+go:phys-obj rdf:type owl:Class ;
+            rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#pit-10.7
+go:pit-10.7 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#place
+go:place rdf:type owl:Class ;
+         rdfs:subClassOf go:location .
+
+
+###  http://tavasi.majles.ir/ontology/general#plant
+go:plant rdf:type owl:Class ;
+         rdfs:subClassOf go:natural .
+
+
+###  http://tavasi.majles.ir/ontology/general#pocket-9.10
+go:pocket-9.10 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#pointed
+go:pointed rdf:type owl:Class ;
+           rdfs:subClassOf go:shape .
+
+
+###  http://tavasi.majles.ir/ontology/general#poison-42.2
+go:poison-42.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#042-Verbs_of_Killing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#poke-19
+go:poke-19 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#019-Poke_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#pour-9.5
+go:pour-9.5 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#preparing-26.3
+go:preparing-26.3 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#price-54.4
+go:price-54.4 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#promise-37.13
+go:promise-37.13 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#promote-102
+go:promote-102 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#102-Promote_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#push-12
+go:push-12 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#012-Verbs_of_Exerting_Force:Push/Pull_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#put-9.1
+go:put-9.1 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#put_direction-9.4
+go:put_direction-9.4 rdf:type owl:Class ;
+                     rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#put_spatial-9.2
+go:put_spatial-9.2 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#reach-51.8
+go:reach-51.8 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#reflexive_appearance-48.1.2
+go:reflexive_appearance-48.1.2 rdf:type owl:Class ;
+                               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#refrain-69
+go:refrain-69 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#069-Refrain_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#regionPP
+go:regionPP rdf:type owl:Class ;
+            rdfs:subClassOf go:location .
+
+
+###  http://tavasi.majles.ir/ontology/general#register-54.1
+go:register-54.1 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#rehearse-26.8
+go:rehearse-26.8 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#relate-86.2
+go:relate-86.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#086-Verbs_of_Correlating_and_Relating> .
+
+
+###  http://tavasi.majles.ir/ontology/general#rely-70
+go:rely-70 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#070-Rely_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#remove-10.1
+go:remove-10.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#require-103
+go:require-103 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#103-Require_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#resign-10.11
+go:resign-10.11 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#rigid
+go:rigid rdf:type owl:Class ;
+         rdfs:subClassOf go:solid .
+
+
+###  http://tavasi.majles.ir/ontology/general#risk-94
+go:risk-94 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#094-Risk_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#roll-51.3.1
+go:roll-51.3.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#rummage-35.5
+go:rummage-35.5 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#run-51.3.2
+go:run-51.3.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#rush-53.2
+go:rush-53.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#053-Verbs_of_Lingering_and_Rushing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#say-37.7
+go:say-37.7 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#scalar
+go:scalar rdf:type owl:Class ;
+          rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#scribble-25.2
+go:scribble-25.2 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#search-35.2
+go:search-35.2 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#see-30.1
+go:see-30.1 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception> .
+
+
+###  http://tavasi.majles.ir/ontology/general#seem-109
+go:seem-109 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#109-Seem_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#send-11.1
+go:send-11.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> .
+
+
+###  http://tavasi.majles.ir/ontology/general#separate-23.1
+go:separate-23.1 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling> .
+
+
+###  http://tavasi.majles.ir/ontology/general#settle-89
+go:settle-89 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#089-Settle_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#shake-22.3
+go:shake-22.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#shape
+go:shape rdf:type owl:Class ;
+         rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#sight-30.2
+go:sight-30.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception> .
+
+
+###  http://tavasi.majles.ir/ontology/general#simple_dressing-41.3.1
+go:simple_dressing-41.3.1 rdf:type owl:Class ;
+                          rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> .
+
+
+###  http://tavasi.majles.ir/ontology/general#slide-11.2
+go:slide-11.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> .
+
+
+###  http://tavasi.majles.ir/ontology/general#smell_emission-43.3
+go:smell_emission-43.3 rdf:type owl:Class ;
+                       rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission> .
+
+
+###  http://tavasi.majles.ir/ontology/general#snooze-40.4
+go:snooze-40.4 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#solid
+go:solid rdf:type owl:Class ;
+         rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#sound
+go:sound rdf:type owl:Class ;
+         rdfs:subClassOf go:abstract .
+
+
+###  http://tavasi.majles.ir/ontology/general#sound_emission-43.2
+go:sound_emission-43.2 rdf:type owl:Class ;
+                       rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission> .
+
+
+###  http://tavasi.majles.ir/ontology/general#sound_existence-47.4
+go:sound_existence-47.4 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#spank-18.3
+go:spank-18.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact> .
+
+
+###  http://tavasi.majles.ir/ontology/general#spatial_configuration-47.6
+go:spatial_configuration-47.6 rdf:type owl:Class ;
+                              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#spend_time-104
+go:spend_time-104 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#104-Verbs_of_Spending_Time> .
+
+
+###  http://tavasi.majles.ir/ontology/general#split-23.2
+go:split-23.2 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling> .
+
+
+###  http://tavasi.majles.ir/ontology/general#spray-9.7
+go:spray-9.7 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> .
+
+
+###  http://tavasi.majles.ir/ontology/general#stalk-35.3
+go:stalk-35.3 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#state
+go:state rdf:type owl:Class ;
+         rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#steal-10.5
+go:steal-10.5 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#stimulus_subject-30.4
+go:stimulus_subject-30.4 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception> .
+
+
+###  http://tavasi.majles.ir/ontology/general#stop-55.4
+go:stop-55.4 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#subjugate-42.3
+go:subjugate-42.3 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#042-Verbs_of_Killing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#substance
+go:substance rdf:type owl:Class ;
+             rdfs:subClassOf go:concrete .
+
+
+###  http://tavasi.majles.ir/ontology/general#substance_emission-43.4
+go:substance_emission-43.4 rdf:type owl:Class ;
+                           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission> .
+
+
+###  http://tavasi.majles.ir/ontology/general#succeed-74
+go:succeed-74 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#074-Succeed_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#suffocate-40.7
+go:suffocate-40.7 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#suspect-81
+go:suspect-81 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#081-Suspect_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#sustain-55.6
+go:sustain-55.6 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#swarm-47.5.1
+go:swarm-47.5.1 rdf:type owl:Class ;
+                rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> .
+
+
+###  http://tavasi.majles.ir/ontology/general#swat-18.2
+go:swat-18.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact> .
+
+
+###  http://tavasi.majles.ir/ontology/general#talk-37.5
+go:talk-37.5 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#tape-22.4
+go:tape-22.4 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> .
+
+
+###  http://tavasi.majles.ir/ontology/general#tell-37.2
+go:tell-37.2 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#throw-17.1
+go:throw-17.1 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#017-Verbs_of_Throwing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#time
+go:time rdf:type owl:Class ;
+        rdfs:subClassOf go:entity .
+
+
+###  http://tavasi.majles.ir/ontology/general#tingle-40.8.2
+go:tingle-40.8.2 rdf:type owl:Class ;
+                 rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#tool
+go:tool rdf:type owl:Class ;
+        rdfs:subClassOf go:artifact .
+
+
+###  http://tavasi.majles.ir/ontology/general#touch-20
+go:touch-20 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#020-Verbs_of_Contact:_Touch_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#transcribe-25.4
+go:transcribe-25.4 rdf:type owl:Class ;
+                   rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#transfer_mesg-37.1.1
+go:transfer_mesg-37.1.1 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> .
+
+
+###  http://tavasi.majles.ir/ontology/general#try-61
+go:try-61 rdf:type owl:Class ;
+          rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#061-Try_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#turn-26.6.1
+go:turn-26.6.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> .
+
+
+###  http://tavasi.majles.ir/ontology/general#urge-58.1
+go:urge-58.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#058-Verbs_of_Urging_and_Begging> .
+
+
+###  http://tavasi.majles.ir/ontology/general#use-105
+go:use-105 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#105-Use_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#vehicle
+go:vehicle rdf:type owl:Class ;
+           rdfs:subClassOf go:machine .
+
+
+###  http://tavasi.majles.ir/ontology/general#vehicle-51.4.1
+go:vehicle-51.4.1 rdf:type owl:Class ;
+                  rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#verbs
+go:verbs rdf:type owl:Class ;
+         rdfs:subClassOf go:event .
+
+
+###  http://tavasi.majles.ir/ontology/general#void-106
+go:void-106 rdf:type owl:Class ;
+            rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#106-Void_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#waltz-51.5
+go:waltz-51.5 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> .
+
+
+###  http://tavasi.majles.ir/ontology/general#want-32.1
+go:want-32.1 rdf:type owl:Class ;
+             rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#032-Verbs_of_Desire> .
+
+
+###  http://tavasi.majles.ir/ontology/general#weather-57
+go:weather-57 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#057-Weather_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#weekend-56
+go:weekend-56 rdf:type owl:Class ;
+              rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#056-Weekend_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#wink-40.3.1
+go:wink-40.3.1 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> .
+
+
+###  http://tavasi.majles.ir/ontology/general#wipe_inst-10.4.2
+go:wipe_inst-10.4.2 rdf:type owl:Class ;
+                    rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1
+go:wipe_manner-10.4.1 rdf:type owl:Class ;
+                      rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> .
+
+
+###  http://tavasi.majles.ir/ontology/general#wish-62
+go:wish-62 rdf:type owl:Class ;
+           rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#062-Wish_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#withdraw-82
+go:withdraw-82 rdf:type owl:Class ;
+               rdfs:subClassOf <http://tavasi.majles.ir/ontology/general#082-Withdraw_Verbs> .
+
+
+###  http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting
+<http://tavasi.majles.ir/ontology/general#009-Verbs_of_Putting> rdf:type owl:Class ;
+                                                                rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing
+<http://tavasi.majles.ir/ontology/general#010-Verbs_of_Removing> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying
+<http://tavasi.majles.ir/ontology/general#011-Verbs_of_Sending_and_Carrying> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#012-Verbs_of_Exerting_Force:Push/Pull_Verbs
+<http://tavasi.majles.ir/ontology/general#012-Verbs_of_Exerting_Force:Push/Pull_Verbs> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession
+<http://tavasi.majles.ir/ontology/general#013-Verbs_of_Change_of_Possession> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#014-Learn_Verbs
+<http://tavasi.majles.ir/ontology/general#014-Learn_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#015-Hold_and_Keep_Verbs
+<http://tavasi.majles.ir/ontology/general#015-Hold_and_Keep_Verbs> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#016-Verbs_of_Concealment
+<http://tavasi.majles.ir/ontology/general#016-Verbs_of_Concealment> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#017-Verbs_of_Throwing
+<http://tavasi.majles.ir/ontology/general#017-Verbs_of_Throwing> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact
+<http://tavasi.majles.ir/ontology/general#018-Verbs_of_Contact_by_Impact> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#019-Poke_Verbs
+<http://tavasi.majles.ir/ontology/general#019-Poke_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#020-Verbs_of_Contact:_Touch_Verbs
+<http://tavasi.majles.ir/ontology/general#020-Verbs_of_Contact:_Touch_Verbs> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#021-Verbs_of_Cutting
+<http://tavasi.majles.ir/ontology/general#021-Verbs_of_Cutting> rdf:type owl:Class ;
+                                                                rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching
+<http://tavasi.majles.ir/ontology/general#022-Verbs_of_Combining_and_Attaching> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling
+<http://tavasi.majles.ir/ontology/general#023-Verbs_of_Separating_and_Disassembling> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#024-Verbs_of_Coloring
+<http://tavasi.majles.ir/ontology/general#024-Verbs_of_Coloring> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs
+<http://tavasi.majles.ir/ontology/general#025-Image_Creation_Verbs> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation
+<http://tavasi.majles.ir/ontology/general#026-Verbs_of_Creation_and_Transformation> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#027-Engender_Verbs
+<http://tavasi.majles.ir/ontology/general#027-Engender_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#028-Calve_Verbs
+<http://tavasi.majles.ir/ontology/general#028-Calve_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements
+<http://tavasi.majles.ir/ontology/general#029-Verbs_with_Predicative_Complements> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception
+<http://tavasi.majles.ir/ontology/general#030-Verbs_of_Preception> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)
+<http://tavasi.majles.ir/ontology/general#031-Psych-Verbs(Verbs_of_psychological_State)> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#032-Verbs_of_Desire
+<http://tavasi.majles.ir/ontology/general#032-Verbs_of_Desire> rdf:type owl:Class ;
+                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#033-Judgment_Verbs
+<http://tavasi.majles.ir/ontology/general#033-Judgment_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#034-Verbs_of_Assessment
+<http://tavasi.majles.ir/ontology/general#034-Verbs_of_Assessment> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching
+<http://tavasi.majles.ir/ontology/general#035-Verbs_of_Searching> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction
+<http://tavasi.majles.ir/ontology/general#036-Verbs_of_Social_Interaction> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication
+<http://tavasi.majles.ir/ontology/general#037-Verbs_of_Communication> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#038-Verbs_of_Sounds_Made_by_Animals
+<http://tavasi.majles.ir/ontology/general#038-Verbs_of_Sounds_Made_by_Animals> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting
+<http://tavasi.majles.ir/ontology/general#039-Verbs_of_Ingesting> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body
+<http://tavasi.majles.ir/ontology/general#040-Verbs_Involving_the_Body> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care
+<http://tavasi.majles.ir/ontology/general#041-Verbs_of_Grooming_and_Bodily_Care> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#042-Verbs_of_Killing
+<http://tavasi.majles.ir/ontology/general#042-Verbs_of_Killing> rdf:type owl:Class ;
+                                                                rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission
+<http://tavasi.majles.ir/ontology/general#043-Verbs_of_Emission> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#044-Destroy_Verbs
+<http://tavasi.majles.ir/ontology/general#044-Destroy_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State
+<http://tavasi.majles.ir/ontology/general#045-Verbs_of_Change_of_State> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#046-Lodge_Verbs
+<http://tavasi.majles.ir/ontology/general#046-Lodge_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence
+<http://tavasi.majles.ir/ontology/general#047-Verbs_of_Existence> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence
+<http://tavasi.majles.ir/ontology/general#048-Verbs_of_Appearance,_Disappearance,_and_Occurrence> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#049-Verbs_of_Body-Internal_Motion
+<http://tavasi.majles.ir/ontology/general#049-Verbs_of_Body-Internal_Motion> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#050-Verbs_of_Assuming_a_Position
+<http://tavasi.majles.ir/ontology/general#050-Verbs_of_Assuming_a_Position> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion
+<http://tavasi.majles.ir/ontology/general#051-Verbs_of_Motion> rdf:type owl:Class ;
+                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#052-Avoid_Verbs
+<http://tavasi.majles.ir/ontology/general#052-Avoid_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#053-Verbs_of_Lingering_and_Rushing
+<http://tavasi.majles.ir/ontology/general#053-Verbs_of_Lingering_and_Rushing> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#054-Measure_Verbs
+<http://tavasi.majles.ir/ontology/general#054-Measure_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs
+<http://tavasi.majles.ir/ontology/general#055-Aspectual_Verbs> rdf:type owl:Class ;
+                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#056-Weekend_Verbs
+<http://tavasi.majles.ir/ontology/general#056-Weekend_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#057-Weather_Verbs
+<http://tavasi.majles.ir/ontology/general#057-Weather_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#058-Verbs_of_Urging_and_Begging
+<http://tavasi.majles.ir/ontology/general#058-Verbs_of_Urging_and_Begging> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#059-Force_Verbs
+<http://tavasi.majles.ir/ontology/general#059-Force_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#060-Order_Verbs
+<http://tavasi.majles.ir/ontology/general#060-Order_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#061-Try_Verbs
+<http://tavasi.majles.ir/ontology/general#061-Try_Verbs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#062-Wish_Verbs
+<http://tavasi.majles.ir/ontology/general#062-Wish_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#063-Enforce_Verbs
+<http://tavasi.majles.ir/ontology/general#063-Enforce_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#064-Allow_Verbs
+<http://tavasi.majles.ir/ontology/general#064-Allow_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#065-Admit_Verbs
+<http://tavasi.majles.ir/ontology/general#065-Admit_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#066-Consume_Verbs
+<http://tavasi.majles.ir/ontology/general#066-Consume_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#067-Forbid_Verbs
+<http://tavasi.majles.ir/ontology/general#067-Forbid_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#068-Pay_Verbs
+<http://tavasi.majles.ir/ontology/general#068-Pay_Verbs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#069-Refrain_Verbs
+<http://tavasi.majles.ir/ontology/general#069-Refrain_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#070-Rely_Verbs
+<http://tavasi.majles.ir/ontology/general#070-Rely_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#071-Conspire_Verbs
+<http://tavasi.majles.ir/ontology/general#071-Conspire_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#072-Help_Verbs
+<http://tavasi.majles.ir/ontology/general#072-Help_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#073-Cooperate_Verbs
+<http://tavasi.majles.ir/ontology/general#073-Cooperate_Verbs> rdf:type owl:Class ;
+                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#074-Succeed_Verbs
+<http://tavasi.majles.ir/ontology/general#074-Succeed_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#075-Neglect_Verbs
+<http://tavasi.majles.ir/ontology/general#075-Neglect_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#076-Limit_Verbs
+<http://tavasi.majles.ir/ontology/general#076-Limit_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#077-Approve_Verbs
+<http://tavasi.majles.ir/ontology/general#077-Approve_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#078-Indicate_Verbs
+<http://tavasi.majles.ir/ontology/general#078-Indicate_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#079-Dedicate_Verbs
+<http://tavasi.majles.ir/ontology/general#079-Dedicate_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#080-Free_Verbs
+<http://tavasi.majles.ir/ontology/general#080-Free_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#081-Suspect_Verbs
+<http://tavasi.majles.ir/ontology/general#081-Suspect_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#082-Withdraw_Verbs
+<http://tavasi.majles.ir/ontology/general#082-Withdraw_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#083-Cope_Verbs
+<http://tavasi.majles.ir/ontology/general#083-Cope_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#084-Discover_Verbs
+<http://tavasi.majles.ir/ontology/general#084-Discover_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#085-Defend_Verbs
+<http://tavasi.majles.ir/ontology/general#085-Defend_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#086-Verbs_of_Correlating_and_Relating
+<http://tavasi.majles.ir/ontology/general#086-Verbs_of_Correlating_and_Relating> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#087-Verbs_of_Focusing_and_Comprehending
+<http://tavasi.majles.ir/ontology/general#087-Verbs_of_Focusing_and_Comprehending> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#088-Verbs_of_Caring_and_Empathizing
+<http://tavasi.majles.ir/ontology/general#088-Verbs_of_Caring_and_Empathizing> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#089-Settle_Verbs
+<http://tavasi.majles.ir/ontology/general#089-Settle_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#090-Exceed_Verbs
+<http://tavasi.majles.ir/ontology/general#090-Exceed_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#091-Matter_Verbs
+<http://tavasi.majles.ir/ontology/general#091-Matter_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#092-Confine_Verbs
+<http://tavasi.majles.ir/ontology/general#092-Confine_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#093-Adopt_Verbs
+<http://tavasi.majles.ir/ontology/general#093-Adopt_Verbs> rdf:type owl:Class ;
+                                                           rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#094-Risk_Verbs
+<http://tavasi.majles.ir/ontology/general#094-Risk_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#095-Acquiesce_Verbs
+<http://tavasi.majles.ir/ontology/general#095-Acquiesce_Verbs> rdf:type owl:Class ;
+                                                               rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#096-Addict_Verbs
+<http://tavasi.majles.ir/ontology/general#096-Addict_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#097-Verbs_of_Basing_and_Deducing
+<http://tavasi.majles.ir/ontology/general#097-Verbs_of_Basing_and_Deducing> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#098-Confront_Verbs
+<http://tavasi.majles.ir/ontology/general#098-Confront_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#099-Ensure_Verbs
+<http://tavasi.majles.ir/ontology/general#099-Ensure_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#100-Own_Verbs
+<http://tavasi.majles.ir/ontology/general#100-Own_Verbs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#101-Patent_Verbs
+<http://tavasi.majles.ir/ontology/general#101-Patent_Verbs> rdf:type owl:Class ;
+                                                            rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#102-Promote_Verbs
+<http://tavasi.majles.ir/ontology/general#102-Promote_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#103-Require_Verbs
+<http://tavasi.majles.ir/ontology/general#103-Require_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#104-Verbs_of_Spending_Time
+<http://tavasi.majles.ir/ontology/general#104-Verbs_of_Spending_Time> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#105-Use_Verbs
+<http://tavasi.majles.ir/ontology/general#105-Use_Verbs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#106-Void_Verbs
+<http://tavasi.majles.ir/ontology/general#106-Void_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#107-Involve_Verbs
+<http://tavasi.majles.ir/ontology/general#107-Involve_Verbs> rdf:type owl:Class ;
+                                                             rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#108-Multiply_Verbs
+<http://tavasi.majles.ir/ontology/general#108-Multiply_Verbs> rdf:type owl:Class ;
+                                                              rdfs:subClassOf go:verbs .
+
+
+###  http://tavasi.majles.ir/ontology/general#109-Seem_Verbs
+<http://tavasi.majles.ir/ontology/general#109-Seem_Verbs> rdf:type owl:Class ;
+                                                          rdfs:subClassOf go:verbs .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
