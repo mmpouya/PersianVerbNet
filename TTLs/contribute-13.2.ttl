@@ -1,0 +1,104 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abnegate rdfs:subClassOf go:contribute-13.2 .
+
+go:administer rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:betroth rdfs:subClassOf go:contribute-13.2 .
+
+go:circularize rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:contribute rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:disburse rdfs:subClassOf go:contribute-13.2-2 .
+
+go:disseminate rdfs:subClassOf go:contribute-13.2-1 .
+
+go:distribute rdfs:subClassOf go:contribute-13.2-1 .
+
+go:donate rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:extend rdfs:subClassOf go:contribute-13.2-2 .
+
+go:forfeit rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:forgo rdfs:subClassOf go:contribute-13.2 .
+
+go:gift rdfs:subClassOf go:contribute-13.2 .
+
+go:give-away rdfs:subClassOf go:contribute-13.2 .
+
+go:give-out rdfs:subClassOf go:contribute-13.2 .
+
+go:give-up rdfs:subClassOf go:contribute-13.2 .
+
+go:hand_out rdfs:subClassOf go:contribute-13.2 .
+
+go:pass_out rdfs:subClassOf go:contribute-13.2 .
+
+go:proffer rdfs:subClassOf go:contribute-13.2-2 .
+
+go:refer rdfs:subClassOf go:contribute-13.2 .
+
+go:reimburse rdfs:subClassOf go:contribute-13.2-2-1 .
+
+go:relinquish rdfs:subClassOf go:contribute-13.2 .
+
+go:remit rdfs:subClassOf go:contribute-13.2 .
+
+go:resign rdfs:subClassOf go:contribute-13.2 .
+
+go:restore rdfs:subClassOf go:contribute-13.2 .
+
+go:resubmit rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:sacrifice rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:shell_out rdfs:subClassOf go:contribute-13.2 .
+
+go:submit rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:surrender rdfs:subClassOf go:contribute-13.2-1-1 .
+
+go:transfer rdfs:subClassOf go:contribute-13.2-2 .
+
+go:turn-in rdfs:subClassOf go:contribute-13.2 .
+
+go:turn-over rdfs:subClassOf go:contribute-13.2 .
+
+go:contribute-13.2-2-1 rdfs:subClassOf go:contribute-13.2-2 .
+
+go:contribute-13.2-1 rdfs:subClassOf go:contribute-13.2 .
+
+go:contribute-13.2-2 rdfs:subClassOf go:contribute-13.2 .
+
+go:contribute-13.2-1-1 rdfs:subClassOf go:contribute-13.2-1 .
+
+go:contribute-13.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#contribute-13.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#contribute-13.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

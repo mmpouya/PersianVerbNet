@@ -1,0 +1,124 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bash rdfs:subClassOf go:throw-17.1-1 .
+
+go:bat rdfs:subClassOf go:throw-17.1-1 .
+
+go:boot rdfs:subClassOf go:throw-17.1-1 .
+
+go:bunt rdfs:subClassOf go:throw-17.1-1 .
+
+go:cast rdfs:subClassOf go:throw-17.1 .
+
+go:catapult rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:chuck rdfs:subClassOf go:throw-17.1-1 .
+
+go:discard rdfs:subClassOf go:throw-17.1 .
+
+go:drive rdfs:subClassOf go:throw-17.1 .
+
+go:fire rdfs:subClassOf go:throw-17.1-1 .
+
+go:flick rdfs:subClassOf go:throw-17.1-1 .
+
+go:fling rdfs:subClassOf go:throw-17.1-1 .
+
+go:flip rdfs:subClassOf go:throw-17.1-1 .
+
+go:hit rdfs:subClassOf go:throw-17.1-1 .
+
+go:hurl rdfs:subClassOf go:throw-17.1-1 .
+
+go:kick rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:knock rdfs:subClassOf go:throw-17.1-1 .
+
+go:launch rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:lob rdfs:subClassOf go:throw-17.1-1 .
+
+go:loft rdfs:subClassOf go:throw-17.1-1 .
+
+go:nudge rdfs:subClassOf go:throw-17.1-1 .
+
+go:pass rdfs:subClassOf go:throw-17.1-1 .
+
+go:pitch rdfs:subClassOf go:throw-17.1-1 .
+
+go:punt rdfs:subClassOf go:throw-17.1-1 .
+
+go:shoot rdfs:subClassOf go:throw-17.1-1 .
+
+go:shove rdfs:subClassOf go:throw-17.1-1 .
+
+go:slam rdfs:subClassOf go:throw-17.1-1 .
+
+go:slap rdfs:subClassOf go:throw-17.1-1 .
+
+go:sling rdfs:subClassOf go:throw-17.1-1 .
+
+go:smash rdfs:subClassOf go:throw-17.1-1 .
+
+go:tap rdfs:subClassOf go:throw-17.1-1 .
+
+go:throw rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:tip rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:toss rdfs:subClassOf go:throw-17.1-1-1 .
+
+go:throw-17.1 rdfs:subClassOf go:hasAgent,
+        go:hasCauser,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+go:throw-17.1-1-1 rdfs:subClassOf go:throw-17.1-1 .
+
+go:throw-17.1-1 rdfs:subClassOf go:throw-17.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#throw-17.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#throw-17.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#throw-17.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#throw-17.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                                        [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#throw-17.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

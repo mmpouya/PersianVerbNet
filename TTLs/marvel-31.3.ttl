@@ -1,0 +1,161 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ache rdfs:subClassOf go:marvel-31.3 .
+
+go:agonize rdfs:subClassOf go:marvel-31.3 .
+
+go:anger rdfs:subClassOf go:marvel-31.3 .
+
+go:anguish rdfs:subClassOf go:marvel-31.3 .
+
+go:approve rdfs:subClassOf go:marvel-31.3 .
+
+go:bask rdfs:subClassOf go:marvel-31.3 .
+
+go:beware rdfs:subClassOf go:marvel-31.3 .
+
+go:bleed rdfs:subClassOf go:marvel-31.3 .
+
+go:bother rdfs:subClassOf go:marvel-31.3 .
+
+go:care rdfs:subClassOf go:marvel-31.3 .
+
+go:chafe rdfs:subClassOf go:marvel-31.3 .
+
+go:cheer rdfs:subClassOf go:marvel-31.3 .
+
+go:cringe rdfs:subClassOf go:marvel-31.3 .
+
+go:cry rdfs:subClassOf go:marvel-31.3 .
+
+go:delight rdfs:subClassOf go:marvel-31.3 .
+
+go:despair rdfs:subClassOf go:marvel-31.3 .
+
+go:die rdfs:subClassOf go:marvel-31.3 .
+
+go:disapprove rdfs:subClassOf go:marvel-31.3 .
+
+go:enthuse rdfs:subClassOf go:marvel-31.3 .
+
+go:exult rdfs:subClassOf go:marvel-31.3 .
+
+go:fear rdfs:subClassOf go:marvel-31.3 .
+
+go:feel rdfs:subClassOf go:marvel-31.3 .
+
+go:flip_out rdfs:subClassOf go:marvel-31.3 .
+
+go:freak_out rdfs:subClassOf go:marvel-31.3 .
+
+go:fret rdfs:subClassOf go:marvel-31.3 .
+
+go:fume rdfs:subClassOf go:marvel-31.3 .
+
+go:gladden rdfs:subClassOf go:marvel-31.3 .
+
+go:gloat rdfs:subClassOf go:marvel-31.3 .
+
+go:glory rdfs:subClassOf go:marvel-31.3 .
+
+go:go_apeshit rdfs:subClassOf go:marvel-31.3 .
+
+go:go_ballistic rdfs:subClassOf go:marvel-31.3 .
+
+go:grieve rdfs:subClassOf go:marvel-31.3 .
+
+go:groove rdfs:subClassOf go:marvel-31.3 .
+
+go:hallucinate rdfs:subClassOf go:marvel-31.3 .
+
+go:hunger rdfs:subClassOf go:marvel-31.3 .
+
+go:hurt rdfs:subClassOf go:marvel-31.3 .
+
+go:lose_it rdfs:subClassOf go:marvel-31.3 .
+
+go:luxuriate rdfs:subClassOf go:marvel-31.3 .
+
+go:madden rdfs:subClassOf go:marvel-31.3 .
+
+go:marvel rdfs:subClassOf go:marvel-31.3 .
+
+go:mind rdfs:subClassOf go:marvel-31.3 .
+
+go:moon rdfs:subClassOf go:marvel-31.3 .
+
+go:mope rdfs:subClassOf go:marvel-31.3 .
+
+go:mourn rdfs:subClassOf go:marvel-31.3 .
+
+go:muse rdfs:subClassOf go:marvel-31.3 .
+
+go:obsess rdfs:subClassOf go:marvel-31.3 .
+
+go:puzzle rdfs:subClassOf go:marvel-31.3 .
+
+go:rage rdfs:subClassOf go:marvel-31.3 .
+
+go:react rdfs:subClassOf go:marvel-31.3 .
+
+go:reflect rdfs:subClassOf go:marvel-31.3 .
+
+go:rejoice rdfs:subClassOf go:marvel-31.3 .
+
+go:revel rdfs:subClassOf go:marvel-31.3 .
+
+go:ruminate rdfs:subClassOf go:marvel-31.3 .
+
+go:sadden rdfs:subClassOf go:marvel-31.3 .
+
+go:salivate rdfs:subClassOf go:marvel-31.3 .
+
+go:seethe rdfs:subClassOf go:marvel-31.3 .
+
+go:sicken rdfs:subClassOf go:marvel-31.3 .
+
+go:sorrow rdfs:subClassOf go:marvel-31.3 .
+
+go:start rdfs:subClassOf go:marvel-31.3 .
+
+go:stew rdfs:subClassOf go:marvel-31.3 .
+
+go:stress rdfs:subClassOf go:marvel-31.3 .
+
+go:suffer rdfs:subClassOf go:marvel-31.3 .
+
+go:sulk rdfs:subClassOf go:marvel-31.3 .
+
+go:swoon rdfs:subClassOf go:marvel-31.3 .
+
+go:thrill rdfs:subClassOf go:marvel-31.3 .
+
+go:tire rdfs:subClassOf go:marvel-31.3 .
+
+go:triumph rdfs:subClassOf go:marvel-31.3 .
+
+go:wallow rdfs:subClassOf go:marvel-31.3 .
+
+go:weary rdfs:subClassOf go:marvel-31.3 .
+
+go:weep rdfs:subClassOf go:marvel-31.3 .
+
+go:wonder rdfs:subClassOf go:marvel-31.3 .
+
+go:worry rdfs:subClassOf go:marvel-31.3 .
+
+go:marvel-31.3 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#marvel-31.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

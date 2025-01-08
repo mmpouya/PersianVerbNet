@@ -1,0 +1,80 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:coil rdfs:subClassOf go:coil-9.6-1 .
+
+go:curl rdfs:subClassOf go:coil-9.6-1 .
+
+go:hook rdfs:subClassOf go:coil-9.6-1 .
+
+go:loop rdfs:subClassOf go:coil-9.6 .
+
+go:roll rdfs:subClassOf go:coil-9.6 .
+
+go:rotate rdfs:subClassOf go:coil-9.6 .
+
+go:spin rdfs:subClassOf go:coil-9.6 .
+
+go:swing rdfs:subClassOf go:coil-9.6-1 .
+
+go:swirl rdfs:subClassOf go:coil-9.6 .
+
+go:twine rdfs:subClassOf go:coil-9.6 .
+
+go:twirl rdfs:subClassOf go:coil-9.6-1 .
+
+go:twist rdfs:subClassOf go:coil-9.6-1 .
+
+go:whirl rdfs:subClassOf go:coil-9.6 .
+
+go:wind rdfs:subClassOf go:coil-9.6 .
+
+go:coil-9.6-1 rdfs:subClassOf go:coil-9.6 .
+
+go:coil-9.6 rdfs:subClassOf go:hasAgent,
+        go:hasAxis,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#coil-9.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#coil-9.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#elongated>
+                                            <http://tavasi.majles.ir/ontology/general#nonrigid>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#coil-9.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#elongated>
+                                            <http://tavasi.majles.ir/ontology/general#nonrigid>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#coil-9.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#elongated>
+                                            <http://tavasi.majles.ir/ontology/general#nonrigid>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

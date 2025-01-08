@@ -1,0 +1,34 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:alternate rdfs:subClassOf go:harmonize-22.6 .
+
+go:cohere rdfs:subClassOf go:harmonize-22.6 .
+
+go:couple rdfs:subClassOf go:harmonize-22.6 .
+
+go:dovetail rdfs:subClassOf go:harmonize-22.6 .
+
+go:go rdfs:subClassOf go:harmonize-22.6 .
+
+go:harmonize rdfs:subClassOf go:harmonize-22.6 .
+
+go:jibe rdfs:subClassOf go:harmonize-22.6 .
+
+go:match rdfs:subClassOf go:harmonize-22.6 .
+
+go:pair rdfs:subClassOf go:harmonize-22.6 .
+
+go:rhyme rdfs:subClassOf go:harmonize-22.6 .
+
+go:square rdfs:subClassOf go:harmonize-22.6 .
+
+go:harmonize-22.6 rdfs:subClassOf go:hasCo-Theme,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

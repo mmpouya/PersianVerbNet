@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:dally rdfs:subClassOf go:linger-53.1 .
+
+go:dawdle rdfs:subClassOf go:linger-53.1 .
+
+go:dither rdfs:subClassOf go:linger-53.1 .
+
+go:equivocate rdfs:subClassOf go:linger-53.1 .
+
+go:hesitate rdfs:subClassOf go:linger-53.1 .
+
+go:linger rdfs:subClassOf go:linger-53.1 .
+
+go:loaf rdfs:subClassOf go:linger-53.1 .
+
+go:loiter rdfs:subClassOf go:linger-53.1 .
+
+go:pause rdfs:subClassOf go:linger-53.1 .
+
+go:potter rdfs:subClassOf go:linger-53.1 .
+
+go:putter rdfs:subClassOf go:linger-53.1 .
+
+go:tarry rdfs:subClassOf go:linger-53.1 .
+
+go:linger-53.1 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasLocation .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#linger-53.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

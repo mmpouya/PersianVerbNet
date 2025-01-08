@@ -1,0 +1,54 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:belch rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:blink rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:blush rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:burp rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:eruct rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:fart rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:flush rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:hiccup rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:pant rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:salivate rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:shiver rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:sneeze rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:sniffle rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:snore rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:snuff rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:snuffle rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:swallow rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:wheeze rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:yawn rdfs:subClassOf go:hiccup-40.1.1 .
+
+go:hiccup-40.1.1 rdfs:subClassOf go:hasAgent .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hiccup-40.1.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

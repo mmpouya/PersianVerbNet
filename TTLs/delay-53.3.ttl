@@ -1,0 +1,35 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:defer rdfs:subClassOf go:delay-53.3-1-1 .
+
+go:delay rdfs:subClassOf go:delay-53.3-1-1 .
+
+go:postpone rdfs:subClassOf go:delay-53.3-1 .
+
+go:procrastinate rdfs:subClassOf go:delay-53.3-2-1 .
+
+go:stall rdfs:subClassOf go:delay-53.3-2 .
+
+go:delay-53.3-2-1 rdfs:subClassOf go:delay-53.3-2 .
+
+go:delay-53.3 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality .
+
+go:delay-53.3-1 rdfs:subClassOf go:delay-53.3 .
+
+go:delay-53.3-1-1 rdfs:subClassOf go:delay-53.3-1 .
+
+go:delay-53.3-2 rdfs:subClassOf go:delay-53.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#delay-53.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

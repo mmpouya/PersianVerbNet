@@ -1,0 +1,30 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:adhere rdfs:subClassOf go:cling-22.5 .
+
+go:cleave rdfs:subClassOf go:cling-22.5 .
+
+go:cling rdfs:subClassOf go:cling-22.5 .
+
+go:cling-22.5 rdfs:subClassOf go:hasCo-Theme,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cling-22.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#cling-22.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Theme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

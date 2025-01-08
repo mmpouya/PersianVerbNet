@@ -1,0 +1,61 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:charge rdfs:subClassOf go:confine-92 .
+
+go:commit rdfs:subClassOf go:confine-92-1 .
+
+go:confine rdfs:subClassOf go:confine-92-1 .
+
+go:detain rdfs:subClassOf go:confine-92 .
+
+go:hospitalize rdfs:subClassOf go:confine-92 .
+
+go:immure rdfs:subClassOf go:confine-92 .
+
+go:imprison rdfs:subClassOf go:confine-92 .
+
+go:incarcerate rdfs:subClassOf go:confine-92 .
+
+go:institutionalize rdfs:subClassOf go:confine-92 .
+
+go:jail rdfs:subClassOf go:confine-92 .
+
+go:jug rdfs:subClassOf go:confine-92 .
+
+go:recommit rdfs:subClassOf go:confine-92-1 .
+
+go:send rdfs:subClassOf go:confine-92-1 .
+
+go:confine-92-1 rdfs:subClassOf go:confine-92 .
+
+go:confine-92 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#confine-92> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#confine-92> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

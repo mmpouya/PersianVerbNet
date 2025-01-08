@@ -1,0 +1,21 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:answer rdfs:subClassOf go:reciprocate-112-1 .
+
+go:reciprocate rdfs:subClassOf go:reciprocate-112-1 .
+
+go:return rdfs:subClassOf go:reciprocate-112 .
+
+go:reciprocate-112 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasTheme .
+
+go:reciprocate-112-1 rdfs:subClassOf go:reciprocate-112 .
+
+
+#This verb has no selectional restriction 

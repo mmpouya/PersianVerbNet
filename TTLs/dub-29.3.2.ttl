@@ -1,0 +1,68 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:anoint rdfs:subClassOf go:dub-29.3.2 .
+
+go:baptize rdfs:subClassOf go:dub-29.3.2 .
+
+go:brand rdfs:subClassOf go:dub-29.3.2 .
+
+go:call rdfs:subClassOf go:dub-29.3.2 .
+
+go:christen rdfs:subClassOf go:dub-29.3.2 .
+
+go:consecrate rdfs:subClassOf go:dub-29.3.2 .
+
+go:crown rdfs:subClassOf go:dub-29.3.2 .
+
+go:decree rdfs:subClassOf go:dub-29.3.2 .
+
+go:dub rdfs:subClassOf go:dub-29.3.2 .
+
+go:label rdfs:subClassOf go:dub-29.3.2 .
+
+go:name rdfs:subClassOf go:dub-29.3.2 .
+
+go:nickname rdfs:subClassOf go:dub-29.3.2 .
+
+go:pronounce rdfs:subClassOf go:dub-29.3.2 .
+
+go:rename rdfs:subClassOf go:dub-29.3.2 .
+
+go:rule rdfs:subClassOf go:dub-29.3.2 .
+
+go:stamp rdfs:subClassOf go:dub-29.3.2 .
+
+go:style rdfs:subClassOf go:dub-29.3.2 .
+
+go:term rdfs:subClassOf go:dub-29.3.2 .
+
+go:vote rdfs:subClassOf go:dub-29.3.2 .
+
+go:dub-29.3.2 rdfs:subClassOf go:hasAgent,
+        go:hasResult,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#dub-29.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#dub-29.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#concrete>
+                                                      )]
+
+                    ].
+

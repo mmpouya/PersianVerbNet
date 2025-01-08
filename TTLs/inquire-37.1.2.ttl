@@ -1,0 +1,48 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ask rdfs:subClassOf go:inquire-37.1.2 .
+
+go:consult rdfs:subClassOf go:inquire-37.1.2 .
+
+go:enquire rdfs:subClassOf go:inquire-37.1.2 .
+
+go:inquire rdfs:subClassOf go:inquire-37.1.2 .
+
+go:pry rdfs:subClassOf go:inquire-37.1.2 .
+
+go:inquire-37.1.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#inquire-37.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#inquire-37.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#inquire-37.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

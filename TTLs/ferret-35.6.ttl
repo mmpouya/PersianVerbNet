@@ -1,0 +1,24 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ferret_out rdfs:subClassOf go:ferret-35.6 .
+
+go:nose rdfs:subClassOf go:ferret-35.6 .
+
+go:tease rdfs:subClassOf go:ferret-35.6 .
+
+go:ferret-35.6 rdfs:subClassOf go:hasAgent,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#ferret-35.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

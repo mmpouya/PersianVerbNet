@@ -1,0 +1,134 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abolish rdfs:subClassOf go:remove-10.1 .
+
+go:abstract rdfs:subClassOf go:remove-10.1 .
+
+go:cull rdfs:subClassOf go:remove-10.1 .
+
+go:cut_off rdfs:subClassOf go:remove-10.1 .
+
+go:deburr rdfs:subClassOf go:remove-10.1 .
+
+go:deduct rdfs:subClassOf go:remove-10.1 .
+
+go:delete rdfs:subClassOf go:remove-10.1 .
+
+go:depose rdfs:subClassOf go:remove-10.1 .
+
+go:discharge rdfs:subClassOf go:remove-10.1 .
+
+go:disengage rdfs:subClassOf go:remove-10.1 .
+
+go:disgorge rdfs:subClassOf go:remove-10.1 .
+
+go:dislodge rdfs:subClassOf go:remove-10.1 .
+
+go:dismiss rdfs:subClassOf go:remove-10.1 .
+
+go:draw rdfs:subClassOf go:remove-10.1 .
+
+go:eject rdfs:subClassOf go:remove-10.1 .
+
+go:eliminate rdfs:subClassOf go:remove-10.1 .
+
+go:eradicate rdfs:subClassOf go:remove-10.1 .
+
+go:evict rdfs:subClassOf go:remove-10.1 .
+
+go:excise rdfs:subClassOf go:remove-10.1 .
+
+go:excommunicate rdfs:subClassOf go:remove-10.1 .
+
+go:expel rdfs:subClassOf go:remove-10.1 .
+
+go:extinguish rdfs:subClassOf go:remove-10.1 .
+
+go:extirpate rdfs:subClassOf go:remove-10.1 .
+
+go:extract rdfs:subClassOf go:remove-10.1 .
+
+go:extrude rdfs:subClassOf go:remove-10.1 .
+
+go:kill rdfs:subClassOf go:remove-10.1 .
+
+go:lift rdfs:subClassOf go:remove-10.1 .
+
+go:lop rdfs:subClassOf go:remove-10.1 .
+
+go:lose rdfs:subClassOf go:remove-10.1 .
+
+go:omit rdfs:subClassOf go:remove-10.1 .
+
+go:ostracize rdfs:subClassOf go:remove-10.1 .
+
+go:oust rdfs:subClassOf go:remove-10.1 .
+
+go:partition rdfs:subClassOf go:remove-10.1 .
+
+go:prise rdfs:subClassOf go:remove-10.1 .
+
+go:pry rdfs:subClassOf go:remove-10.1 .
+
+go:pull rdfs:subClassOf go:remove-10.1 .
+
+go:raise rdfs:subClassOf go:remove-10.1 .
+
+go:ream rdfs:subClassOf go:remove-10.1 .
+
+go:reap rdfs:subClassOf go:remove-10.1 .
+
+go:remove rdfs:subClassOf go:remove-10.1 .
+
+go:render rdfs:subClassOf go:remove-10.1 .
+
+go:retract rdfs:subClassOf go:remove-10.1 .
+
+go:roust rdfs:subClassOf go:remove-10.1 .
+
+go:separate rdfs:subClassOf go:remove-10.1 .
+
+go:sever rdfs:subClassOf go:remove-10.1 .
+
+go:shoo rdfs:subClassOf go:remove-10.1 .
+
+go:strip rdfs:subClassOf go:remove-10.1 .
+
+go:subtract rdfs:subClassOf go:remove-10.1 .
+
+go:take rdfs:subClassOf go:remove-10.1 .
+
+go:take_away rdfs:subClassOf go:remove-10.1 .
+
+go:take_off rdfs:subClassOf go:remove-10.1 .
+
+go:take_out rdfs:subClassOf go:remove-10.1 .
+
+go:uproot rdfs:subClassOf go:remove-10.1 .
+
+go:winkle rdfs:subClassOf go:remove-10.1 .
+
+go:withdraw rdfs:subClassOf go:remove-10.1 .
+
+go:wrench rdfs:subClassOf go:remove-10.1 .
+
+go:remove-10.1 rdfs:subClassOf go:hasAgent,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#remove-10.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#int_control>
+                                                      )]
+
+                    ].
+

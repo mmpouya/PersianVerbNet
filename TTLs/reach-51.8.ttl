@@ -1,0 +1,35 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:breast rdfs:subClassOf go:reach-51.8 .
+
+go:hit rdfs:subClassOf go:reach-51.8 .
+
+go:make rdfs:subClassOf go:reach-51.8 .
+
+go:reach rdfs:subClassOf go:reach-51.8 .
+
+go:reach-51.8 rdfs:subClassOf go:hasGoal,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#reach-51.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#reach-51.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasGoal> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

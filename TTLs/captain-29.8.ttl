@@ -1,0 +1,118 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:babysit rdfs:subClassOf go:captain-29.8-1 .
+
+go:boss rdfs:subClassOf go:captain-29.8-1 .
+
+go:bully rdfs:subClassOf go:captain-29.8-1 .
+
+go:butcher rdfs:subClassOf go:captain-29.8 .
+
+go:butler rdfs:subClassOf go:captain-29.8-1 .
+
+go:caddy rdfs:subClassOf go:captain-29.8-1 .
+
+go:captain rdfs:subClassOf go:captain-29.8-1 .
+
+go:champion rdfs:subClassOf go:captain-29.8-1 .
+
+go:chaperone rdfs:subClassOf go:captain-29.8-1 .
+
+go:chauffeur rdfs:subClassOf go:captain-29.8-1 .
+
+go:clerk rdfs:subClassOf go:captain-29.8-1 .
+
+go:coach rdfs:subClassOf go:captain-29.8-1 .
+
+go:cox rdfs:subClassOf go:captain-29.8-1 .
+
+go:crew rdfs:subClassOf go:captain-29.8-1 .
+
+go:doctor rdfs:subClassOf go:captain-29.8-1 .
+
+go:emcee rdfs:subClassOf go:captain-29.8-1 .
+
+go:escort rdfs:subClassOf go:captain-29.8-1 .
+
+go:guard rdfs:subClassOf go:captain-29.8-1 .
+
+go:host rdfs:subClassOf go:captain-29.8-1 .
+
+go:judge rdfs:subClassOf go:captain-29.8 .
+
+go:lawyer rdfs:subClassOf go:captain-29.8 .
+
+go:midwife rdfs:subClassOf go:captain-29.8 .
+
+go:model rdfs:subClassOf go:captain-29.8 .
+
+go:mother rdfs:subClassOf go:captain-29.8-1 .
+
+go:nurse rdfs:subClassOf go:captain-29.8-1 .
+
+go:partner rdfs:subClassOf go:captain-29.8-1 .
+
+go:pilot rdfs:subClassOf go:captain-29.8-1 .
+
+go:pioneer rdfs:subClassOf go:captain-29.8-1 .
+
+go:police rdfs:subClassOf go:captain-29.8-1 .
+
+go:prostitute rdfs:subClassOf go:captain-29.8 .
+
+go:referee rdfs:subClassOf go:captain-29.8-1 .
+
+go:shepherd rdfs:subClassOf go:captain-29.8-1 .
+
+go:skipper rdfs:subClassOf go:captain-29.8-1 .
+
+go:soldier rdfs:subClassOf go:captain-29.8 .
+
+go:sponsor rdfs:subClassOf go:captain-29.8-1 .
+
+go:star rdfs:subClassOf go:captain-29.8-1-1 .
+
+go:tailor rdfs:subClassOf go:captain-29.8-1 .
+
+go:tutor rdfs:subClassOf go:captain-29.8-1 .
+
+go:umpire rdfs:subClassOf go:captain-29.8-1 .
+
+go:understudy rdfs:subClassOf go:captain-29.8-1 .
+
+go:usher rdfs:subClassOf go:captain-29.8-1 .
+
+go:valet rdfs:subClassOf go:captain-29.8-1 .
+
+go:volunteer rdfs:subClassOf go:captain-29.8 .
+
+go:whore rdfs:subClassOf go:captain-29.8 .
+
+go:witness rdfs:subClassOf go:captain-29.8-1 .
+
+go:captain-29.8-1-1 rdfs:subClassOf go:captain-29.8-1 .
+
+go:captain-29.8 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary .
+
+go:captain-29.8-1 rdfs:subClassOf go:captain-29.8 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#captain-29.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#captain-29.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

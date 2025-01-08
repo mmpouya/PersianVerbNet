@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:break_down rdfs:subClassOf go:break_down-45.8 .
+
+go:croak rdfs:subClassOf go:break_down-45.8 .
+
+go:die rdfs:subClassOf go:break_down-45.8 .
+
+go:expire rdfs:subClassOf go:break_down-45.8 .
+
+go:fall_apart rdfs:subClassOf go:break_down-45.8 .
+
+go:fizzle_out rdfs:subClassOf go:break_down-45.8 .
+
+go:give rdfs:subClassOf go:break_down-45.8 .
+
+go:give_out rdfs:subClassOf go:break_down-45.8 .
+
+go:give_way rdfs:subClassOf go:break_down-45.8 .
+
+go:go_down rdfs:subClassOf go:break_down-45.8 .
+
+go:go_off rdfs:subClassOf go:break_down-45.8 .
+
+go:go_out rdfs:subClassOf go:break_down-45.8 .
+
+go:kick_the_bucket rdfs:subClassOf go:break_down-45.8 .
+
+go:perish rdfs:subClassOf go:break_down-45.8 .
+
+go:poop_out rdfs:subClassOf go:break_down-45.8 .
+
+go:break_down-45.8 rdfs:subClassOf go:hasPatient .
+
+
+#This verb has no selectional restriction 

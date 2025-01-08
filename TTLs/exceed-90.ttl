@@ -1,0 +1,53 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:better rdfs:subClassOf go:exceed-90 .
+
+go:exceed rdfs:subClassOf go:exceed-90 .
+
+go:lap rdfs:subClassOf go:exceed-90 .
+
+go:outbid rdfs:subClassOf go:exceed-90 .
+
+go:outdo rdfs:subClassOf go:exceed-90 .
+
+go:outmatch rdfs:subClassOf go:exceed-90 .
+
+go:outnumber rdfs:subClassOf go:exceed-90 .
+
+go:outrace rdfs:subClassOf go:exceed-90 .
+
+go:outshine rdfs:subClassOf go:exceed-90 .
+
+go:outsmart rdfs:subClassOf go:exceed-90 .
+
+go:outstrip rdfs:subClassOf go:exceed-90 .
+
+go:outweigh rdfs:subClassOf go:exceed-90 .
+
+go:outwit rdfs:subClassOf go:exceed-90 .
+
+go:overcome rdfs:subClassOf go:exceed-90 .
+
+go:overleap rdfs:subClassOf go:exceed-90 .
+
+go:overreach rdfs:subClassOf go:exceed-90 .
+
+go:overstep rdfs:subClassOf go:exceed-90 .
+
+go:surpass rdfs:subClassOf go:exceed-90 .
+
+go:top rdfs:subClassOf go:exceed-90 .
+
+go:transcend rdfs:subClassOf go:exceed-90 .
+
+go:exceed-90 rdfs:subClassOf go:hasAttribute,
+        go:hasPivot,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

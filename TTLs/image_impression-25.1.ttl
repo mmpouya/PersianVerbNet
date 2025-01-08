@@ -1,0 +1,65 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:annotate rdfs:subClassOf go:image_impression-25.1 .
+
+go:applique rdfs:subClassOf go:image_impression-25.1 .
+
+go:emboss rdfs:subClassOf go:image_impression-25.1 .
+
+go:embroider rdfs:subClassOf go:image_impression-25.1 .
+
+go:engrave rdfs:subClassOf go:image_impression-25.1 .
+
+go:etch rdfs:subClassOf go:image_impression-25.1 .
+
+go:handpaint rdfs:subClassOf go:image_impression-25.1 .
+
+go:imprint rdfs:subClassOf go:image_impression-25.1 .
+
+go:incise rdfs:subClassOf go:image_impression-25.1 .
+
+go:ingrain rdfs:subClassOf go:image_impression-25.1 .
+
+go:inscribe rdfs:subClassOf go:image_impression-25.1 .
+
+go:mark rdfs:subClassOf go:image_impression-25.1 .
+
+go:paint rdfs:subClassOf go:image_impression-25.1 .
+
+go:reinscribe rdfs:subClassOf go:image_impression-25.1 .
+
+go:scar rdfs:subClassOf go:image_impression-25.1 .
+
+go:sign rdfs:subClassOf go:image_impression-25.1 .
+
+go:stamp rdfs:subClassOf go:image_impression-25.1 .
+
+go:stipple rdfs:subClassOf go:image_impression-25.1 .
+
+go:tattoo rdfs:subClassOf go:image_impression-25.1 .
+
+go:tool rdfs:subClassOf go:image_impression-25.1 .
+
+go:image_impression-25.1 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#image_impression-25.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#image_impression-25.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

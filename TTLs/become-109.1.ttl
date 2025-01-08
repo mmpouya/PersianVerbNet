@@ -1,0 +1,38 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:become rdfs:subClassOf go:become-109.1-1-1 .
+
+go:come rdfs:subClassOf go:become-109.1-1 .
+
+go:come_out rdfs:subClassOf go:become-109.1 .
+
+go:end_up rdfs:subClassOf go:become-109.1-1-1 .
+
+go:fall rdfs:subClassOf go:become-109.1-1 .
+
+go:get rdfs:subClassOf go:become-109.1 .
+
+go:go rdfs:subClassOf go:become-109.1-1 .
+
+go:grow rdfs:subClassOf go:become-109.1-1 .
+
+go:leave rdfs:subClassOf go:become-109.1-1-1 .
+
+go:turn rdfs:subClassOf go:become-109.1 .
+
+go:turn_up rdfs:subClassOf go:become-109.1 .
+
+go:become-109.1-1-1 rdfs:subClassOf go:become-109.1-1 .
+
+go:become-109.1 rdfs:subClassOf go:hasPatient,
+        go:hasResult .
+
+go:become-109.1-1 rdfs:subClassOf go:become-109.1 .
+
+
+#This verb has no selectional restriction 

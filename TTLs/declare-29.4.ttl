@@ -1,0 +1,44 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:adjudge rdfs:subClassOf go:declare-29.4-1 .
+
+go:avow rdfs:subClassOf go:declare-29.4 .
+
+go:confess rdfs:subClassOf go:declare-29.4 .
+
+go:declare rdfs:subClassOf go:declare-29.4-1-1-1 .
+
+go:find rdfs:subClassOf go:declare-29.4-1-1 .
+
+go:maintain rdfs:subClassOf go:declare-29.4-1 .
+
+go:proclaim rdfs:subClassOf go:declare-29.4-1-1 .
+
+go:profess rdfs:subClassOf go:declare-29.4-1-1-2 .
+
+go:prove rdfs:subClassOf go:declare-29.4-1-1 .
+
+go:declare-29.4-1-1-1 rdfs:subClassOf go:declare-29.4-1-1 .
+
+go:declare-29.4-1-1-2 rdfs:subClassOf go:declare-29.4-1-1 .
+
+go:declare-29.4 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme .
+
+go:declare-29.4-1 rdfs:subClassOf go:declare-29.4 .
+
+go:declare-29.4-1-1 rdfs:subClassOf go:declare-29.4-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#declare-29.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

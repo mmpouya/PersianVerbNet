@@ -1,0 +1,25 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:cause rdfs:subClassOf go:result-27.2 .
+
+go:lead rdfs:subClassOf go:result-27.2 .
+
+go:lead_up rdfs:subClassOf go:result-27.2 .
+
+go:result rdfs:subClassOf go:result-27.2 .
+
+go:result-27.2 rdfs:subClassOf go:hasCauser,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#result-27.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCauser> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                    ].
+

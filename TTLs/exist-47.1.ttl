@@ -1,0 +1,73 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:be rdfs:subClassOf go:exist-47.1 .
+
+go:coexist rdfs:subClassOf go:exist-47.1 .
+
+go:dwell rdfs:subClassOf go:exist-47.1 .
+
+go:endure rdfs:subClassOf go:exist-47.1-1 .
+
+go:exist rdfs:subClassOf go:exist-47.1 .
+
+go:extend rdfs:subClassOf go:exist-47.1 .
+
+go:flourish rdfs:subClassOf go:exist-47.1 .
+
+go:hold rdfs:subClassOf go:exist-47.1 .
+
+go:languish rdfs:subClassOf go:exist-47.1 .
+
+go:linger rdfs:subClassOf go:exist-47.1 .
+
+go:live rdfs:subClassOf go:exist-47.1,
+        go:exist-47.1-1 .
+
+go:loom rdfs:subClassOf go:exist-47.1 .
+
+go:lurk rdfs:subClassOf go:exist-47.1 .
+
+go:persevere rdfs:subClassOf go:exist-47.1 .
+
+go:persist rdfs:subClassOf go:exist-47.1 .
+
+go:predominate rdfs:subClassOf go:exist-47.1 .
+
+go:prevail rdfs:subClassOf go:exist-47.1 .
+
+go:prosper rdfs:subClassOf go:exist-47.1 .
+
+go:remain rdfs:subClassOf go:exist-47.1 .
+
+go:reside rdfs:subClassOf go:exist-47.1 .
+
+go:shelter rdfs:subClassOf go:exist-47.1 .
+
+go:stand rdfs:subClassOf go:exist-47.1 .
+
+go:stay rdfs:subClassOf go:exist-47.1 .
+
+go:survive rdfs:subClassOf go:exist-47.1-1 .
+
+go:thrive rdfs:subClassOf go:exist-47.1 .
+
+go:tower rdfs:subClassOf go:exist-47.1 .
+
+go:vegetate rdfs:subClassOf go:exist-47.1 .
+
+go:wait rdfs:subClassOf go:exist-47.1 .
+
+go:exist-47.1-1 rdfs:subClassOf go:exist-47.1 .
+
+go:exist-47.1 rdfs:subClassOf go:hasCircumstance,
+        go:hasLocation,
+        go:hasManner,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

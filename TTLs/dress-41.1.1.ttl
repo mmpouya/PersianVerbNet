@@ -1,0 +1,94 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:attire rdfs:subClassOf go:dress-41.1.1-1-2 .
+
+go:bathe rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:change rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:clothe rdfs:subClassOf go:dress-41.1.1,
+        go:dress-41.1.1-1-2 .
+
+go:disrobe rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:doll_up rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:dress rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:dress_up rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:exercise rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:frock rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:garb rdfs:subClassOf go:dress-41.1.1-1-2 .
+
+go:gussy_up rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:lave rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:moisturize rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:outfit rdfs:subClassOf go:dress-41.1.1-1-2 .
+
+go:preen rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:primp rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:robe rdfs:subClassOf go:dress-41.1.1-1-2 .
+
+go:shave rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:shower rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:spruce_up rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:strip rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:sunbathe rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:tan rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:tog_up rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:unclothe rdfs:subClassOf go:dress-41.1.1 .
+
+go:undress rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:wash rdfs:subClassOf go:dress-41.1.1-1-1 .
+
+go:dress-41.1.1-1 rdfs:subClassOf go:dress-41.1.1 .
+
+go:dress-41.1.1 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasPivot,
+        go:hasTheme .
+
+go:dress-41.1.1-1-2 rdfs:subClassOf go:dress-41.1.1-1 .
+
+go:dress-41.1.1-1-1 rdfs:subClassOf go:dress-41.1.1-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#dress-41.1.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#dress-41.1.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#refl>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#dress-41.1.1-1-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPivot> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,156 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abduct rdfs:subClassOf go:steal-10.5 .
+
+go:annex rdfs:subClassOf go:steal-10.5 .
+
+go:bleed rdfs:subClassOf go:steal-10.5 .
+
+go:cabbage rdfs:subClassOf go:steal-10.5 .
+
+go:cadge rdfs:subClassOf go:steal-10.5-1 .
+
+go:capture rdfs:subClassOf go:steal-10.5-1 .
+
+go:carjack rdfs:subClassOf go:steal-10.5 .
+
+go:commandeer rdfs:subClassOf go:steal-10.5 .
+
+go:confiscate rdfs:subClassOf go:steal-10.5 .
+
+go:cop rdfs:subClassOf go:steal-10.5-1 .
+
+go:cull rdfs:subClassOf go:steal-10.5 .
+
+go:emancipate rdfs:subClassOf go:steal-10.5 .
+
+go:embezzle rdfs:subClassOf go:steal-10.5 .
+
+go:extort rdfs:subClassOf go:steal-10.5 .
+
+go:filch rdfs:subClassOf go:steal-10.5 .
+
+go:flog rdfs:subClassOf go:steal-10.5-1 .
+
+go:grab rdfs:subClassOf go:steal-10.5-1 .
+
+go:highjack rdfs:subClassOf go:steal-10.5 .
+
+go:hook rdfs:subClassOf go:steal-10.5-1 .
+
+go:kidnap rdfs:subClassOf go:steal-10.5 .
+
+go:knock_off rdfs:subClassOf go:steal-10.5 .
+
+go:liberate rdfs:subClassOf go:steal-10.5 .
+
+go:lift rdfs:subClassOf go:steal-10.5 .
+
+go:milk rdfs:subClassOf go:steal-10.5 .
+
+go:misappropriate rdfs:subClassOf go:steal-10.5 .
+
+go:nab rdfs:subClassOf go:steal-10.5-1 .
+
+go:nick rdfs:subClassOf go:steal-10.5-1 .
+
+go:nobble rdfs:subClassOf go:steal-10.5 .
+
+go:pickpocket rdfs:subClassOf go:steal-10.5 .
+
+go:pilfer rdfs:subClassOf go:steal-10.5-1 .
+
+go:pinch rdfs:subClassOf go:steal-10.5 .
+
+go:pirate rdfs:subClassOf go:steal-10.5-1 .
+
+go:plagiarize rdfs:subClassOf go:steal-10.5 .
+
+go:plunder rdfs:subClassOf go:steal-10.5 .
+
+go:purloin rdfs:subClassOf go:steal-10.5 .
+
+go:recapture rdfs:subClassOf go:steal-10.5 .
+
+go:reclaim rdfs:subClassOf go:steal-10.5 .
+
+go:recoup rdfs:subClassOf go:steal-10.5 .
+
+go:redeem rdfs:subClassOf go:steal-10.5 .
+
+go:repossess rdfs:subClassOf go:steal-10.5 .
+
+go:rescue rdfs:subClassOf go:steal-10.5 .
+
+go:rob rdfs:subClassOf go:steal-10.5 .
+
+go:rustle rdfs:subClassOf go:steal-10.5 .
+
+go:salvage rdfs:subClassOf go:steal-10.5-1 .
+
+go:seize rdfs:subClassOf go:steal-10.5 .
+
+go:sequester rdfs:subClassOf go:steal-10.5 .
+
+go:shoplift rdfs:subClassOf go:steal-10.5-1 .
+
+go:smuggle rdfs:subClassOf go:steal-10.5-1 .
+
+go:snatch rdfs:subClassOf go:steal-10.5-1 .
+
+go:snatch_away rdfs:subClassOf go:steal-10.5 .
+
+go:sneak rdfs:subClassOf go:steal-10.5-1 .
+
+go:steal rdfs:subClassOf go:steal-10.5-1 .
+
+go:swipe rdfs:subClassOf go:steal-10.5-1 .
+
+go:take rdfs:subClassOf go:steal-10.5 .
+
+go:thieve rdfs:subClassOf go:steal-10.5 .
+
+go:wangle rdfs:subClassOf go:steal-10.5-1 .
+
+go:wrest rdfs:subClassOf go:steal-10.5 .
+
+go:steal-10.5-1 rdfs:subClassOf go:steal-10.5 .
+
+go:steal-10.5 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#steal-10.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#steal-10.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#steal-10.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

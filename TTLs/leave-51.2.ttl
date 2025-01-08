@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abandon rdfs:subClassOf go:leave-51.2 .
+
+go:desert rdfs:subClassOf go:leave-51.2-1 .
+
+go:leave rdfs:subClassOf go:leave-51.2-1 .
+
+go:leave-51.2 rdfs:subClassOf go:hasGoal,
+        go:hasSource,
+        go:hasTheme .
+
+go:leave-51.2-1 rdfs:subClassOf go:leave-51.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#leave-51.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#leave-51.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                                        <http://tavasi.majles.ir/ontology/general#location>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#leave-51.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasGoal> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                                        <http://tavasi.majles.ir/ontology/general#location>
+                                                      )]
+
+                    ].
+

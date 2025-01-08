@@ -1,0 +1,31 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:allow rdfs:subClassOf go:allow-64.1-1 .
+
+go:approve rdfs:subClassOf go:allow-64.1 .
+
+go:authorize rdfs:subClassOf go:allow-64.1 .
+
+go:endorse rdfs:subClassOf go:allow-64.1 .
+
+go:okay rdfs:subClassOf go:allow-64.1 .
+
+go:permit rdfs:subClassOf go:allow-64.1-1 .
+
+go:sanction rdfs:subClassOf go:allow-64.1 .
+
+go:tolerate rdfs:subClassOf go:allow-64.1 .
+
+go:allow-64.1-1 rdfs:subClassOf go:allow-64.1 .
+
+go:allow-64.1 rdfs:subClassOf go:hasBeneficiary,
+        go:hasCauser,
+        go:hasEventuality .
+
+
+#This verb has no selectional restriction 

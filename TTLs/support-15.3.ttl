@@ -1,0 +1,36 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bear rdfs:subClassOf go:support-15.3 .
+
+go:bolster rdfs:subClassOf go:support-15.3-1 .
+
+go:boost rdfs:subClassOf go:support-15.3-1 .
+
+go:buoy rdfs:subClassOf go:support-15.3-1 .
+
+go:buttress rdfs:subClassOf go:support-15.3-1 .
+
+go:hold rdfs:subClassOf go:support-15.3 .
+
+go:hold_up rdfs:subClassOf go:support-15.3-1 .
+
+go:reinforce rdfs:subClassOf go:support-15.3-1 .
+
+go:strengthen rdfs:subClassOf go:support-15.3-1 .
+
+go:support rdfs:subClassOf go:support-15.3-1 .
+
+go:support-15.3 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPivot,
+        go:hasTheme .
+
+go:support-15.3-1 rdfs:subClassOf go:support-15.3 .
+
+
+#This verb has no selectional restriction 

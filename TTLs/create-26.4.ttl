@@ -1,0 +1,121 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:author rdfs:subClassOf go:create-26.4 .
+
+go:choreograph rdfs:subClassOf go:create-26.4-1 .
+
+go:coin rdfs:subClassOf go:create-26.4 .
+
+go:compose rdfs:subClassOf go:create-26.4-1 .
+
+go:compute rdfs:subClassOf go:create-26.4 .
+
+go:concoct rdfs:subClassOf go:create-26.4 .
+
+go:conjure rdfs:subClassOf go:create-26.4-1-1 .
+
+go:construct rdfs:subClassOf go:create-26.4 .
+
+go:contrive rdfs:subClassOf go:create-26.4 .
+
+go:cowrite rdfs:subClassOf go:create-26.4 .
+
+go:craft rdfs:subClassOf go:create-26.4-1-1 .
+
+go:create rdfs:subClassOf go:create-26.4 .
+
+go:derive rdfs:subClassOf go:create-26.4 .
+
+go:design rdfs:subClassOf go:create-26.4-1-1 .
+
+go:dig rdfs:subClassOf go:create-26.4-1-1 .
+
+go:draft rdfs:subClassOf go:create-26.4-1 .
+
+go:draw rdfs:subClassOf go:create-26.4-1-1 .
+
+go:fabricate rdfs:subClassOf go:create-26.4 .
+
+go:form rdfs:subClassOf go:create-26.4 .
+
+go:formulate rdfs:subClassOf go:create-26.4 .
+
+go:improvise rdfs:subClassOf go:create-26.4-1 .
+
+go:invent rdfs:subClassOf go:create-26.4-1 .
+
+go:lay rdfs:subClassOf go:create-26.4 .
+
+go:manufacture rdfs:subClassOf go:create-26.4 .
+
+go:mass-produce rdfs:subClassOf go:create-26.4 .
+
+go:model rdfs:subClassOf go:create-26.4 .
+
+go:organize rdfs:subClassOf go:create-26.4 .
+
+go:paint rdfs:subClassOf go:create-26.4-1-1 .
+
+go:produce rdfs:subClassOf go:create-26.4 .
+
+go:publish rdfs:subClassOf go:create-26.4 .
+
+go:rearrange rdfs:subClassOf go:create-26.4 .
+
+go:rebuild rdfs:subClassOf go:create-26.4 .
+
+go:reconstitute rdfs:subClassOf go:create-26.4 .
+
+go:reorganize rdfs:subClassOf go:create-26.4 .
+
+go:scriptwrite rdfs:subClassOf go:create-26.4-1 .
+
+go:silkscreen rdfs:subClassOf go:create-26.4-1 .
+
+go:spin rdfs:subClassOf go:create-26.4-1-1 .
+
+go:style rdfs:subClassOf go:create-26.4 .
+
+go:synthesize rdfs:subClassOf go:create-26.4 .
+
+go:turn-out rdfs:subClassOf go:create-26.4 .
+
+go:write rdfs:subClassOf go:create-26.4-1 .
+
+go:create-26.4-1-1 rdfs:subClassOf go:create-26.4-1 .
+
+go:create-26.4-1 rdfs:subClassOf go:create-26.4 .
+
+go:create-26.4 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasBeneficiary,
+        go:hasMaterial,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#create-26.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#create-26.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,75 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:cruise rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:drive rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:fly rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:navigate rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:oar rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+go:paddle rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+go:pedal rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+go:ride rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+go:row rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+go:sail rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:tack rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:wing rdfs:subClassOf go:nonvehicle-51.4.2-1 .
+
+go:nonvehicle-51.4.2 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme,
+        go:hasTrajectory .
+
+go:nonvehicle-51.4.2-1 rdfs:subClassOf go:nonvehicle-51.4.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#nonvehicle-51.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#nonvehicle-51.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#nonvehicle-51.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#nonvehicle-51.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

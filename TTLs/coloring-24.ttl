@@ -1,0 +1,55 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:color rdfs:subClassOf go:coloring-24 .
+
+go:distemper rdfs:subClassOf go:coloring-24 .
+
+go:dye rdfs:subClassOf go:coloring-24 .
+
+go:enamel rdfs:subClassOf go:coloring-24 .
+
+go:glaze rdfs:subClassOf go:coloring-24 .
+
+go:japan rdfs:subClassOf go:coloring-24 .
+
+go:lacquer rdfs:subClassOf go:coloring-24 .
+
+go:paint rdfs:subClassOf go:coloring-24 .
+
+go:repaint rdfs:subClassOf go:coloring-24 .
+
+go:shellac rdfs:subClassOf go:coloring-24 .
+
+go:spraypaint rdfs:subClassOf go:coloring-24 .
+
+go:stain rdfs:subClassOf go:coloring-24 .
+
+go:starch rdfs:subClassOf go:coloring-24 .
+
+go:tint rdfs:subClassOf go:coloring-24 .
+
+go:varnish rdfs:subClassOf go:coloring-24 .
+
+go:coloring-24 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#coloring-24> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#coloring-24> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

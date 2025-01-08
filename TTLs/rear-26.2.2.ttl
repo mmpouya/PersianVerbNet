@@ -1,0 +1,27 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:cultivate rdfs:subClassOf go:rear-26.2.2-1 .
+
+go:farm rdfs:subClassOf go:rear-26.2.2-1 .
+
+go:grow rdfs:subClassOf go:rear-26.2.2 .
+
+go:nurture rdfs:subClassOf go:rear-26.2.2 .
+
+go:raise rdfs:subClassOf go:rear-26.2.2 .
+
+go:rear rdfs:subClassOf go:rear-26.2.2 .
+
+go:rear-26.2.2-1 rdfs:subClassOf go:rear-26.2.2 .
+
+go:rear-26.2.2 rdfs:subClassOf go:hasAgent,
+        go:hasMaterial,
+        go:hasProduct .
+
+
+#This verb has no selectional restriction 

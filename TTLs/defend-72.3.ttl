@@ -1,0 +1,46 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:defend rdfs:subClassOf go:defend-72.3 .
+
+go:guard rdfs:subClassOf go:defend-72.3 .
+
+go:insure rdfs:subClassOf go:defend-72.3 .
+
+go:preserve rdfs:subClassOf go:defend-72.3 .
+
+go:protect rdfs:subClassOf go:defend-72.3 .
+
+go:safeguard rdfs:subClassOf go:defend-72.3 .
+
+go:shade rdfs:subClassOf go:defend-72.3 .
+
+go:speak_for rdfs:subClassOf go:defend-72.3 .
+
+go:defend-72.3 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#defend-72.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#defend-72.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

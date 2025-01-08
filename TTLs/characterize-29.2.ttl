@@ -1,0 +1,136 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accept rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:adopt rdfs:subClassOf go:characterize-29.2 .
+
+go:bill rdfs:subClassOf go:characterize-29.2 .
+
+go:cast rdfs:subClassOf go:characterize-29.2 .
+
+go:certify rdfs:subClassOf go:characterize-29.2 .
+
+go:characterize rdfs:subClassOf go:characterize-29.2-1 .
+
+go:class rdfs:subClassOf go:characterize-29.2 .
+
+go:classify rdfs:subClassOf go:characterize-29.2 .
+
+go:conceive rdfs:subClassOf go:characterize-29.2-1 .
+
+go:count rdfs:subClassOf go:characterize-29.2 .
+
+go:define rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:depict rdfs:subClassOf go:characterize-29.2 .
+
+go:describe rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:detail rdfs:subClassOf go:characterize-29.2 .
+
+go:diagnose rdfs:subClassOf go:characterize-29.2 .
+
+go:envisage rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:envision rdfs:subClassOf go:characterize-29.2 .
+
+go:fancy rdfs:subClassOf go:characterize-29.2 .
+
+go:hail rdfs:subClassOf go:characterize-29.2 .
+
+go:identify rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:imagine rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:interpret rdfs:subClassOf go:characterize-29.2 .
+
+go:moot rdfs:subClassOf go:characterize-29.2 .
+
+go:paint rdfs:subClassOf go:characterize-29.2 .
+
+go:peg rdfs:subClassOf go:characterize-29.2 .
+
+go:perceive rdfs:subClassOf go:characterize-29.2 .
+
+go:picture rdfs:subClassOf go:characterize-29.2 .
+
+go:pigeonhole rdfs:subClassOf go:characterize-29.2 .
+
+go:portray rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:praise rdfs:subClassOf go:characterize-29.2 .
+
+go:rank rdfs:subClassOf go:characterize-29.2 .
+
+go:recast rdfs:subClassOf go:characterize-29.2 .
+
+go:recollect rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:redraw rdfs:subClassOf go:characterize-29.2 .
+
+go:regard rdfs:subClassOf go:characterize-29.2 .
+
+go:remember rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:report rdfs:subClassOf go:characterize-29.2-1-2 .
+
+go:represent rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:reveal rdfs:subClassOf go:characterize-29.2-1-2 .
+
+go:select rdfs:subClassOf go:characterize-29.2 .
+
+go:specify rdfs:subClassOf go:characterize-29.2 .
+
+go:stamp rdfs:subClassOf go:characterize-29.2 .
+
+go:stereotype rdfs:subClassOf go:characterize-29.2 .
+
+go:subselect rdfs:subClassOf go:characterize-29.2 .
+
+go:take rdfs:subClassOf go:characterize-29.2 .
+
+go:treat rdfs:subClassOf go:characterize-29.2 .
+
+go:typecast rdfs:subClassOf go:characterize-29.2 .
+
+go:underestimate rdfs:subClassOf go:characterize-29.2-1 .
+
+go:view rdfs:subClassOf go:characterize-29.2-1 .
+
+go:visualize rdfs:subClassOf go:characterize-29.2-1-1 .
+
+go:characterize-29.2-1-2 rdfs:subClassOf go:characterize-29.2-1 .
+
+go:characterize-29.2-1 rdfs:subClassOf go:characterize-29.2 .
+
+go:characterize-29.2-1-1 rdfs:subClassOf go:characterize-29.2-1 .
+
+go:characterize-29.2 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#characterize-29.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#characterize-29.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#concrete>
+                                                      )]
+
+                    ].
+

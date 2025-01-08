@@ -1,0 +1,96 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:atomize rdfs:subClassOf go:break-45.1 .
+
+go:break rdfs:subClassOf go:break-45.1 .
+
+go:break_apart rdfs:subClassOf go:break-45.1 .
+
+go:break_down rdfs:subClassOf go:break-45.1 .
+
+go:break_up rdfs:subClassOf go:break-45.1 .
+
+go:chip rdfs:subClassOf go:break-45.1 .
+
+go:cleave rdfs:subClassOf go:break-45.1 .
+
+go:crack rdfs:subClassOf go:break-45.1 .
+
+go:crash rdfs:subClassOf go:break-45.1 .
+
+go:crumble rdfs:subClassOf go:break-45.1 .
+
+go:crush rdfs:subClassOf go:break-45.1 .
+
+go:dissolve rdfs:subClassOf go:break-45.1 .
+
+go:fissure rdfs:subClassOf go:break-45.1 .
+
+go:fracture rdfs:subClassOf go:break-45.1 .
+
+go:fragment rdfs:subClassOf go:break-45.1 .
+
+go:granulate rdfs:subClassOf go:break-45.1 .
+
+go:pop rdfs:subClassOf go:break-45.1 .
+
+go:rend rdfs:subClassOf go:break-45.1 .
+
+go:rip rdfs:subClassOf go:break-45.1 .
+
+go:rive rdfs:subClassOf go:break-45.1 .
+
+go:rupture rdfs:subClassOf go:break-45.1 .
+
+go:shatter rdfs:subClassOf go:break-45.1 .
+
+go:shred rdfs:subClassOf go:break-45.1 .
+
+go:sliver rdfs:subClassOf go:break-45.1 .
+
+go:smash rdfs:subClassOf go:break-45.1 .
+
+go:snap rdfs:subClassOf go:break-45.1 .
+
+go:splinter rdfs:subClassOf go:break-45.1 .
+
+go:split rdfs:subClassOf go:break-45.1 .
+
+go:tatter rdfs:subClassOf go:break-45.1 .
+
+go:tear rdfs:subClassOf go:break-45.1 .
+
+go:break-45.1 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#break-45.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#break-45.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#break-45.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

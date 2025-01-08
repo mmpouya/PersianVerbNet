@@ -1,0 +1,45 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carry_on rdfs:subClassOf go:sustain-55.6 .
+
+go:continue rdfs:subClassOf go:sustain-55.6 .
+
+go:hold rdfs:subClassOf go:sustain-55.6 .
+
+go:keep rdfs:subClassOf go:sustain-55.6-1 .
+
+go:keep_up rdfs:subClassOf go:sustain-55.6 .
+
+go:leave rdfs:subClassOf go:sustain-55.6-1 .
+
+go:maintain rdfs:subClassOf go:sustain-55.6 .
+
+go:prolong rdfs:subClassOf go:sustain-55.6 .
+
+go:protract rdfs:subClassOf go:sustain-55.6 .
+
+go:sustain rdfs:subClassOf go:sustain-55.6 .
+
+go:sustain-55.6-1 rdfs:subClassOf go:sustain-55.6 .
+
+go:sustain-55.6 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasInstrument,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#sustain-55.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

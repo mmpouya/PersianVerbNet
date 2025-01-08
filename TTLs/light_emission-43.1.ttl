@@ -1,0 +1,62 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:beam rdfs:subClassOf go:light_emission-43.1 .
+
+go:blaze rdfs:subClassOf go:light_emission-43.1 .
+
+go:blink rdfs:subClassOf go:light_emission-43.1 .
+
+go:burn rdfs:subClassOf go:light_emission-43.1 .
+
+go:flame rdfs:subClassOf go:light_emission-43.1 .
+
+go:flare rdfs:subClassOf go:light_emission-43.1 .
+
+go:flash rdfs:subClassOf go:light_emission-43.1 .
+
+go:flicker rdfs:subClassOf go:light_emission-43.1 .
+
+go:fluoresce rdfs:subClassOf go:light_emission-43.1 .
+
+go:glare rdfs:subClassOf go:light_emission-43.1 .
+
+go:gleam rdfs:subClassOf go:light_emission-43.1 .
+
+go:glimmer rdfs:subClassOf go:light_emission-43.1 .
+
+go:glint rdfs:subClassOf go:light_emission-43.1 .
+
+go:glisten rdfs:subClassOf go:light_emission-43.1 .
+
+go:glitter rdfs:subClassOf go:light_emission-43.1 .
+
+go:glow rdfs:subClassOf go:light_emission-43.1 .
+
+go:incandesce rdfs:subClassOf go:light_emission-43.1 .
+
+go:scintillate rdfs:subClassOf go:light_emission-43.1 .
+
+go:shimmer rdfs:subClassOf go:light_emission-43.1 .
+
+go:shine rdfs:subClassOf go:light_emission-43.1 .
+
+go:sparkle rdfs:subClassOf go:light_emission-43.1 .
+
+go:twinkle rdfs:subClassOf go:light_emission-43.1 .
+
+go:light_emission-43.1 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#light_emission-43.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                    ].
+

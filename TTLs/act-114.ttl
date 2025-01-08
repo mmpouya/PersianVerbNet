@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:act rdfs:subClassOf go:act-114-1-1 .
+
+go:action rdfs:subClassOf go:act-114 .
+
+go:carry_out rdfs:subClassOf go:act-114 .
+
+go:carry_through rdfs:subClassOf go:act-114 .
+
+go:cause rdfs:subClassOf go:act-114 .
+
+go:conduct rdfs:subClassOf go:act-114 .
+
+go:do rdfs:subClassOf go:act-114-1 .
+
+go:engage_in rdfs:subClassOf go:act-114 .
+
+go:execute rdfs:subClassOf go:act-114 .
+
+go:fulfill rdfs:subClassOf go:act-114 .
+
+go:make rdfs:subClassOf go:act-114 .
+
+go:move rdfs:subClassOf go:act-114-1-1 .
+
+go:perform rdfs:subClassOf go:act-114-1 .
+
+go:act-114-1-1 rdfs:subClassOf go:act-114-1 .
+
+go:act-114-1 rdfs:subClassOf go:act-114 .
+
+go:act-114 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality .
+
+
+#This verb has no selectional restriction 

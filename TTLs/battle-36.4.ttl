@@ -1,0 +1,102 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:argue rdfs:subClassOf go:battle-36.4 .
+
+go:bargain rdfs:subClassOf go:battle-36.4 .
+
+go:battle rdfs:subClassOf go:battle-36.4-1 .
+
+go:bicker rdfs:subClassOf go:battle-36.4 .
+
+go:box rdfs:subClassOf go:battle-36.4-1 .
+
+go:brawl rdfs:subClassOf go:battle-36.4 .
+
+go:clash rdfs:subClassOf go:battle-36.4 .
+
+go:collide rdfs:subClassOf go:battle-36.4 .
+
+go:combat rdfs:subClassOf go:battle-36.4-1 .
+
+go:compete rdfs:subClassOf go:battle-36.4 .
+
+go:contend rdfs:subClassOf go:battle-36.4 .
+
+go:debate rdfs:subClassOf go:battle-36.4-1 .
+
+go:dicker rdfs:subClassOf go:battle-36.4 .
+
+go:dispute rdfs:subClassOf go:battle-36.4 .
+
+go:duel rdfs:subClassOf go:battle-36.4-1 .
+
+go:fence rdfs:subClassOf go:battle-36.4 .
+
+go:feud rdfs:subClassOf go:battle-36.4 .
+
+go:fight rdfs:subClassOf go:battle-36.4-1 .
+
+go:joust rdfs:subClassOf go:battle-36.4 .
+
+go:quarrel rdfs:subClassOf go:battle-36.4 .
+
+go:quibble rdfs:subClassOf go:battle-36.4 .
+
+go:refight rdfs:subClassOf go:battle-36.4-1 .
+
+go:scrap rdfs:subClassOf go:battle-36.4 .
+
+go:scuffle rdfs:subClassOf go:battle-36.4 .
+
+go:skirmish rdfs:subClassOf go:battle-36.4 .
+
+go:spar rdfs:subClassOf go:battle-36.4 .
+
+go:spat rdfs:subClassOf go:battle-36.4 .
+
+go:squabble rdfs:subClassOf go:battle-36.4 .
+
+go:struggle rdfs:subClassOf go:battle-36.4 .
+
+go:tilt rdfs:subClassOf go:battle-36.4 .
+
+go:tussle rdfs:subClassOf go:battle-36.4 .
+
+go:vie rdfs:subClassOf go:battle-36.4 .
+
+go:war rdfs:subClassOf go:battle-36.4 .
+
+go:wrangle rdfs:subClassOf go:battle-36.4 .
+
+go:wrestle rdfs:subClassOf go:battle-36.4-1 .
+
+go:battle-36.4-1 rdfs:subClassOf go:battle-36.4 .
+
+go:battle-36.4 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Agent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#battle-36.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#battle-36.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Agent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

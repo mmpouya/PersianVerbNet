@@ -1,0 +1,62 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bracket rdfs:subClassOf go:classify-29.10 .
+
+go:catalogue rdfs:subClassOf go:classify-29.10 .
+
+go:categorize rdfs:subClassOf go:classify-29.10 .
+
+go:chunk rdfs:subClassOf go:classify-29.10 .
+
+go:class rdfs:subClassOf go:classify-29.10 .
+
+go:classify rdfs:subClassOf go:classify-29.10 .
+
+go:code rdfs:subClassOf go:classify-29.10 .
+
+go:constellate rdfs:subClassOf go:classify-29.10 .
+
+go:grade rdfs:subClassOf go:classify-29.10 .
+
+go:group rdfs:subClassOf go:classify-29.10 .
+
+go:isolate rdfs:subClassOf go:classify-29.10 .
+
+go:lump rdfs:subClassOf go:classify-29.10 .
+
+go:number rdfs:subClassOf go:classify-29.10 .
+
+go:reclassify rdfs:subClassOf go:classify-29.10 .
+
+go:recode rdfs:subClassOf go:classify-29.10 .
+
+go:regroup rdfs:subClassOf go:classify-29.10 .
+
+go:seed rdfs:subClassOf go:classify-29.10 .
+
+go:separate rdfs:subClassOf go:classify-29.10 .
+
+go:sort rdfs:subClassOf go:classify-29.10 .
+
+go:sort_out rdfs:subClassOf go:classify-29.10 .
+
+go:classify-29.10 rdfs:subClassOf go:hasAgent,
+        go:hasGoal,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#classify-29.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

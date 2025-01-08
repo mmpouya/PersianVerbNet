@@ -1,0 +1,56 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:befall rdfs:subClassOf go:occur-48.3-1 .
+
+go:chance rdfs:subClassOf go:occur-48.3-1 .
+
+go:come_off rdfs:subClassOf go:occur-48.3-2 .
+
+go:develop rdfs:subClassOf go:occur-48.3-1 .
+
+go:ensue rdfs:subClassOf go:occur-48.3-1 .
+
+go:eventuate rdfs:subClassOf go:occur-48.3-1 .
+
+go:fall rdfs:subClassOf go:occur-48.3 .
+
+go:follow rdfs:subClassOf go:occur-48.3-1 .
+
+go:go rdfs:subClassOf go:occur-48.3-2 .
+
+go:go_down rdfs:subClassOf go:occur-48.3-2 .
+
+go:go_off rdfs:subClassOf go:occur-48.3-2 .
+
+go:go_on rdfs:subClassOf go:occur-48.3 .
+
+go:go_over rdfs:subClassOf go:occur-48.3-2 .
+
+go:happen rdfs:subClassOf go:occur-48.3-1 .
+
+go:occur rdfs:subClassOf go:occur-48.3-1 .
+
+go:pass rdfs:subClassOf go:occur-48.3-1 .
+
+go:recur rdfs:subClassOf go:occur-48.3 .
+
+go:result rdfs:subClassOf go:occur-48.3-1 .
+
+go:take_place rdfs:subClassOf go:occur-48.3 .
+
+go:transpire rdfs:subClassOf go:occur-48.3-1 .
+
+go:occur-48.3-2 rdfs:subClassOf go:occur-48.3 .
+
+go:occur-48.3 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+go:occur-48.3-1 rdfs:subClassOf go:occur-48.3 .
+
+
+#This verb has no selectional restriction 

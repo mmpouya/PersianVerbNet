@@ -1,0 +1,33 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:deter rdfs:subClassOf go:discourage-64.5-1 .
+
+go:discourage rdfs:subClassOf go:discourage-64.5-1 .
+
+go:dissuade rdfs:subClassOf go:discourage-64.5 .
+
+go:hamper rdfs:subClassOf go:discourage-64.5-1 .
+
+go:hinder rdfs:subClassOf go:discourage-64.5-1 .
+
+go:impede rdfs:subClassOf go:discourage-64.5-1 .
+
+go:inhibit rdfs:subClassOf go:discourage-64.5-1 .
+
+go:obstruct rdfs:subClassOf go:discourage-64.5-1 .
+
+go:restrain rdfs:subClassOf go:discourage-64.5-1 .
+
+go:discourage-64.5 rdfs:subClassOf go:hasBeneficiary,
+        go:hasCauser,
+        go:hasEventuality .
+
+go:discourage-64.5-1 rdfs:subClassOf go:discourage-64.5 .
+
+
+#This verb has no selectional restriction 

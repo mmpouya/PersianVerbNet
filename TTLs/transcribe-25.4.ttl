@@ -1,0 +1,65 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:chart rdfs:subClassOf go:transcribe-25.4 .
+
+go:chronicle rdfs:subClassOf go:transcribe-25.4 .
+
+go:copy rdfs:subClassOf go:transcribe-25.4 .
+
+go:document rdfs:subClassOf go:transcribe-25.4 .
+
+go:duplicate rdfs:subClassOf go:transcribe-25.4 .
+
+go:film rdfs:subClassOf go:transcribe-25.4 .
+
+go:forge rdfs:subClassOf go:transcribe-25.4 .
+
+go:microfilm rdfs:subClassOf go:transcribe-25.4 .
+
+go:photocopy rdfs:subClassOf go:transcribe-25.4 .
+
+go:photograph rdfs:subClassOf go:transcribe-25.4 .
+
+go:record rdfs:subClassOf go:transcribe-25.4 .
+
+go:tally rdfs:subClassOf go:transcribe-25.4 .
+
+go:tally_up rdfs:subClassOf go:transcribe-25.4 .
+
+go:tape rdfs:subClassOf go:transcribe-25.4 .
+
+go:televise rdfs:subClassOf go:transcribe-25.4 .
+
+go:transcribe rdfs:subClassOf go:transcribe-25.4 .
+
+go:type rdfs:subClassOf go:transcribe-25.4 .
+
+go:videotape rdfs:subClassOf go:transcribe-25.4 .
+
+go:write_out rdfs:subClassOf go:transcribe-25.4 .
+
+go:write_up rdfs:subClassOf go:transcribe-25.4 .
+
+go:transcribe-25.4 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#transcribe-25.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#transcribe-25.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

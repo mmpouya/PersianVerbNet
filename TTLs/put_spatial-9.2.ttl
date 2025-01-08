@@ -1,0 +1,84 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:balance rdfs:subClassOf go:put_spatial-9.2 .
+
+go:bend rdfs:subClassOf go:put_spatial-9.2 .
+
+go:dangle rdfs:subClassOf go:put_spatial-9.2 .
+
+go:droop rdfs:subClassOf go:put_spatial-9.2 .
+
+go:flop rdfs:subClassOf go:put_spatial-9.2 .
+
+go:fly rdfs:subClassOf go:put_spatial-9.2 .
+
+go:hang rdfs:subClassOf go:put_spatial-9.2 .
+
+go:lay rdfs:subClassOf go:put_spatial-9.2 .
+
+go:lean rdfs:subClassOf go:put_spatial-9.2 .
+
+go:nestle rdfs:subClassOf go:put_spatial-9.2 .
+
+go:open rdfs:subClassOf go:put_spatial-9.2 .
+
+go:perch rdfs:subClassOf go:put_spatial-9.2 .
+
+go:plop rdfs:subClassOf go:put_spatial-9.2 .
+
+go:project rdfs:subClassOf go:put_spatial-9.2 .
+
+go:prop rdfs:subClassOf go:put_spatial-9.2 .
+
+go:recline rdfs:subClassOf go:put_spatial-9.2 .
+
+go:rest rdfs:subClassOf go:put_spatial-9.2 .
+
+go:sit rdfs:subClassOf go:put_spatial-9.2 .
+
+go:slope rdfs:subClassOf go:put_spatial-9.2 .
+
+go:sprawl rdfs:subClassOf go:put_spatial-9.2 .
+
+go:stand rdfs:subClassOf go:put_spatial-9.2 .
+
+go:straddle rdfs:subClassOf go:put_spatial-9.2 .
+
+go:suspend rdfs:subClassOf go:put_spatial-9.2 .
+
+go:swing rdfs:subClassOf go:put_spatial-9.2 .
+
+go:tilt rdfs:subClassOf go:put_spatial-9.2 .
+
+go:underlay rdfs:subClassOf go:put_spatial-9.2 .
+
+go:put_spatial-9.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#put_spatial-9.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#put_spatial-9.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#put_spatial-9.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

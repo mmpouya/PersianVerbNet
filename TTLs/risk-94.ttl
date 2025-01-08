@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bet rdfs:subClassOf go:risk-94 .
+
+go:chance rdfs:subClassOf go:risk-94-1 .
+
+go:gamble rdfs:subClassOf go:risk-94 .
+
+go:hazard rdfs:subClassOf go:risk-94-1 .
+
+go:punt rdfs:subClassOf go:risk-94 .
+
+go:risk rdfs:subClassOf go:risk-94-1 .
+
+go:venture rdfs:subClassOf go:risk-94 .
+
+go:wager rdfs:subClassOf go:risk-94 .
+
+go:risk-94-1 rdfs:subClassOf go:risk-94 .
+
+go:risk-94 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasPivot,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#risk-94> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

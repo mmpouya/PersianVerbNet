@@ -1,0 +1,93 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:barge rdfs:subClassOf go:drive-11.5-1 .
+
+go:bike rdfs:subClassOf go:drive-11.5 .
+
+go:bus rdfs:subClassOf go:drive-11.5-1 .
+
+go:cart rdfs:subClassOf go:drive-11.5-1 .
+
+go:drive rdfs:subClassOf go:drive-11.5 .
+
+go:ferry rdfs:subClassOf go:drive-11.5-1 .
+
+go:fly rdfs:subClassOf go:drive-11.5-1 .
+
+go:motor rdfs:subClassOf go:drive-11.5 .
+
+go:paddle rdfs:subClassOf go:drive-11.5 .
+
+go:row rdfs:subClassOf go:drive-11.5 .
+
+go:shuttle rdfs:subClassOf go:drive-11.5-1 .
+
+go:tool rdfs:subClassOf go:drive-11.5 .
+
+go:tool_around rdfs:subClassOf go:drive-11.5 .
+
+go:truck rdfs:subClassOf go:drive-11.5-1 .
+
+go:trundle rdfs:subClassOf go:drive-11.5 .
+
+go:wheel rdfs:subClassOf go:drive-11.5 .
+
+go:drive-11.5-1 rdfs:subClassOf go:drive-11.5 .
+
+go:drive-11.5 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#drive-11.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#drive-11.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#drive-11.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#vehicle>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#drive-11.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                                        [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                                      )]
+
+                    ].
+

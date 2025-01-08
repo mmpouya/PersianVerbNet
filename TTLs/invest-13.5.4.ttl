@@ -1,0 +1,48 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:allocate rdfs:subClassOf go:invest-13.5.4-1 .
+
+go:buy rdfs:subClassOf go:invest-13.5.4 .
+
+go:commit rdfs:subClassOf go:invest-13.5.4-1 .
+
+go:invest rdfs:subClassOf go:invest-13.5.4-1 .
+
+go:put rdfs:subClassOf go:invest-13.5.4-1 .
+
+go:speculate rdfs:subClassOf go:invest-13.5.4 .
+
+go:invest-13.5.4 rdfs:subClassOf go:hasAgent,
+        go:hasAsset,
+        go:hasGoal,
+        go:hasTheme .
+
+go:invest-13.5.4-1 rdfs:subClassOf go:invest-13.5.4 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#invest-13.5.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#invest-13.5.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasGoal> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

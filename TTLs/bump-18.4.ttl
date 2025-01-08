@@ -1,0 +1,78 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bang rdfs:subClassOf go:bump-18.4-1 .
+
+go:bash rdfs:subClassOf go:bump-18.4-1 .
+
+go:brush rdfs:subClassOf go:bump-18.4-1 .
+
+go:bump rdfs:subClassOf go:bump-18.4-1 .
+
+go:butt rdfs:subClassOf go:bump-18.4-1 .
+
+go:clang rdfs:subClassOf go:bump-18.4-1 .
+
+go:clash rdfs:subClassOf go:bump-18.4-1 .
+
+go:clatter rdfs:subClassOf go:bump-18.4-1 .
+
+go:collide rdfs:subClassOf go:bump-18.4-1 .
+
+go:crack rdfs:subClassOf go:bump-18.4-1 .
+
+go:crash rdfs:subClassOf go:bump-18.4-1 .
+
+go:crunch rdfs:subClassOf go:bump-18.4-1 .
+
+go:hammer rdfs:subClassOf go:bump-18.4-1 .
+
+go:hit rdfs:subClassOf go:bump-18.4 .
+
+go:knock rdfs:subClassOf go:bump-18.4-1 .
+
+go:ram rdfs:subClassOf go:bump-18.4-1 .
+
+go:rap rdfs:subClassOf go:bump-18.4-1 .
+
+go:run rdfs:subClassOf go:bump-18.4 .
+
+go:slam rdfs:subClassOf go:bump-18.4-1 .
+
+go:slap rdfs:subClassOf go:bump-18.4-1 .
+
+go:smack rdfs:subClassOf go:bump-18.4-1 .
+
+go:smash rdfs:subClassOf go:bump-18.4-1 .
+
+go:squash rdfs:subClassOf go:bump-18.4-1 .
+
+go:strike rdfs:subClassOf go:bump-18.4-1 .
+
+go:thud rdfs:subClassOf go:bump-18.4-1 .
+
+go:thump rdfs:subClassOf go:bump-18.4-1 .
+
+go:bump-18.4 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+go:bump-18.4-1 rdfs:subClassOf go:bump-18.4 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#bump-18.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#bump-18.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

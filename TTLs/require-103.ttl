@@ -1,0 +1,29 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:demand rdfs:subClassOf go:require-103-1 .
+
+go:involve rdfs:subClassOf go:require-103-1 .
+
+go:necessitate rdfs:subClassOf go:require-103-1 .
+
+go:need rdfs:subClassOf go:require-103-2 .
+
+go:require rdfs:subClassOf go:require-103-1 .
+
+go:take rdfs:subClassOf go:require-103 .
+
+go:require-103-2 rdfs:subClassOf go:require-103 .
+
+go:require-103 rdfs:subClassOf go:hasPrecondition,
+        go:hasSource,
+        go:hasTheme .
+
+go:require-103-1 rdfs:subClassOf go:require-103 .
+
+
+#This verb has no selectional restriction 

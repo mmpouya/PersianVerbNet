@@ -1,0 +1,33 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:catnap rdfs:subClassOf go:snooze-40.4 .
+
+go:doze rdfs:subClassOf go:snooze-40.4 .
+
+go:drowse rdfs:subClassOf go:snooze-40.4 .
+
+go:nap rdfs:subClassOf go:snooze-40.4-1 .
+
+go:sleep rdfs:subClassOf go:snooze-40.4-1 .
+
+go:slumber rdfs:subClassOf go:snooze-40.4 .
+
+go:snooze rdfs:subClassOf go:snooze-40.4 .
+
+go:snooze-40.4-1 rdfs:subClassOf go:snooze-40.4 .
+
+go:snooze-40.4 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#snooze-40.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

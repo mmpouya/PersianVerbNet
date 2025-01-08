@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accompany rdfs:subClassOf go:accompany-51.7 .
+
+go:conduct rdfs:subClassOf go:accompany-51.7 .
+
+go:escort rdfs:subClassOf go:accompany-51.7 .
+
+go:guide rdfs:subClassOf go:accompany-51.7 .
+
+go:lead rdfs:subClassOf go:accompany-51.7 .
+
+go:misdirect rdfs:subClassOf go:accompany-51.7 .
+
+go:shepherd rdfs:subClassOf go:accompany-51.7 .
+
+go:steer rdfs:subClassOf go:accompany-51.7 .
+
+go:accompany-51.7 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#accompany-51.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#accompany-51.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

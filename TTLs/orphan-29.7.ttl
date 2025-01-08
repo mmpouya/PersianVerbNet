@@ -1,0 +1,36 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:apprentice rdfs:subClassOf go:orphan-29.7 .
+
+go:beggar rdfs:subClassOf go:orphan-29.7 .
+
+go:cripple rdfs:subClassOf go:orphan-29.7 .
+
+go:cuckold rdfs:subClassOf go:orphan-29.7 .
+
+go:knight rdfs:subClassOf go:orphan-29.7 .
+
+go:martyr rdfs:subClassOf go:orphan-29.7 .
+
+go:orphan rdfs:subClassOf go:orphan-29.7 .
+
+go:outlaw rdfs:subClassOf go:orphan-29.7 .
+
+go:pauper rdfs:subClassOf go:orphan-29.7 .
+
+go:recruit rdfs:subClassOf go:orphan-29.7 .
+
+go:whore rdfs:subClassOf go:orphan-29.7 .
+
+go:widow rdfs:subClassOf go:orphan-29.7 .
+
+go:orphan-29.7 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

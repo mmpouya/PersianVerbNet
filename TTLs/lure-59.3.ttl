@@ -1,0 +1,58 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:allure rdfs:subClassOf go:lure-59.3 .
+
+go:attract rdfs:subClassOf go:lure-59.3 .
+
+go:bewitch rdfs:subClassOf go:lure-59.3 .
+
+go:cajole rdfs:subClassOf go:lure-59.3 .
+
+go:coax rdfs:subClassOf go:lure-59.3 .
+
+go:draw rdfs:subClassOf go:lure-59.3 .
+
+go:entice rdfs:subClassOf go:lure-59.3 .
+
+go:flatter rdfs:subClassOf go:lure-59.3 .
+
+go:inveigle rdfs:subClassOf go:lure-59.3 .
+
+go:lure rdfs:subClassOf go:lure-59.3 .
+
+go:seduce rdfs:subClassOf go:lure-59.3 .
+
+go:soothe rdfs:subClassOf go:lure-59.3 .
+
+go:sweet-talk rdfs:subClassOf go:lure-59.3 .
+
+go:win_over rdfs:subClassOf go:lure-59.3 .
+
+go:lure-59.3 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#lure-59.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#lure-59.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

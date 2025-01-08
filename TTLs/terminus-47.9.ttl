@@ -1,0 +1,24 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:begin rdfs:subClassOf go:terminus-47.9 .
+
+go:end rdfs:subClassOf go:terminus-47.9 .
+
+go:lead rdfs:subClassOf go:terminus-47.9 .
+
+go:start rdfs:subClassOf go:terminus-47.9 .
+
+go:stop rdfs:subClassOf go:terminus-47.9 .
+
+go:terminate rdfs:subClassOf go:terminus-47.9 .
+
+go:terminus-47.9 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

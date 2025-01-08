@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:act rdfs:subClassOf go:seem-109-1 .
+
+go:appear rdfs:subClassOf go:seem-109-1-1-1 .
+
+go:be rdfs:subClassOf go:seem-109-1-1 .
+
+go:feel rdfs:subClassOf go:seem-109-1-1 .
+
+go:keep rdfs:subClassOf go:seem-109 .
+
+go:look rdfs:subClassOf go:seem-109-1-1 .
+
+go:remain rdfs:subClassOf go:seem-109-1-1 .
+
+go:seem rdfs:subClassOf go:seem-109-1-1-1 .
+
+go:smell rdfs:subClassOf go:seem-109 .
+
+go:sound rdfs:subClassOf go:seem-109 .
+
+go:stay rdfs:subClassOf go:seem-109-1-1 .
+
+go:taste rdfs:subClassOf go:seem-109 .
+
+go:seem-109-1 rdfs:subClassOf go:seem-109 .
+
+go:seem-109-1-1-1 rdfs:subClassOf go:seem-109-1-1 .
+
+go:seem-109 rdfs:subClassOf go:hasAttribute,
+        go:hasTheme .
+
+go:seem-109-1-1 rdfs:subClassOf go:seem-109-1 .
+
+
+#This verb has no selectional restriction 

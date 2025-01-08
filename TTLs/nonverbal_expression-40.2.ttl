@@ -1,0 +1,116 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:beam rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:blubber rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:cackle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:chortle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:chuckle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:cough rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:cry rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:frown rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:gape rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:gasp rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:gawk rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:giggle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:glare rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:glower rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:goggle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:grimace rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:grin rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:groan rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:growl rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:guffaw rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:hem rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:howl rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:jeer rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:laugh rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:lour rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:moan rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:pout rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:scoff rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:scowl rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:sigh rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:simper rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:smile rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:smirk rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:sneer rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:snicker rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:sniff rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:snigger rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:snivel rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:snore rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:snort rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:sob rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:titter rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:weep rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:whistle rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:yawn rdfs:subClassOf go:nonverbal_expression-40.2 .
+
+go:nonverbal_expression-40.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasStimulus,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#nonverbal_expression-40.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#nonverbal_expression-40.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

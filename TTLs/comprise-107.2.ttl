@@ -1,0 +1,35 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:compose rdfs:subClassOf go:comprise-107.2-1 .
+
+go:comprise rdfs:subClassOf go:comprise-107.2-1,
+        go:comprise-107.2-2 .
+
+go:consist_of rdfs:subClassOf go:comprise-107.2-2 .
+
+go:constitute rdfs:subClassOf go:comprise-107.2-1 .
+
+go:contain rdfs:subClassOf go:comprise-107.2-2 .
+
+go:encompass rdfs:subClassOf go:comprise-107.2-2 .
+
+go:form rdfs:subClassOf go:comprise-107.2-1 .
+
+go:make rdfs:subClassOf go:comprise-107.2-1 .
+
+go:make_up rdfs:subClassOf go:comprise-107.2-1 .
+
+go:comprise-107.2 rdfs:subClassOf go:hasPivot,
+        go:hasTheme .
+
+go:comprise-107.2-2 rdfs:subClassOf go:comprise-107.2 .
+
+go:comprise-107.2-1 rdfs:subClassOf go:comprise-107.2 .
+
+
+#This verb has no selectional restriction 

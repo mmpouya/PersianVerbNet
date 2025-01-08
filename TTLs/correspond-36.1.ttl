@@ -1,0 +1,82 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:agree rdfs:subClassOf go:correspond-36.1-1 .
+
+go:argue rdfs:subClassOf go:correspond-36.1-1 .
+
+go:banter rdfs:subClassOf go:correspond-36.1 .
+
+go:bargain rdfs:subClassOf go:correspond-36.1 .
+
+go:collaborate rdfs:subClassOf go:correspond-36.1 .
+
+go:collide rdfs:subClassOf go:correspond-36.1 .
+
+go:commiserate rdfs:subClassOf go:correspond-36.1 .
+
+go:communicate rdfs:subClassOf go:correspond-36.1 .
+
+go:compromise rdfs:subClassOf go:correspond-36.1 .
+
+go:concur rdfs:subClassOf go:correspond-36.1 .
+
+go:confer rdfs:subClassOf go:correspond-36.1 .
+
+go:cooperate rdfs:subClassOf go:correspond-36.1 .
+
+go:correspond rdfs:subClassOf go:correspond-36.1 .
+
+go:debate rdfs:subClassOf go:correspond-36.1-1 .
+
+go:decide rdfs:subClassOf go:correspond-36.1-1 .
+
+go:deliberate rdfs:subClassOf go:correspond-36.1 .
+
+go:differ rdfs:subClassOf go:correspond-36.1 .
+
+go:disagree rdfs:subClassOf go:correspond-36.1 .
+
+go:haggle rdfs:subClassOf go:correspond-36.1 .
+
+go:interact rdfs:subClassOf go:correspond-36.1 .
+
+go:negotiate rdfs:subClassOf go:correspond-36.1 .
+
+go:plot rdfs:subClassOf go:correspond-36.1 .
+
+go:renegotiate rdfs:subClassOf go:correspond-36.1 .
+
+go:settle rdfs:subClassOf go:correspond-36.1 .
+
+go:square rdfs:subClassOf go:correspond-36.1 .
+
+go:correspond-36.1-1 rdfs:subClassOf go:correspond-36.1 .
+
+go:correspond-36.1 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Agent,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#correspond-36.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#correspond-36.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Agent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

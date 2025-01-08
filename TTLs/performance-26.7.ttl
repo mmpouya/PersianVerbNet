@@ -1,0 +1,65 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:belt rdfs:subClassOf go:performance-26.7 .
+
+go:chant rdfs:subClassOf go:performance-26.7 .
+
+go:dance rdfs:subClassOf go:performance-26.7-1 .
+
+go:direct rdfs:subClassOf go:performance-26.7 .
+
+go:enact rdfs:subClassOf go:performance-26.7 .
+
+go:heel rdfs:subClassOf go:performance-26.7 .
+
+go:hum rdfs:subClassOf go:performance-26.7-1 .
+
+go:improvise rdfs:subClassOf go:performance-26.7 .
+
+go:intone rdfs:subClassOf go:performance-26.7 .
+
+go:model rdfs:subClassOf go:performance-26.7 .
+
+go:perform rdfs:subClassOf go:performance-26.7 .
+
+go:play rdfs:subClassOf go:performance-26.7-1 .
+
+go:rap rdfs:subClassOf go:performance-26.7 .
+
+go:recite rdfs:subClassOf go:performance-26.7-1 .
+
+go:replay rdfs:subClassOf go:performance-26.7-1 .
+
+go:sing rdfs:subClassOf go:performance-26.7-1 .
+
+go:stage rdfs:subClassOf go:performance-26.7-1 .
+
+go:vocalize rdfs:subClassOf go:performance-26.7 .
+
+go:whistle rdfs:subClassOf go:performance-26.7-1 .
+
+go:performance-26.7-1 rdfs:subClassOf go:performance-26.7 .
+
+go:performance-26.7 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#performance-26.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#performance-26.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

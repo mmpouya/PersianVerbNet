@@ -1,0 +1,208 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:affiliate rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:alternate rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:amalgamate rdfs:subClassOf go:amalgamate-22.2-1-1 .
+
+go:associate rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:coalesce rdfs:subClassOf go:amalgamate-22.2-1-1,
+        go:amalgamate-22.2-2-1 .
+
+go:coincide rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:compare rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:confederate rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:conflate rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:confuse rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:conjoin rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:consolidate rdfs:subClassOf go:amalgamate-22.2-1-1,
+        go:amalgamate-22.2-2-1 .
+
+go:contrast rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:correlate rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:couple rdfs:subClassOf go:amalgamate-22.2-1 .
+
+go:crisscross rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:engage rdfs:subClassOf go:amalgamate-22.2-3-2 .
+
+go:entangle rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:entwine rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:figure rdfs:subClassOf go:amalgamate-22.2-3-1 .
+
+go:harmonize rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:identity rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:incorporate rdfs:subClassOf go:amalgamate-22.2-1,
+        go:amalgamate-22.2-2 .
+
+go:integrate rdfs:subClassOf go:amalgamate-22.2-1,
+        go:amalgamate-22.2-2 .
+
+go:interchange rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:interconnect rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:interlace rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:interlink rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:interlock rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:intermarry rdfs:subClassOf go:amalgamate-22.2 .
+
+go:intermingle rdfs:subClassOf go:amalgamate-22.2-1-1,
+        go:amalgamate-22.2-2-1 .
+
+go:interrelate rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:intersperse rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:intertwine rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:interweave rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:introduce rdfs:subClassOf go:amalgamate-22.2-3-1 .
+
+go:marry rdfs:subClassOf go:amalgamate-22.2-3-1-1 .
+
+go:match rdfs:subClassOf go:amalgamate-22.2-1 .
+
+go:mate rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:muddle rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:oppose rdfs:subClassOf go:amalgamate-22.2-3 .
+
+go:overlap rdfs:subClassOf go:amalgamate-22.2-1 .
+
+go:pair rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:remarry rdfs:subClassOf go:amalgamate-22.2-3-1-1 .
+
+go:repackage rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:rhyme rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:team rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:total rdfs:subClassOf go:amalgamate-22.2-2 .
+
+go:unify rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:unite rdfs:subClassOf go:amalgamate-22.2-2-1 .
+
+go:wed rdfs:subClassOf go:amalgamate-22.2-3-1-1 .
+
+go:amalgamate-22.2-3-2 rdfs:subClassOf go:amalgamate-22.2-3 .
+
+go:amalgamate-22.2-3 rdfs:subClassOf go:amalgamate-22.2 .
+
+go:amalgamate-22.2-3-1 rdfs:subClassOf go:amalgamate-22.2-3 .
+
+go:amalgamate-22.2-3-1-1 rdfs:subClassOf go:amalgamate-22.2-3-1 .
+
+go:amalgamate-22.2 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+go:amalgamate-22.2-1-1 rdfs:subClassOf go:amalgamate-22.2-1 .
+
+go:amalgamate-22.2-1 rdfs:subClassOf go:amalgamate-22.2 .
+
+go:amalgamate-22.2-2 rdfs:subClassOf go:amalgamate-22.2 .
+
+go:amalgamate-22.2-2-1 rdfs:subClassOf go:amalgamate-22.2-2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#abstract>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#abstract>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-3-1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-3-1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-3-1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-3-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#amalgamate-22.2-3-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

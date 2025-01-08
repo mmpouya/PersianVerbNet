@@ -1,0 +1,271 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:adorn rdfs:subClassOf go:fill-9.8-1 .
+
+go:anoint rdfs:subClassOf go:fill-9.8 .
+
+go:bandage rdfs:subClassOf go:fill-9.8 .
+
+go:bathe rdfs:subClassOf go:fill-9.8-1 .
+
+go:bestrew rdfs:subClassOf go:fill-9.8 .
+
+go:bind rdfs:subClassOf go:fill-9.8-1 .
+
+go:blacktop rdfs:subClassOf go:fill-9.8 .
+
+go:blanket rdfs:subClassOf go:fill-9.8-1 .
+
+go:block rdfs:subClassOf go:fill-9.8-1 .
+
+go:blockade rdfs:subClassOf go:fill-9.8 .
+
+go:blot rdfs:subClassOf go:fill-9.8 .
+
+go:bombard rdfs:subClassOf go:fill-9.8 .
+
+go:carpet rdfs:subClassOf go:fill-9.8-1 .
+
+go:choke rdfs:subClassOf go:fill-9.8 .
+
+go:cloak rdfs:subClassOf go:fill-9.8-1 .
+
+go:clog rdfs:subClassOf go:fill-9.8 .
+
+go:close rdfs:subClassOf go:fill-9.8 .
+
+go:clutter rdfs:subClassOf go:fill-9.8 .
+
+go:coat rdfs:subClassOf go:fill-9.8-1 .
+
+go:contaminate rdfs:subClassOf go:fill-9.8 .
+
+go:cover rdfs:subClassOf go:fill-9.8-1 .
+
+go:dam rdfs:subClassOf go:fill-9.8 .
+
+go:dapple rdfs:subClassOf go:fill-9.8-1 .
+
+go:deck rdfs:subClassOf go:fill-9.8-1 .
+
+go:decorate rdfs:subClassOf go:fill-9.8-1 .
+
+go:deluge rdfs:subClassOf go:fill-9.8 .
+
+go:dirty rdfs:subClassOf go:fill-9.8 .
+
+go:disguise rdfs:subClassOf go:fill-9.8-1 .
+
+go:dope rdfs:subClassOf go:fill-9.8 .
+
+go:dot rdfs:subClassOf go:fill-9.8 .
+
+go:douse rdfs:subClassOf go:fill-9.8-1 .
+
+go:drench rdfs:subClassOf go:fill-9.8-1 .
+
+go:edge rdfs:subClassOf go:fill-9.8-1 .
+
+go:embellish rdfs:subClassOf go:fill-9.8 .
+
+go:emblazon rdfs:subClassOf go:fill-9.8 .
+
+go:encircle rdfs:subClassOf go:fill-9.8 .
+
+go:encrust rdfs:subClassOf go:fill-9.8-1 .
+
+go:endow rdfs:subClassOf go:fill-9.8 .
+
+go:enrich rdfs:subClassOf go:fill-9.8 .
+
+go:entangle rdfs:subClassOf go:fill-9.8-1 .
+
+go:face rdfs:subClassOf go:fill-9.8-1 .
+
+go:festoon rdfs:subClassOf go:fill-9.8-1 .
+
+go:fill rdfs:subClassOf go:fill-9.8 .
+
+go:fleck rdfs:subClassOf go:fill-9.8 .
+
+go:flood rdfs:subClassOf go:fill-9.8 .
+
+go:frame rdfs:subClassOf go:fill-9.8-1 .
+
+go:garland rdfs:subClassOf go:fill-9.8 .
+
+go:garnish rdfs:subClassOf go:fill-9.8 .
+
+go:grace rdfs:subClassOf go:fill-9.8 .
+
+go:gum_up rdfs:subClassOf go:fill-9.8 .
+
+go:honeycomb rdfs:subClassOf go:fill-9.8 .
+
+go:imbue rdfs:subClassOf go:fill-9.8 .
+
+go:impregnate rdfs:subClassOf go:fill-9.8 .
+
+go:infect rdfs:subClassOf go:fill-9.8 .
+
+go:infest rdfs:subClassOf go:fill-9.8 .
+
+go:inject rdfs:subClassOf go:fill-9.8 .
+
+go:inlay rdfs:subClassOf go:fill-9.8 .
+
+go:interlace rdfs:subClassOf go:fill-9.8 .
+
+go:interlard rdfs:subClassOf go:fill-9.8 .
+
+go:interleave rdfs:subClassOf go:fill-9.8 .
+
+go:intersperse rdfs:subClassOf go:fill-9.8 .
+
+go:interweave rdfs:subClassOf go:fill-9.8 .
+
+go:inundate rdfs:subClassOf go:fill-9.8 .
+
+go:lard rdfs:subClassOf go:fill-9.8 .
+
+go:lash rdfs:subClassOf go:fill-9.8 .
+
+go:line rdfs:subClassOf go:fill-9.8-1 .
+
+go:litter rdfs:subClassOf go:fill-9.8 .
+
+go:marinate rdfs:subClassOf go:fill-9.8-1 .
+
+go:mask rdfs:subClassOf go:fill-9.8 .
+
+go:mottle rdfs:subClassOf go:fill-9.8 .
+
+go:ornament rdfs:subClassOf go:fill-9.8 .
+
+go:pad rdfs:subClassOf go:fill-9.8 .
+
+go:panel rdfs:subClassOf go:fill-9.8-1 .
+
+go:pave rdfs:subClassOf go:fill-9.8-1 .
+
+go:plate rdfs:subClassOf go:fill-9.8 .
+
+go:plug rdfs:subClassOf go:fill-9.8 .
+
+go:prefill rdfs:subClassOf go:fill-9.8 .
+
+go:redecorate rdfs:subClassOf go:fill-9.8-1 .
+
+go:replenish rdfs:subClassOf go:fill-9.8 .
+
+go:repopulate rdfs:subClassOf go:fill-9.8 .
+
+go:resupply rdfs:subClassOf go:fill-9.8 .
+
+go:riddle rdfs:subClassOf go:fill-9.8 .
+
+go:ring rdfs:subClassOf go:fill-9.8 .
+
+go:ripple rdfs:subClassOf go:fill-9.8 .
+
+go:robe rdfs:subClassOf go:fill-9.8-1 .
+
+go:saturate rdfs:subClassOf go:fill-9.8-1 .
+
+go:sauce rdfs:subClassOf go:fill-9.8 .
+
+go:season rdfs:subClassOf go:fill-9.8 .
+
+go:shroud rdfs:subClassOf go:fill-9.8-1 .
+
+go:smother rdfs:subClassOf go:fill-9.8-1 .
+
+go:smut rdfs:subClassOf go:fill-9.8 .
+
+go:soak rdfs:subClassOf go:fill-9.8-1 .
+
+go:soil rdfs:subClassOf go:fill-9.8 .
+
+go:speckle rdfs:subClassOf go:fill-9.8-1 .
+
+go:splotch rdfs:subClassOf go:fill-9.8 .
+
+go:spot rdfs:subClassOf go:fill-9.8-1 .
+
+go:staff rdfs:subClassOf go:fill-9.8 .
+
+go:stain rdfs:subClassOf go:fill-9.8-1 .
+
+go:stipple rdfs:subClassOf go:fill-9.8 .
+
+go:stop_up rdfs:subClassOf go:fill-9.8 .
+
+go:stud rdfs:subClassOf go:fill-9.8 .
+
+go:suffuse rdfs:subClassOf go:fill-9.8 .
+
+go:sully rdfs:subClassOf go:fill-9.8 .
+
+go:surround rdfs:subClassOf go:fill-9.8-1 .
+
+go:swaddle rdfs:subClassOf go:fill-9.8-1 .
+
+go:swathe rdfs:subClassOf go:fill-9.8-1 .
+
+go:taint rdfs:subClassOf go:fill-9.8 .
+
+go:tile rdfs:subClassOf go:fill-9.8-1 .
+
+go:tinge rdfs:subClassOf go:fill-9.8 .
+
+go:tool rdfs:subClassOf go:fill-9.8-1 .
+
+go:trim rdfs:subClassOf go:fill-9.8-1 .
+
+go:veil rdfs:subClassOf go:fill-9.8-1 .
+
+go:vein rdfs:subClassOf go:fill-9.8-1 .
+
+go:fill-9.8-1 rdfs:subClassOf go:fill-9.8 .
+
+go:fill-9.8 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#fill-9.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#fill-9.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#fill-9.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#fill-9.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

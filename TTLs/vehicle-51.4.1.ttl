@@ -1,0 +1,125 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:balloon rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:bicycle rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:bike rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:boat rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:bobsled rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:bus rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:cab rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:canoe rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:caravan rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:chariot rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:coach rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:cycle rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:dogsled rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:ferry rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:gondola rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:helicopter rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:jeep rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:jet rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:kayak rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:moped rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:motor rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:motorbike rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:motorcycle rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:parachute rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:punt rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:raft rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:rickshaw rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:rocket rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:skate rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:skateboard rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:ski rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:sled rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:sledge rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:sleigh rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:taxi rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:toboggan rdfs:subClassOf go:vehicle-51.4.1-1 .
+
+go:tram rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:trolley rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:yacht rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:vehicle-51.4.1-1 rdfs:subClassOf go:vehicle-51.4.1 .
+
+go:vehicle-51.4.1 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasLocation,
+        go:hasResult,
+        go:hasTheme,
+        go:hasTrajectory .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#vehicle-51.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#vehicle-51.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#vehicle_part>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#vehicle-51.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#vehicle_part>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#vehicle-51.4.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

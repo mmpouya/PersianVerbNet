@@ -1,0 +1,77 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:antique rdfs:subClassOf go:berry-13.7 .
+
+go:berry rdfs:subClassOf go:berry-13.7 .
+
+go:birdnest rdfs:subClassOf go:berry-13.7 .
+
+go:blackberry rdfs:subClassOf go:berry-13.7 .
+
+go:clam rdfs:subClassOf go:berry-13.7 .
+
+go:crab rdfs:subClassOf go:berry-13.7 .
+
+go:fish rdfs:subClassOf go:berry-13.7 .
+
+go:fowl rdfs:subClassOf go:berry-13.7 .
+
+go:grouse rdfs:subClassOf go:berry-13.7 .
+
+go:hawk rdfs:subClassOf go:berry-13.7 .
+
+go:hay rdfs:subClassOf go:berry-13.7 .
+
+go:hog rdfs:subClassOf go:berry-13.7 .
+
+go:log rdfs:subClassOf go:berry-13.7 .
+
+go:mushroom rdfs:subClassOf go:berry-13.7 .
+
+go:nest rdfs:subClassOf go:berry-13.7 .
+
+go:nut rdfs:subClassOf go:berry-13.7 .
+
+go:oyster rdfs:subClassOf go:berry-13.7 .
+
+go:pearl rdfs:subClassOf go:berry-13.7 .
+
+go:prawn rdfs:subClassOf go:berry-13.7 .
+
+go:rabbit rdfs:subClassOf go:berry-13.7 .
+
+go:scollop rdfs:subClassOf go:berry-13.7 .
+
+go:seal rdfs:subClassOf go:berry-13.7 .
+
+go:shark rdfs:subClassOf go:berry-13.7 .
+
+go:shrimp rdfs:subClassOf go:berry-13.7 .
+
+go:snail rdfs:subClassOf go:berry-13.7 .
+
+go:snipe rdfs:subClassOf go:berry-13.7 .
+
+go:sponge rdfs:subClassOf go:berry-13.7 .
+
+go:whale rdfs:subClassOf go:berry-13.7 .
+
+go:whelk rdfs:subClassOf go:berry-13.7 .
+
+go:whore rdfs:subClassOf go:berry-13.7 .
+
+go:berry-13.7 rdfs:subClassOf go:hasAgent,
+        go:hasLocation .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#berry-13.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

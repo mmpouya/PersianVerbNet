@@ -1,0 +1,196 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:affix rdfs:subClassOf go:tape-22.4 .
+
+go:anchor rdfs:subClassOf go:tape-22.4 .
+
+go:band rdfs:subClassOf go:tape-22.4 .
+
+go:belt rdfs:subClassOf go:tape-22.4 .
+
+go:bolt rdfs:subClassOf go:tape-22.4 .
+
+go:bond rdfs:subClassOf go:tape-22.4 .
+
+go:bracket rdfs:subClassOf go:tape-22.4 .
+
+go:buckle rdfs:subClassOf go:tape-22.4 .
+
+go:button rdfs:subClassOf go:tape-22.4 .
+
+go:cable rdfs:subClassOf go:tape-22.4 .
+
+go:cement rdfs:subClassOf go:tape-22.4 .
+
+go:chain rdfs:subClassOf go:tape-22.4 .
+
+go:cinch rdfs:subClassOf go:tape-22.4 .
+
+go:clamp rdfs:subClassOf go:tape-22.4 .
+
+go:clasp rdfs:subClassOf go:tape-22.4 .
+
+go:clip rdfs:subClassOf go:tape-22.4 .
+
+go:connect rdfs:subClassOf go:tape-22.4 .
+
+go:epoxy rdfs:subClassOf go:tape-22.4 .
+
+go:fasten rdfs:subClassOf go:tape-22.4 .
+
+go:fetter rdfs:subClassOf go:tape-22.4 .
+
+go:glue rdfs:subClassOf go:tape-22.4 .
+
+go:gum rdfs:subClassOf go:tape-22.4 .
+
+go:handcuff rdfs:subClassOf go:tape-22.4 .
+
+go:harness rdfs:subClassOf go:tape-22.4 .
+
+go:hinge rdfs:subClassOf go:tape-22.4 .
+
+go:hitch rdfs:subClassOf go:tape-22.4 .
+
+go:hook rdfs:subClassOf go:tape-22.4 .
+
+go:knot rdfs:subClassOf go:tape-22.4 .
+
+go:lace rdfs:subClassOf go:tape-22.4 .
+
+go:lash rdfs:subClassOf go:tape-22.4 .
+
+go:lasso rdfs:subClassOf go:tape-22.4 .
+
+go:latch rdfs:subClassOf go:tape-22.4 .
+
+go:leash rdfs:subClassOf go:tape-22.4 .
+
+go:link rdfs:subClassOf go:tape-22.4 .
+
+go:lock rdfs:subClassOf go:tape-22.4 .
+
+go:loop rdfs:subClassOf go:tape-22.4 .
+
+go:manacle rdfs:subClassOf go:tape-22.4 .
+
+go:moor rdfs:subClassOf go:tape-22.4 .
+
+go:muzzle rdfs:subClassOf go:tape-22.4 .
+
+go:nail rdfs:subClassOf go:tape-22.4 .
+
+go:padlock rdfs:subClassOf go:tape-22.4 .
+
+go:paste rdfs:subClassOf go:tape-22.4 .
+
+go:peg rdfs:subClassOf go:tape-22.4 .
+
+go:pin rdfs:subClassOf go:tape-22.4 .
+
+go:plaster rdfs:subClassOf go:tape-22.4 .
+
+go:reeve rdfs:subClassOf go:tape-22.4 .
+
+go:rivet rdfs:subClassOf go:tape-22.4 .
+
+go:rope rdfs:subClassOf go:tape-22.4 .
+
+go:screw rdfs:subClassOf go:tape-22.4 .
+
+go:seal rdfs:subClassOf go:tape-22.4 .
+
+go:shackle rdfs:subClassOf go:tape-22.4 .
+
+go:skewer rdfs:subClassOf go:tape-22.4 .
+
+go:solder rdfs:subClassOf go:tape-22.4 .
+
+go:staple rdfs:subClassOf go:tape-22.4 .
+
+go:stitch rdfs:subClassOf go:tape-22.4 .
+
+go:strap rdfs:subClassOf go:tape-22.4 .
+
+go:string rdfs:subClassOf go:tape-22.4 .
+
+go:suture rdfs:subClassOf go:tape-22.4 .
+
+go:tack rdfs:subClassOf go:tape-22.4 .
+
+go:tape rdfs:subClassOf go:tape-22.4 .
+
+go:tether rdfs:subClassOf go:tape-22.4 .
+
+go:thread rdfs:subClassOf go:tape-22.4 .
+
+go:thumbtack rdfs:subClassOf go:tape-22.4 .
+
+go:tie rdfs:subClassOf go:tape-22.4 .
+
+go:trammel rdfs:subClassOf go:tape-22.4 .
+
+go:truss rdfs:subClassOf go:tape-22.4 .
+
+go:weld rdfs:subClassOf go:tape-22.4 .
+
+go:wire rdfs:subClassOf go:tape-22.4 .
+
+go:yoke rdfs:subClassOf go:tape-22.4 .
+
+go:zip rdfs:subClassOf go:tape-22.4 .
+
+go:tape-22.4 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#tape-22.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#tape-22.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#tape-22.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#tape-22.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,92 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bead rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:belch rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:bleed rdfs:subClassOf go:substance_emission-43.4-1-1 .
+
+go:bubble rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:dribble rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:drip rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:drool rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:emanate rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:emit rdfs:subClassOf go:substance_emission-43.4 .
+
+go:exrete rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:exude rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:foam rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:give rdfs:subClassOf go:substance_emission-43.4 .
+
+go:give_forth rdfs:subClassOf go:substance_emission-43.4 .
+
+go:give_off rdfs:subClassOf go:substance_emission-43.4 .
+
+go:give_out rdfs:subClassOf go:substance_emission-43.4 .
+
+go:gush rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:jet rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:leak rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:ooze rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:percolate rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:pour rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:puff rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:radiate rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:seep rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:shed rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:slop rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:spew rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:spill rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:spout rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:sprout rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:spurt rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:squirt rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:steam rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:stream rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:sweat rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:trickle rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:substance_emission-43.4-1-1 rdfs:subClassOf go:substance_emission-43.4-1 .
+
+go:substance_emission-43.4 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasSource,
+        go:hasTheme .
+
+go:substance_emission-43.4-1 rdfs:subClassOf go:substance_emission-43.4 .
+
+
+#This verb has no selectional restriction 

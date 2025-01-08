@@ -1,0 +1,43 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ambush rdfs:subClassOf go:attack-60.1 .
+
+go:assail rdfs:subClassOf go:attack-60.1 .
+
+go:assault rdfs:subClassOf go:attack-60.1 .
+
+go:attack rdfs:subClassOf go:attack-60.1-1 .
+
+go:bomb rdfs:subClassOf go:attack-60.1 .
+
+go:bombard rdfs:subClassOf go:attack-60.1 .
+
+go:charge rdfs:subClassOf go:attack-60.1,
+        go:attack-60.1-1 .
+
+go:fall_upon rdfs:subClassOf go:attack-60.1 .
+
+go:jump rdfs:subClassOf go:attack-60.1 .
+
+go:lay_into rdfs:subClassOf go:attack-60.1 .
+
+go:raid rdfs:subClassOf go:attack-60.1-1 .
+
+go:round_on rdfs:subClassOf go:attack-60.1 .
+
+go:set_upon rdfs:subClassOf go:attack-60.1 .
+
+go:strike rdfs:subClassOf go:attack-60.1-1 .
+
+go:attack-60.1-1 rdfs:subClassOf go:attack-60.1 .
+
+go:attack-60.1 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+#This verb has no selectional restriction 

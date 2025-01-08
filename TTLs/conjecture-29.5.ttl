@@ -1,0 +1,80 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:admit rdfs:subClassOf go:conjecture-29.5 .
+
+go:affirm rdfs:subClassOf go:conjecture-29.5 .
+
+go:anticipate rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:assert rdfs:subClassOf go:conjecture-29.5 .
+
+go:assume rdfs:subClassOf go:conjecture-29.5 .
+
+go:believe rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:conjecture rdfs:subClassOf go:conjecture-29.5 .
+
+go:deny rdfs:subClassOf go:conjecture-29.5 .
+
+go:determine rdfs:subClassOf go:conjecture-29.5 .
+
+go:doubt rdfs:subClassOf go:conjecture-29.5 .
+
+go:expect rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:feel rdfs:subClassOf go:conjecture-29.5-2 .
+
+go:foreknow rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:foresee rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:foretell rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:guess rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:hold rdfs:subClassOf go:conjecture-29.5 .
+
+go:infer rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:presume rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:prognosticate rdfs:subClassOf go:conjecture-29.5 .
+
+go:prophesy rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:repute rdfs:subClassOf go:conjecture-29.5 .
+
+go:spectulate rdfs:subClassOf go:conjecture-29.5 .
+
+go:surmise rdfs:subClassOf go:conjecture-29.5 .
+
+go:swear rdfs:subClassOf go:conjecture-29.5 .
+
+go:trust rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:vaticinate rdfs:subClassOf go:conjecture-29.5-1 .
+
+go:conjecture-29.5-2 rdfs:subClassOf go:conjecture-29.5 .
+
+go:conjecture-29.5-1 rdfs:subClassOf go:conjecture-29.5 .
+
+go:conjecture-29.5 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#conjecture-29.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

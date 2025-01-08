@@ -1,0 +1,44 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carry rdfs:subClassOf go:fit-54.3 .
+
+go:contain rdfs:subClassOf go:fit-54.3 .
+
+go:feed rdfs:subClassOf go:fit-54.3 .
+
+go:fit rdfs:subClassOf go:fit-54.3 .
+
+go:hibernate rdfs:subClassOf go:fit-54.3 .
+
+go:hold rdfs:subClassOf go:fit-54.3 .
+
+go:house rdfs:subClassOf go:fit-54.3 .
+
+go:reseat rdfs:subClassOf go:fit-54.3 .
+
+go:seat rdfs:subClassOf go:fit-54.3 .
+
+go:serve rdfs:subClassOf go:fit-54.3 .
+
+go:sleep rdfs:subClassOf go:fit-54.3 .
+
+go:store rdfs:subClassOf go:fit-54.3 .
+
+go:take rdfs:subClassOf go:fit-54.3 .
+
+go:fit-54.3 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasValue .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#fit-54.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

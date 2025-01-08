@@ -1,0 +1,98 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:appear rdfs:subClassOf go:appear-48.1.1 .
+
+go:arise rdfs:subClassOf go:appear-48.1.1 .
+
+go:awake rdfs:subClassOf go:appear-48.1.1 .
+
+go:awaken rdfs:subClassOf go:appear-48.1.1 .
+
+go:break rdfs:subClassOf go:appear-48.1.1 .
+
+go:burst rdfs:subClassOf go:appear-48.1.1 .
+
+go:coalesce rdfs:subClassOf go:appear-48.1.1 .
+
+go:come rdfs:subClassOf go:appear-48.1.1 .
+
+go:dawn rdfs:subClassOf go:appear-48.1.1 .
+
+go:derive rdfs:subClassOf go:appear-48.1.1 .
+
+go:develop rdfs:subClassOf go:appear-48.1.1 .
+
+go:emanate rdfs:subClassOf go:appear-48.1.1 .
+
+go:emerge rdfs:subClassOf go:appear-48.1.1 .
+
+go:erupt rdfs:subClassOf go:appear-48.1.1 .
+
+go:evolve rdfs:subClassOf go:appear-48.1.1 .
+
+go:exude rdfs:subClassOf go:appear-48.1.1 .
+
+go:flow rdfs:subClassOf go:appear-48.1.1 .
+
+go:form rdfs:subClassOf go:appear-48.1.1 .
+
+go:grow rdfs:subClassOf go:appear-48.1.1 .
+
+go:gush rdfs:subClassOf go:appear-48.1.1 .
+
+go:irrupt rdfs:subClassOf go:appear-48.1.1 .
+
+go:issue rdfs:subClassOf go:appear-48.1.1 .
+
+go:materialize rdfs:subClassOf go:appear-48.1.1 .
+
+go:open rdfs:subClassOf go:appear-48.1.1 .
+
+go:plop rdfs:subClassOf go:appear-48.1.1 .
+
+go:pop_up rdfs:subClassOf go:appear-48.1.1 .
+
+go:re-emerge rdfs:subClassOf go:appear-48.1.1 .
+
+go:reappear rdfs:subClassOf go:appear-48.1.1 .
+
+go:result rdfs:subClassOf go:appear-48.1.1 .
+
+go:rise rdfs:subClassOf go:appear-48.1.1 .
+
+go:show_up rdfs:subClassOf go:appear-48.1.1 .
+
+go:spill rdfs:subClassOf go:appear-48.1.1 .
+
+go:spread rdfs:subClassOf go:appear-48.1.1 .
+
+go:spring_up rdfs:subClassOf go:appear-48.1.1 .
+
+go:steal rdfs:subClassOf go:appear-48.1.1 .
+
+go:stem rdfs:subClassOf go:appear-48.1.1 .
+
+go:stream rdfs:subClassOf go:appear-48.1.1 .
+
+go:supervene rdfs:subClassOf go:appear-48.1.1 .
+
+go:surge rdfs:subClassOf go:appear-48.1.1 .
+
+go:take_shape rdfs:subClassOf go:appear-48.1.1 .
+
+go:turn_out rdfs:subClassOf go:appear-48.1.1 .
+
+go:turn_up rdfs:subClassOf go:appear-48.1.1 .
+
+go:wax rdfs:subClassOf go:appear-48.1.1 .
+
+go:appear-48.1.1 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

@@ -1,0 +1,22 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:branch rdfs:subClassOf go:differ-23.4 .
+
+go:deviate rdfs:subClassOf go:differ-23.4 .
+
+go:differ rdfs:subClassOf go:differ-23.4 .
+
+go:diverge rdfs:subClassOf go:differ-23.4 .
+
+go:vary rdfs:subClassOf go:differ-23.4 .
+
+go:differ-23.4 rdfs:subClassOf go:hasCo-Theme,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

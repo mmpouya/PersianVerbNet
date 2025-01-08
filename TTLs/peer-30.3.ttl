@@ -1,0 +1,57 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:attend rdfs:subClassOf go:peer-30.3 .
+
+go:check rdfs:subClassOf go:peer-30.3 .
+
+go:eavesdrop rdfs:subClassOf go:peer-30.3 .
+
+go:gape rdfs:subClassOf go:peer-30.3 .
+
+go:gawk rdfs:subClassOf go:peer-30.3 .
+
+go:gaze rdfs:subClassOf go:peer-30.3 .
+
+go:glance rdfs:subClassOf go:peer-30.3 .
+
+go:glare rdfs:subClassOf go:peer-30.3 .
+
+go:goggle rdfs:subClassOf go:peer-30.3 .
+
+go:leer rdfs:subClassOf go:peer-30.3 .
+
+go:listen rdfs:subClassOf go:peer-30.3 .
+
+go:look rdfs:subClassOf go:peer-30.3 .
+
+go:ogle rdfs:subClassOf go:peer-30.3 .
+
+go:peek rdfs:subClassOf go:peer-30.3 .
+
+go:peep rdfs:subClassOf go:peer-30.3 .
+
+go:peer rdfs:subClassOf go:peer-30.3 .
+
+go:sniff rdfs:subClassOf go:peer-30.3 .
+
+go:snoop rdfs:subClassOf go:peer-30.3 .
+
+go:squint rdfs:subClassOf go:peer-30.3 .
+
+go:stare rdfs:subClassOf go:peer-30.3 .
+
+go:peer-30.3 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#peer-30.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,80 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:blow rdfs:subClassOf go:weather-57 .
+
+go:bucket rdfs:subClassOf go:weather-57 .
+
+go:clear rdfs:subClassOf go:weather-57 .
+
+go:drizzle rdfs:subClassOf go:weather-57 .
+
+go:fog rdfs:subClassOf go:weather-57 .
+
+go:freeze rdfs:subClassOf go:weather-57 .
+
+go:frost rdfs:subClassOf go:weather-57 .
+
+go:graupel rdfs:subClassOf go:weather-57 .
+
+go:gust rdfs:subClassOf go:weather-57 .
+
+go:hail rdfs:subClassOf go:weather-57 .
+
+go:howl rdfs:subClassOf go:weather-57 .
+
+go:lightning rdfs:subClassOf go:weather-57 .
+
+go:mist rdfs:subClassOf go:weather-57 .
+
+go:mizzle rdfs:subClassOf go:weather-57 .
+
+go:pelt rdfs:subClassOf go:weather-57 .
+
+go:pour rdfs:subClassOf go:weather-57 .
+
+go:precipitate rdfs:subClassOf go:weather-57 .
+
+go:rain rdfs:subClassOf go:weather-57 .
+
+go:roar rdfs:subClassOf go:weather-57 .
+
+go:shower rdfs:subClassOf go:weather-57 .
+
+go:sleet rdfs:subClassOf go:weather-57 .
+
+go:snow rdfs:subClassOf go:weather-57 .
+
+go:spit rdfs:subClassOf go:weather-57 .
+
+go:spot rdfs:subClassOf go:weather-57 .
+
+go:sprinkle rdfs:subClassOf go:weather-57 .
+
+go:storm rdfs:subClassOf go:weather-57 .
+
+go:swelter rdfs:subClassOf go:weather-57 .
+
+go:teem rdfs:subClassOf go:weather-57 .
+
+go:thaw rdfs:subClassOf go:weather-57 .
+
+go:thunder rdfs:subClassOf go:weather-57 .
+
+go:weather-57 rdfs:subClassOf go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#weather-57> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#force>
+                                                        <http://tavasi.majles.ir/ontology/general#concrete>
+                                                      )]
+
+                    ].
+

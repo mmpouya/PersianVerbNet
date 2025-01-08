@@ -1,0 +1,125 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carve rdfs:subClassOf go:disassemble-23.3 .
+
+go:detach rdfs:subClassOf go:disassemble-23.3 .
+
+go:disassemble rdfs:subClassOf go:disassemble-23.3 .
+
+go:disconnect rdfs:subClassOf go:disassemble-23.3 .
+
+go:dismantle rdfs:subClassOf go:disassemble-23.3 .
+
+go:dismount rdfs:subClassOf go:disassemble-23.3 .
+
+go:pare rdfs:subClassOf go:disassemble-23.3 .
+
+go:partition rdfs:subClassOf go:disassemble-23.3 .
+
+go:segregate rdfs:subClassOf go:disassemble-23.3 .
+
+go:sieve rdfs:subClassOf go:disassemble-23.3 .
+
+go:sift rdfs:subClassOf go:disassemble-23.3 .
+
+go:slice rdfs:subClassOf go:disassemble-23.3 .
+
+go:sunder rdfs:subClassOf go:disassemble-23.3 .
+
+go:unbolt rdfs:subClassOf go:disassemble-23.3 .
+
+go:unbuckle rdfs:subClassOf go:disassemble-23.3 .
+
+go:unbutton rdfs:subClassOf go:disassemble-23.3 .
+
+go:unchain rdfs:subClassOf go:disassemble-23.3 .
+
+go:unclamp rdfs:subClassOf go:disassemble-23.3 .
+
+go:unclasp rdfs:subClassOf go:disassemble-23.3 .
+
+go:unclip rdfs:subClassOf go:disassemble-23.3 .
+
+go:unfasten rdfs:subClassOf go:disassemble-23.3 .
+
+go:unfix rdfs:subClassOf go:disassemble-23.3 .
+
+go:unglue rdfs:subClassOf go:disassemble-23.3 .
+
+go:unhinge rdfs:subClassOf go:disassemble-23.3 .
+
+go:unhitch rdfs:subClassOf go:disassemble-23.3 .
+
+go:unhook rdfs:subClassOf go:disassemble-23.3 .
+
+go:unlace rdfs:subClassOf go:disassemble-23.3 .
+
+go:unlatch rdfs:subClassOf go:disassemble-23.3 .
+
+go:unleash rdfs:subClassOf go:disassemble-23.3 .
+
+go:unlock rdfs:subClassOf go:disassemble-23.3 .
+
+go:unpeg rdfs:subClassOf go:disassemble-23.3 .
+
+go:unpin rdfs:subClassOf go:disassemble-23.3 .
+
+go:unscrew rdfs:subClassOf go:disassemble-23.3 .
+
+go:unseal rdfs:subClassOf go:disassemble-23.3 .
+
+go:unshackle rdfs:subClassOf go:disassemble-23.3 .
+
+go:unstaple rdfs:subClassOf go:disassemble-23.3 .
+
+go:unstitch rdfs:subClassOf go:disassemble-23.3 .
+
+go:untie rdfs:subClassOf go:disassemble-23.3 .
+
+go:unzip rdfs:subClassOf go:disassemble-23.3 .
+
+go:disassemble-23.3 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#disassemble-23.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#disassemble-23.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#disassemble-23.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

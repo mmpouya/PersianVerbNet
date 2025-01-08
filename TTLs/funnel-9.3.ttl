@@ -1,0 +1,118 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bang rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:channel rdfs:subClassOf go:funnel-9.3-1 .
+
+go:channelize rdfs:subClassOf go:funnel-9.3 .
+
+go:dip rdfs:subClassOf go:funnel-9.3 .
+
+go:dump rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:dunk rdfs:subClassOf go:funnel-9.3 .
+
+go:fit rdfs:subClassOf go:funnel-9.3-1 .
+
+go:funnel rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:hammer rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:hoe rdfs:subClassOf go:funnel-9.3 .
+
+go:ladle rdfs:subClassOf go:funnel-9.3 .
+
+go:pound rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:push rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:rake rdfs:subClassOf go:funnel-9.3-1 .
+
+go:ram rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:scoop rdfs:subClassOf go:funnel-9.3 .
+
+go:scrape rdfs:subClassOf go:funnel-9.3-1 .
+
+go:shake rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:shovel rdfs:subClassOf go:funnel-9.3-1 .
+
+go:siphon rdfs:subClassOf go:funnel-9.3 .
+
+go:sop rdfs:subClassOf go:funnel-9.3 .
+
+go:spoon rdfs:subClassOf go:funnel-9.3-1 .
+
+go:squash rdfs:subClassOf go:funnel-9.3-1 .
+
+go:squeeze rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:squish rdfs:subClassOf go:funnel-9.3-1 .
+
+go:sweep rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:tuck rdfs:subClassOf go:funnel-9.3-1 .
+
+go:wedge rdfs:subClassOf go:funnel-9.3-1-1 .
+
+go:wipe rdfs:subClassOf go:funnel-9.3-1 .
+
+go:wring rdfs:subClassOf go:funnel-9.3-1 .
+
+go:funnel-9.3 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme,
+        go:hasTrajectory .
+
+go:funnel-9.3-1-1 rdfs:subClassOf go:funnel-9.3-1 .
+
+go:funnel-9.3-1 rdfs:subClassOf go:funnel-9.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#funnel-9.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#funnel-9.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#funnel-9.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#funnel-9.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#funnel-9.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

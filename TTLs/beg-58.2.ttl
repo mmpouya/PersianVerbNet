@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:beg rdfs:subClassOf go:beg-58.2-1-1 .
+
+go:importune rdfs:subClassOf go:beg-58.2 .
+
+go:request rdfs:subClassOf go:beg-58.2 .
+
+go:supplicate rdfs:subClassOf go:beg-58.2-1 .
+
+go:beg-58.2-1-1 rdfs:subClassOf go:beg-58.2-1 .
+
+go:beg-58.2-1 rdfs:subClassOf go:beg-58.2 .
+
+go:beg-58.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#beg-58.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#beg-58.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

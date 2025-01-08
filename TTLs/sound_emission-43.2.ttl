@@ -1,0 +1,276 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:babble rdfs:subClassOf go:sound_emission-43.2 .
+
+go:bang rdfs:subClassOf go:sound_emission-43.2 .
+
+go:beat rdfs:subClassOf go:sound_emission-43.2 .
+
+go:beep rdfs:subClassOf go:sound_emission-43.2 .
+
+go:bellow rdfs:subClassOf go:sound_emission-43.2 .
+
+go:blare rdfs:subClassOf go:sound_emission-43.2 .
+
+go:blast rdfs:subClassOf go:sound_emission-43.2 .
+
+go:blat rdfs:subClassOf go:sound_emission-43.2 .
+
+go:boom rdfs:subClassOf go:sound_emission-43.2 .
+
+go:bubble rdfs:subClassOf go:sound_emission-43.2 .
+
+go:burble rdfs:subClassOf go:sound_emission-43.2 .
+
+go:burr rdfs:subClassOf go:sound_emission-43.2 .
+
+go:buzz rdfs:subClassOf go:sound_emission-43.2 .
+
+go:caterwaul rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chatter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chime rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chink rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chir rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chitter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:chug rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clack rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clang rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clank rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clap rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clash rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clatter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:click rdfs:subClassOf go:sound_emission-43.2 .
+
+go:cling rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clink rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clomp rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clump rdfs:subClassOf go:sound_emission-43.2 .
+
+go:clunk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:crack rdfs:subClassOf go:sound_emission-43.2 .
+
+go:crackle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:crash rdfs:subClassOf go:sound_emission-43.2 .
+
+go:creak rdfs:subClassOf go:sound_emission-43.2 .
+
+go:crepitate rdfs:subClassOf go:sound_emission-43.2 .
+
+go:crunch rdfs:subClassOf go:sound_emission-43.2 .
+
+go:cry rdfs:subClassOf go:sound_emission-43.2 .
+
+go:ding rdfs:subClassOf go:sound_emission-43.2 .
+
+go:dong rdfs:subClassOf go:sound_emission-43.2 .
+
+go:drone rdfs:subClassOf go:sound_emission-43.2 .
+
+go:explode rdfs:subClassOf go:sound_emission-43.2 .
+
+go:fizz rdfs:subClassOf go:sound_emission-43.2 .
+
+go:fizzle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:groan rdfs:subClassOf go:sound_emission-43.2 .
+
+go:growl rdfs:subClassOf go:sound_emission-43.2 .
+
+go:gurgle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:hiss rdfs:subClassOf go:sound_emission-43.2 .
+
+go:honk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:hoot rdfs:subClassOf go:sound_emission-43.2 .
+
+go:howl rdfs:subClassOf go:sound_emission-43.2 .
+
+go:hum rdfs:subClassOf go:sound_emission-43.2 .
+
+go:jangle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:jingle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:keen rdfs:subClassOf go:sound_emission-43.2 .
+
+go:knell rdfs:subClassOf go:sound_emission-43.2 .
+
+go:knock rdfs:subClassOf go:sound_emission-43.2 .
+
+go:lilt rdfs:subClassOf go:sound_emission-43.2 .
+
+go:mewl rdfs:subClassOf go:sound_emission-43.2 .
+
+go:moan rdfs:subClassOf go:sound_emission-43.2 .
+
+go:murmur rdfs:subClassOf go:sound_emission-43.2 .
+
+go:patter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:peal rdfs:subClassOf go:sound_emission-43.2 .
+
+go:ping rdfs:subClassOf go:sound_emission-43.2 .
+
+go:pink rdfs:subClassOf go:sound_emission-43.2 .
+
+go:pipe rdfs:subClassOf go:sound_emission-43.2 .
+
+go:plash rdfs:subClassOf go:sound_emission-43.2 .
+
+go:plink rdfs:subClassOf go:sound_emission-43.2 .
+
+go:plonk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:plop rdfs:subClassOf go:sound_emission-43.2 .
+
+go:plunk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:pop rdfs:subClassOf go:sound_emission-43.2 .
+
+go:purr rdfs:subClassOf go:sound_emission-43.2 .
+
+go:putter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:rap rdfs:subClassOf go:sound_emission-43.2 .
+
+go:rasp rdfs:subClassOf go:sound_emission-43.2 .
+
+go:rattle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:ring rdfs:subClassOf go:sound_emission-43.2 .
+
+go:roar rdfs:subClassOf go:sound_emission-43.2 .
+
+go:roll rdfs:subClassOf go:sound_emission-43.2 .
+
+go:rumble rdfs:subClassOf go:sound_emission-43.2 .
+
+go:rustle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:scream rdfs:subClassOf go:sound_emission-43.2 .
+
+go:screech rdfs:subClassOf go:sound_emission-43.2 .
+
+go:shriek rdfs:subClassOf go:sound_emission-43.2 .
+
+go:shrill rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sing rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sizzle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:snap rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sough rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sound rdfs:subClassOf go:sound_emission-43.2 .
+
+go:splash rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sploosh rdfs:subClassOf go:sound_emission-43.2 .
+
+go:splutter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sputter rdfs:subClassOf go:sound_emission-43.2 .
+
+go:squawk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:squeak rdfs:subClassOf go:sound_emission-43.2 .
+
+go:squeal rdfs:subClassOf go:sound_emission-43.2 .
+
+go:squelch rdfs:subClassOf go:sound_emission-43.2 .
+
+go:strike rdfs:subClassOf go:sound_emission-43.2 .
+
+go:swish rdfs:subClassOf go:sound_emission-43.2 .
+
+go:swoosh rdfs:subClassOf go:sound_emission-43.2 .
+
+go:thrum rdfs:subClassOf go:sound_emission-43.2 .
+
+go:thud rdfs:subClassOf go:sound_emission-43.2 .
+
+go:thump rdfs:subClassOf go:sound_emission-43.2 .
+
+go:thunder rdfs:subClassOf go:sound_emission-43.2 .
+
+go:thunk rdfs:subClassOf go:sound_emission-43.2 .
+
+go:tick rdfs:subClassOf go:sound_emission-43.2 .
+
+go:ting rdfs:subClassOf go:sound_emission-43.2 .
+
+go:tinkle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:toll rdfs:subClassOf go:sound_emission-43.2 .
+
+go:toot rdfs:subClassOf go:sound_emission-43.2 .
+
+go:tootle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:trill rdfs:subClassOf go:sound_emission-43.2 .
+
+go:trumpet rdfs:subClassOf go:sound_emission-43.2 .
+
+go:twang rdfs:subClassOf go:sound_emission-43.2 .
+
+go:ululate rdfs:subClassOf go:sound_emission-43.2 .
+
+go:vroom rdfs:subClassOf go:sound_emission-43.2 .
+
+go:wail rdfs:subClassOf go:sound_emission-43.2 .
+
+go:wheeze rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whine rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whir rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whish rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whisper rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whistle rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whoosh rdfs:subClassOf go:sound_emission-43.2 .
+
+go:whump rdfs:subClassOf go:sound_emission-43.2 .
+
+go:zing rdfs:subClassOf go:sound_emission-43.2 .
+
+go:sound_emission-43.2 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#sound_emission-43.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                    ].
+

@@ -1,0 +1,64 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:annoy rdfs:subClassOf go:bully-59.5 .
+
+go:badger rdfs:subClassOf go:bully-59.5 .
+
+go:bait rdfs:subClassOf go:bully-59.5 .
+
+go:bullock rdfs:subClassOf go:bully-59.5 .
+
+go:bully rdfs:subClassOf go:bully-59.5 .
+
+go:frighten rdfs:subClassOf go:bully-59.5 .
+
+go:goad rdfs:subClassOf go:bully-59.5 .
+
+go:harass rdfs:subClassOf go:bully-59.5 .
+
+go:harry rdfs:subClassOf go:bully-59.5 .
+
+go:hustle rdfs:subClassOf go:bully-59.5 .
+
+go:nag rdfs:subClassOf go:bully-59.5 .
+
+go:panic rdfs:subClassOf go:bully-59.5 .
+
+go:shame rdfs:subClassOf go:bully-59.5 .
+
+go:shock rdfs:subClassOf go:bully-59.5 .
+
+go:taunt rdfs:subClassOf go:bully-59.5 .
+
+go:tease rdfs:subClassOf go:bully-59.5 .
+
+go:terrify rdfs:subClassOf go:bully-59.5 .
+
+go:bully-59.5 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#bully-59.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#bully-59.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

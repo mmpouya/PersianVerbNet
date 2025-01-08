@@ -1,0 +1,247 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:babble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bark rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bawl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bellow rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:blare rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bleat rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:blubber rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bluster rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:boom rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:bray rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:burble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:cackle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:call rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:carol rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:chant rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:chatter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:chirp rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:chortle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:chuckle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:cluck rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:coo rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:croak rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:croon rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:crow rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:cry rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:drawl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:drone rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:gabble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:gasp rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:gibber rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:groan rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:growl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:grumble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:grunt rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:gurgle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:hiss rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:holler rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:hoot rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:howl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:hum rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:jabber rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:keen rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:lilt rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:lisp rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:mewl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:moan rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:mumble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:murmur rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:mutter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:nasal rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:natter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:pant rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:prattle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:purr rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:quaver rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:rage rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:rant rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:rasp rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:roar rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:rumble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:scream rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:screech rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:shout rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:shriek rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:sibilate rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:sigh rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:simper rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:sing rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:smatter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:smile rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:snap rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:snarl rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:snivel rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:snuffle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:splutter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:squall rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:squawk rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:squeak rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:squeal rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:stammer rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:stemmer rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:stutter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:thunder rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:tisk rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:trill rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:trumpet rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:twang rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:twitter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:vociferate rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:wail rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:warble rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:wheeze rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:whimper rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:whine rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:whisper rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:whistle rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:whoop rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:witter rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:yammer rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:yap rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:yell rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:yelp rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:yodel rdfs:subClassOf go:manner_speaking-37.3 .
+
+go:manner_speaking-37.3 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#manner_speaking-37.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#manner_speaking-37.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#communication>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#manner_speaking-37.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

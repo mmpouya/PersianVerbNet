@@ -1,0 +1,104 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bark rdfs:subClassOf go:pit-10.7 .
+
+go:beard rdfs:subClassOf go:pit-10.7 .
+
+go:bone rdfs:subClassOf go:pit-10.7 .
+
+go:burl rdfs:subClassOf go:pit-10.7 .
+
+go:core rdfs:subClassOf go:pit-10.7 .
+
+go:gill rdfs:subClassOf go:pit-10.7 .
+
+go:gut rdfs:subClassOf go:pit-10.7 .
+
+go:head rdfs:subClassOf go:pit-10.7 .
+
+go:hull rdfs:subClassOf go:pit-10.7 .
+
+go:husk rdfs:subClassOf go:pit-10.7 .
+
+go:lint rdfs:subClassOf go:pit-10.7 .
+
+go:louse rdfs:subClassOf go:pit-10.7 .
+
+go:milk rdfs:subClassOf go:pit-10.7 .
+
+go:peel rdfs:subClassOf go:pit-10.7 .
+
+go:pinion rdfs:subClassOf go:pit-10.7 .
+
+go:pip rdfs:subClassOf go:pit-10.7 .
+
+go:pit rdfs:subClassOf go:pit-10.7 .
+
+go:pith rdfs:subClassOf go:pit-10.7 .
+
+go:pod rdfs:subClassOf go:pit-10.7 .
+
+go:poll rdfs:subClassOf go:pit-10.7 .
+
+go:pulp rdfs:subClassOf go:pit-10.7 .
+
+go:rind rdfs:subClassOf go:pit-10.7 .
+
+go:scale rdfs:subClassOf go:pit-10.7 .
+
+go:scalp rdfs:subClassOf go:pit-10.7 .
+
+go:seed rdfs:subClassOf go:pit-10.7 .
+
+go:shell rdfs:subClassOf go:pit-10.7 .
+
+go:shuck rdfs:subClassOf go:pit-10.7 .
+
+go:skin rdfs:subClassOf go:pit-10.7 .
+
+go:snail rdfs:subClassOf go:pit-10.7 .
+
+go:stalk rdfs:subClassOf go:pit-10.7 .
+
+go:stem rdfs:subClassOf go:pit-10.7 .
+
+go:stone rdfs:subClassOf go:pit-10.7 .
+
+go:string rdfs:subClassOf go:pit-10.7 .
+
+go:tail rdfs:subClassOf go:pit-10.7 .
+
+go:tassel rdfs:subClassOf go:pit-10.7 .
+
+go:vein rdfs:subClassOf go:pit-10.7 .
+
+go:weed rdfs:subClassOf go:pit-10.7 .
+
+go:wind rdfs:subClassOf go:pit-10.7 .
+
+go:worm rdfs:subClassOf go:pit-10.7 .
+
+go:zest rdfs:subClassOf go:pit-10.7 .
+
+go:pit-10.7 rdfs:subClassOf go:hasAgent,
+        go:hasSource .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#pit-10.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#pit-10.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

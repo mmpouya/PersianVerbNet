@@ -1,0 +1,50 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:battle rdfs:subClassOf go:meet-36.3-2 .
+
+go:box rdfs:subClassOf go:meet-36.3-2 .
+
+go:consult rdfs:subClassOf go:meet-36.3-1 .
+
+go:debate rdfs:subClassOf go:meet-36.3-2 .
+
+go:deliberate rdfs:subClassOf go:meet-36.3-1 .
+
+go:fight rdfs:subClassOf go:meet-36.3-2 .
+
+go:meet rdfs:subClassOf go:meet-36.3-1 .
+
+go:play rdfs:subClassOf go:meet-36.3-1 .
+
+go:remonstrate rdfs:subClassOf go:meet-36.3-1 .
+
+go:reunite rdfs:subClassOf go:meet-36.3-1 .
+
+go:visit rdfs:subClassOf go:meet-36.3-1 .
+
+go:meet-36.3 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Agent .
+
+go:meet-36.3-2 rdfs:subClassOf go:meet-36.3 .
+
+go:meet-36.3-1 rdfs:subClassOf go:meet-36.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#meet-36.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#meet-36.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Agent> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

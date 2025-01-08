@@ -1,0 +1,78 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:asphyxiate rdfs:subClassOf go:poison-42.2 .
+
+go:behead rdfs:subClassOf go:poison-42.2 .
+
+go:bullet rdfs:subClassOf go:poison-42.2 .
+
+go:crucify rdfs:subClassOf go:poison-42.2 .
+
+go:dart rdfs:subClassOf go:poison-42.2 .
+
+go:decapitate rdfs:subClassOf go:poison-42.2 .
+
+go:disembowel rdfs:subClassOf go:poison-42.2 .
+
+go:drown rdfs:subClassOf go:poison-42.2 .
+
+go:electrocute rdfs:subClassOf go:poison-42.2 .
+
+go:evicerate rdfs:subClassOf go:poison-42.2 .
+
+go:fry rdfs:subClassOf go:poison-42.2 .
+
+go:garrotte rdfs:subClassOf go:poison-42.2 .
+
+go:gas rdfs:subClassOf go:poison-42.2 .
+
+go:hang rdfs:subClassOf go:poison-42.2 .
+
+go:knife rdfs:subClassOf go:poison-42.2 .
+
+go:pip rdfs:subClassOf go:poison-42.2 .
+
+go:poison rdfs:subClassOf go:poison-42.2 .
+
+go:shoot rdfs:subClassOf go:poison-42.2 .
+
+go:smother rdfs:subClassOf go:poison-42.2 .
+
+go:stab rdfs:subClassOf go:poison-42.2 .
+
+go:stake rdfs:subClassOf go:poison-42.2 .
+
+go:stone rdfs:subClassOf go:poison-42.2 .
+
+go:strangle rdfs:subClassOf go:poison-42.2 .
+
+go:strangulate rdfs:subClassOf go:poison-42.2 .
+
+go:suffocate rdfs:subClassOf go:poison-42.2 .
+
+go:throttle rdfs:subClassOf go:poison-42.2 .
+
+go:poison-42.2 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#poison-42.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#poison-42.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

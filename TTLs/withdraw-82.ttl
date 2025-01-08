@@ -1,0 +1,51 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:back_down rdfs:subClassOf go:withdraw-82-2 .
+
+go:back_off rdfs:subClassOf go:withdraw-82-2 .
+
+go:back_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:bow_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:chicken_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:get_away rdfs:subClassOf go:withdraw-82-2 .
+
+go:get_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:pull_away rdfs:subClassOf go:withdraw-82-2 .
+
+go:pull_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:retire rdfs:subClassOf go:withdraw-82-2 .
+
+go:retreat rdfs:subClassOf go:withdraw-82-2 .
+
+go:withdraw rdfs:subClassOf go:withdraw-82-2 .
+
+go:wriggle_out rdfs:subClassOf go:withdraw-82-1 .
+
+go:withdraw-82 rdfs:subClassOf go:hasAgent,
+        go:hasSource .
+
+go:withdraw-82-1 rdfs:subClassOf go:withdraw-82 .
+
+go:withdraw-82-2 rdfs:subClassOf go:withdraw-82 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#withdraw-82> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

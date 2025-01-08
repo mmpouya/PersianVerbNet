@@ -1,0 +1,38 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:follow-through rdfs:subClassOf go:interact-36.6 .
+
+go:follow-up rdfs:subClassOf go:interact-36.6 .
+
+go:go-out rdfs:subClassOf go:interact-36.6 .
+
+go:go-steady rdfs:subClassOf go:interact-36.6 .
+
+go:hook-up rdfs:subClassOf go:interact-36.6 .
+
+go:interact rdfs:subClassOf go:interact-36.6 .
+
+go:split-up rdfs:subClassOf go:interact-36.6 .
+
+go:interact-36.6 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Agent .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#interact-36.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#interact-36.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Agent> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

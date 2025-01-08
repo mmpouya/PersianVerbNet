@@ -1,0 +1,43 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bank rdfs:subClassOf go:rely-70 .
+
+go:bargain rdfs:subClassOf go:rely-70 .
+
+go:bet rdfs:subClassOf go:rely-70 .
+
+go:count rdfs:subClassOf go:rely-70 .
+
+go:depend rdfs:subClassOf go:rely-70 .
+
+go:figure rdfs:subClassOf go:rely-70 .
+
+go:gamble rdfs:subClassOf go:rely-70 .
+
+go:reckon rdfs:subClassOf go:rely-70 .
+
+go:rely rdfs:subClassOf go:rely-70 .
+
+go:take_a_chance rdfs:subClassOf go:rely-70 .
+
+go:wager rdfs:subClassOf go:rely-70 .
+
+go:rely-70 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#rely-70> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

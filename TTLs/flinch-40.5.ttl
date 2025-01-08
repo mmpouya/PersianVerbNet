@@ -1,0 +1,33 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:balk rdfs:subClassOf go:flinch-40.5 .
+
+go:cower rdfs:subClassOf go:flinch-40.5 .
+
+go:cringe rdfs:subClassOf go:flinch-40.5 .
+
+go:flinch rdfs:subClassOf go:flinch-40.5 .
+
+go:quail rdfs:subClassOf go:flinch-40.5 .
+
+go:recoil rdfs:subClassOf go:flinch-40.5 .
+
+go:shrink rdfs:subClassOf go:flinch-40.5 .
+
+go:wince rdfs:subClassOf go:flinch-40.5 .
+
+go:flinch-40.5 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#flinch-40.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

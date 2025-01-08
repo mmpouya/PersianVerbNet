@@ -1,0 +1,141 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:affix rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:agglutinate rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:attach rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:band rdfs:subClassOf go:shake-22.3-2 .
+
+go:baste rdfs:subClassOf go:shake-22.3-2 .
+
+go:beat rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:bind rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:bond rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:bundle rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:cluster rdfs:subClassOf go:shake-22.3-2 .
+
+go:collate rdfs:subClassOf go:shake-22.3-2 .
+
+go:collect rdfs:subClassOf go:shake-22.3-2 .
+
+go:concatenate rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:fasten rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:fix rdfs:subClassOf go:shake-22.3-2 .
+
+go:fixate rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:fuse rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:gather rdfs:subClassOf go:shake-22.3-2 .
+
+go:glom rdfs:subClassOf go:shake-22.3-2 .
+
+go:graft rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:group rdfs:subClassOf go:shake-22.3-2 .
+
+go:herd rdfs:subClassOf go:shake-22.3-2 .
+
+go:jumble rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:ligate rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:lump rdfs:subClassOf go:shake-22.3-1 .
+
+go:mass rdfs:subClassOf go:shake-22.3-1 .
+
+go:moor rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:package rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:pair rdfs:subClassOf go:shake-22.3-2 .
+
+go:roll rdfs:subClassOf go:shake-22.3-2 .
+
+go:scramble rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:secure rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:sew rdfs:subClassOf go:shake-22.3-2 .
+
+go:shake rdfs:subClassOf go:shake-22.3-2 .
+
+go:shuffle rdfs:subClassOf go:shake-22.3-2 .
+
+go:splice rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:stick rdfs:subClassOf go:shake-22.3-2 .
+
+go:stir rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:swirl rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:toggle rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:weld rdfs:subClassOf go:shake-22.3-2-1 .
+
+go:whip rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:whisk rdfs:subClassOf go:shake-22.3-1-1 .
+
+go:shake-22.3 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+go:shake-22.3-1 rdfs:subClassOf go:shake-22.3 .
+
+go:shake-22.3-1-1 rdfs:subClassOf go:shake-22.3-1 .
+
+go:shake-22.3-2 rdfs:subClassOf go:shake-22.3 .
+
+go:shake-22.3-2-1 rdfs:subClassOf go:shake-22.3-2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#shake-22.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#shake-22.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#shake-22.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

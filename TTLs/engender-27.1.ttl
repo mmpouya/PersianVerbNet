@@ -1,0 +1,77 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:actuate rdfs:subClassOf go:engender-27.1-1 .
+
+go:arouse rdfs:subClassOf go:engender-27.1-1 .
+
+go:beget rdfs:subClassOf go:engender-27.1 .
+
+go:bring rdfs:subClassOf go:engender-27.1 .
+
+go:bring_about rdfs:subClassOf go:engender-27.1 .
+
+go:call_forth rdfs:subClassOf go:engender-27.1-1 .
+
+go:cause rdfs:subClassOf go:engender-27.1-1 .
+
+go:create rdfs:subClassOf go:engender-27.1 .
+
+go:elicit rdfs:subClassOf go:engender-27.1-1 .
+
+go:engender rdfs:subClassOf go:engender-27.1 .
+
+go:generate rdfs:subClassOf go:engender-27.1 .
+
+go:incite rdfs:subClassOf go:engender-27.1-1 .
+
+go:inspire rdfs:subClassOf go:engender-27.1-1 .
+
+go:instigate rdfs:subClassOf go:engender-27.1-1 .
+
+go:kindle rdfs:subClassOf go:engender-27.1 .
+
+go:produce rdfs:subClassOf go:engender-27.1 .
+
+go:prompt rdfs:subClassOf go:engender-27.1-1 .
+
+go:provoke rdfs:subClassOf go:engender-27.1-1 .
+
+go:raise rdfs:subClassOf go:engender-27.1 .
+
+go:return rdfs:subClassOf go:engender-27.1 .
+
+go:set_in_motion rdfs:subClassOf go:engender-27.1 .
+
+go:set_off rdfs:subClassOf go:engender-27.1 .
+
+go:shape rdfs:subClassOf go:engender-27.1 .
+
+go:sire rdfs:subClassOf go:engender-27.1 .
+
+go:spark rdfs:subClassOf go:engender-27.1-1 .
+
+go:spawn rdfs:subClassOf go:engender-27.1 .
+
+go:stimulate rdfs:subClassOf go:engender-27.1-1 .
+
+go:stir_up rdfs:subClassOf go:engender-27.1-1 .
+
+go:trigger rdfs:subClassOf go:engender-27.1-1 .
+
+go:engender-27.1-1 rdfs:subClassOf go:engender-27.1 .
+
+go:engender-27.1 rdfs:subClassOf go:hasCauser,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#engender-27.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#abstract>
+                    ].
+

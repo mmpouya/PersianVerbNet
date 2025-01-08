@@ -1,0 +1,125 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bang rdfs:subClassOf go:hit-18.1 .
+
+go:bash rdfs:subClassOf go:hit-18.1 .
+
+go:batter rdfs:subClassOf go:hit-18.1-1 .
+
+go:beat rdfs:subClassOf go:hit-18.1-1 .
+
+go:blast rdfs:subClassOf go:hit-18.1 .
+
+go:bop rdfs:subClassOf go:hit-18.1 .
+
+go:bump rdfs:subClassOf go:hit-18.1-1 .
+
+go:butt rdfs:subClassOf go:hit-18.1-1 .
+
+go:click rdfs:subClassOf go:hit-18.1 .
+
+go:dash rdfs:subClassOf go:hit-18.1 .
+
+go:drum rdfs:subClassOf go:hit-18.1-1 .
+
+go:hammer rdfs:subClassOf go:hit-18.1-1 .
+
+go:hit rdfs:subClassOf go:hit-18.1-1 .
+
+go:jab rdfs:subClassOf go:hit-18.1-1 .
+
+go:kick rdfs:subClassOf go:hit-18.1-1 .
+
+go:knap rdfs:subClassOf go:hit-18.1 .
+
+go:knock rdfs:subClassOf go:hit-18.1-1 .
+
+go:lash rdfs:subClassOf go:hit-18.1-1 .
+
+go:pink rdfs:subClassOf go:hit-18.1 .
+
+go:pound rdfs:subClassOf go:hit-18.1-1 .
+
+go:rap rdfs:subClassOf go:hit-18.1-1 .
+
+go:slap rdfs:subClassOf go:hit-18.1-1 .
+
+go:smack rdfs:subClassOf go:hit-18.1-1 .
+
+go:smash rdfs:subClassOf go:hit-18.1-1 .
+
+go:smite rdfs:subClassOf go:hit-18.1 .
+
+go:squash rdfs:subClassOf go:hit-18.1 .
+
+go:squelch rdfs:subClassOf go:hit-18.1 .
+
+go:stomp rdfs:subClassOf go:hit-18.1-1 .
+
+go:strike rdfs:subClassOf go:hit-18.1-1 .
+
+go:tamp rdfs:subClassOf go:hit-18.1 .
+
+go:tap rdfs:subClassOf go:hit-18.1-1 .
+
+go:thump rdfs:subClassOf go:hit-18.1 .
+
+go:thwack rdfs:subClassOf go:hit-18.1 .
+
+go:trounce rdfs:subClassOf go:hit-18.1 .
+
+go:whack rdfs:subClassOf go:hit-18.1 .
+
+go:wham rdfs:subClassOf go:hit-18.1 .
+
+go:whang rdfs:subClassOf go:hit-18.1,
+        go:hit-18.1-1 .
+
+go:whap rdfs:subClassOf go:hit-18.1 .
+
+go:whop rdfs:subClassOf go:hit-18.1 .
+
+go:hit-18.1-1 rdfs:subClassOf go:hit-18.1 .
+
+go:hit-18.1 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hit-18.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#hit-18.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#hit-18.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#hit-18.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#refl>
+                                                        <http://tavasi.majles.ir/ontology/general#body_part>
+                                                      )]
+
+                    ].
+

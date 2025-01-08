@@ -1,0 +1,24 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:attract rdfs:subClassOf go:earn-54.6 .
+
+go:bring rdfs:subClassOf go:earn-54.6 .
+
+go:bring_in rdfs:subClassOf go:earn-54.6 .
+
+go:earn rdfs:subClassOf go:earn-54.6 .
+
+go:fetch rdfs:subClassOf go:earn-54.6 .
+
+go:raise rdfs:subClassOf go:earn-54.6 .
+
+go:earn-54.6 rdfs:subClassOf go:hasAsset,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

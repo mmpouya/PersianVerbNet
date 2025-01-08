@@ -1,0 +1,59 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:advert rdfs:subClassOf go:convert-26.6.2 .
+
+go:change_over rdfs:subClassOf go:convert-26.6.2-1-1 .
+
+go:come_around rdfs:subClassOf go:convert-26.6.2 .
+
+go:convert rdfs:subClassOf go:convert-26.6.2-1-1 .
+
+go:fall rdfs:subClassOf go:convert-26.6.2 .
+
+go:get rdfs:subClassOf go:convert-26.6.2 .
+
+go:get_around rdfs:subClassOf go:convert-26.6.2 .
+
+go:get_down rdfs:subClassOf go:convert-26.6.2 .
+
+go:go_back rdfs:subClassOf go:convert-26.6.2 .
+
+go:move_over rdfs:subClassOf go:convert-26.6.2-1-1 .
+
+go:resort rdfs:subClassOf go:convert-26.6.2 .
+
+go:return rdfs:subClassOf go:convert-26.6.2,
+        go:convert-26.6.2-1 .
+
+go:revert rdfs:subClassOf go:convert-26.6.2,
+        go:convert-26.6.2-1 .
+
+go:settle_down rdfs:subClassOf go:convert-26.6.2 .
+
+go:shift rdfs:subClassOf go:convert-26.6.2-1 .
+
+go:switch rdfs:subClassOf go:convert-26.6.2-1-1 .
+
+go:switch_over rdfs:subClassOf go:convert-26.6.2-1-1 .
+
+go:take rdfs:subClassOf go:convert-26.6.2 .
+
+go:turn rdfs:subClassOf go:convert-26.6.2,
+        go:convert-26.6.2-1 .
+
+go:convert-26.6.2-1 rdfs:subClassOf go:convert-26.6.2 .
+
+go:convert-26.6.2-1-1 rdfs:subClassOf go:convert-26.6.2-1 .
+
+go:convert-26.6.2 rdfs:subClassOf go:hasAgent,
+        go:hasInitial_State,
+        go:hasPatient,
+        go:hasResult .
+
+
+#This verb has no selectional restriction 

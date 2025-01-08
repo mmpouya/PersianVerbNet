@@ -1,0 +1,99 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bark rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:bite rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:break rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:bruise rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:bump rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:burn rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:chafe rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:chip rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:contuse rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:cut rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:fracture rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:graze rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:hit rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:hurt rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:injury rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:jam rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:nick rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:overstretch rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:prick rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:pull rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:rick rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:rupture rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:scald rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:scratch rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:skin rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:splinter rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:split rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:sprain rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:sting rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:strain rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:stub rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:sunburn rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:tear rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:turn rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:twist rdfs:subClassOf go:hurt-40.8.3-1-1 .
+
+go:wrench rdfs:subClassOf go:hurt-40.8.3-2 .
+
+go:hurt-40.8.3 rdfs:subClassOf go:hasExperiencer,
+        go:hasPatient .
+
+go:hurt-40.8.3-1 rdfs:subClassOf go:hurt-40.8.3 .
+
+go:hurt-40.8.3-1-1 rdfs:subClassOf go:hurt-40.8.3-1 .
+
+go:hurt-40.8.3-2 rdfs:subClassOf go:hurt-40.8.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hurt-40.8.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#hurt-40.8.3-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#body_part>
+                    ].
+

@@ -1,0 +1,79 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:blow rdfs:subClassOf go:split-23.2 .
+
+go:break rdfs:subClassOf go:split-23.2 .
+
+go:cut rdfs:subClassOf go:split-23.2 .
+
+go:draw rdfs:subClassOf go:split-23.2 .
+
+go:hack rdfs:subClassOf go:split-23.2 .
+
+go:hew rdfs:subClassOf go:split-23.2 .
+
+go:kick rdfs:subClassOf go:split-23.2 .
+
+go:knock rdfs:subClassOf go:split-23.2 .
+
+go:pry rdfs:subClassOf go:split-23.2 .
+
+go:pull rdfs:subClassOf go:split-23.2 .
+
+go:push rdfs:subClassOf go:split-23.2 .
+
+go:rip rdfs:subClassOf go:split-23.2 .
+
+go:roll rdfs:subClassOf go:split-23.2 .
+
+go:saw rdfs:subClassOf go:split-23.2 .
+
+go:shove rdfs:subClassOf go:split-23.2 .
+
+go:slip rdfs:subClassOf go:split-23.2 .
+
+go:sliver rdfs:subClassOf go:split-23.2 .
+
+go:snap rdfs:subClassOf go:split-23.2 .
+
+go:split rdfs:subClassOf go:split-23.2 .
+
+go:tear rdfs:subClassOf go:split-23.2 .
+
+go:tug rdfs:subClassOf go:split-23.2 .
+
+go:yank rdfs:subClassOf go:split-23.2 .
+
+go:split-23.2 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#split-23.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#split-23.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#split-23.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

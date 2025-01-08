@@ -1,0 +1,51 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:buy_the_farm rdfs:subClassOf go:die-42.4 .
+
+go:choke rdfs:subClassOf go:die-42.4-1 .
+
+go:conk rdfs:subClassOf go:die-42.4-1 .
+
+go:croak rdfs:subClassOf go:die-42.4-1 .
+
+go:decease rdfs:subClassOf go:die-42.4 .
+
+go:die rdfs:subClassOf go:die-42.4-1 .
+
+go:drop_dead rdfs:subClassOf go:die-42.4-1 .
+
+go:expire rdfs:subClassOf go:die-42.4-1 .
+
+go:fall rdfs:subClassOf go:die-42.4 .
+
+go:give_up_the_ghost rdfs:subClassOf go:die-42.4 .
+
+go:kick_the_bucket rdfs:subClassOf go:die-42.4 .
+
+go:pass rdfs:subClassOf go:die-42.4 .
+
+go:pass_away rdfs:subClassOf go:die-42.4-1 .
+
+go:perish rdfs:subClassOf go:die-42.4-1 .
+
+go:pop_off rdfs:subClassOf go:die-42.4 .
+
+go:snuff_it rdfs:subClassOf go:die-42.4 .
+
+go:die-42.4-1 rdfs:subClassOf go:die-42.4 .
+
+go:die-42.4 rdfs:subClassOf go:hasCauser,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#die-42.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

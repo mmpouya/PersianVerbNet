@@ -1,0 +1,64 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:appreciate rdfs:subClassOf go:comprehend-87.2 .
+
+go:apprehend rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:comprehend rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:fathom rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:follow rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:get rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:grasp rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:know rdfs:subClassOf go:comprehend-87.2-1-1-1 .
+
+go:misapprehend rdfs:subClassOf go:comprehend-87.2 .
+
+go:misconstrue rdfs:subClassOf go:comprehend-87.2 .
+
+go:misinterpret rdfs:subClassOf go:comprehend-87.2 .
+
+go:misunderstand rdfs:subClassOf go:comprehend-87.2 .
+
+go:read rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:realize rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:recognise rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:recognize rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:see rdfs:subClassOf go:comprehend-87.2-1-1 .
+
+go:understand rdfs:subClassOf go:comprehend-87.2-1-1-1 .
+
+go:comprehend-87.2-1-1 rdfs:subClassOf go:comprehend-87.2-1 .
+
+go:comprehend-87.2-1-1-1 rdfs:subClassOf go:comprehend-87.2-1-1 .
+
+go:comprehend-87.2 rdfs:subClassOf go:hasAttribute,
+        go:hasExperiencer,
+        go:hasStimulus .
+
+go:comprehend-87.2-1 rdfs:subClassOf go:comprehend-87.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#comprehend-87.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

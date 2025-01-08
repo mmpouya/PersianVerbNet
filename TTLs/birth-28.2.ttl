@@ -1,0 +1,65 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bear rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:beget rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:birth rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:bring_forth rdfs:subClassOf go:birth-28.2-1 .
+
+go:deliver rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:father rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:generate rdfs:subClassOf go:birth-28.2-1 .
+
+go:get rdfs:subClassOf go:birth-28.2-1 .
+
+go:have rdfs:subClassOf go:birth-28.2-1 .
+
+go:mother rdfs:subClassOf go:birth-28.2-1 .
+
+go:multiply rdfs:subClassOf go:birth-28.2-2 .
+
+go:procreate rdfs:subClassOf go:birth-28.2-2 .
+
+go:reproduce rdfs:subClassOf go:birth-28.2-2 .
+
+go:sire rdfs:subClassOf go:birth-28.2-1-1 .
+
+go:spawn rdfs:subClassOf go:birth-28.2-1 .
+
+go:birth-28.2 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasPatient .
+
+go:birth-28.2-2 rdfs:subClassOf go:birth-28.2 .
+
+go:birth-28.2-1-1 rdfs:subClassOf go:birth-28.2-1 .
+
+go:birth-28.2-1 rdfs:subClassOf go:birth-28.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#birth-28.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#birth-28.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#birth-28.2-1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

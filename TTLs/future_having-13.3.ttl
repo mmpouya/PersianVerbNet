@@ -1,0 +1,71 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accord rdfs:subClassOf go:future_having-13.3 .
+
+go:advance rdfs:subClassOf go:future_having-13.3 .
+
+go:allocate rdfs:subClassOf go:future_having-13.3 .
+
+go:allot rdfs:subClassOf go:future_having-13.3 .
+
+go:allow rdfs:subClassOf go:future_having-13.3 .
+
+go:apportion rdfs:subClassOf go:future_having-13.3 .
+
+go:assign rdfs:subClassOf go:future_having-13.3 .
+
+go:award rdfs:subClassOf go:future_having-13.3 .
+
+go:bequeath rdfs:subClassOf go:future_having-13.3 .
+
+go:cede rdfs:subClassOf go:future_having-13.3 .
+
+go:concede rdfs:subClassOf go:future_having-13.3 .
+
+go:devolve rdfs:subClassOf go:future_having-13.3 .
+
+go:extend rdfs:subClassOf go:future_having-13.3 .
+
+go:grant rdfs:subClassOf go:future_having-13.3 .
+
+go:guarantee rdfs:subClassOf go:future_having-13.3 .
+
+go:issue rdfs:subClassOf go:future_having-13.3 .
+
+go:leave rdfs:subClassOf go:future_having-13.3 .
+
+go:offer rdfs:subClassOf go:future_having-13.3 .
+
+go:owe rdfs:subClassOf go:future_having-13.3 .
+
+go:pledge rdfs:subClassOf go:future_having-13.3 .
+
+go:portion-out rdfs:subClassOf go:future_having-13.3 .
+
+go:proffer rdfs:subClassOf go:future_having-13.3 .
+
+go:promise rdfs:subClassOf go:future_having-13.3 .
+
+go:ration rdfs:subClassOf go:future_having-13.3 .
+
+go:reallocate rdfs:subClassOf go:future_having-13.3 .
+
+go:reassign rdfs:subClassOf go:future_having-13.3 .
+
+go:vote rdfs:subClassOf go:future_having-13.3 .
+
+go:will rdfs:subClassOf go:future_having-13.3 .
+
+go:yield rdfs:subClassOf go:future_having-13.3 .
+
+go:future_having-13.3 rdfs:subClassOf go:hasAgent,
+        go:hasGoal,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

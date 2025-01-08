@@ -1,0 +1,40 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:avoid rdfs:subClassOf go:avoid-52 .
+
+go:boycott rdfs:subClassOf go:avoid-52 .
+
+go:circumvent rdfs:subClassOf go:avoid-52 .
+
+go:dodge rdfs:subClassOf go:avoid-52 .
+
+go:duck rdfs:subClassOf go:avoid-52 .
+
+go:elude rdfs:subClassOf go:avoid-52 .
+
+go:eschew rdfs:subClassOf go:avoid-52 .
+
+go:evade rdfs:subClassOf go:avoid-52 .
+
+go:forgo rdfs:subClassOf go:avoid-52 .
+
+go:shun rdfs:subClassOf go:avoid-52 .
+
+go:sidestep rdfs:subClassOf go:avoid-52 .
+
+go:avoid-52 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#avoid-52> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

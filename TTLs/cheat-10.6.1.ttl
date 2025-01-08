@@ -1,0 +1,61 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bleed rdfs:subClassOf go:cheat-10.6.1-1-1 .
+
+go:cheat rdfs:subClassOf go:cheat-10.6.1 .
+
+go:con rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:cozen rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:cull rdfs:subClassOf go:cheat-10.6.1-1-1 .
+
+go:defraud rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:fleece rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:gull rdfs:subClassOf go:cheat-10.6.1 .
+
+go:milk rdfs:subClassOf go:cheat-10.6.1-1-1 .
+
+go:rob rdfs:subClassOf go:cheat-10.6.1-1-1 .
+
+go:strip rdfs:subClassOf go:cheat-10.6.1-1-1 .
+
+go:swindle rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:cheat-10.6.1 rdfs:subClassOf go:hasAgent,
+        go:hasSource,
+        go:hasTheme .
+
+go:cheat-10.6.1-1-1 rdfs:subClassOf go:cheat-10.6.1-1 .
+
+go:cheat-10.6.1-1 rdfs:subClassOf go:cheat-10.6.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cheat-10.6.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#cheat-10.6.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                                        [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                                      )]
+
+                    ].
+

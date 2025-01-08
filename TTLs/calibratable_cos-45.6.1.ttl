@@ -1,0 +1,91 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:appreciate rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:build rdfs:subClassOf go:calibratable_cos-45.6.1 .
+
+go:climb rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:decline rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:depreciate rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:die rdfs:subClassOf go:calibratable_cos-45.6.1 .
+
+go:dip rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:dive rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:drop rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:dwindle rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:explode rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:fall rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:fall-off rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:fall_away rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:fluctuate rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:gain rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:go_down rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:go_up rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:grow rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:jump rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:multiply rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:mushroom rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:plummet rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:plump rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:plunge rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:retreat rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:rise rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:rocket rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:seesaw rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:skyrocket rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:slide rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:slip rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:soar rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:surge rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:swell rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:swing rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:tumble rdfs:subClassOf go:calibratable_cos-45.6.1-1 .
+
+go:calibratable_cos-45.6.1 rdfs:subClassOf go:hasAttribute,
+        go:hasExtent,
+        go:hasInitial_State,
+        go:hasPatient,
+        go:hasResult .
+
+go:calibratable_cos-45.6.1-1 rdfs:subClassOf go:calibratable_cos-45.6.1 .
+
+
+#This verb has no selectional restriction 

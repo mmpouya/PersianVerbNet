@@ -1,0 +1,165 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:archive rdfs:subClassOf go:pocket-9.10 .
+
+go:bag rdfs:subClassOf go:pocket-9.10 .
+
+go:bank rdfs:subClassOf go:pocket-9.10 .
+
+go:barrack rdfs:subClassOf go:pocket-9.10 .
+
+go:beach rdfs:subClassOf go:pocket-9.10 .
+
+go:bed rdfs:subClassOf go:pocket-9.10 .
+
+go:bench rdfs:subClassOf go:pocket-9.10 .
+
+go:berth rdfs:subClassOf go:pocket-9.10-1 .
+
+go:billet rdfs:subClassOf go:pocket-9.10 .
+
+go:bin rdfs:subClassOf go:pocket-9.10 .
+
+go:bottle rdfs:subClassOf go:pocket-9.10 .
+
+go:box rdfs:subClassOf go:pocket-9.10 .
+
+go:cage rdfs:subClassOf go:pocket-9.10 .
+
+go:can rdfs:subClassOf go:pocket-9.10 .
+
+go:case rdfs:subClassOf go:pocket-9.10 .
+
+go:cellar rdfs:subClassOf go:pocket-9.10 .
+
+go:cloister rdfs:subClassOf go:pocket-9.10 .
+
+go:coop rdfs:subClassOf go:pocket-9.10 .
+
+go:corral rdfs:subClassOf go:pocket-9.10 .
+
+go:crate rdfs:subClassOf go:pocket-9.10 .
+
+go:cup rdfs:subClassOf go:pocket-9.10 .
+
+go:dock rdfs:subClassOf go:pocket-9.10-1 .
+
+go:drydock rdfs:subClassOf go:pocket-9.10-1 .
+
+go:file rdfs:subClassOf go:pocket-9.10 .
+
+go:fork rdfs:subClassOf go:pocket-9.10 .
+
+go:garage rdfs:subClassOf go:pocket-9.10 .
+
+go:ground rdfs:subClassOf go:pocket-9.10-1 .
+
+go:hangar rdfs:subClassOf go:pocket-9.10 .
+
+go:house rdfs:subClassOf go:pocket-9.10 .
+
+go:imprison rdfs:subClassOf go:pocket-9.10 .
+
+go:jail rdfs:subClassOf go:pocket-9.10 .
+
+go:jar rdfs:subClassOf go:pocket-9.10 .
+
+go:jug rdfs:subClassOf go:pocket-9.10 .
+
+go:kennel rdfs:subClassOf go:pocket-9.10 .
+
+go:land rdfs:subClassOf go:pocket-9.10-1 .
+
+go:lodge rdfs:subClassOf go:pocket-9.10-1 .
+
+go:moor rdfs:subClassOf go:pocket-9.10-1 .
+
+go:pasture rdfs:subClassOf go:pocket-9.10 .
+
+go:pen rdfs:subClassOf go:pocket-9.10 .
+
+go:pillory rdfs:subClassOf go:pocket-9.10 .
+
+go:pocket rdfs:subClassOf go:pocket-9.10 .
+
+go:pot rdfs:subClassOf go:pocket-9.10 .
+
+go:sheathe rdfs:subClassOf go:pocket-9.10 .
+
+go:shelve rdfs:subClassOf go:pocket-9.10 .
+
+go:shoulder rdfs:subClassOf go:pocket-9.10 .
+
+go:skewer rdfs:subClassOf go:pocket-9.10 .
+
+go:snare rdfs:subClassOf go:pocket-9.10 .
+
+go:spindle rdfs:subClassOf go:pocket-9.10 .
+
+go:spit rdfs:subClassOf go:pocket-9.10 .
+
+go:spool rdfs:subClassOf go:pocket-9.10 .
+
+go:stable rdfs:subClassOf go:pocket-9.10-1 .
+
+go:string rdfs:subClassOf go:pocket-9.10 .
+
+go:tassel rdfs:subClassOf go:pocket-9.10 .
+
+go:tin rdfs:subClassOf go:pocket-9.10 .
+
+go:trap rdfs:subClassOf go:pocket-9.10 .
+
+go:tree rdfs:subClassOf go:pocket-9.10 .
+
+go:warehouse rdfs:subClassOf go:pocket-9.10 .
+
+go:wharf rdfs:subClassOf go:pocket-9.10 .
+
+go:pocket-9.10-1 rdfs:subClassOf go:pocket-9.10 .
+
+go:pocket-9.10 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#pocket-9.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#human>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#pocket-9.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#human>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#pocket-9.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#human>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

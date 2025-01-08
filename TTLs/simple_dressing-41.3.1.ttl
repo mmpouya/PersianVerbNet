@@ -1,0 +1,36 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:doff rdfs:subClassOf go:simple_dressing-41.3.1-2 .
+
+go:don rdfs:subClassOf go:simple_dressing-41.3.1-2 .
+
+go:wear rdfs:subClassOf go:simple_dressing-41.3.1-1 .
+
+go:simple_dressing-41.3.1-1 rdfs:subClassOf go:simple_dressing-41.3.1 .
+
+go:simple_dressing-41.3.1 rdfs:subClassOf go:hasAgent,
+        go:hasPivot,
+        go:hasTheme .
+
+go:simple_dressing-41.3.1-2 rdfs:subClassOf go:simple_dressing-41.3.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#simple_dressing-41.3.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#garment>
+                    ].
+<http://tavasi.majles.ir/ontology/general#simple_dressing-41.3.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPivot> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#simple_dressing-41.3.1-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

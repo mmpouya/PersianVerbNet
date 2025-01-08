@@ -1,0 +1,34 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:die rdfs:subClassOf go:disappearance-48.2 .
+
+go:disappear rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:expire rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:go rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:go_down rdfs:subClassOf go:disappearance-48.2 .
+
+go:go_off rdfs:subClassOf go:disappearance-48.2 .
+
+go:go_out rdfs:subClassOf go:disappearance-48.2 .
+
+go:lapse rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:perish rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:vanish rdfs:subClassOf go:disappearance-48.2-1 .
+
+go:disappearance-48.2 rdfs:subClassOf go:hasInitial_Location,
+        go:hasTheme .
+
+go:disappearance-48.2-1 rdfs:subClassOf go:disappearance-48.2 .
+
+
+#This verb has no selectional restriction 

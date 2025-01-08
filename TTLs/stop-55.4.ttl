@@ -1,0 +1,58 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:cease rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:close rdfs:subClassOf go:stop-55.4-1 .
+
+go:conclude rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:cut rdfs:subClassOf go:stop-55.4 .
+
+go:cut_off rdfs:subClassOf go:stop-55.4-1 .
+
+go:cut_out rdfs:subClassOf go:stop-55.4-1 .
+
+go:deactivate rdfs:subClassOf go:stop-55.4-1 .
+
+go:discontinue rdfs:subClassOf go:stop-55.4 .
+
+go:end rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:finish rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:halt rdfs:subClassOf go:stop-55.4-1 .
+
+go:kill rdfs:subClassOf go:stop-55.4 .
+
+go:quit rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:stall rdfs:subClassOf go:stop-55.4-1 .
+
+go:stop rdfs:subClassOf go:stop-55.4-1-1 .
+
+go:terminate rdfs:subClassOf go:stop-55.4-1 .
+
+go:stop-55.4 rdfs:subClassOf go:hasAffector,
+        go:hasEventuality,
+        go:hasSubeventuality .
+
+go:stop-55.4-1-1 rdfs:subClassOf go:stop-55.4-1 .
+
+go:stop-55.4-1 rdfs:subClassOf go:stop-55.4 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#stop-55.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAffector> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

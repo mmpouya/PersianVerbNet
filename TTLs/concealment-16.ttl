@@ -1,0 +1,56 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:block rdfs:subClassOf go:concealment-16 .
+
+go:cloister rdfs:subClassOf go:concealment-16 .
+
+go:conceal rdfs:subClassOf go:concealment-16 .
+
+go:curtain rdfs:subClassOf go:concealment-16 .
+
+go:hide rdfs:subClassOf go:concealment-16-1 .
+
+go:impound rdfs:subClassOf go:concealment-16 .
+
+go:isolate rdfs:subClassOf go:concealment-16 .
+
+go:quarantine rdfs:subClassOf go:concealment-16 .
+
+go:repress rdfs:subClassOf go:concealment-16 .
+
+go:screen rdfs:subClassOf go:concealment-16 .
+
+go:seclude rdfs:subClassOf go:concealment-16 .
+
+go:sequester rdfs:subClassOf go:concealment-16 .
+
+go:shelter rdfs:subClassOf go:concealment-16 .
+
+go:suppress rdfs:subClassOf go:concealment-16 .
+
+go:concealment-16-1 rdfs:subClassOf go:concealment-16 .
+
+go:concealment-16 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasLocation,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#concealment-16> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#concealment-16> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

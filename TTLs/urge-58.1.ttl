@@ -1,0 +1,74 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:admonish rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:ask rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:call_on rdfs:subClassOf go:urge-58.1-1 .
+
+go:dare rdfs:subClassOf go:urge-58.1-1 .
+
+go:egg_on rdfs:subClassOf go:urge-58.1-1 .
+
+go:encourage rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:entreat rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:exhort rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:force rdfs:subClassOf go:urge-58.1-1 .
+
+go:implore rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:invite rdfs:subClassOf go:urge-58.1-1 .
+
+go:lean_on rdfs:subClassOf go:urge-58.1-1 .
+
+go:lobby rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:press rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:pressure rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:prod rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:push rdfs:subClassOf go:urge-58.1-1 .
+
+go:summon rdfs:subClassOf go:urge-58.1-1 .
+
+go:tempt rdfs:subClassOf go:urge-58.1-1 .
+
+go:urge rdfs:subClassOf go:urge-58.1-1-1 .
+
+go:urge-58.1 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+go:urge-58.1-1 rdfs:subClassOf go:urge-58.1 .
+
+go:urge-58.1-1-1 rdfs:subClassOf go:urge-58.1-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#urge-58.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#urge-58.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

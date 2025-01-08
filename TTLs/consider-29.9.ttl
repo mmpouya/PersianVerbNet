@@ -1,0 +1,48 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:acknowledge rdfs:subClassOf go:consider-29.9-1 .
+
+go:consider rdfs:subClassOf go:consider-29.9-1-1 .
+
+go:deem rdfs:subClassOf go:consider-29.9-1 .
+
+go:esteem rdfs:subClassOf go:consider-29.9-1 .
+
+go:posit rdfs:subClassOf go:consider-29.9-2 .
+
+go:rate rdfs:subClassOf go:consider-29.9-1 .
+
+go:reckon rdfs:subClassOf go:consider-29.9-1 .
+
+go:suppose rdfs:subClassOf go:consider-29.9-2 .
+
+go:suspect rdfs:subClassOf go:consider-29.9-2 .
+
+go:think rdfs:subClassOf go:consider-29.9-2 .
+
+go:consider-29.9-1-1 rdfs:subClassOf go:consider-29.9-1 .
+
+go:consider-29.9 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme .
+
+go:consider-29.9-2 rdfs:subClassOf go:consider-29.9 .
+
+go:consider-29.9-1 rdfs:subClassOf go:consider-29.9 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#consider-29.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

@@ -1,0 +1,99 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carve rdfs:subClassOf go:scribble-25.2-1 .
+
+go:chalk rdfs:subClassOf go:scribble-25.2-1 .
+
+go:charcoal rdfs:subClassOf go:scribble-25.2-1 .
+
+go:copy rdfs:subClassOf go:scribble-25.2 .
+
+go:crayon rdfs:subClassOf go:scribble-25.2-1 .
+
+go:doodle rdfs:subClassOf go:scribble-25.2-1 .
+
+go:draw rdfs:subClassOf go:scribble-25.2-1 .
+
+go:forge rdfs:subClassOf go:scribble-25.2 .
+
+go:ink rdfs:subClassOf go:scribble-25.2-1 .
+
+go:jot rdfs:subClassOf go:scribble-25.2 .
+
+go:jot_down rdfs:subClassOf go:scribble-25.2 .
+
+go:misspell rdfs:subClassOf go:scribble-25.2 .
+
+go:pencil rdfs:subClassOf go:scribble-25.2-1 .
+
+go:plot rdfs:subClassOf go:scribble-25.2-1 .
+
+go:print rdfs:subClassOf go:scribble-25.2-1 .
+
+go:print_out rdfs:subClassOf go:scribble-25.2-1 .
+
+go:print_up rdfs:subClassOf go:scribble-25.2-1 .
+
+go:record rdfs:subClassOf go:scribble-25.2-1 .
+
+go:scratch rdfs:subClassOf go:scribble-25.2-1 .
+
+go:scrawl rdfs:subClassOf go:scribble-25.2-1 .
+
+go:scribble rdfs:subClassOf go:scribble-25.2-1 .
+
+go:sketch rdfs:subClassOf go:scribble-25.2-1 .
+
+go:spell rdfs:subClassOf go:scribble-25.2 .
+
+go:spraypaint rdfs:subClassOf go:scribble-25.2-1 .
+
+go:stencil rdfs:subClassOf go:scribble-25.2-1 .
+
+go:take rdfs:subClassOf go:scribble-25.2 .
+
+go:take_down rdfs:subClassOf go:scribble-25.2 .
+
+go:trace rdfs:subClassOf go:scribble-25.2 .
+
+go:type rdfs:subClassOf go:scribble-25.2-1 .
+
+go:underline rdfs:subClassOf go:scribble-25.2 .
+
+go:underscore rdfs:subClassOf go:scribble-25.2 .
+
+go:write rdfs:subClassOf go:scribble-25.2-1 .
+
+go:scribble-25.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+go:scribble-25.2-1 rdfs:subClassOf go:scribble-25.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#scribble-25.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#scribble-25.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

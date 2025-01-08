@@ -1,0 +1,118 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bob rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:bow rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:circulate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:creep rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:dance rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:drift rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:eddy rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:falter rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:flap rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:float rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:flutter rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:hover rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:jiggle rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:joggle rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:oscillate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:pulsate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:pulse rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:quake rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:quiver rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:recirculate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:revolve rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:rock rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:roil rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:rotate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:shake rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:stir rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:swag rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:sway rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:swirl rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:teeter rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:throb rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:totter rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:tremble rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:undulate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:vacillate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:vibrate rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:waft rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:wave rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:waver rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:wiggle rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:wobble rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:worm rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:writhe rdfs:subClassOf go:modes_of_being_with_motion-47.3 .
+
+go:modes_of_being_with_motion-47.3 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#modes_of_being_with_motion-47.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#modes_of_being_with_motion-47.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#modes_of_being_with_motion-47.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

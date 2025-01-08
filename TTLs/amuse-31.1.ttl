@@ -1,0 +1,510 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abash rdfs:subClassOf go:amuse-31.1 .
+
+go:affect rdfs:subClassOf go:amuse-31.1 .
+
+go:afflict rdfs:subClassOf go:amuse-31.1 .
+
+go:affront rdfs:subClassOf go:amuse-31.1 .
+
+go:aggravate rdfs:subClassOf go:amuse-31.1 .
+
+go:aggrieve rdfs:subClassOf go:amuse-31.1 .
+
+go:agitate rdfs:subClassOf go:amuse-31.1 .
+
+go:agonize rdfs:subClassOf go:amuse-31.1 .
+
+go:alarm rdfs:subClassOf go:amuse-31.1 .
+
+go:alienate rdfs:subClassOf go:amuse-31.1 .
+
+go:amaze rdfs:subClassOf go:amuse-31.1 .
+
+go:amuse rdfs:subClassOf go:amuse-31.1 .
+
+go:anger rdfs:subClassOf go:amuse-31.1 .
+
+go:annoy rdfs:subClassOf go:amuse-31.1 .
+
+go:antagonize rdfs:subClassOf go:amuse-31.1 .
+
+go:appall rdfs:subClassOf go:amuse-31.1 .
+
+go:appease rdfs:subClassOf go:amuse-31.1 .
+
+go:arouse rdfs:subClassOf go:amuse-31.1 .
+
+go:assuage rdfs:subClassOf go:amuse-31.1 .
+
+go:astonish rdfs:subClassOf go:amuse-31.1 .
+
+go:astound rdfs:subClassOf go:amuse-31.1 .
+
+go:awe rdfs:subClassOf go:amuse-31.1 .
+
+go:baffle rdfs:subClassOf go:amuse-31.1 .
+
+go:befuddle rdfs:subClassOf go:amuse-31.1 .
+
+go:beguile rdfs:subClassOf go:amuse-31.1 .
+
+go:bewilder rdfs:subClassOf go:amuse-31.1 .
+
+go:bewitch rdfs:subClassOf go:amuse-31.1 .
+
+go:boggle rdfs:subClassOf go:amuse-31.1 .
+
+go:bore rdfs:subClassOf go:amuse-31.1 .
+
+go:bother rdfs:subClassOf go:amuse-31.1 .
+
+go:browbeat rdfs:subClassOf go:amuse-31.1 .
+
+go:bug rdfs:subClassOf go:amuse-31.1 .
+
+go:calm rdfs:subClassOf go:amuse-31.1 .
+
+go:captivate rdfs:subClassOf go:amuse-31.1 .
+
+go:chagrin rdfs:subClassOf go:amuse-31.1 .
+
+go:charm rdfs:subClassOf go:amuse-31.1 .
+
+go:cheer rdfs:subClassOf go:amuse-31.1 .
+
+go:chill rdfs:subClassOf go:amuse-31.1 .
+
+go:cloy rdfs:subClassOf go:amuse-31.1 .
+
+go:comfort rdfs:subClassOf go:amuse-31.1 .
+
+go:concern rdfs:subClassOf go:amuse-31.1 .
+
+go:confound rdfs:subClassOf go:amuse-31.1 .
+
+go:confuse rdfs:subClassOf go:amuse-31.1 .
+
+go:console rdfs:subClassOf go:amuse-31.1 .
+
+go:content rdfs:subClassOf go:amuse-31.1 .
+
+go:convince rdfs:subClassOf go:amuse-31.1 .
+
+go:cow rdfs:subClassOf go:amuse-31.1 .
+
+go:crush rdfs:subClassOf go:amuse-31.1 .
+
+go:cut rdfs:subClassOf go:amuse-31.1 .
+
+go:daunt rdfs:subClassOf go:amuse-31.1 .
+
+go:daze rdfs:subClassOf go:amuse-31.1 .
+
+go:dazzle rdfs:subClassOf go:amuse-31.1 .
+
+go:deject rdfs:subClassOf go:amuse-31.1 .
+
+go:delight rdfs:subClassOf go:amuse-31.1 .
+
+go:demolish rdfs:subClassOf go:amuse-31.1 .
+
+go:demoralize rdfs:subClassOf go:amuse-31.1 .
+
+go:depress rdfs:subClassOf go:amuse-31.1 .
+
+go:devastate rdfs:subClassOf go:amuse-31.1 .
+
+go:disarm rdfs:subClassOf go:amuse-31.1 .
+
+go:discombobulate rdfs:subClassOf go:amuse-31.1 .
+
+go:discomfit rdfs:subClassOf go:amuse-31.1 .
+
+go:disconcert rdfs:subClassOf go:amuse-31.1 .
+
+go:discourage rdfs:subClassOf go:amuse-31.1 .
+
+go:disgrace rdfs:subClassOf go:amuse-31.1 .
+
+go:disgruntle rdfs:subClassOf go:amuse-31.1 .
+
+go:disgust rdfs:subClassOf go:amuse-31.1 .
+
+go:dishearten rdfs:subClassOf go:amuse-31.1 .
+
+go:dishonour rdfs:subClassOf go:amuse-31.1 .
+
+go:disillusion rdfs:subClassOf go:amuse-31.1 .
+
+go:dismay rdfs:subClassOf go:amuse-31.1 .
+
+go:dispirit rdfs:subClassOf go:amuse-31.1 .
+
+go:displease rdfs:subClassOf go:amuse-31.1 .
+
+go:disquiet rdfs:subClassOf go:amuse-31.1 .
+
+go:dissatisfy rdfs:subClassOf go:amuse-31.1 .
+
+go:distract rdfs:subClassOf go:amuse-31.1 .
+
+go:distress rdfs:subClassOf go:amuse-31.1 .
+
+go:disturb rdfs:subClassOf go:amuse-31.1 .
+
+go:divert rdfs:subClassOf go:amuse-31.1 .
+
+go:dumbfound rdfs:subClassOf go:amuse-31.1 .
+
+go:elate rdfs:subClassOf go:amuse-31.1 .
+
+go:electrify rdfs:subClassOf go:amuse-31.1 .
+
+go:embarrass rdfs:subClassOf go:amuse-31.1 .
+
+go:embolden rdfs:subClassOf go:amuse-31.1 .
+
+go:enchant rdfs:subClassOf go:amuse-31.1 .
+
+go:encourage rdfs:subClassOf go:amuse-31.1 .
+
+go:enervate rdfs:subClassOf go:amuse-31.1 .
+
+go:enflame rdfs:subClassOf go:amuse-31.1 .
+
+go:engage rdfs:subClassOf go:amuse-31.1 .
+
+go:engross rdfs:subClassOf go:amuse-31.1 .
+
+go:enlighten rdfs:subClassOf go:amuse-31.1 .
+
+go:enliven rdfs:subClassOf go:amuse-31.1 .
+
+go:enrage rdfs:subClassOf go:amuse-31.1 .
+
+go:enrapture rdfs:subClassOf go:amuse-31.1 .
+
+go:entertain rdfs:subClassOf go:amuse-31.1 .
+
+go:enthrall rdfs:subClassOf go:amuse-31.1 .
+
+go:enthuse rdfs:subClassOf go:amuse-31.1 .
+
+go:entice rdfs:subClassOf go:amuse-31.1 .
+
+go:entrance rdfs:subClassOf go:amuse-31.1 .
+
+go:exasperate rdfs:subClassOf go:amuse-31.1 .
+
+go:excite rdfs:subClassOf go:amuse-31.1 .
+
+go:exhaust rdfs:subClassOf go:amuse-31.1 .
+
+go:exhilarate rdfs:subClassOf go:amuse-31.1 .
+
+go:fascinate rdfs:subClassOf go:amuse-31.1 .
+
+go:fatigue rdfs:subClassOf go:amuse-31.1 .
+
+go:faze rdfs:subClassOf go:amuse-31.1 .
+
+go:flatter rdfs:subClassOf go:amuse-31.1 .
+
+go:flummox rdfs:subClassOf go:amuse-31.1 .
+
+go:fox rdfs:subClassOf go:amuse-31.1 .
+
+go:frighten rdfs:subClassOf go:amuse-31.1 .
+
+go:frustrate rdfs:subClassOf go:amuse-31.1 .
+
+go:fuddle rdfs:subClassOf go:amuse-31.1 .
+
+go:gall rdfs:subClassOf go:amuse-31.1 .
+
+go:galvanize rdfs:subClassOf go:amuse-31.1 .
+
+go:gladden rdfs:subClassOf go:amuse-31.1 .
+
+go:gratify rdfs:subClassOf go:amuse-31.1 .
+
+go:grieve rdfs:subClassOf go:amuse-31.1 .
+
+go:harass rdfs:subClassOf go:amuse-31.1 .
+
+go:harm rdfs:subClassOf go:amuse-31.1 .
+
+go:haunt rdfs:subClassOf go:amuse-31.1 .
+
+go:hearten rdfs:subClassOf go:amuse-31.1 .
+
+go:horrify rdfs:subClassOf go:amuse-31.1 .
+
+go:humble rdfs:subClassOf go:amuse-31.1 .
+
+go:humiliate rdfs:subClassOf go:amuse-31.1 .
+
+go:hurt rdfs:subClassOf go:amuse-31.1 .
+
+go:hypnotize rdfs:subClassOf go:amuse-31.1 .
+
+go:impair rdfs:subClassOf go:amuse-31.1 .
+
+go:impress rdfs:subClassOf go:amuse-31.1 .
+
+go:incense rdfs:subClassOf go:amuse-31.1 .
+
+go:inflame rdfs:subClassOf go:amuse-31.1 .
+
+go:infuriate rdfs:subClassOf go:amuse-31.1 .
+
+go:inspire rdfs:subClassOf go:amuse-31.1 .
+
+go:insult rdfs:subClassOf go:amuse-31.1 .
+
+go:interest rdfs:subClassOf go:amuse-31.1 .
+
+go:intimidate rdfs:subClassOf go:amuse-31.1 .
+
+go:intoxicate rdfs:subClassOf go:amuse-31.1 .
+
+go:intrigue rdfs:subClassOf go:amuse-31.1 .
+
+go:invigorate rdfs:subClassOf go:amuse-31.1 .
+
+go:irk rdfs:subClassOf go:amuse-31.1 .
+
+go:irritate rdfs:subClassOf go:amuse-31.1 .
+
+go:jade rdfs:subClassOf go:amuse-31.1 .
+
+go:jar rdfs:subClassOf go:amuse-31.1 .
+
+go:jollify rdfs:subClassOf go:amuse-31.1 .
+
+go:jolt rdfs:subClassOf go:amuse-31.1 .
+
+go:kill rdfs:subClassOf go:amuse-31.1 .
+
+go:lull rdfs:subClassOf go:amuse-31.1 .
+
+go:madden rdfs:subClassOf go:amuse-31.1 .
+
+go:menace rdfs:subClassOf go:amuse-31.1 .
+
+go:mesmerize rdfs:subClassOf go:amuse-31.1 .
+
+go:miff rdfs:subClassOf go:amuse-31.1 .
+
+go:misguide rdfs:subClassOf go:amuse-31.1 .
+
+go:molest rdfs:subClassOf go:amuse-31.1 .
+
+go:mollify rdfs:subClassOf go:amuse-31.1 .
+
+go:mortify rdfs:subClassOf go:amuse-31.1 .
+
+go:move rdfs:subClassOf go:amuse-31.1 .
+
+go:muddle rdfs:subClassOf go:amuse-31.1 .
+
+go:mystify rdfs:subClassOf go:amuse-31.1 .
+
+go:nauseate rdfs:subClassOf go:amuse-31.1 .
+
+go:nettle rdfs:subClassOf go:amuse-31.1 .
+
+go:nonplus rdfs:subClassOf go:amuse-31.1 .
+
+go:numb rdfs:subClassOf go:amuse-31.1 .
+
+go:obsess rdfs:subClassOf go:amuse-31.1 .
+
+go:occupy rdfs:subClassOf go:amuse-31.1 .
+
+go:offend rdfs:subClassOf go:amuse-31.1 .
+
+go:outrage rdfs:subClassOf go:amuse-31.1 .
+
+go:overawe rdfs:subClassOf go:amuse-31.1 .
+
+go:overwhelm rdfs:subClassOf go:amuse-31.1 .
+
+go:pacify rdfs:subClassOf go:amuse-31.1 .
+
+go:pain rdfs:subClassOf go:amuse-31.1 .
+
+go:peeve rdfs:subClassOf go:amuse-31.1 .
+
+go:perplex rdfs:subClassOf go:amuse-31.1 .
+
+go:perturb rdfs:subClassOf go:amuse-31.1 .
+
+go:pester rdfs:subClassOf go:amuse-31.1 .
+
+go:pique rdfs:subClassOf go:amuse-31.1 .
+
+go:placate rdfs:subClassOf go:amuse-31.1 .
+
+go:plague rdfs:subClassOf go:amuse-31.1 .
+
+go:please rdfs:subClassOf go:amuse-31.1 .
+
+go:preoccupy rdfs:subClassOf go:amuse-31.1 .
+
+go:provoke rdfs:subClassOf go:amuse-31.1 .
+
+go:puzzle rdfs:subClassOf go:amuse-31.1 .
+
+go:quench rdfs:subClassOf go:amuse-31.1 .
+
+go:rag rdfs:subClassOf go:amuse-31.1 .
+
+go:rankle rdfs:subClassOf go:amuse-31.1 .
+
+go:ravish rdfs:subClassOf go:amuse-31.1 .
+
+go:reassure rdfs:subClassOf go:amuse-31.1 .
+
+go:recharge rdfs:subClassOf go:amuse-31.1 .
+
+go:refresh rdfs:subClassOf go:amuse-31.1 .
+
+go:rejuvenate rdfs:subClassOf go:amuse-31.1 .
+
+go:relax rdfs:subClassOf go:amuse-31.1 .
+
+go:relieve rdfs:subClassOf go:amuse-31.1 .
+
+go:repel rdfs:subClassOf go:amuse-31.1 .
+
+go:repulse rdfs:subClassOf go:amuse-31.1 .
+
+go:revitalize rdfs:subClassOf go:amuse-31.1 .
+
+go:revolt rdfs:subClassOf go:amuse-31.1 .
+
+go:rile rdfs:subClassOf go:amuse-31.1 .
+
+go:roil rdfs:subClassOf go:amuse-31.1 .
+
+go:ruffle rdfs:subClassOf go:amuse-31.1 .
+
+go:sadden rdfs:subClassOf go:amuse-31.1 .
+
+go:satisfy rdfs:subClassOf go:amuse-31.1 .
+
+go:scandalize rdfs:subClassOf go:amuse-31.1 .
+
+go:scare rdfs:subClassOf go:amuse-31.1 .
+
+go:shake rdfs:subClassOf go:amuse-31.1 .
+
+go:shame rdfs:subClassOf go:amuse-31.1 .
+
+go:shock rdfs:subClassOf go:amuse-31.1 .
+
+go:sicken rdfs:subClassOf go:amuse-31.1 .
+
+go:smite rdfs:subClassOf go:amuse-31.1 .
+
+go:sober rdfs:subClassOf go:amuse-31.1 .
+
+go:solace rdfs:subClassOf go:amuse-31.1 .
+
+go:soothe rdfs:subClassOf go:amuse-31.1 .
+
+go:spellbind rdfs:subClassOf go:amuse-31.1 .
+
+go:spook rdfs:subClassOf go:amuse-31.1 .
+
+go:stagger rdfs:subClassOf go:amuse-31.1 .
+
+go:startle rdfs:subClassOf go:amuse-31.1 .
+
+go:stimulate rdfs:subClassOf go:amuse-31.1 .
+
+go:sting rdfs:subClassOf go:amuse-31.1 .
+
+go:stir rdfs:subClassOf go:amuse-31.1 .
+
+go:strike rdfs:subClassOf go:amuse-31.1 .
+
+go:stump rdfs:subClassOf go:amuse-31.1 .
+
+go:stun rdfs:subClassOf go:amuse-31.1 .
+
+go:stupefy rdfs:subClassOf go:amuse-31.1 .
+
+go:surprise rdfs:subClassOf go:amuse-31.1 .
+
+go:tantalize rdfs:subClassOf go:amuse-31.1 .
+
+go:tempt rdfs:subClassOf go:amuse-31.1 .
+
+go:terrify rdfs:subClassOf go:amuse-31.1 .
+
+go:terrorize rdfs:subClassOf go:amuse-31.1 .
+
+go:threaten rdfs:subClassOf go:amuse-31.1 .
+
+go:thrill rdfs:subClassOf go:amuse-31.1 .
+
+go:throw rdfs:subClassOf go:amuse-31.1 .
+
+go:tickle rdfs:subClassOf go:amuse-31.1 .
+
+go:tire rdfs:subClassOf go:amuse-31.1 .
+
+go:titillate rdfs:subClassOf go:amuse-31.1 .
+
+go:torment rdfs:subClassOf go:amuse-31.1 .
+
+go:torture rdfs:subClassOf go:amuse-31.1 .
+
+go:touch rdfs:subClassOf go:amuse-31.1 .
+
+go:transfix rdfs:subClassOf go:amuse-31.1 .
+
+go:transport rdfs:subClassOf go:amuse-31.1 .
+
+go:trouble rdfs:subClassOf go:amuse-31.1 .
+
+go:try rdfs:subClassOf go:amuse-31.1 .
+
+go:unnerve rdfs:subClassOf go:amuse-31.1 .
+
+go:unsettle rdfs:subClassOf go:amuse-31.1 .
+
+go:uplift rdfs:subClassOf go:amuse-31.1 .
+
+go:upset rdfs:subClassOf go:amuse-31.1 .
+
+go:vex rdfs:subClassOf go:amuse-31.1 .
+
+go:weary rdfs:subClassOf go:amuse-31.1 .
+
+go:worry rdfs:subClassOf go:amuse-31.1 .
+
+go:wound rdfs:subClassOf go:amuse-31.1 .
+
+go:wow rdfs:subClassOf go:amuse-31.1 .
+
+go:amuse-31.1 rdfs:subClassOf go:hasExperiencer,
+        go:hasResult,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#amuse-31.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

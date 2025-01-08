@@ -1,0 +1,140 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:deaccent rdfs:subClassOf go:debone-10.8 .
+
+go:debark rdfs:subClassOf go:debone-10.8 .
+
+go:debone rdfs:subClassOf go:debone-10.8 .
+
+go:debowel rdfs:subClassOf go:debone-10.8 .
+
+go:debug rdfs:subClassOf go:debone-10.8 .
+
+go:debur rdfs:subClassOf go:debone-10.8 .
+
+go:declaw rdfs:subClassOf go:debone-10.8 .
+
+go:decontaminate rdfs:subClassOf go:debone-10.8 .
+
+go:defang rdfs:subClassOf go:debone-10.8 .
+
+go:defat rdfs:subClassOf go:debone-10.8 .
+
+go:defeather rdfs:subClassOf go:debone-10.8 .
+
+go:deflea rdfs:subClassOf go:debone-10.8 .
+
+go:deflesh rdfs:subClassOf go:debone-10.8 .
+
+go:deflower rdfs:subClassOf go:debone-10.8 .
+
+go:defoam rdfs:subClassOf go:debone-10.8 .
+
+go:defog rdfs:subClassOf go:debone-10.8 .
+
+go:deforest rdfs:subClassOf go:debone-10.8 .
+
+go:defrost rdfs:subClassOf go:debone-10.8 .
+
+go:defuzz rdfs:subClassOf go:debone-10.8 .
+
+go:degas rdfs:subClassOf go:debone-10.8 .
+
+go:degerm rdfs:subClassOf go:debone-10.8 .
+
+go:deglaze rdfs:subClassOf go:debone-10.8 .
+
+go:degrease rdfs:subClassOf go:debone-10.8 .
+
+go:degrit rdfs:subClassOf go:debone-10.8 .
+
+go:degum rdfs:subClassOf go:debone-10.8 .
+
+go:degut rdfs:subClassOf go:debone-10.8 .
+
+go:dehair rdfs:subClassOf go:debone-10.8 .
+
+go:dehead rdfs:subClassOf go:debone-10.8 .
+
+go:dehorn rdfs:subClassOf go:debone-10.8 .
+
+go:dehull rdfs:subClassOf go:debone-10.8 .
+
+go:dehusk rdfs:subClassOf go:debone-10.8 .
+
+go:deice rdfs:subClassOf go:debone-10.8 .
+
+go:deink rdfs:subClassOf go:debone-10.8 .
+
+go:delint rdfs:subClassOf go:debone-10.8 .
+
+go:delouse rdfs:subClassOf go:debone-10.8 .
+
+go:deluster rdfs:subClassOf go:debone-10.8 .
+
+go:demast rdfs:subClassOf go:debone-10.8 .
+
+go:derat rdfs:subClassOf go:debone-10.8 .
+
+go:derib rdfs:subClassOf go:debone-10.8 .
+
+go:derind rdfs:subClassOf go:debone-10.8 .
+
+go:desalt rdfs:subClassOf go:debone-10.8 .
+
+go:descale rdfs:subClassOf go:debone-10.8 .
+
+go:desex rdfs:subClassOf go:debone-10.8 .
+
+go:desprout rdfs:subClassOf go:debone-10.8 .
+
+go:destarch rdfs:subClassOf go:debone-10.8 .
+
+go:destress rdfs:subClassOf go:debone-10.8 .
+
+go:detassel rdfs:subClassOf go:debone-10.8 .
+
+go:detusk rdfs:subClassOf go:debone-10.8 .
+
+go:devein rdfs:subClassOf go:debone-10.8 .
+
+go:dewater rdfs:subClassOf go:debone-10.8 .
+
+go:dewax rdfs:subClassOf go:debone-10.8 .
+
+go:deworm rdfs:subClassOf go:debone-10.8 .
+
+go:disembowel rdfs:subClassOf go:debone-10.8 .
+
+go:eviscerate rdfs:subClassOf go:debone-10.8 .
+
+go:debone-10.8 rdfs:subClassOf go:hasAgent,
+        go:hasSource .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#debone-10.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#debone-10.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

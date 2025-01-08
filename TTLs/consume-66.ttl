@@ -1,0 +1,38 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:consume rdfs:subClassOf go:consume-66 .
+
+go:misspend rdfs:subClassOf go:consume-66-1 .
+
+go:reuse rdfs:subClassOf go:consume-66-1 .
+
+go:spend rdfs:subClassOf go:consume-66-1 .
+
+go:squander rdfs:subClassOf go:consume-66-1 .
+
+go:use rdfs:subClassOf go:consume-66 .
+
+go:waste rdfs:subClassOf go:consume-66-1 .
+
+go:consume-66 rdfs:subClassOf go:hasAgent,
+        go:hasAsset,
+        go:hasGoal .
+
+go:consume-66-1 rdfs:subClassOf go:consume-66 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#consume-66> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

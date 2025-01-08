@@ -1,0 +1,31 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:extend rdfs:subClassOf go:body_motion-49.2-1 .
+
+go:hold rdfs:subClassOf go:body_motion-49.2 .
+
+go:reach rdfs:subClassOf go:body_motion-49.2-1-1 .
+
+go:stretch rdfs:subClassOf go:body_motion-49.2-1-1 .
+
+go:body_motion-49.2 rdfs:subClassOf go:hasAgent,
+        go:hasGoal,
+        go:hasPath,
+        go:hasTheme .
+
+go:body_motion-49.2-1 rdfs:subClassOf go:body_motion-49.2 .
+
+go:body_motion-49.2-1-1 rdfs:subClassOf go:body_motion-49.2-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#body_motion-49.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#body_part>
+                    ].
+

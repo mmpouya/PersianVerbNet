@@ -1,0 +1,136 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:advance rdfs:subClassOf go:escape-51.1-1 .
+
+go:approach rdfs:subClassOf go:escape-51.1-1,
+        go:escape-51.1-1-2 .
+
+go:arrive rdfs:subClassOf go:escape-51.1-1 .
+
+go:ascend rdfs:subClassOf go:escape-51.1-1-3 .
+
+go:bolt rdfs:subClassOf go:escape-51.1-1 .
+
+go:climb rdfs:subClassOf go:escape-51.1-1-3 .
+
+go:come rdfs:subClassOf go:escape-51.1-1 .
+
+go:continue rdfs:subClassOf go:escape-51.1-1 .
+
+go:cross rdfs:subClassOf go:escape-51.1-1-3 .
+
+go:cut rdfs:subClassOf go:escape-51.1 .
+
+go:decamp rdfs:subClassOf go:escape-51.1-1 .
+
+go:depart rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:descend rdfs:subClassOf go:escape-51.1-1-3 .
+
+go:disembark rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:emerge rdfs:subClassOf go:escape-51.1-1 .
+
+go:emigrate rdfs:subClassOf go:escape-51.1-1 .
+
+go:enter rdfs:subClassOf go:escape-51.1-1-2 .
+
+go:escape rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:exit rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:fall rdfs:subClassOf go:escape-51.1-1 .
+
+go:file rdfs:subClassOf go:escape-51.1-1 .
+
+go:flee rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:get rdfs:subClassOf go:escape-51.1 .
+
+go:go rdfs:subClassOf go:escape-51.1-1 .
+
+go:leave rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:make_it rdfs:subClassOf go:escape-51.1 .
+
+go:pass rdfs:subClassOf go:escape-51.1-1-3 .
+
+go:plunge rdfs:subClassOf go:escape-51.1-1 .
+
+go:recede rdfs:subClassOf go:escape-51.1-1 .
+
+go:retreat rdfs:subClassOf go:escape-51.1-1 .
+
+go:return rdfs:subClassOf go:escape-51.1-1 .
+
+go:rise rdfs:subClassOf go:escape-51.1-1 .
+
+go:set_off rdfs:subClassOf go:escape-51.1-1 .
+
+go:set_out rdfs:subClassOf go:escape-51.1-1 .
+
+go:skedaddle rdfs:subClassOf go:escape-51.1-1 .
+
+go:tumble rdfs:subClassOf go:escape-51.1-1 .
+
+go:vacate rdfs:subClassOf go:escape-51.1-1-1 .
+
+go:vamoose rdfs:subClassOf go:escape-51.1-1 .
+
+go:withdraw rdfs:subClassOf go:escape-51.1-1 .
+
+go:escape-51.1-1-2 rdfs:subClassOf go:escape-51.1-1 .
+
+go:escape-51.1 rdfs:subClassOf go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme,
+        go:hasTrajectory .
+
+go:escape-51.1-1-3 rdfs:subClassOf go:escape-51.1-1 .
+
+go:escape-51.1-1-1 rdfs:subClassOf go:escape-51.1-1 .
+
+go:escape-51.1-1 rdfs:subClassOf go:escape-51.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#escape-51.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#escape-51.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#escape-51.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#escape-51.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

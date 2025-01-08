@@ -1,0 +1,49 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:approximate rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:assess rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:estimate rdfs:subClassOf go:estimate-34.2-1 .
+
+go:gauge rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:guess rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:guesstimate rdfs:subClassOf go:estimate-34.2-1 .
+
+go:judge rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:overestimate rdfs:subClassOf go:estimate-34.2-1 .
+
+go:project rdfs:subClassOf go:estimate-34.2-1-1 .
+
+go:put rdfs:subClassOf go:estimate-34.2 .
+
+go:quantize rdfs:subClassOf go:estimate-34.2-1 .
+
+go:estimate-34.2 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme,
+        go:hasValue .
+
+go:estimate-34.2-1 rdfs:subClassOf go:estimate-34.2 .
+
+go:estimate-34.2-1-1 rdfs:subClassOf go:estimate-34.2-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#estimate-34.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

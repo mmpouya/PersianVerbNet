@@ -1,0 +1,123 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:balance rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:bend rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:bow rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:crouch rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:dangle rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:droop rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:flop rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:fly rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:hang rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:hover rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:huddle rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:hunch rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:jut rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:kneel rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:lean rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:lie rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:loll rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:loom rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:lounge rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:nestle rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:open rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:perch rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:plop rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:project rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:protrude rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:recline rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:repose rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:rest rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:rise rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:roost rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:sag rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:sit rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:slope rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:slouch rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:slump rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:sprawl rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:squat rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:stand rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:stoop rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:straddle rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:suspend rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:swag rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:swing rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:tilt rdfs:subClassOf go:spatial_configuration-47.6-1 .
+
+go:tower rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:yaw rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:spatial_configuration-47.6-1 rdfs:subClassOf go:spatial_configuration-47.6 .
+
+go:spatial_configuration-47.6 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#spatial_configuration-47.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#spatial_configuration-47.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#spatial_configuration-47.6-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

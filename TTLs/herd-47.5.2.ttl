@@ -1,0 +1,54 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accumulate rdfs:subClassOf go:herd-47.5.2 .
+
+go:aggregate rdfs:subClassOf go:herd-47.5.2 .
+
+go:amass rdfs:subClassOf go:herd-47.5.2 .
+
+go:assemble rdfs:subClassOf go:herd-47.5.2 .
+
+go:cluster rdfs:subClassOf go:herd-47.5.2 .
+
+go:collect rdfs:subClassOf go:herd-47.5.2 .
+
+go:congregate rdfs:subClassOf go:herd-47.5.2 .
+
+go:convene rdfs:subClassOf go:herd-47.5.2 .
+
+go:flock rdfs:subClassOf go:herd-47.5.2 .
+
+go:gather rdfs:subClassOf go:herd-47.5.2 .
+
+go:group rdfs:subClassOf go:herd-47.5.2 .
+
+go:herd rdfs:subClassOf go:herd-47.5.2 .
+
+go:huddle rdfs:subClassOf go:herd-47.5.2 .
+
+go:mass rdfs:subClassOf go:herd-47.5.2 .
+
+go:reconvene rdfs:subClassOf go:herd-47.5.2 .
+
+go:herd-47.5.2 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#herd-47.5.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#herd-47.5.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#plural>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

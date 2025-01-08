@@ -1,0 +1,79 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:broadcast rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:cable rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:e-mail rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:fax rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:modem rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:netmail rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:phone rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:radio rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:relay rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:satellite rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:semaphore rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:sign rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:signal rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:telecast rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:telegraph rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:telephone rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:telex rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:wire rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:wireless rdfs:subClassOf go:instr_communication-37.4.1 .
+
+go:instr_communication-37.4.1 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#instr_communication-37.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#instr_communication-37.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#communication>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#instr_communication-37.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

@@ -1,0 +1,132 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abut rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:adjoin rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:bestride rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:blanket rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:border rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:bound rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:bracket rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:bridge rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:cap rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:circle rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:cloak rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:cover rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:cross rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:dominate rdfs:subClassOf go:contiguous_location-47.8-2 .
+
+go:edge rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:encircle rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:enclose rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:encompass rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:engulf rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:enshroud rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:envelop rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:fence rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:fill rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:flank rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:follow rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:forgo rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:frame rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:head rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:hit rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:hug rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:intersect rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:line rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:meet rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:neighbor rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:overcast rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:overhang rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:precede rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:predate rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:rim rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:ring rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:skirt rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:span rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:straddle rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:support rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:surmount rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:surround rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:top rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:touch rdfs:subClassOf go:contiguous_location-47.8-1 .
+
+go:traverse rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:underlie rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:veil rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:wreathe rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:contiguous_location-47.8-2 rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:contiguous_location-47.8-1 rdfs:subClassOf go:contiguous_location-47.8 .
+
+go:contiguous_location-47.8 rdfs:subClassOf go:hasCo-Theme,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#contiguous_location-47.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#contiguous_location-47.8> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Theme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

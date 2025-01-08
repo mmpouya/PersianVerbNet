@@ -1,0 +1,48 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:collaborate rdfs:subClassOf go:cooperate-73.1-1 .
+
+go:cooperate rdfs:subClassOf go:cooperate-73.1-1 .
+
+go:join rdfs:subClassOf go:cooperate-73.1-1 .
+
+go:labour rdfs:subClassOf go:cooperate-73.1-3 .
+
+go:participate rdfs:subClassOf go:cooperate-73.1-2 .
+
+go:work rdfs:subClassOf go:cooperate-73.1-3 .
+
+go:cooperate-73.1-2 rdfs:subClassOf go:cooperate-73.1 .
+
+go:cooperate-73.1-3 rdfs:subClassOf go:cooperate-73.1 .
+
+go:cooperate-73.1 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Agent,
+        go:hasTheme .
+
+go:cooperate-73.1-1 rdfs:subClassOf go:cooperate-73.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cooperate-73.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#cooperate-73.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Agent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

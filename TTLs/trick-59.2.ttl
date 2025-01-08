@@ -1,0 +1,70 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bamboozle rdfs:subClassOf go:trick-59.2 .
+
+go:blackmail rdfs:subClassOf go:trick-59.2 .
+
+go:bluff rdfs:subClassOf go:trick-59.2 .
+
+go:bullshit rdfs:subClassOf go:trick-59.2 .
+
+go:cheat rdfs:subClassOf go:trick-59.2 .
+
+go:con rdfs:subClassOf go:trick-59.2 .
+
+go:cozen rdfs:subClassOf go:trick-59.2 .
+
+go:deceive rdfs:subClassOf go:trick-59.2 .
+
+go:delude rdfs:subClassOf go:trick-59.2 .
+
+go:dupe rdfs:subClassOf go:trick-59.2 .
+
+go:ensnare rdfs:subClassOf go:trick-59.2 .
+
+go:entrap rdfs:subClassOf go:trick-59.2 .
+
+go:extort rdfs:subClassOf go:trick-59.2 .
+
+go:fool rdfs:subClassOf go:trick-59.2 .
+
+go:fox rdfs:subClassOf go:trick-59.2 .
+
+go:hoodwink rdfs:subClassOf go:trick-59.2 .
+
+go:manipulate rdfs:subClassOf go:trick-59.2 .
+
+go:mislead rdfs:subClassOf go:trick-59.2 .
+
+go:trap rdfs:subClassOf go:trick-59.2 .
+
+go:trick rdfs:subClassOf go:trick-59.2 .
+
+go:trick-59.2 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#trick-59.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#trick-59.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

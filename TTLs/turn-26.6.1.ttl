@@ -1,0 +1,47 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:alter rdfs:subClassOf go:turn-26.6.1 .
+
+go:change rdfs:subClassOf go:turn-26.6.1-1 .
+
+go:convert rdfs:subClassOf go:turn-26.6.1-1 .
+
+go:deform rdfs:subClassOf go:turn-26.6.1 .
+
+go:metamorphose rdfs:subClassOf go:turn-26.6.1 .
+
+go:morph rdfs:subClassOf go:turn-26.6.1 .
+
+go:mutate rdfs:subClassOf go:turn-26.6.1 .
+
+go:transform rdfs:subClassOf go:turn-26.6.1 .
+
+go:translate rdfs:subClassOf go:turn-26.6.1 .
+
+go:transmute rdfs:subClassOf go:turn-26.6.1 .
+
+go:turn rdfs:subClassOf go:turn-26.6.1-1 .
+
+go:turn-26.6.1-1 rdfs:subClassOf go:turn-26.6.1 .
+
+go:turn-26.6.1 rdfs:subClassOf go:hasAgent,
+        go:hasInitial_State,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#turn-26.6.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

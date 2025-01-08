@@ -1,0 +1,88 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arrange rdfs:subClassOf go:establish-55.5-1 .
+
+go:bring rdfs:subClassOf go:establish-55.5 .
+
+go:bring_about rdfs:subClassOf go:establish-55.5-1 .
+
+go:constitute rdfs:subClassOf go:establish-55.5 .
+
+go:constitutionalize rdfs:subClassOf go:establish-55.5 .
+
+go:devise rdfs:subClassOf go:establish-55.5-1 .
+
+go:establish rdfs:subClassOf go:establish-55.5-1 .
+
+go:fake rdfs:subClassOf go:establish-55.5-1 .
+
+go:feign rdfs:subClassOf go:establish-55.5-1 .
+
+go:format rdfs:subClassOf go:establish-55.5-1 .
+
+go:found rdfs:subClassOf go:establish-55.5-1 .
+
+go:implement rdfs:subClassOf go:establish-55.5-1 .
+
+go:initiate rdfs:subClassOf go:establish-55.5-1 .
+
+go:innovate rdfs:subClassOf go:establish-55.5 .
+
+go:instigate rdfs:subClassOf go:establish-55.5-1 .
+
+go:institute rdfs:subClassOf go:establish-55.5-1 .
+
+go:introduce rdfs:subClassOf go:establish-55.5-1 .
+
+go:launch rdfs:subClassOf go:establish-55.5-1 .
+
+go:mount rdfs:subClassOf go:establish-55.5-1 .
+
+go:open rdfs:subClassOf go:establish-55.5-1 .
+
+go:open_up rdfs:subClassOf go:establish-55.5-1 .
+
+go:organize rdfs:subClassOf go:establish-55.5-1 .
+
+go:originate rdfs:subClassOf go:establish-55.5-1 .
+
+go:pioneer rdfs:subClassOf go:establish-55.5 .
+
+go:plant rdfs:subClassOf go:establish-55.5-1 .
+
+go:premise rdfs:subClassOf go:establish-55.5-1 .
+
+go:prepare rdfs:subClassOf go:establish-55.5-1 .
+
+go:set rdfs:subClassOf go:establish-55.5-1 .
+
+go:simulate rdfs:subClassOf go:establish-55.5-1 .
+
+go:stage rdfs:subClassOf go:establish-55.5 .
+
+go:strike_up rdfs:subClassOf go:establish-55.5-1 .
+
+go:synthesise rdfs:subClassOf go:establish-55.5-1 .
+
+go:establish-55.5 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+go:establish-55.5-1 rdfs:subClassOf go:establish-55.5 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#establish-55.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

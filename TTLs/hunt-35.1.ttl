@@ -1,0 +1,36 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:dig rdfs:subClassOf go:hunt-35.1 .
+
+go:feel rdfs:subClassOf go:hunt-35.1 .
+
+go:fish rdfs:subClassOf go:hunt-35.1 .
+
+go:hunt rdfs:subClassOf go:hunt-35.1 .
+
+go:mine rdfs:subClassOf go:hunt-35.1 .
+
+go:pan rdfs:subClassOf go:hunt-35.1 .
+
+go:poach rdfs:subClassOf go:hunt-35.1 .
+
+go:scrounge rdfs:subClassOf go:hunt-35.1 .
+
+go:seek rdfs:subClassOf go:hunt-35.1 .
+
+go:hunt-35.1 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hunt-35.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

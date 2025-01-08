@@ -1,0 +1,42 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:clasp rdfs:subClassOf go:hold-15.1-1 .
+
+go:clutch rdfs:subClassOf go:hold-15.1-1 .
+
+go:grab rdfs:subClassOf go:hold-15.1-1 .
+
+go:grasp rdfs:subClassOf go:hold-15.1-1 .
+
+go:grip rdfs:subClassOf go:hold-15.1-1 .
+
+go:handle rdfs:subClassOf go:hold-15.1 .
+
+go:hold rdfs:subClassOf go:hold-15.1-1 .
+
+go:wield rdfs:subClassOf go:hold-15.1 .
+
+go:hold-15.1 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+go:hold-15.1-1 rdfs:subClassOf go:hold-15.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hold-15.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#hold-15.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

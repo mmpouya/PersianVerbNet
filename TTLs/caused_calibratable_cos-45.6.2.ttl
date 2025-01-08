@@ -1,0 +1,46 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:advance rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:balloon rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:build-up rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:commute rdfs:subClassOf go:caused_calibratable_cos-45.6.2 .
+
+go:cut rdfs:subClassOf go:caused_calibratable_cos-45.6.2 .
+
+go:decrease rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:diminish rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:increase rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:lower rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:move rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:raise rdfs:subClassOf go:caused_calibratable_cos-45.6.2 .
+
+go:reduce rdfs:subClassOf go:caused_calibratable_cos-45.6.2 .
+
+go:shift rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:vary rdfs:subClassOf go:caused_calibratable_cos-45.6.2-1 .
+
+go:caused_calibratable_cos-45.6.2 rdfs:subClassOf go:hasAttribute,
+        go:hasCauser,
+        go:hasExtent,
+        go:hasInitial_State,
+        go:hasPatient,
+        go:hasResult .
+
+go:caused_calibratable_cos-45.6.2-1 rdfs:subClassOf go:caused_calibratable_cos-45.6.2 .
+
+
+#This verb has no selectional restriction 

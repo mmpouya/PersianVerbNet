@@ -1,0 +1,56 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:chew rdfs:subClassOf go:chew-39.2 .
+
+go:chomp rdfs:subClassOf go:chew-39.2 .
+
+go:crunch rdfs:subClassOf go:chew-39.2 .
+
+go:gnaw rdfs:subClassOf go:chew-39.2 .
+
+go:gum rdfs:subClassOf go:chew-39.2 .
+
+go:lap rdfs:subClassOf go:chew-39.2 .
+
+go:lick rdfs:subClassOf go:chew-39.2 .
+
+go:masticate rdfs:subClassOf go:chew-39.2 .
+
+go:munch rdfs:subClassOf go:chew-39.2 .
+
+go:nibble rdfs:subClassOf go:chew-39.2 .
+
+go:peck rdfs:subClassOf go:chew-39.2 .
+
+go:pick rdfs:subClassOf go:chew-39.2 .
+
+go:sip rdfs:subClassOf go:chew-39.2 .
+
+go:slurp rdfs:subClassOf go:chew-39.2 .
+
+go:suck rdfs:subClassOf go:chew-39.2 .
+
+go:teethe rdfs:subClassOf go:chew-39.2 .
+
+go:chew-39.2 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#chew-39.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#chew-39.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#comestible>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

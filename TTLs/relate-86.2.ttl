@@ -1,0 +1,32 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bear_on rdfs:subClassOf go:relate-86.2-1 .
+
+go:concern rdfs:subClassOf go:relate-86.2-1 .
+
+go:involve rdfs:subClassOf go:relate-86.2-1 .
+
+go:pertain rdfs:subClassOf go:relate-86.2-2 .
+
+go:refer rdfs:subClassOf go:relate-86.2-2 .
+
+go:relate rdfs:subClassOf go:relate-86.2-2 .
+
+go:touch rdfs:subClassOf go:relate-86.2-1 .
+
+go:touch_on rdfs:subClassOf go:relate-86.2-1 .
+
+go:relate-86.2 rdfs:subClassOf go:hasCo-Theme,
+        go:hasTheme .
+
+go:relate-86.2-2 rdfs:subClassOf go:relate-86.2 .
+
+go:relate-86.2-1 rdfs:subClassOf go:relate-86.2 .
+
+
+#This verb has no selectional restriction 

@@ -1,0 +1,36 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carry rdfs:subClassOf go:cost-54.2 .
+
+go:cost rdfs:subClassOf go:cost-54.2 .
+
+go:last rdfs:subClassOf go:cost-54.2 .
+
+go:net rdfs:subClassOf go:cost-54.2 .
+
+go:take rdfs:subClassOf go:cost-54.2 .
+
+go:cost-54.2 rdfs:subClassOf go:hasBeneficiary,
+        go:hasTheme,
+        go:hasValue .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cost-54.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#cost-54.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

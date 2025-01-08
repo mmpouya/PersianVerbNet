@@ -1,0 +1,35 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:convulse rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:cower rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:quake rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:quiver rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:shake rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:shiver rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:shudder rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:tremble rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:writhe rdfs:subClassOf go:body_internal_states-40.6 .
+
+go:body_internal_states-40.6 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#body_internal_states-40.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

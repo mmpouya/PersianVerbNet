@@ -1,0 +1,194 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abuse rdfs:subClassOf go:judgment-33.1 .
+
+go:acclaim rdfs:subClassOf go:judgment-33.1-1 .
+
+go:applaud rdfs:subClassOf go:judgment-33.1-1 .
+
+go:approve_of rdfs:subClassOf go:judgment-33.1-1 .
+
+go:assail rdfs:subClassOf go:judgment-33.1-1 .
+
+go:assault rdfs:subClassOf go:judgment-33.1 .
+
+go:attack rdfs:subClassOf go:judgment-33.1-1 .
+
+go:backbite rdfs:subClassOf go:judgment-33.1 .
+
+go:badmouth rdfs:subClassOf go:judgment-33.1 .
+
+go:belittle rdfs:subClassOf go:judgment-33.1-1 .
+
+go:berate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:blame rdfs:subClassOf go:judgment-33.1 .
+
+go:blaspheme rdfs:subClassOf go:judgment-33.1 .
+
+go:bless rdfs:subClassOf go:judgment-33.1-1 .
+
+go:calumniate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:castigate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:celebrate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:censure rdfs:subClassOf go:judgment-33.1-1 .
+
+go:chasten rdfs:subClassOf go:judgment-33.1-1 .
+
+go:chastise rdfs:subClassOf go:judgment-33.1-1 .
+
+go:chide rdfs:subClassOf go:judgment-33.1-1 .
+
+go:cite rdfs:subClassOf go:judgment-33.1-1 .
+
+go:commemorate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:commend rdfs:subClassOf go:judgment-33.1-1 .
+
+go:compliment rdfs:subClassOf go:judgment-33.1-1 .
+
+go:condemn rdfs:subClassOf go:judgment-33.1-1 .
+
+go:condone rdfs:subClassOf go:judgment-33.1 .
+
+go:congratulate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:criticize rdfs:subClassOf go:judgment-33.1-1 .
+
+go:curse rdfs:subClassOf go:judgment-33.1-1 .
+
+go:damn rdfs:subClassOf go:judgment-33.1-1 .
+
+go:decry rdfs:subClassOf go:judgment-33.1-1 .
+
+go:defame rdfs:subClassOf go:judgment-33.1-1 .
+
+go:denigrate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:denounce rdfs:subClassOf go:judgment-33.1-1 .
+
+go:deprecate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:deride rdfs:subClassOf go:judgment-33.1-1 .
+
+go:disparage rdfs:subClassOf go:judgment-33.1-1 .
+
+go:doubt rdfs:subClassOf go:judgment-33.1-1-1 .
+
+go:eulogize rdfs:subClassOf go:judgment-33.1-1 .
+
+go:excuse rdfs:subClassOf go:judgment-33.1-1 .
+
+go:extol rdfs:subClassOf go:judgment-33.1-1 .
+
+go:fault rdfs:subClassOf go:judgment-33.1-1 .
+
+go:felicitate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:find_fault_with rdfs:subClassOf go:judgment-33.1 .
+
+go:forgive rdfs:subClassOf go:judgment-33.1-1 .
+
+go:gibe rdfs:subClassOf go:judgment-33.1 .
+
+go:glorify rdfs:subClassOf go:judgment-33.1-1 .
+
+go:greet rdfs:subClassOf go:judgment-33.1-1 .
+
+go:hail rdfs:subClassOf go:judgment-33.1-1 .
+
+go:herald rdfs:subClassOf go:judgment-33.1-1-1 .
+
+go:honor rdfs:subClassOf go:judgment-33.1-1 .
+
+go:imprecate rdfs:subClassOf go:judgment-33.1 .
+
+go:incriminate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:insult rdfs:subClassOf go:judgment-33.1-1 .
+
+go:judge rdfs:subClassOf go:judgment-33.1-1-1 .
+
+go:lambaste rdfs:subClassOf go:judgment-33.1-1 .
+
+go:lampoon rdfs:subClassOf go:judgment-33.1-1 .
+
+go:laud rdfs:subClassOf go:judgment-33.1-1 .
+
+go:malign rdfs:subClassOf go:judgment-33.1-1 .
+
+go:mock rdfs:subClassOf go:judgment-33.1-1 .
+
+go:pardon rdfs:subClassOf go:judgment-33.1-1 .
+
+go:praise rdfs:subClassOf go:judgment-33.1-1 .
+
+go:rebuke rdfs:subClassOf go:judgment-33.1-1 .
+
+go:recommend rdfs:subClassOf go:judgment-33.1-1 .
+
+go:reproach rdfs:subClassOf go:judgment-33.1-1 .
+
+go:reprove rdfs:subClassOf go:judgment-33.1-1 .
+
+go:repudiate rdfs:subClassOf go:judgment-33.1-1 .
+
+go:revile rdfs:subClassOf go:judgment-33.1-1 .
+
+go:reward rdfs:subClassOf go:judgment-33.1-1 .
+
+go:ridicule rdfs:subClassOf go:judgment-33.1-1 .
+
+go:salute rdfs:subClassOf go:judgment-33.1-1 .
+
+go:satirize rdfs:subClassOf go:judgment-33.1-1 .
+
+go:scold rdfs:subClassOf go:judgment-33.1-1 .
+
+go:scorn rdfs:subClassOf go:judgment-33.1-1 .
+
+go:shame rdfs:subClassOf go:judgment-33.1-1 .
+
+go:slander rdfs:subClassOf go:judgment-33.1-1 .
+
+go:slang rdfs:subClassOf go:judgment-33.1 .
+
+go:snub rdfs:subClassOf go:judgment-33.1-1 .
+
+go:stigmatize rdfs:subClassOf go:judgment-33.1-1 .
+
+go:thank rdfs:subClassOf go:judgment-33.1-1 .
+
+go:toast rdfs:subClassOf go:judgment-33.1-1 .
+
+go:upbraid rdfs:subClassOf go:judgment-33.1-1 .
+
+go:vilify rdfs:subClassOf go:judgment-33.1-1 .
+
+go:welcome rdfs:subClassOf go:judgment-33.1-1 .
+
+go:write_up rdfs:subClassOf go:judgment-33.1-1 .
+
+go:judgment-33.1-1-1 rdfs:subClassOf go:judgment-33.1-1 .
+
+go:judgment-33.1 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme .
+
+go:judgment-33.1-1 rdfs:subClassOf go:judgment-33.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#judgment-33.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#human>
+                    ].
+

@@ -1,0 +1,51 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ache rdfs:subClassOf go:tingle-40.8.2 .
+
+go:burn rdfs:subClassOf go:tingle-40.8.2 .
+
+go:hum rdfs:subClassOf go:tingle-40.8.2 .
+
+go:palpitate rdfs:subClassOf go:tingle-40.8.2 .
+
+go:pound rdfs:subClassOf go:tingle-40.8.2 .
+
+go:prickle rdfs:subClassOf go:tingle-40.8.2 .
+
+go:pucker rdfs:subClassOf go:tingle-40.8.2 .
+
+go:reel rdfs:subClassOf go:tingle-40.8.2 .
+
+go:smart rdfs:subClassOf go:tingle-40.8.2 .
+
+go:spin rdfs:subClassOf go:tingle-40.8.2 .
+
+go:split rdfs:subClassOf go:tingle-40.8.2 .
+
+go:sting rdfs:subClassOf go:tingle-40.8.2 .
+
+go:swim rdfs:subClassOf go:tingle-40.8.2 .
+
+go:throb rdfs:subClassOf go:tingle-40.8.2 .
+
+go:tickle rdfs:subClassOf go:tingle-40.8.2 .
+
+go:tingle rdfs:subClassOf go:tingle-40.8.2 .
+
+go:twinge rdfs:subClassOf go:tingle-40.8.2 .
+
+go:tingle-40.8.2 rdfs:subClassOf go:hasPatient,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#tingle-40.8.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#body_part>
+                    ].
+

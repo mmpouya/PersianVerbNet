@@ -1,0 +1,43 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:disregard rdfs:subClassOf go:neglect-75.1 .
+
+go:fail rdfs:subClassOf go:neglect-75.1-1 .
+
+go:forego rdfs:subClassOf go:neglect-75.1 .
+
+go:forgo rdfs:subClassOf go:neglect-75.1 .
+
+go:ignore rdfs:subClassOf go:neglect-75.1 .
+
+go:leave_out rdfs:subClassOf go:neglect-75.1 .
+
+go:neglect rdfs:subClassOf go:neglect-75.1-1 .
+
+go:omit rdfs:subClassOf go:neglect-75.1-1 .
+
+go:overleap rdfs:subClassOf go:neglect-75.1 .
+
+go:overlook rdfs:subClassOf go:neglect-75.1 .
+
+go:neglect-75.1-1 rdfs:subClassOf go:neglect-75.1 .
+
+go:neglect-75.1 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#neglect-75.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

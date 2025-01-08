@@ -1,0 +1,124 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:FedEx rdfs:subClassOf go:send-11.1-1 .
+
+go:UPS rdfs:subClassOf go:send-11.1-1 .
+
+go:airmail rdfs:subClassOf go:send-11.1-1 .
+
+go:convey rdfs:subClassOf go:send-11.1 .
+
+go:deliver rdfs:subClassOf go:send-11.1 .
+
+go:dispatch rdfs:subClassOf go:send-11.1 .
+
+go:drive rdfs:subClassOf go:send-11.1 .
+
+go:export rdfs:subClassOf go:send-11.1 .
+
+go:express rdfs:subClassOf go:send-11.1-1 .
+
+go:forward rdfs:subClassOf go:send-11.1-1 .
+
+go:hand rdfs:subClassOf go:send-11.1-1 .
+
+go:handdeliver rdfs:subClassOf go:send-11.1 .
+
+go:import rdfs:subClassOf go:send-11.1 .
+
+go:mail rdfs:subClassOf go:send-11.1-1 .
+
+go:pass rdfs:subClassOf go:send-11.1-1 .
+
+go:pass_on rdfs:subClassOf go:send-11.1 .
+
+go:port rdfs:subClassOf go:send-11.1 .
+
+go:post rdfs:subClassOf go:send-11.1 .
+
+go:return rdfs:subClassOf go:send-11.1 .
+
+go:send rdfs:subClassOf go:send-11.1-1 .
+
+go:shift rdfs:subClassOf go:send-11.1 .
+
+go:ship rdfs:subClassOf go:send-11.1-1 .
+
+go:shunt rdfs:subClassOf go:send-11.1 .
+
+go:slip rdfs:subClassOf go:send-11.1-1 .
+
+go:smuggle rdfs:subClassOf go:send-11.1-1 .
+
+go:sneak rdfs:subClassOf go:send-11.1-1 .
+
+go:transfer rdfs:subClassOf go:send-11.1 .
+
+go:transmit rdfs:subClassOf go:send-11.1-1 .
+
+go:transport rdfs:subClassOf go:send-11.1 .
+
+go:transship rdfs:subClassOf go:send-11.1 .
+
+go:wire rdfs:subClassOf go:send-11.1-1 .
+
+go:send-11.1-1 rdfs:subClassOf go:send-11.1 .
+
+go:send-11.1 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#send-11.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#send-11.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#send-11.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#send-11.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                                        <http://tavasi.majles.ir/ontology/general#location>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#send-11.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

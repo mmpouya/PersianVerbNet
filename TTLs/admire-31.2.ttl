@@ -1,0 +1,132 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abhor rdfs:subClassOf go:admire-31.2 .
+
+go:admire rdfs:subClassOf go:admire-31.2 .
+
+go:adore rdfs:subClassOf go:admire-31.2 .
+
+go:affirm rdfs:subClassOf go:admire-31.2 .
+
+go:applaud rdfs:subClassOf go:admire-31.2 .
+
+go:appreciate rdfs:subClassOf go:admire-31.2 .
+
+go:bear rdfs:subClassOf go:admire-31.2 .
+
+go:believe rdfs:subClassOf go:admire-31.2 .
+
+go:bewail rdfs:subClassOf go:admire-31.2 .
+
+go:cherish rdfs:subClassOf go:admire-31.2 .
+
+go:deify rdfs:subClassOf go:admire-31.2 .
+
+go:deplore rdfs:subClassOf go:admire-31.2 .
+
+go:despise rdfs:subClassOf go:admire-31.2 .
+
+go:detest rdfs:subClassOf go:admire-31.2 .
+
+go:disdain rdfs:subClassOf go:admire-31.2-1 .
+
+go:dislike rdfs:subClassOf go:admire-31.2-1 .
+
+go:distrust rdfs:subClassOf go:admire-31.2 .
+
+go:dread rdfs:subClassOf go:admire-31.2 .
+
+go:enjoy rdfs:subClassOf go:admire-31.2 .
+
+go:envy rdfs:subClassOf go:admire-31.2 .
+
+go:esteem rdfs:subClassOf go:admire-31.2 .
+
+go:exalt rdfs:subClassOf go:admire-31.2 .
+
+go:execrate rdfs:subClassOf go:admire-31.2 .
+
+go:fancy rdfs:subClassOf go:admire-31.2 .
+
+go:favor rdfs:subClassOf go:admire-31.2 .
+
+go:fear rdfs:subClassOf go:admire-31.2-1 .
+
+go:grudge rdfs:subClassOf go:admire-31.2 .
+
+go:hate rdfs:subClassOf go:admire-31.2-1 .
+
+go:idolize rdfs:subClassOf go:admire-31.2 .
+
+go:lament rdfs:subClassOf go:admire-31.2 .
+
+go:like rdfs:subClassOf go:admire-31.2-1 .
+
+go:loathe rdfs:subClassOf go:admire-31.2 .
+
+go:love rdfs:subClassOf go:admire-31.2-1 .
+
+go:miss rdfs:subClassOf go:admire-31.2 .
+
+go:mistrust rdfs:subClassOf go:admire-31.2 .
+
+go:mourn rdfs:subClassOf go:admire-31.2 .
+
+go:pity rdfs:subClassOf go:admire-31.2 .
+
+go:prefer rdfs:subClassOf go:admire-31.2 .
+
+go:prize rdfs:subClassOf go:admire-31.2 .
+
+go:reaffirm rdfs:subClassOf go:admire-31.2 .
+
+go:regret rdfs:subClassOf go:admire-31.2-1 .
+
+go:relish rdfs:subClassOf go:admire-31.2 .
+
+go:resent rdfs:subClassOf go:admire-31.2 .
+
+go:respect rdfs:subClassOf go:admire-31.2 .
+
+go:revere rdfs:subClassOf go:admire-31.2 .
+
+go:rue rdfs:subClassOf go:admire-31.2 .
+
+go:savor rdfs:subClassOf go:admire-31.2 .
+
+go:stand rdfs:subClassOf go:admire-31.2 .
+
+go:suffer rdfs:subClassOf go:admire-31.2 .
+
+go:support rdfs:subClassOf go:admire-31.2 .
+
+go:tolerate rdfs:subClassOf go:admire-31.2 .
+
+go:treasure rdfs:subClassOf go:admire-31.2 .
+
+go:trust rdfs:subClassOf go:admire-31.2 .
+
+go:value rdfs:subClassOf go:admire-31.2 .
+
+go:venerate rdfs:subClassOf go:admire-31.2 .
+
+go:worship rdfs:subClassOf go:admire-31.2 .
+
+go:admire-31.2-1 rdfs:subClassOf go:admire-31.2 .
+
+go:admire-31.2 rdfs:subClassOf go:hasAttribute,
+        go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#admire-31.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

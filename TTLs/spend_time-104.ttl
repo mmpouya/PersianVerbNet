@@ -1,0 +1,46 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:kill rdfs:subClassOf go:spend_time-104 .
+
+go:lead rdfs:subClassOf go:spend_time-104 .
+
+go:misspend rdfs:subClassOf go:spend_time-104 .
+
+go:pass rdfs:subClassOf go:spend_time-104 .
+
+go:serve rdfs:subClassOf go:spend_time-104 .
+
+go:spend rdfs:subClassOf go:spend_time-104 .
+
+go:use rdfs:subClassOf go:spend_time-104 .
+
+go:waste rdfs:subClassOf go:spend_time-104 .
+
+go:spend_time-104 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasDuration .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#spend_time-104> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#spend_time-104> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDuration> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

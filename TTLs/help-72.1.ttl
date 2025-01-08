@@ -1,0 +1,52 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abet rdfs:subClassOf go:help-72.1-1-1 .
+
+go:aid rdfs:subClassOf go:help-72.1-1-1 .
+
+go:assist rdfs:subClassOf go:help-72.1-1-1 .
+
+go:go rdfs:subClassOf go:help-72.1-2 .
+
+go:help rdfs:subClassOf go:help-72.1-1-1 .
+
+go:pull rdfs:subClassOf go:help-72.1-2 .
+
+go:succor rdfs:subClassOf go:help-72.1-1 .
+
+go:support rdfs:subClassOf go:help-72.1-1 .
+
+go:help-72.1 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasTheme .
+
+go:help-72.1-2 rdfs:subClassOf go:help-72.1 .
+
+go:help-72.1-1 rdfs:subClassOf go:help-72.1 .
+
+go:help-72.1-1-1 rdfs:subClassOf go:help-72.1-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#help-72.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#help-72.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

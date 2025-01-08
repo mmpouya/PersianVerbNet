@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accommodate rdfs:subClassOf go:adjust-26.9 .
+
+go:adapt rdfs:subClassOf go:adjust-26.9 .
+
+go:adjust rdfs:subClassOf go:adjust-26.9 .
+
+go:assimilate rdfs:subClassOf go:adjust-26.9 .
+
+go:conform rdfs:subClassOf go:adjust-26.9 .
+
+go:fit rdfs:subClassOf go:adjust-26.9 .
+
+go:gear rdfs:subClassOf go:adjust-26.9 .
+
+go:readapt rdfs:subClassOf go:adjust-26.9 .
+
+go:readjust rdfs:subClassOf go:adjust-26.9 .
+
+go:adjust-26.9 rdfs:subClassOf go:hasAgent,
+        go:hasGoal,
+        go:hasPatient,
+        go:hasSource .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#adjust-26.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

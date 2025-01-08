@@ -1,0 +1,28 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:function rdfs:subClassOf go:function-105.2.1-1 .
+
+go:go rdfs:subClassOf go:function-105.2.1 .
+
+go:go_on rdfs:subClassOf go:function-105.2.1 .
+
+go:operate rdfs:subClassOf go:function-105.2.1-1 .
+
+go:perform rdfs:subClassOf go:function-105.2.1-1 .
+
+go:run rdfs:subClassOf go:function-105.2.1 .
+
+go:work rdfs:subClassOf go:function-105.2.1-1 .
+
+go:function-105.2.1 rdfs:subClassOf go:hasAttribute,
+        go:hasTheme .
+
+go:function-105.2.1-1 rdfs:subClassOf go:function-105.2.1 .
+
+
+#This verb has no selectional restriction 

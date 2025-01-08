@@ -1,0 +1,304 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:aromatize rdfs:subClassOf go:butter-9.9 .
+
+go:asphalt rdfs:subClassOf go:butter-9.9 .
+
+go:bait rdfs:subClassOf go:butter-9.9 .
+
+go:black rdfs:subClassOf go:butter-9.9 .
+
+go:blanket rdfs:subClassOf go:butter-9.9 .
+
+go:blindfold rdfs:subClassOf go:butter-9.9 .
+
+go:board rdfs:subClassOf go:butter-9.9 .
+
+go:bread rdfs:subClassOf go:butter-9.9 .
+
+go:brick rdfs:subClassOf go:butter-9.9 .
+
+go:bridle rdfs:subClassOf go:butter-9.9 .
+
+go:bronze rdfs:subClassOf go:butter-9.9 .
+
+go:butter rdfs:subClassOf go:butter-9.9 .
+
+go:buttonhole rdfs:subClassOf go:butter-9.9 .
+
+go:calk rdfs:subClassOf go:butter-9.9 .
+
+go:camouflage rdfs:subClassOf go:butter-9.9 .
+
+go:cap rdfs:subClassOf go:butter-9.9 .
+
+go:carpet rdfs:subClassOf go:butter-9.9 .
+
+go:caulk rdfs:subClassOf go:butter-9.9 .
+
+go:chrome rdfs:subClassOf go:butter-9.9 .
+
+go:clay rdfs:subClassOf go:butter-9.9 .
+
+go:cloak rdfs:subClassOf go:butter-9.9 .
+
+go:coal rdfs:subClassOf go:butter-9.9 .
+
+go:cork rdfs:subClassOf go:butter-9.9 .
+
+go:crown rdfs:subClassOf go:butter-9.9 .
+
+go:crumb rdfs:subClassOf go:butter-9.9 .
+
+go:diaper rdfs:subClassOf go:butter-9.9 .
+
+go:dope rdfs:subClassOf go:butter-9.9 .
+
+go:drug rdfs:subClassOf go:butter-9.9 .
+
+go:feather rdfs:subClassOf go:butter-9.9 .
+
+go:fence rdfs:subClassOf go:butter-9.9 .
+
+go:flour rdfs:subClassOf go:butter-9.9 .
+
+go:forest rdfs:subClassOf go:butter-9.9 .
+
+go:frame rdfs:subClassOf go:butter-9.9 .
+
+go:frost rdfs:subClassOf go:butter-9.9 .
+
+go:fuel rdfs:subClassOf go:butter-9.9 .
+
+go:gag rdfs:subClassOf go:butter-9.9 .
+
+go:garland rdfs:subClassOf go:butter-9.9 .
+
+go:gas rdfs:subClassOf go:butter-9.9 .
+
+go:gild rdfs:subClassOf go:butter-9.9 .
+
+go:glass rdfs:subClassOf go:butter-9.9 .
+
+go:glaze rdfs:subClassOf go:butter-9.9 .
+
+go:glove rdfs:subClassOf go:butter-9.9 .
+
+go:graffiti rdfs:subClassOf go:butter-9.9 .
+
+go:grass rdfs:subClassOf go:butter-9.9 .
+
+go:gravel rdfs:subClassOf go:butter-9.9 .
+
+go:grease rdfs:subClassOf go:butter-9.9 .
+
+go:groove rdfs:subClassOf go:butter-9.9 .
+
+go:halter rdfs:subClassOf go:butter-9.9 .
+
+go:harness rdfs:subClassOf go:butter-9.9 .
+
+go:hat rdfs:subClassOf go:butter-9.9 .
+
+go:heel rdfs:subClassOf go:butter-9.9 .
+
+go:ice rdfs:subClassOf go:butter-9.9 .
+
+go:ink rdfs:subClassOf go:butter-9.9 .
+
+go:insulate rdfs:subClassOf go:butter-9.9 .
+
+go:label rdfs:subClassOf go:butter-9.9 .
+
+go:leash rdfs:subClassOf go:butter-9.9 .
+
+go:leaven rdfs:subClassOf go:butter-9.9 .
+
+go:lipstick rdfs:subClassOf go:butter-9.9 .
+
+go:lubricate rdfs:subClassOf go:butter-9.9 .
+
+go:mantle rdfs:subClassOf go:butter-9.9 .
+
+go:mulch rdfs:subClassOf go:butter-9.9 .
+
+go:muzzle rdfs:subClassOf go:butter-9.9 .
+
+go:nickel rdfs:subClassOf go:butter-9.9 .
+
+go:oil rdfs:subClassOf go:butter-9.9 .
+
+go:ornament rdfs:subClassOf go:butter-9.9 .
+
+go:panel rdfs:subClassOf go:butter-9.9 .
+
+go:paper rdfs:subClassOf go:butter-9.9 .
+
+go:parquet rdfs:subClassOf go:butter-9.9 .
+
+go:patch rdfs:subClassOf go:butter-9.9 .
+
+go:pepper rdfs:subClassOf go:butter-9.9 .
+
+go:perfume rdfs:subClassOf go:butter-9.9 .
+
+go:plank rdfs:subClassOf go:butter-9.9 .
+
+go:plaster rdfs:subClassOf go:butter-9.9 .
+
+go:poison rdfs:subClassOf go:butter-9.9 .
+
+go:polish rdfs:subClassOf go:butter-9.9 .
+
+go:pomade rdfs:subClassOf go:butter-9.9 .
+
+go:poster rdfs:subClassOf go:butter-9.9 .
+
+go:postmark rdfs:subClassOf go:butter-9.9 .
+
+go:powder rdfs:subClassOf go:butter-9.9 .
+
+go:punctuate rdfs:subClassOf go:butter-9.9 .
+
+go:putty rdfs:subClassOf go:butter-9.9 .
+
+go:robe rdfs:subClassOf go:butter-9.9 .
+
+go:roof rdfs:subClassOf go:butter-9.9 .
+
+go:rosin rdfs:subClassOf go:butter-9.9 .
+
+go:rouge rdfs:subClassOf go:butter-9.9 .
+
+go:rut rdfs:subClassOf go:butter-9.9 .
+
+go:saddle rdfs:subClassOf go:butter-9.9 .
+
+go:salt rdfs:subClassOf go:butter-9.9 .
+
+go:salve rdfs:subClassOf go:butter-9.9 .
+
+go:sand rdfs:subClassOf go:butter-9.9 .
+
+go:sauce rdfs:subClassOf go:butter-9.9 .
+
+go:scent rdfs:subClassOf go:butter-9.9 .
+
+go:seed rdfs:subClassOf go:butter-9.9 .
+
+go:sequin rdfs:subClassOf go:butter-9.9 .
+
+go:shawl rdfs:subClassOf go:butter-9.9 .
+
+go:shingle rdfs:subClassOf go:butter-9.9 .
+
+go:shoe rdfs:subClassOf go:butter-9.9 .
+
+go:shutter rdfs:subClassOf go:butter-9.9 .
+
+go:side rdfs:subClassOf go:butter-9.9 .
+
+go:silver rdfs:subClassOf go:butter-9.9 .
+
+go:slate rdfs:subClassOf go:butter-9.9 .
+
+go:slime rdfs:subClassOf go:butter-9.9 .
+
+go:slipcover rdfs:subClassOf go:butter-9.9 .
+
+go:sod rdfs:subClassOf go:butter-9.9 .
+
+go:soil rdfs:subClassOf go:butter-9.9 .
+
+go:sole rdfs:subClassOf go:butter-9.9 .
+
+go:spice rdfs:subClassOf go:butter-9.9 .
+
+go:stain rdfs:subClassOf go:butter-9.9 .
+
+go:starch rdfs:subClassOf go:butter-9.9 .
+
+go:stopper rdfs:subClassOf go:butter-9.9 .
+
+go:stress rdfs:subClassOf go:butter-9.9 .
+
+go:string rdfs:subClassOf go:butter-9.9 .
+
+go:stucco rdfs:subClassOf go:butter-9.9 .
+
+go:sugar rdfs:subClassOf go:butter-9.9 .
+
+go:sulphur rdfs:subClassOf go:butter-9.9 .
+
+go:tag rdfs:subClassOf go:butter-9.9 .
+
+go:tar rdfs:subClassOf go:butter-9.9 .
+
+go:tarmac rdfs:subClassOf go:butter-9.9 .
+
+go:tassel rdfs:subClassOf go:butter-9.9 .
+
+go:thatch rdfs:subClassOf go:butter-9.9 .
+
+go:ticket rdfs:subClassOf go:butter-9.9 .
+
+go:tile rdfs:subClassOf go:butter-9.9 .
+
+go:tinsel rdfs:subClassOf go:butter-9.9 .
+
+go:top rdfs:subClassOf go:butter-9.9 .
+
+go:turf rdfs:subClassOf go:butter-9.9 .
+
+go:varnish rdfs:subClassOf go:butter-9.9 .
+
+go:veil rdfs:subClassOf go:butter-9.9 .
+
+go:veneer rdfs:subClassOf go:butter-9.9 .
+
+go:wallpaper rdfs:subClassOf go:butter-9.9 .
+
+go:water rdfs:subClassOf go:butter-9.9 .
+
+go:wax rdfs:subClassOf go:butter-9.9 .
+
+go:wharf rdfs:subClassOf go:butter-9.9 .
+
+go:whitewash rdfs:subClassOf go:butter-9.9 .
+
+go:wreathe rdfs:subClassOf go:butter-9.9 .
+
+go:yoke rdfs:subClassOf go:butter-9.9 .
+
+go:zipcode rdfs:subClassOf go:butter-9.9 .
+
+go:butter-9.9 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#butter-9.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#butter-9.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#butter-9.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

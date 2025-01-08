@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:aim rdfs:subClassOf go:wish-62 .
+
+go:dream rdfs:subClassOf go:wish-62 .
+
+go:expect rdfs:subClassOf go:wish-62 .
+
+go:imagine rdfs:subClassOf go:wish-62 .
+
+go:intend rdfs:subClassOf go:wish-62 .
+
+go:plan rdfs:subClassOf go:wish-62 .
+
+go:propose rdfs:subClassOf go:wish-62 .
+
+go:think rdfs:subClassOf go:wish-62 .
+
+go:wish rdfs:subClassOf go:wish-62 .
+
+go:yen rdfs:subClassOf go:wish-62 .
+
+go:wish-62 rdfs:subClassOf go:hasPivot,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#wish-62> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPivot> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

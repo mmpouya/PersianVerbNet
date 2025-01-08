@@ -1,0 +1,625 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abate rdfs:subClassOf go:other_cos-45.4 .
+
+go:abbreviate rdfs:subClassOf go:other_cos-45.4 .
+
+go:abrade rdfs:subClassOf go:other_cos-45.4 .
+
+go:abridge rdfs:subClassOf go:other_cos-45.4 .
+
+go:accelerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:acetify rdfs:subClassOf go:other_cos-45.4 .
+
+go:acidify rdfs:subClassOf go:other_cos-45.4 .
+
+go:activate rdfs:subClassOf go:other_cos-45.4 .
+
+go:age rdfs:subClassOf go:other_cos-45.4 .
+
+go:agglomerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:air rdfs:subClassOf go:other_cos-45.4 .
+
+go:alkalify rdfs:subClassOf go:other_cos-45.4 .
+
+go:alkalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:alter rdfs:subClassOf go:other_cos-45.4 .
+
+go:ameliorate rdfs:subClassOf go:other_cos-45.4 .
+
+go:americanize rdfs:subClassOf go:other_cos-45.4 .
+
+go:amplify rdfs:subClassOf go:other_cos-45.4 .
+
+go:anglicize rdfs:subClassOf go:other_cos-45.4 .
+
+go:attenuate rdfs:subClassOf go:other_cos-45.4 .
+
+go:augment rdfs:subClassOf go:other_cos-45.4 .
+
+go:awake rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:awaken rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:balance rdfs:subClassOf go:other_cos-45.4 .
+
+go:beautify rdfs:subClassOf go:other_cos-45.4 .
+
+go:bifurcate rdfs:subClassOf go:other_cos-45.4 .
+
+go:bisect rdfs:subClassOf go:other_cos-45.4 .
+
+go:blacken rdfs:subClassOf go:other_cos-45.4 .
+
+go:bleach rdfs:subClassOf go:other_cos-45.4 .
+
+go:blunt rdfs:subClassOf go:other_cos-45.4 .
+
+go:blur rdfs:subClassOf go:other_cos-45.4 .
+
+go:bolshevize rdfs:subClassOf go:other_cos-45.4 .
+
+go:brighten rdfs:subClassOf go:other_cos-45.4 .
+
+go:broaden rdfs:subClassOf go:other_cos-45.4 .
+
+go:burn rdfs:subClassOf go:other_cos-45.4 .
+
+go:burst rdfs:subClassOf go:other_cos-45.4 .
+
+go:calcify rdfs:subClassOf go:other_cos-45.4 .
+
+go:capsize rdfs:subClassOf go:other_cos-45.4 .
+
+go:carbonize rdfs:subClassOf go:other_cos-45.4 .
+
+go:centralize rdfs:subClassOf go:other_cos-45.4 .
+
+go:change rdfs:subClassOf go:other_cos-45.4 .
+
+go:char rdfs:subClassOf go:other_cos-45.4 .
+
+go:cheapen rdfs:subClassOf go:other_cos-45.4 .
+
+go:cheer_up rdfs:subClassOf go:other_cos-45.4 .
+
+go:chill rdfs:subClassOf go:other_cos-45.4 .
+
+go:civilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:clarify rdfs:subClassOf go:other_cos-45.4 .
+
+go:clean rdfs:subClassOf go:other_cos-45.4 .
+
+go:clear rdfs:subClassOf go:other_cos-45.4 .
+
+go:clog rdfs:subClassOf go:other_cos-45.4 .
+
+go:close rdfs:subClassOf go:other_cos-45.4 .
+
+go:cloud rdfs:subClassOf go:other_cos-45.4 .
+
+go:coagulate rdfs:subClassOf go:other_cos-45.4 .
+
+go:coarsen rdfs:subClassOf go:other_cos-45.4 .
+
+go:collapse rdfs:subClassOf go:other_cos-45.4 .
+
+go:collect rdfs:subClassOf go:other_cos-45.4 .
+
+go:combust rdfs:subClassOf go:other_cos-45.4 .
+
+go:condense rdfs:subClassOf go:other_cos-45.4 .
+
+go:congeal rdfs:subClassOf go:other_cos-45.4 .
+
+go:cool rdfs:subClassOf go:other_cos-45.4 .
+
+go:corrugate rdfs:subClassOf go:other_cos-45.4 .
+
+go:corrupt rdfs:subClassOf go:other_cos-45.4 .
+
+go:crimson rdfs:subClassOf go:other_cos-45.4 .
+
+go:crisp rdfs:subClassOf go:other_cos-45.4 .
+
+go:crystallize rdfs:subClassOf go:other_cos-45.4 .
+
+go:curdle rdfs:subClassOf go:other_cos-45.4 .
+
+go:dampen rdfs:subClassOf go:other_cos-45.4 .
+
+go:darken rdfs:subClassOf go:other_cos-45.4 .
+
+go:de-escalate rdfs:subClassOf go:other_cos-45.4 .
+
+go:decelerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:decentralize rdfs:subClassOf go:other_cos-45.4 .
+
+go:deepen rdfs:subClassOf go:other_cos-45.4 .
+
+go:deflect rdfs:subClassOf go:other_cos-45.4 .
+
+go:defrost rdfs:subClassOf go:other_cos-45.4 .
+
+go:degenerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:degrade rdfs:subClassOf go:other_cos-45.4 .
+
+go:dehydrate rdfs:subClassOf go:other_cos-45.4 .
+
+go:demagnetize rdfs:subClassOf go:other_cos-45.4 .
+
+go:democratize rdfs:subClassOf go:other_cos-45.4 .
+
+go:depressurize rdfs:subClassOf go:other_cos-45.4 .
+
+go:derail rdfs:subClassOf go:other_cos-45.4 .
+
+go:desiccate rdfs:subClassOf go:other_cos-45.4 .
+
+go:destabilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:detonate rdfs:subClassOf go:other_cos-45.4 .
+
+go:devalue rdfs:subClassOf go:other_cos-45.4 .
+
+go:diffuse rdfs:subClassOf go:other_cos-45.4 .
+
+go:dilate rdfs:subClassOf go:other_cos-45.4 .
+
+go:dilute rdfs:subClassOf go:other_cos-45.4 .
+
+go:dim rdfs:subClassOf go:other_cos-45.4 .
+
+go:dirty rdfs:subClassOf go:other_cos-45.4 .
+
+go:disband rdfs:subClassOf go:other_cos-45.4 .
+
+go:discolor rdfs:subClassOf go:other_cos-45.4 .
+
+go:disintegrate rdfs:subClassOf go:other_cos-45.4 .
+
+go:disperse rdfs:subClassOf go:other_cos-45.4 .
+
+go:dissipate rdfs:subClassOf go:other_cos-45.4 .
+
+go:diversify rdfs:subClassOf go:other_cos-45.4 .
+
+go:divide rdfs:subClassOf go:other_cos-45.4 .
+
+go:double rdfs:subClassOf go:other_cos-45.4 .
+
+go:downshift rdfs:subClassOf go:other_cos-45.4 .
+
+go:drain rdfs:subClassOf go:other_cos-45.4 .
+
+go:dry rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:dull rdfs:subClassOf go:other_cos-45.4 .
+
+go:ease rdfs:subClassOf go:other_cos-45.4 .
+
+go:effeminate rdfs:subClassOf go:other_cos-45.4 .
+
+go:emaciate rdfs:subClassOf go:other_cos-45.4 .
+
+go:empty rdfs:subClassOf go:other_cos-45.4 .
+
+go:emulsify rdfs:subClassOf go:other_cos-45.4 .
+
+go:energize rdfs:subClassOf go:other_cos-45.4 .
+
+go:enlarge rdfs:subClassOf go:other_cos-45.4 .
+
+go:equalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:equilibrate rdfs:subClassOf go:other_cos-45.4 .
+
+go:escalate rdfs:subClassOf go:other_cos-45.4 .
+
+go:evaporate rdfs:subClassOf go:other_cos-45.4 .
+
+go:even rdfs:subClassOf go:other_cos-45.4 .
+
+go:exfoliate rdfs:subClassOf go:other_cos-45.4 .
+
+go:expand rdfs:subClassOf go:other_cos-45.4 .
+
+go:explode rdfs:subClassOf go:other_cos-45.4 .
+
+go:fade rdfs:subClassOf go:other_cos-45.4 .
+
+go:fatten rdfs:subClassOf go:other_cos-45.4 .
+
+go:federate rdfs:subClassOf go:other_cos-45.4 .
+
+go:feminize rdfs:subClassOf go:other_cos-45.4 .
+
+go:fill rdfs:subClassOf go:other_cos-45.4 .
+
+go:firm rdfs:subClassOf go:other_cos-45.4 .
+
+go:flatten rdfs:subClassOf go:other_cos-45.4 .
+
+go:flood rdfs:subClassOf go:other_cos-45.4 .
+
+go:fluff rdfs:subClassOf go:other_cos-45.4 .
+
+go:fossilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:fray rdfs:subClassOf go:other_cos-45.4 .
+
+go:freckle rdfs:subClassOf go:other_cos-45.4 .
+
+go:freeze rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:freshen rdfs:subClassOf go:other_cos-45.4 .
+
+go:frost rdfs:subClassOf go:other_cos-45.4 .
+
+go:fructify rdfs:subClassOf go:other_cos-45.4 .
+
+go:fuse rdfs:subClassOf go:other_cos-45.4 .
+
+go:gasify rdfs:subClassOf go:other_cos-45.4 .
+
+go:gelatinize rdfs:subClassOf go:other_cos-45.4 .
+
+go:gentrify rdfs:subClassOf go:other_cos-45.4 .
+
+go:germanize rdfs:subClassOf go:other_cos-45.4 .
+
+go:gladden rdfs:subClassOf go:other_cos-45.4 .
+
+go:globalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:glutenize rdfs:subClassOf go:other_cos-45.4 .
+
+go:gray rdfs:subClassOf go:other_cos-45.4 .
+
+go:grow rdfs:subClassOf go:other_cos-45.4 .
+
+go:harden rdfs:subClassOf go:other_cos-45.4 .
+
+go:harmonize rdfs:subClassOf go:other_cos-45.4 .
+
+go:hasten rdfs:subClassOf go:other_cos-45.4 .
+
+go:heal rdfs:subClassOf go:other_cos-45.4 .
+
+go:heat rdfs:subClassOf go:other_cos-45.4 .
+
+go:heighten rdfs:subClassOf go:other_cos-45.4 .
+
+go:hellenize rdfs:subClassOf go:other_cos-45.4 .
+
+go:hush rdfs:subClassOf go:other_cos-45.4 .
+
+go:hybridize rdfs:subClassOf go:other_cos-45.4 .
+
+go:hydrate rdfs:subClassOf go:other_cos-45.4 .
+
+go:hydrolize rdfs:subClassOf go:other_cos-45.4 .
+
+go:ignite rdfs:subClassOf go:other_cos-45.4 .
+
+go:improve rdfs:subClassOf go:other_cos-45.4 .
+
+go:indurate rdfs:subClassOf go:other_cos-45.4 .
+
+go:industrialize rdfs:subClassOf go:other_cos-45.4 .
+
+go:intensify rdfs:subClassOf go:other_cos-45.4 .
+
+go:internationalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:ionize rdfs:subClassOf go:other_cos-45.4 .
+
+go:kindle rdfs:subClassOf go:other_cos-45.4 .
+
+go:laminate rdfs:subClassOf go:other_cos-45.4 .
+
+go:lengthen rdfs:subClassOf go:other_cos-45.4 .
+
+go:lessen rdfs:subClassOf go:other_cos-45.4 .
+
+go:level rdfs:subClassOf go:other_cos-45.4 .
+
+go:levitate rdfs:subClassOf go:other_cos-45.4 .
+
+go:liberalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:lignify rdfs:subClassOf go:other_cos-45.4 .
+
+go:liquefy rdfs:subClassOf go:other_cos-45.4 .
+
+go:liquify rdfs:subClassOf go:other_cos-45.4 .
+
+go:liven rdfs:subClassOf go:other_cos-45.4 .
+
+go:loose rdfs:subClassOf go:other_cos-45.4 .
+
+go:loosen rdfs:subClassOf go:other_cos-45.4 .
+
+go:macerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:mature rdfs:subClassOf go:other_cos-45.4 .
+
+go:mellow rdfs:subClassOf go:other_cos-45.4 .
+
+go:melt rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:metabolize rdfs:subClassOf go:other_cos-45.4 .
+
+go:mitigate rdfs:subClassOf go:other_cos-45.4 .
+
+go:mobilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:moderate rdfs:subClassOf go:other_cos-45.4 .
+
+go:modernize rdfs:subClassOf go:other_cos-45.4 .
+
+go:modify rdfs:subClassOf go:other_cos-45.4 .
+
+go:modulate rdfs:subClassOf go:other_cos-45.4 .
+
+go:moisten rdfs:subClassOf go:other_cos-45.4 .
+
+go:multiply rdfs:subClassOf go:other_cos-45.4 .
+
+go:mummify rdfs:subClassOf go:other_cos-45.4 .
+
+go:narrow rdfs:subClassOf go:other_cos-45.4 .
+
+go:nationalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:naturalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:neutralize rdfs:subClassOf go:other_cos-45.4 .
+
+go:normalize rdfs:subClassOf go:other_cos-45.4 .
+
+go:occlude rdfs:subClassOf go:other_cos-45.4 .
+
+go:open rdfs:subClassOf go:other_cos-45.4 .
+
+go:ossify rdfs:subClassOf go:other_cos-45.4 .
+
+go:pale rdfs:subClassOf go:other_cos-45.4 .
+
+go:petrify rdfs:subClassOf go:other_cos-45.4 .
+
+go:plump rdfs:subClassOf go:other_cos-45.4 .
+
+go:polarize rdfs:subClassOf go:other_cos-45.4 .
+
+go:polymerize rdfs:subClassOf go:other_cos-45.4 .
+
+go:privatize rdfs:subClassOf go:other_cos-45.4 .
+
+go:proliferate rdfs:subClassOf go:other_cos-45.4 .
+
+go:propagate rdfs:subClassOf go:other_cos-45.4 .
+
+go:purify rdfs:subClassOf go:other_cos-45.4 .
+
+go:purple rdfs:subClassOf go:other_cos-45.4 .
+
+go:quadruple rdfs:subClassOf go:other_cos-45.4 .
+
+go:quicken rdfs:subClassOf go:other_cos-45.4 .
+
+go:quiet rdfs:subClassOf go:other_cos-45.4 .
+
+go:quieten rdfs:subClassOf go:other_cos-45.4 .
+
+go:rarefy rdfs:subClassOf go:other_cos-45.4 .
+
+go:redden rdfs:subClassOf go:other_cos-45.4 .
+
+go:redouble rdfs:subClassOf go:other_cos-45.4 .
+
+go:refine rdfs:subClassOf go:other_cos-45.4 .
+
+go:reform rdfs:subClassOf go:other_cos-45.4 .
+
+go:rekindle rdfs:subClassOf go:other_cos-45.4 .
+
+go:renew rdfs:subClassOf go:other_cos-45.4 .
+
+go:reopen rdfs:subClassOf go:other_cos-45.4 .
+
+go:replicate rdfs:subClassOf go:other_cos-45.4 .
+
+go:reproduce rdfs:subClassOf go:other_cos-45.4 .
+
+go:resuscitate rdfs:subClassOf go:other_cos-45.4 .
+
+go:reverse rdfs:subClassOf go:other_cos-45.4 .
+
+go:revive rdfs:subClassOf go:other_cos-45.4 .
+
+go:ripen rdfs:subClassOf go:other_cos-45.4 .
+
+go:root rdfs:subClassOf go:other_cos-45.4 .
+
+go:roughen rdfs:subClassOf go:other_cos-45.4 .
+
+go:saponify rdfs:subClassOf go:other_cos-45.4 .
+
+go:scorch rdfs:subClassOf go:other_cos-45.4 .
+
+go:sear rdfs:subClassOf go:other_cos-45.4 .
+
+go:section rdfs:subClassOf go:other_cos-45.4 .
+
+go:sensitize rdfs:subClassOf go:other_cos-45.4 .
+
+go:set rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:sharpen rdfs:subClassOf go:other_cos-45.4 .
+
+go:short rdfs:subClassOf go:other_cos-45.4 .
+
+go:short-circuit rdfs:subClassOf go:other_cos-45.4 .
+
+go:shorten rdfs:subClassOf go:other_cos-45.4 .
+
+go:shush rdfs:subClassOf go:other_cos-45.4 .
+
+go:shut rdfs:subClassOf go:other_cos-45.4 .
+
+go:sicken rdfs:subClassOf go:other_cos-45.4 .
+
+go:silicify rdfs:subClassOf go:other_cos-45.4 .
+
+go:silver rdfs:subClassOf go:other_cos-45.4 .
+
+go:sink rdfs:subClassOf go:other_cos-45.4 .
+
+go:slim rdfs:subClassOf go:other_cos-45.4 .
+
+go:slow rdfs:subClassOf go:other_cos-45.4 .
+
+go:smarten rdfs:subClassOf go:other_cos-45.4 .
+
+go:smooth rdfs:subClassOf go:other_cos-45.4 .
+
+go:smoothen rdfs:subClassOf go:other_cos-45.4 .
+
+go:soak rdfs:subClassOf go:other_cos-45.4 .
+
+go:sober rdfs:subClassOf go:other_cos-45.4 .
+
+go:soften rdfs:subClassOf go:other_cos-45.4 .
+
+go:solidify rdfs:subClassOf go:other_cos-45.4 .
+
+go:sour rdfs:subClassOf go:other_cos-45.4 .
+
+go:souse rdfs:subClassOf go:other_cos-45.4 .
+
+go:sprout rdfs:subClassOf go:other_cos-45.4 .
+
+go:stabilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:standardize rdfs:subClassOf go:other_cos-45.4 .
+
+go:steady rdfs:subClassOf go:other_cos-45.4 .
+
+go:steepen rdfs:subClassOf go:other_cos-45.4 .
+
+go:stiffen rdfs:subClassOf go:other_cos-45.4 .
+
+go:strangulate rdfs:subClassOf go:other_cos-45.4 .
+
+go:stratify rdfs:subClassOf go:other_cos-45.4 .
+
+go:strengthen rdfs:subClassOf go:other_cos-45.4 .
+
+go:submerge rdfs:subClassOf go:other_cos-45.4 .
+
+go:sunburn rdfs:subClassOf go:other_cos-45.4 .
+
+go:sweeten rdfs:subClassOf go:other_cos-45.4 .
+
+go:tame rdfs:subClassOf go:other_cos-45.4 .
+
+go:tan rdfs:subClassOf go:other_cos-45.4 .
+
+go:taper rdfs:subClassOf go:other_cos-45.4 .
+
+go:tenderize rdfs:subClassOf go:other_cos-45.4 .
+
+go:tense rdfs:subClassOf go:other_cos-45.4 .
+
+go:thaw rdfs:subClassOf go:other_cos-45.4-1 .
+
+go:thicken rdfs:subClassOf go:other_cos-45.4 .
+
+go:thin rdfs:subClassOf go:other_cos-45.4 .
+
+go:tighten rdfs:subClassOf go:other_cos-45.4 .
+
+go:tire rdfs:subClassOf go:other_cos-45.4 .
+
+go:tone rdfs:subClassOf go:other_cos-45.4 .
+
+go:topple rdfs:subClassOf go:other_cos-45.4 .
+
+go:toughen rdfs:subClassOf go:other_cos-45.4 .
+
+go:tranquilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:treble rdfs:subClassOf go:other_cos-45.4 .
+
+go:trip rdfs:subClassOf go:other_cos-45.4 .
+
+go:triple rdfs:subClassOf go:other_cos-45.4 .
+
+go:turn-off rdfs:subClassOf go:other_cos-45.4 .
+
+go:turn-on rdfs:subClassOf go:other_cos-45.4 .
+
+go:ulcerate rdfs:subClassOf go:other_cos-45.4 .
+
+go:unionize rdfs:subClassOf go:other_cos-45.4 .
+
+go:upload rdfs:subClassOf go:other_cos-45.4 .
+
+go:vaporize rdfs:subClassOf go:other_cos-45.4 .
+
+go:vibrate rdfs:subClassOf go:other_cos-45.4 .
+
+go:vitrify rdfs:subClassOf go:other_cos-45.4 .
+
+go:volatilize rdfs:subClassOf go:other_cos-45.4 .
+
+go:vulcanize rdfs:subClassOf go:other_cos-45.4 .
+
+go:wake rdfs:subClassOf go:other_cos-45.4 .
+
+go:waken rdfs:subClassOf go:other_cos-45.4 .
+
+go:warm rdfs:subClassOf go:other_cos-45.4 .
+
+go:weaken rdfs:subClassOf go:other_cos-45.4 .
+
+go:westernize rdfs:subClassOf go:other_cos-45.4 .
+
+go:wet rdfs:subClassOf go:other_cos-45.4 .
+
+go:whiten rdfs:subClassOf go:other_cos-45.4 .
+
+go:widen rdfs:subClassOf go:other_cos-45.4 .
+
+go:wizen rdfs:subClassOf go:other_cos-45.4 .
+
+go:worsen rdfs:subClassOf go:other_cos-45.4 .
+
+go:yellow rdfs:subClassOf go:other_cos-45.4 .
+
+go:other_cos-45.4-1 rdfs:subClassOf go:other_cos-45.4 .
+
+go:other_cos-45.4 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#other_cos-45.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+

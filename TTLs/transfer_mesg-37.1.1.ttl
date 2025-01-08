@@ -1,0 +1,94 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:boil_down rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:communicate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:corroborate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:demonstrate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:dictate rdfs:subClassOf go:transfer_mesg-37.1.1-1 .
+
+go:elucidate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:explain rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:explicate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:expound rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:illustrate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:justify rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:narrate rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:outline rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:pose rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:preach rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:quote rdfs:subClassOf go:transfer_mesg-37.1.1-1 .
+
+go:read rdfs:subClassOf go:transfer_mesg-37.1.1-1 .
+
+go:recap rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:recite rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:relay rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:show rdfs:subClassOf go:transfer_mesg-37.1.1-1-1 .
+
+go:sniff rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:snitch rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:sum_up rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:summarize rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:teach rdfs:subClassOf go:transfer_mesg-37.1.1-1-1 .
+
+go:tell rdfs:subClassOf go:transfer_mesg-37.1.1-1-1 .
+
+go:verify rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:write rdfs:subClassOf go:transfer_mesg-37.1.1-1-1 .
+
+go:write_in rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:transfer_mesg-37.1.1-1 rdfs:subClassOf go:transfer_mesg-37.1.1 .
+
+go:transfer_mesg-37.1.1-1-1 rdfs:subClassOf go:transfer_mesg-37.1.1-1 .
+
+go:transfer_mesg-37.1.1 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#transfer_mesg-37.1.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#transfer_mesg-37.1.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

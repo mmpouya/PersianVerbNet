@@ -1,0 +1,98 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bob rdfs:subClassOf go:braid-41.2.2 .
+
+go:braid rdfs:subClassOf go:braid-41.2.2 .
+
+go:brush rdfs:subClassOf go:braid-41.2.2 .
+
+go:clip rdfs:subClassOf go:braid-41.2.2 .
+
+go:coldcream rdfs:subClassOf go:braid-41.2.2 .
+
+go:comb rdfs:subClassOf go:braid-41.2.2 .
+
+go:condition rdfs:subClassOf go:braid-41.2.2 .
+
+go:crimp rdfs:subClassOf go:braid-41.2.2 .
+
+go:crop rdfs:subClassOf go:braid-41.2.2 .
+
+go:curl rdfs:subClassOf go:braid-41.2.2 .
+
+go:cut rdfs:subClassOf go:braid-41.2.2 .
+
+go:dye rdfs:subClassOf go:braid-41.2.2 .
+
+go:file rdfs:subClassOf go:braid-41.2.2 .
+
+go:gel rdfs:subClassOf go:braid-41.2.2 .
+
+go:henna rdfs:subClassOf go:braid-41.2.2 .
+
+go:highlight rdfs:subClassOf go:braid-41.2.2 .
+
+go:lather rdfs:subClassOf go:braid-41.2.2 .
+
+go:manicure rdfs:subClassOf go:braid-41.2.2 .
+
+go:paint rdfs:subClassOf go:braid-41.2.2 .
+
+go:part rdfs:subClassOf go:braid-41.2.2 .
+
+go:perm rdfs:subClassOf go:braid-41.2.2 .
+
+go:plait rdfs:subClassOf go:braid-41.2.2 .
+
+go:pluck rdfs:subClassOf go:braid-41.2.2 .
+
+go:powder rdfs:subClassOf go:braid-41.2.2 .
+
+go:rinse rdfs:subClassOf go:braid-41.2.2 .
+
+go:rouge rdfs:subClassOf go:braid-41.2.2 .
+
+go:set rdfs:subClassOf go:braid-41.2.2 .
+
+go:shampoo rdfs:subClassOf go:braid-41.2.2 .
+
+go:soap rdfs:subClassOf go:braid-41.2.2 .
+
+go:style rdfs:subClassOf go:braid-41.2.2 .
+
+go:talc rdfs:subClassOf go:braid-41.2.2 .
+
+go:tease rdfs:subClassOf go:braid-41.2.2 .
+
+go:towel rdfs:subClassOf go:braid-41.2.2 .
+
+go:trim rdfs:subClassOf go:braid-41.2.2 .
+
+go:tweeze rdfs:subClassOf go:braid-41.2.2 .
+
+go:wave rdfs:subClassOf go:braid-41.2.2 .
+
+go:wax rdfs:subClassOf go:braid-41.2.2 .
+
+go:braid-41.2.2 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#braid-41.2.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#braid-41.2.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

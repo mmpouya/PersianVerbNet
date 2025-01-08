@@ -1,0 +1,60 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ascertain rdfs:subClassOf go:discover-84 .
+
+go:chance_across rdfs:subClassOf go:discover-84 .
+
+go:chance_on rdfs:subClassOf go:discover-84 .
+
+go:chance_upon rdfs:subClassOf go:discover-84 .
+
+go:deduce rdfs:subClassOf go:discover-84 .
+
+go:determine rdfs:subClassOf go:discover-84 .
+
+go:discover rdfs:subClassOf go:discover-84-1 .
+
+go:figure_out rdfs:subClassOf go:discover-84-1 .
+
+go:find rdfs:subClassOf go:discover-84 .
+
+go:guess rdfs:subClassOf go:discover-84 .
+
+go:pick_up rdfs:subClassOf go:discover-84-1 .
+
+go:rationalize rdfs:subClassOf go:discover-84 .
+
+go:realize rdfs:subClassOf go:discover-84 .
+
+go:relearn rdfs:subClassOf go:discover-84 .
+
+go:scent_out rdfs:subClassOf go:discover-84 .
+
+go:see rdfs:subClassOf go:discover-84 .
+
+go:solve rdfs:subClassOf go:discover-84 .
+
+go:work_out rdfs:subClassOf go:discover-84 .
+
+go:discover-84-1 rdfs:subClassOf go:discover-84 .
+
+go:discover-84 rdfs:subClassOf go:hasAgent,
+        go:hasSource,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#discover-84> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

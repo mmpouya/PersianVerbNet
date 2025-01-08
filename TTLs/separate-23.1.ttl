@@ -1,0 +1,50 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:decouple rdfs:subClassOf go:separate-23.1-1 .
+
+go:differentiate rdfs:subClassOf go:separate-23.1-1 .
+
+go:disassociate rdfs:subClassOf go:separate-23.1 .
+
+go:disconnect rdfs:subClassOf go:separate-23.1-1-1 .
+
+go:disentangle rdfs:subClassOf go:separate-23.1-1 .
+
+go:dissimilate rdfs:subClassOf go:separate-23.1-1 .
+
+go:dissociate rdfs:subClassOf go:separate-23.1-1-1 .
+
+go:divide rdfs:subClassOf go:separate-23.1-1 .
+
+go:divorce rdfs:subClassOf go:separate-23.1-1 .
+
+go:part rdfs:subClassOf go:separate-23.1-1-1 .
+
+go:segregate rdfs:subClassOf go:separate-23.1-1 .
+
+go:separate rdfs:subClassOf go:separate-23.1-1-1 .
+
+go:sever rdfs:subClassOf go:separate-23.1 .
+
+go:uncoil rdfs:subClassOf go:separate-23.1 .
+
+go:separate-23.1-1-1 rdfs:subClassOf go:separate-23.1 .
+
+go:separate-23.1 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+go:separate-23.1-1 rdfs:subClassOf go:separate-23.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#separate-23.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

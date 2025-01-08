@@ -1,0 +1,85 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:analyse rdfs:subClassOf go:assessment-34.1 .
+
+go:analyze rdfs:subClassOf go:assessment-34.1 .
+
+go:appraise rdfs:subClassOf go:assessment-34.1 .
+
+go:assay rdfs:subClassOf go:assessment-34.1 .
+
+go:assess rdfs:subClassOf go:assessment-34.1 .
+
+go:audit rdfs:subClassOf go:assessment-34.1 .
+
+go:check rdfs:subClassOf go:assessment-34.1 .
+
+go:consult rdfs:subClassOf go:assessment-34.1 .
+
+go:evaluate rdfs:subClassOf go:assessment-34.1 .
+
+go:examine rdfs:subClassOf go:assessment-34.1 .
+
+go:feel_out rdfs:subClassOf go:assessment-34.1 .
+
+go:follow rdfs:subClassOf go:assessment-34.1 .
+
+go:go_over rdfs:subClassOf go:assessment-34.1 .
+
+go:inspect rdfs:subClassOf go:assessment-34.1 .
+
+go:investigate rdfs:subClassOf go:assessment-34.1 .
+
+go:monitor rdfs:subClassOf go:assessment-34.1 .
+
+go:peruse rdfs:subClassOf go:assessment-34.1 .
+
+go:proofread rdfs:subClassOf go:assessment-34.1 .
+
+go:regard rdfs:subClassOf go:assessment-34.1 .
+
+go:research rdfs:subClassOf go:assessment-34.1 .
+
+go:review rdfs:subClassOf go:assessment-34.1 .
+
+go:sample rdfs:subClassOf go:assessment-34.1 .
+
+go:scan rdfs:subClassOf go:assessment-34.1 .
+
+go:scrutinize rdfs:subClassOf go:assessment-34.1 .
+
+go:study rdfs:subClassOf go:assessment-34.1 .
+
+go:surveil rdfs:subClassOf go:assessment-34.1 .
+
+go:survey rdfs:subClassOf go:assessment-34.1 .
+
+go:taste rdfs:subClassOf go:assessment-34.1 .
+
+go:test rdfs:subClassOf go:assessment-34.1 .
+
+go:try rdfs:subClassOf go:assessment-34.1 .
+
+go:try_on rdfs:subClassOf go:assessment-34.1 .
+
+go:try_out rdfs:subClassOf go:assessment-34.1 .
+
+go:watch rdfs:subClassOf go:assessment-34.1 .
+
+go:assessment-34.1 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme,
+        go:hasValue .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#assessment-34.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,78 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arm rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:armor rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:burden rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:charge rdfs:subClassOf go:equip-13.4.2 .
+
+go:compensate rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:encumber rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:equip rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:fortify rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:invest rdfs:subClassOf go:equip-13.4.2 .
+
+go:outfit rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:overburden rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:ply rdfs:subClassOf go:equip-13.4.2 .
+
+go:rearm rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:recompense rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:redress rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:regale rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:remunerate rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:repay rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:reward rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:saddle rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:treat rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:weight rdfs:subClassOf go:equip-13.4.2-1-1 .
+
+go:equip-13.4.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTheme .
+
+go:equip-13.4.2-1-1 rdfs:subClassOf go:equip-13.4.2-1 .
+
+go:equip-13.4.2-1 rdfs:subClassOf go:equip-13.4.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#equip-13.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#equip-13.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

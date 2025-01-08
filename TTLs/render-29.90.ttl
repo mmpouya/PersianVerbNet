@@ -1,0 +1,29 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:drive rdfs:subClassOf go:render-29.90 .
+
+go:get rdfs:subClassOf go:render-29.90-2 .
+
+go:leave rdfs:subClassOf go:render-29.90 .
+
+go:make rdfs:subClassOf go:render-29.90-1 .
+
+go:render rdfs:subClassOf go:render-29.90 .
+
+go:take rdfs:subClassOf go:render-29.90 .
+
+go:render-29.90-1 rdfs:subClassOf go:render-29.90 .
+
+go:render-29.90-2 rdfs:subClassOf go:render-29.90 .
+
+go:render-29.90 rdfs:subClassOf go:hasCauser,
+        go:hasPatient,
+        go:hasResult .
+
+
+#This verb has no selectional restriction 

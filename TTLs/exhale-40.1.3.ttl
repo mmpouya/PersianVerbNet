@@ -1,0 +1,39 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:defecate rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:exhale rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:expectorate rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:hemorrhage rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:inhale rdfs:subClassOf go:exhale-40.1.3-2 .
+
+go:perspire rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:regurgitate rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:urinate rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:whiff rdfs:subClassOf go:exhale-40.1.3-1 .
+
+go:exhale-40.1.3-2 rdfs:subClassOf go:exhale-40.1.3 .
+
+go:exhale-40.1.3 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+go:exhale-40.1.3-1 rdfs:subClassOf go:exhale-40.1.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#exhale-40.1.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

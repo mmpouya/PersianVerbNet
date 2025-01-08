@@ -1,0 +1,44 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ache rdfs:subClassOf go:long-32.2 .
+
+go:crave rdfs:subClassOf go:long-32.2 .
+
+go:die rdfs:subClassOf go:long-32.2 .
+
+go:fall rdfs:subClassOf go:long-32.2 .
+
+go:hanker rdfs:subClassOf go:long-32.2-1 .
+
+go:hope rdfs:subClassOf go:long-32.2 .
+
+go:hunger rdfs:subClassOf go:long-32.2 .
+
+go:itch rdfs:subClassOf go:long-32.2 .
+
+go:long rdfs:subClassOf go:long-32.2 .
+
+go:lust rdfs:subClassOf go:long-32.2-1 .
+
+go:pine rdfs:subClassOf go:long-32.2 .
+
+go:pray rdfs:subClassOf go:long-32.2 .
+
+go:thirst rdfs:subClassOf go:long-32.2-1 .
+
+go:wish rdfs:subClassOf go:long-32.2 .
+
+go:yearn rdfs:subClassOf go:long-32.2-1 .
+
+go:long-32.2-1 rdfs:subClassOf go:long-32.2 .
+
+go:long-32.2 rdfs:subClassOf go:hasPivot,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

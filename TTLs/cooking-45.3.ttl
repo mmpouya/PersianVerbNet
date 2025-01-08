@@ -1,0 +1,144 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bake rdfs:subClassOf go:cooking-45.3 .
+
+go:barbecue rdfs:subClassOf go:cooking-45.3 .
+
+go:barbeque rdfs:subClassOf go:cooking-45.3 .
+
+go:blanch rdfs:subClassOf go:cooking-45.3 .
+
+go:boil rdfs:subClassOf go:cooking-45.3 .
+
+go:braise rdfs:subClassOf go:cooking-45.3 .
+
+go:broil rdfs:subClassOf go:cooking-45.3 .
+
+go:brown rdfs:subClassOf go:cooking-45.3 .
+
+go:caramelize rdfs:subClassOf go:cooking-45.3 .
+
+go:char rdfs:subClassOf go:cooking-45.3 .
+
+go:charbroil rdfs:subClassOf go:cooking-45.3 .
+
+go:charcoal-broil rdfs:subClassOf go:cooking-45.3 .
+
+go:coddle rdfs:subClassOf go:cooking-45.3 .
+
+go:cook rdfs:subClassOf go:cooking-45.3 .
+
+go:crisp rdfs:subClassOf go:cooking-45.3 .
+
+go:deep-fry rdfs:subClassOf go:cooking-45.3 .
+
+go:french-fry rdfs:subClassOf go:cooking-45.3 .
+
+go:fry rdfs:subClassOf go:cooking-45.3 .
+
+go:grill rdfs:subClassOf go:cooking-45.3 .
+
+go:hardboil rdfs:subClassOf go:cooking-45.3 .
+
+go:heat rdfs:subClassOf go:cooking-45.3 .
+
+go:microwave rdfs:subClassOf go:cooking-45.3 .
+
+go:oven-fry rdfs:subClassOf go:cooking-45.3 .
+
+go:oven-poach rdfs:subClassOf go:cooking-45.3 .
+
+go:overbake rdfs:subClassOf go:cooking-45.3 .
+
+go:overcook rdfs:subClassOf go:cooking-45.3 .
+
+go:overheat rdfs:subClassOf go:cooking-45.3 .
+
+go:pan-broil rdfs:subClassOf go:cooking-45.3 .
+
+go:pan-fry rdfs:subClassOf go:cooking-45.3 .
+
+go:parboil rdfs:subClassOf go:cooking-45.3 .
+
+go:parch rdfs:subClassOf go:cooking-45.3 .
+
+go:percolate rdfs:subClassOf go:cooking-45.3 .
+
+go:perk rdfs:subClassOf go:cooking-45.3 .
+
+go:pickle rdfs:subClassOf go:cooking-45.3 .
+
+go:plank rdfs:subClassOf go:cooking-45.3 .
+
+go:poach rdfs:subClassOf go:cooking-45.3 .
+
+go:pot-roast rdfs:subClassOf go:cooking-45.3 .
+
+go:reheat rdfs:subClassOf go:cooking-45.3 .
+
+go:rissole rdfs:subClassOf go:cooking-45.3 .
+
+go:roast rdfs:subClassOf go:cooking-45.3 .
+
+go:saute rdfs:subClassOf go:cooking-45.3 .
+
+go:scald rdfs:subClassOf go:cooking-45.3 .
+
+go:scallop rdfs:subClassOf go:cooking-45.3 .
+
+go:sear rdfs:subClassOf go:cooking-45.3 .
+
+go:shirr rdfs:subClassOf go:cooking-45.3 .
+
+go:simmer rdfs:subClassOf go:cooking-45.3 .
+
+go:softboil rdfs:subClassOf go:cooking-45.3 .
+
+go:steam rdfs:subClassOf go:cooking-45.3 .
+
+go:steam-bake rdfs:subClassOf go:cooking-45.3 .
+
+go:steep rdfs:subClassOf go:cooking-45.3 .
+
+go:stew rdfs:subClassOf go:cooking-45.3 .
+
+go:stir-fry rdfs:subClassOf go:cooking-45.3 .
+
+go:toast rdfs:subClassOf go:cooking-45.3 .
+
+go:warm_up rdfs:subClassOf go:cooking-45.3 .
+
+go:cooking-45.3 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cooking-45.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#cooking-45.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#cooking-45.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

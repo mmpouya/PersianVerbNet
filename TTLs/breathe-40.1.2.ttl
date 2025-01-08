@@ -1,0 +1,64 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:barf rdfs:subClassOf go:breathe-40.1.2 .
+
+go:bleed rdfs:subClassOf go:breathe-40.1.2 .
+
+go:breathe rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:cough rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:cry rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:defecate rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:dribble rdfs:subClassOf go:breathe-40.1.2 .
+
+go:drool rdfs:subClassOf go:breathe-40.1.2 .
+
+go:expectorate rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:hawk rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:pee rdfs:subClassOf go:breathe-40.1.2 .
+
+go:piss rdfs:subClassOf go:breathe-40.1.2 .
+
+go:puke rdfs:subClassOf go:breathe-40.1.2 .
+
+go:retch rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:shit rdfs:subClassOf go:breathe-40.1.2 .
+
+go:slobber rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:spit rdfs:subClassOf go:breathe-40.1.2 .
+
+go:sweat rdfs:subClassOf go:breathe-40.1.2 .
+
+go:throw_up rdfs:subClassOf go:breathe-40.1.2 .
+
+go:urinate rdfs:subClassOf go:breathe-40.1.2-1 .
+
+go:vomit rdfs:subClassOf go:breathe-40.1.2 .
+
+go:weep rdfs:subClassOf go:breathe-40.1.2 .
+
+go:breathe-40.1.2-1 rdfs:subClassOf go:breathe-40.1.2 .
+
+go:breathe-40.1.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#breathe-40.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,29 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bristle rdfs:subClassOf go:bulge-47.5.3 .
+
+go:bulge rdfs:subClassOf go:bulge-47.5.3 .
+
+go:buzz rdfs:subClassOf go:bulge-47.5.3 .
+
+go:hum rdfs:subClassOf go:bulge-47.5.3 .
+
+go:hyperventilate rdfs:subClassOf go:bulge-47.5.3 .
+
+go:seethe rdfs:subClassOf go:bulge-47.5.3 .
+
+go:bulge-47.5.3 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#bulge-47.5.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

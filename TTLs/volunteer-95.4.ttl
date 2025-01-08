@@ -1,0 +1,51 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:enlist rdfs:subClassOf go:volunteer-95.4-1 .
+
+go:hire_on rdfs:subClassOf go:volunteer-95.4-1 .
+
+go:offer rdfs:subClassOf go:volunteer-95.4 .
+
+go:sign_on rdfs:subClassOf go:volunteer-95.4-1 .
+
+go:sign_up rdfs:subClassOf go:volunteer-95.4-1 .
+
+go:volunteer rdfs:subClassOf go:volunteer-95.4-1 .
+
+go:volunteer-95.4 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasBeneficiary,
+        go:hasPivot,
+        go:hasTheme .
+
+go:volunteer-95.4-1 rdfs:subClassOf go:volunteer-95.4 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#volunteer-95.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#volunteer-95.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPivot> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#volunteer-95.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

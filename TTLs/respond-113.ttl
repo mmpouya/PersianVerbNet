@@ -1,0 +1,23 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:react rdfs:subClassOf go:respond-113 .
+
+go:rebel rdfs:subClassOf go:respond-113 .
+
+go:reply rdfs:subClassOf go:respond-113 .
+
+go:respond rdfs:subClassOf go:respond-113 .
+
+go:retaliate rdfs:subClassOf go:respond-113 .
+
+go:respond-113 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

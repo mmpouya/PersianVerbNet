@@ -1,0 +1,46 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:conceive rdfs:subClassOf go:deduce-97.2 .
+
+go:conclude rdfs:subClassOf go:deduce-97.2 .
+
+go:deduce rdfs:subClassOf go:deduce-97.2 .
+
+go:deduct rdfs:subClassOf go:deduce-97.2 .
+
+go:derive rdfs:subClassOf go:deduce-97.2 .
+
+go:disprove rdfs:subClassOf go:deduce-97.2 .
+
+go:gather rdfs:subClassOf go:deduce-97.2 .
+
+go:infer rdfs:subClassOf go:deduce-97.2 .
+
+go:prove rdfs:subClassOf go:deduce-97.2 .
+
+go:rationalize rdfs:subClassOf go:deduce-97.2 .
+
+go:reason rdfs:subClassOf go:deduce-97.2 .
+
+go:reason_out rdfs:subClassOf go:deduce-97.2 .
+
+go:deduce-97.2 rdfs:subClassOf go:hasAgent,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#deduce-97.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

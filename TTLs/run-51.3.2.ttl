@@ -1,0 +1,395 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:amble rdfs:subClassOf go:run-51.3.2 .
+
+go:ambulate rdfs:subClassOf go:run-51.3.2 .
+
+go:back rdfs:subClassOf go:run-51.3.2-2 .
+
+go:backpack rdfs:subClassOf go:run-51.3.2 .
+
+go:bolt rdfs:subClassOf go:run-51.3.2 .
+
+go:bounce rdfs:subClassOf go:run-51.3.2-2 .
+
+go:bound rdfs:subClassOf go:run-51.3.2 .
+
+go:bowl rdfs:subClassOf go:run-51.3.2-2 .
+
+go:breeze rdfs:subClassOf go:run-51.3.2 .
+
+go:bustle rdfs:subClassOf go:run-51.3.2 .
+
+go:canter rdfs:subClassOf go:run-51.3.2-2 .
+
+go:caper rdfs:subClassOf go:run-51.3.2 .
+
+go:carom rdfs:subClassOf go:run-51.3.2 .
+
+go:cavort rdfs:subClassOf go:run-51.3.2 .
+
+go:charge rdfs:subClassOf go:run-51.3.2 .
+
+go:chunter rdfs:subClassOf go:run-51.3.2 .
+
+go:clamber rdfs:subClassOf go:run-51.3.2 .
+
+go:climb rdfs:subClassOf go:run-51.3.2 .
+
+go:clump rdfs:subClassOf go:run-51.3.2 .
+
+go:coast rdfs:subClassOf go:run-51.3.2-2 .
+
+go:crawl rdfs:subClassOf go:run-51.3.2 .
+
+go:creep rdfs:subClassOf go:run-51.3.2 .
+
+go:dart rdfs:subClassOf go:run-51.3.2-2 .
+
+go:dash rdfs:subClassOf go:run-51.3.2-2 .
+
+go:dodder rdfs:subClassOf go:run-51.3.2 .
+
+go:drift rdfs:subClassOf go:run-51.3.2-2 .
+
+go:falter rdfs:subClassOf go:run-51.3.2 .
+
+go:flit rdfs:subClassOf go:run-51.3.2 .
+
+go:float rdfs:subClassOf go:run-51.3.2-2 .
+
+go:flounce rdfs:subClassOf go:run-51.3.2 .
+
+go:fly rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:frolic rdfs:subClassOf go:run-51.3.2 .
+
+go:gallivant rdfs:subClassOf go:run-51.3.2 .
+
+go:gallop rdfs:subClassOf go:run-51.3.2-2 .
+
+go:gambol rdfs:subClassOf go:run-51.3.2 .
+
+go:ghost rdfs:subClassOf go:run-51.3.2 .
+
+go:glide rdfs:subClassOf go:run-51.3.2-2 .
+
+go:globetrot rdfs:subClassOf go:run-51.3.2 .
+
+go:goose_step rdfs:subClassOf go:run-51.3.2 .
+
+go:hasten rdfs:subClassOf go:run-51.3.2-2 .
+
+go:hike rdfs:subClassOf go:run-51.3.2 .
+
+go:hitchhike rdfs:subClassOf go:run-51.3.2 .
+
+go:hobble rdfs:subClassOf go:run-51.3.2-2 .
+
+go:hop rdfs:subClassOf go:run-51.3.2-1 .
+
+go:hopscotch rdfs:subClassOf go:run-51.3.2 .
+
+go:hurry rdfs:subClassOf go:run-51.3.2-2 .
+
+go:hurtle rdfs:subClassOf go:run-51.3.2-2 .
+
+go:inch rdfs:subClassOf go:run-51.3.2-2 .
+
+go:jog rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:jounce rdfs:subClassOf go:run-51.3.2 .
+
+go:journey rdfs:subClassOf go:run-51.3.2-1 .
+
+go:jump rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:leap rdfs:subClassOf go:run-51.3.2-1 .
+
+go:limp rdfs:subClassOf go:run-51.3.2 .
+
+go:lollop rdfs:subClassOf go:run-51.3.2 .
+
+go:lope rdfs:subClassOf go:run-51.3.2-2 .
+
+go:lumber rdfs:subClassOf go:run-51.3.2 .
+
+go:lurch rdfs:subClassOf go:run-51.3.2 .
+
+go:march rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:meander rdfs:subClassOf go:run-51.3.2 .
+
+go:mince rdfs:subClassOf go:run-51.3.2 .
+
+go:mosey rdfs:subClassOf go:run-51.3.2 .
+
+go:nip rdfs:subClassOf go:run-51.3.2 .
+
+go:pace rdfs:subClassOf go:run-51.3.2 .
+
+go:pad rdfs:subClassOf go:run-51.3.2-1 .
+
+go:parade rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:perambulate rdfs:subClassOf go:run-51.3.2-1 .
+
+go:plod rdfs:subClassOf go:run-51.3.2-1 .
+
+go:pootle rdfs:subClassOf go:run-51.3.2 .
+
+go:pounce rdfs:subClassOf go:run-51.3.2 .
+
+go:prance rdfs:subClassOf go:run-51.3.2-2 .
+
+go:promenade rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:prowl rdfs:subClassOf go:run-51.3.2-1 .
+
+go:pussyfoot rdfs:subClassOf go:run-51.3.2 .
+
+go:race rdfs:subClassOf go:run-51.3.2-2 .
+
+go:ramble rdfs:subClassOf go:run-51.3.2-1 .
+
+go:roam rdfs:subClassOf go:run-51.3.2-1 .
+
+go:roar rdfs:subClassOf go:run-51.3.2 .
+
+go:roll rdfs:subClassOf go:run-51.3.2-2 .
+
+go:romp rdfs:subClassOf go:run-51.3.2 .
+
+go:rove rdfs:subClassOf go:run-51.3.2-1 .
+
+go:run rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:rush rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:sashay rdfs:subClassOf go:run-51.3.2 .
+
+go:saunter rdfs:subClassOf go:run-51.3.2 .
+
+go:scamper rdfs:subClassOf go:run-51.3.2 .
+
+go:scoot rdfs:subClassOf go:run-51.3.2-2 .
+
+go:scram rdfs:subClassOf go:run-51.3.2 .
+
+go:scramble rdfs:subClassOf go:run-51.3.2 .
+
+go:scud rdfs:subClassOf go:run-51.3.2 .
+
+go:scurry rdfs:subClassOf go:run-51.3.2 .
+
+go:scutter rdfs:subClassOf go:run-51.3.2 .
+
+go:scuttle rdfs:subClassOf go:run-51.3.2 .
+
+go:seesaw rdfs:subClassOf go:run-51.3.2 .
+
+go:shamble rdfs:subClassOf go:run-51.3.2 .
+
+go:shuffle rdfs:subClassOf go:run-51.3.2 .
+
+go:sidle rdfs:subClassOf go:run-51.3.2 .
+
+go:skedaddle rdfs:subClassOf go:run-51.3.2 .
+
+go:skid rdfs:subClassOf go:run-51.3.2 .
+
+go:skip rdfs:subClassOf go:run-51.3.2-2 .
+
+go:skitter rdfs:subClassOf go:run-51.3.2-2 .
+
+go:skulk rdfs:subClassOf go:run-51.3.2 .
+
+go:sleepwalk rdfs:subClassOf go:run-51.3.2 .
+
+go:slide rdfs:subClassOf go:run-51.3.2-2 .
+
+go:slink rdfs:subClassOf go:run-51.3.2 .
+
+go:slither rdfs:subClassOf go:run-51.3.2 .
+
+go:slog rdfs:subClassOf go:run-51.3.2 .
+
+go:slouch rdfs:subClassOf go:run-51.3.2 .
+
+go:sneak rdfs:subClassOf go:run-51.3.2-2 .
+
+go:somersault rdfs:subClassOf go:run-51.3.2 .
+
+go:speed rdfs:subClassOf go:run-51.3.2-2 .
+
+go:spring rdfs:subClassOf go:run-51.3.2 .
+
+go:sprint rdfs:subClassOf go:run-51.3.2 .
+
+go:stagger rdfs:subClassOf go:run-51.3.2 .
+
+go:step rdfs:subClassOf go:run-51.3.2 .
+
+go:stomp rdfs:subClassOf go:run-51.3.2 .
+
+go:stray rdfs:subClassOf go:run-51.3.2 .
+
+go:streak rdfs:subClassOf go:run-51.3.2 .
+
+go:stride rdfs:subClassOf go:run-51.3.2-1 .
+
+go:stroll rdfs:subClassOf go:run-51.3.2-1 .
+
+go:strut rdfs:subClassOf go:run-51.3.2-2 .
+
+go:stumble rdfs:subClassOf go:run-51.3.2 .
+
+go:stump rdfs:subClassOf go:run-51.3.2 .
+
+go:swag rdfs:subClassOf go:run-51.3.2 .
+
+go:swagger rdfs:subClassOf go:run-51.3.2 .
+
+go:swan rdfs:subClassOf go:run-51.3.2 .
+
+go:sweep rdfs:subClassOf go:run-51.3.2-1 .
+
+go:swerve rdfs:subClassOf go:run-51.3.2 .
+
+go:swim rdfs:subClassOf go:run-51.3.2-1 .
+
+go:tack rdfs:subClassOf go:run-51.3.2-2 .
+
+go:tear rdfs:subClassOf go:run-51.3.2 .
+
+go:tiptoe rdfs:subClassOf go:run-51.3.2 .
+
+go:toddle rdfs:subClassOf go:run-51.3.2 .
+
+go:toil rdfs:subClassOf go:run-51.3.2 .
+
+go:tootle rdfs:subClassOf go:run-51.3.2 .
+
+go:totter rdfs:subClassOf go:run-51.3.2 .
+
+go:traipse rdfs:subClassOf go:run-51.3.2-1 .
+
+go:tramp rdfs:subClassOf go:run-51.3.2-1 .
+
+go:travel rdfs:subClassOf go:run-51.3.2-1 .
+
+go:tread rdfs:subClassOf go:run-51.3.2 .
+
+go:trek rdfs:subClassOf go:run-51.3.2-1 .
+
+go:trip rdfs:subClassOf go:run-51.3.2-2 .
+
+go:troop rdfs:subClassOf go:run-51.3.2 .
+
+go:trot rdfs:subClassOf go:run-51.3.2-2 .
+
+go:trudge rdfs:subClassOf go:run-51.3.2-1 .
+
+go:trundle rdfs:subClassOf go:run-51.3.2 .
+
+go:vault rdfs:subClassOf go:run-51.3.2-1 .
+
+go:waddle rdfs:subClassOf go:run-51.3.2 .
+
+go:wade rdfs:subClassOf go:run-51.3.2-1 .
+
+go:walk rdfs:subClassOf go:run-51.3.2-2-1 .
+
+go:wander rdfs:subClassOf go:run-51.3.2-1 .
+
+go:weave rdfs:subClassOf go:run-51.3.2 .
+
+go:wend rdfs:subClassOf go:run-51.3.2 .
+
+go:whiz rdfs:subClassOf go:run-51.3.2 .
+
+go:wing rdfs:subClassOf go:run-51.3.2-1 .
+
+go:worm rdfs:subClassOf go:run-51.3.2 .
+
+go:yaw rdfs:subClassOf go:run-51.3.2 .
+
+go:zigzag rdfs:subClassOf go:run-51.3.2 .
+
+go:zoom rdfs:subClassOf go:run-51.3.2 .
+
+go:run-51.3.2-2-1 rdfs:subClassOf go:run-51.3.2-2 .
+
+go:run-51.3.2-1 rdfs:subClassOf go:run-51.3.2 .
+
+go:run-51.3.2-2 rdfs:subClassOf go:run-51.3.2 .
+
+go:run-51.3.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasResult,
+        go:hasTheme,
+        go:hasTrajectory .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#run-51.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#run-51.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#run-51.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#run-51.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#run-51.3.2-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

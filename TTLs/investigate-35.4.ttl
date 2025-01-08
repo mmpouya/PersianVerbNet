@@ -1,0 +1,58 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:canvass rdfs:subClassOf go:investigate-35.4 .
+
+go:examine rdfs:subClassOf go:investigate-35.4 .
+
+go:explore rdfs:subClassOf go:investigate-35.4 .
+
+go:frisk rdfs:subClassOf go:investigate-35.4 .
+
+go:inspect rdfs:subClassOf go:investigate-35.4 .
+
+go:investigate rdfs:subClassOf go:investigate-35.4 .
+
+go:monitor rdfs:subClassOf go:investigate-35.4 .
+
+go:observe rdfs:subClassOf go:investigate-35.4 .
+
+go:picket rdfs:subClassOf go:investigate-35.4 .
+
+go:quiz rdfs:subClassOf go:investigate-35.4 .
+
+go:raid rdfs:subClassOf go:investigate-35.4 .
+
+go:ransack rdfs:subClassOf go:investigate-35.4 .
+
+go:riffle rdfs:subClassOf go:investigate-35.4 .
+
+go:scan rdfs:subClassOf go:investigate-35.4 .
+
+go:scrutinize rdfs:subClassOf go:investigate-35.4 .
+
+go:surveil rdfs:subClassOf go:investigate-35.4 .
+
+go:survey rdfs:subClassOf go:investigate-35.4 .
+
+go:tap rdfs:subClassOf go:investigate-35.4 .
+
+go:test rdfs:subClassOf go:investigate-35.4 .
+
+go:tour rdfs:subClassOf go:investigate-35.4 .
+
+go:investigate-35.4 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#investigate-35.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,97 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:add rdfs:subClassOf go:mix-22.1-2 .
+
+go:admix rdfs:subClassOf go:mix-22.1-1 .
+
+go:blend rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:combine rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:commingle rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:compound rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:connect rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:consolidate rdfs:subClassOf go:mix-22.1-1 .
+
+go:cream rdfs:subClassOf go:mix-22.1-1 .
+
+go:decoct rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:fuse rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:intermix rdfs:subClassOf go:mix-22.1-1 .
+
+go:join rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:link rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:meld rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:merge rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:mingle rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:mix rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:network rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:pair rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:pool rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:recombine rdfs:subClassOf go:mix-22.1-1-1 .
+
+go:rejoin rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:scramble rdfs:subClassOf go:mix-22.1-1 .
+
+go:tie rdfs:subClassOf go:mix-22.1-2 .
+
+go:tumble rdfs:subClassOf go:mix-22.1-1 .
+
+go:unite rdfs:subClassOf go:mix-22.1-2-1 .
+
+go:mix-22.1 rdfs:subClassOf go:hasAgent,
+        go:hasCo-Patient,
+        go:hasPatient .
+
+go:mix-22.1-2 rdfs:subClassOf go:mix-22.1 .
+
+go:mix-22.1-1 rdfs:subClassOf go:mix-22.1 .
+
+go:mix-22.1-2-1 rdfs:subClassOf go:mix-22.1-2 .
+
+go:mix-22.1-1-1 rdfs:subClassOf go:mix-22.1-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#mix-22.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#mix-22.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#mix-22.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasCo-Patient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

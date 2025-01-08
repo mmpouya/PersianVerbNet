@@ -1,0 +1,66 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arrest rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:book rdfs:subClassOf go:prosecute-33.2 .
+
+go:bust rdfs:subClassOf go:prosecute-33.2 .
+
+go:charge rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:collar rdfs:subClassOf go:prosecute-33.2 .
+
+go:impeach rdfs:subClassOf go:prosecute-33.2 .
+
+go:indict rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:nab rdfs:subClassOf go:prosecute-33.2 .
+
+go:penalize rdfs:subClassOf go:prosecute-33.2 .
+
+go:persecute rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:prosecute rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:punish rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:report rdfs:subClassOf go:prosecute-33.2 .
+
+go:sanction rdfs:subClassOf go:prosecute-33.2 .
+
+go:try rdfs:subClassOf go:prosecute-33.2-1 .
+
+go:prosecute-33.2-1 rdfs:subClassOf go:prosecute-33.2 .
+
+go:prosecute-33.2 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasPatient,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#prosecute-33.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#human>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#prosecute-33.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#human>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#human>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

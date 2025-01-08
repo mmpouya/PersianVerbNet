@@ -1,0 +1,102 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:brush rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:comb rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:file rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:filter rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:hoover rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:hose rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:iron rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:mop rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:plough rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:plow rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:rake rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:sandpaper rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:shear rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:shovel rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:siphon rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:sponge rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:squeegee rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:towel rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+go:vacuum rdfs:subClassOf go:wipe_instr-10.4.2-1 .
+
+go:wipe_instr-10.4.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasInstrument,
+        go:hasResult,
+        go:hasTheme .
+
+go:wipe_instr-10.4.2-1 rdfs:subClassOf go:wipe_instr-10.4.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#wipe_instr-10.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_instr-10.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_instr-10.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_instr-10.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_instr-10.4.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

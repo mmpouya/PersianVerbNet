@@ -1,0 +1,87 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:banish rdfs:subClassOf go:banish-10.2 .
+
+go:boot rdfs:subClassOf go:banish-10.2 .
+
+go:deport rdfs:subClassOf go:banish-10.2 .
+
+go:discharge rdfs:subClassOf go:banish-10.2 .
+
+go:dismiss rdfs:subClassOf go:banish-10.2 .
+
+go:evacuate rdfs:subClassOf go:banish-10.2 .
+
+go:exile rdfs:subClassOf go:banish-10.2 .
+
+go:expel rdfs:subClassOf go:banish-10.2 .
+
+go:extradite rdfs:subClassOf go:banish-10.2 .
+
+go:recall rdfs:subClassOf go:banish-10.2 .
+
+go:recuse rdfs:subClassOf go:banish-10.2 .
+
+go:remove rdfs:subClassOf go:banish-10.2 .
+
+go:shanghai rdfs:subClassOf go:banish-10.2 .
+
+go:turn-away rdfs:subClassOf go:banish-10.2 .
+
+go:turn-back rdfs:subClassOf go:banish-10.2 .
+
+go:turn-out rdfs:subClassOf go:banish-10.2 .
+
+go:banish-10.2 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#banish-10.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#banish-10.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#banish-10.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#banish-10.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

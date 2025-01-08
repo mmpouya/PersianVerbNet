@@ -1,0 +1,59 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:behold rdfs:subClassOf go:sight-30.2 .
+
+go:descry rdfs:subClassOf go:sight-30.2 .
+
+go:espy rdfs:subClassOf go:sight-30.2 .
+
+go:experience rdfs:subClassOf go:sight-30.2 .
+
+go:eye rdfs:subClassOf go:sight-30.2 .
+
+go:glimpse rdfs:subClassOf go:sight-30.2 .
+
+go:make_out rdfs:subClassOf go:sight-30.2 .
+
+go:note rdfs:subClassOf go:sight-30.2 .
+
+go:observe rdfs:subClassOf go:sight-30.2 .
+
+go:overhear rdfs:subClassOf go:sight-30.2 .
+
+go:perceive rdfs:subClassOf go:sight-30.2 .
+
+go:recognize rdfs:subClassOf go:sight-30.2 .
+
+go:savor rdfs:subClassOf go:sight-30.2 .
+
+go:scent rdfs:subClassOf go:sight-30.2 .
+
+go:scent_out rdfs:subClassOf go:sight-30.2 .
+
+go:sight rdfs:subClassOf go:sight-30.2 .
+
+go:sniff rdfs:subClassOf go:sight-30.2 .
+
+go:spot rdfs:subClassOf go:sight-30.2 .
+
+go:spy rdfs:subClassOf go:sight-30.2 .
+
+go:view rdfs:subClassOf go:sight-30.2 .
+
+go:witness rdfs:subClassOf go:sight-30.2 .
+
+go:sight-30.2 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#sight-30.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

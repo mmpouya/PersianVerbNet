@@ -1,0 +1,77 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:chip rdfs:subClassOf go:cut-21.1-1 .
+
+go:chop rdfs:subClassOf go:cut-21.1-1 .
+
+go:clip rdfs:subClassOf go:cut-21.1-1 .
+
+go:cut rdfs:subClassOf go:cut-21.1-1 .
+
+go:hack rdfs:subClassOf go:cut-21.1-1 .
+
+go:hew rdfs:subClassOf go:cut-21.1-1 .
+
+go:ream rdfs:subClassOf go:cut-21.1-1 .
+
+go:rip rdfs:subClassOf go:cut-21.1-1 .
+
+go:saw rdfs:subClassOf go:cut-21.1-1 .
+
+go:scarify rdfs:subClassOf go:cut-21.1-1 .
+
+go:scrape rdfs:subClassOf go:cut-21.1-1 .
+
+go:scratch rdfs:subClassOf go:cut-21.1-1 .
+
+go:slash rdfs:subClassOf go:cut-21.1-1 .
+
+go:slice rdfs:subClassOf go:cut-21.1-1 .
+
+go:snip rdfs:subClassOf go:cut-21.1-1 .
+
+go:cut-21.1 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult,
+        go:hasSource .
+
+go:cut-21.1-1 rdfs:subClassOf go:cut-21.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#cut-21.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#cut-21.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#cut-21.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#cut-21.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#refl>
+                                                        <http://tavasi.majles.ir/ontology/general#body_part>
+                                                      )]
+
+                    ].
+

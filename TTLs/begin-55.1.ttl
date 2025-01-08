@@ -1,0 +1,50 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:begin rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:commence rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:go_on rdfs:subClassOf go:begin-55.1 .
+
+go:proceed rdfs:subClassOf go:begin-55.1 .
+
+go:recommence rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:repeat rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:resume rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:set_about rdfs:subClassOf go:begin-55.1-1 .
+
+go:set_out rdfs:subClassOf go:begin-55.1 .
+
+go:start rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:start_off rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:undertake rdfs:subClassOf go:begin-55.1-1-1 .
+
+go:begin-55.1-1 rdfs:subClassOf go:begin-55.1 .
+
+go:begin-55.1 rdfs:subClassOf go:hasAgent,
+        go:hasEventuality,
+        go:hasSubeventuality .
+
+go:begin-55.1-1-1 rdfs:subClassOf go:begin-55.1-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#begin-55.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

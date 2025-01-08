@@ -1,0 +1,64 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:billow rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:bloom rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:blossom rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:bristle rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:bulge rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:burn rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:effervesce rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:fester rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:fizz rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:flow rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:flower rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:flux rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:foam rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:froth rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:moil rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:propagate rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:rage rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:ripple rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:roil rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:seethe rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:smolder rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:sprout rdfs:subClassOf go:entity_specific_modes_being-47.2 .
+
+go:entity_specific_modes_being-47.2 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#entity_specific_modes_being-47.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,136 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:belt rdfs:subClassOf go:spank-18.3 .
+
+go:biff rdfs:subClassOf go:spank-18.3 .
+
+go:birch rdfs:subClassOf go:spank-18.3 .
+
+go:bludgeon rdfs:subClassOf go:spank-18.3 .
+
+go:bonk rdfs:subClassOf go:spank-18.3 .
+
+go:brain rdfs:subClassOf go:spank-18.3 .
+
+go:cane rdfs:subClassOf go:spank-18.3 .
+
+go:clobber rdfs:subClassOf go:spank-18.3 .
+
+go:clout rdfs:subClassOf go:spank-18.3 .
+
+go:club rdfs:subClassOf go:spank-18.3 .
+
+go:conk rdfs:subClassOf go:spank-18.3 .
+
+go:cosh rdfs:subClassOf go:spank-18.3 .
+
+go:cudgel rdfs:subClassOf go:spank-18.3 .
+
+go:cuff rdfs:subClassOf go:spank-18.3 .
+
+go:elbow rdfs:subClassOf go:spank-18.3 .
+
+go:flagellate rdfs:subClassOf go:spank-18.3 .
+
+go:flail rdfs:subClassOf go:spank-18.3 .
+
+go:flog rdfs:subClassOf go:spank-18.3 .
+
+go:fustigate rdfs:subClassOf go:spank-18.3 .
+
+go:horsewhip rdfs:subClassOf go:spank-18.3 .
+
+<http://tavasi.majles.ir/ontology/general#k.o.> rdfs:subClassOf go:spank-18.3 .
+
+go:knee rdfs:subClassOf go:spank-18.3 .
+
+go:knife rdfs:subClassOf go:spank-18.3 .
+
+go:lam rdfs:subClassOf go:spank-18.3 .
+
+go:larrup rdfs:subClassOf go:spank-18.3 .
+
+go:lather rdfs:subClassOf go:spank-18.3 .
+
+go:paddle rdfs:subClassOf go:spank-18.3 .
+
+go:pommel rdfs:subClassOf go:spank-18.3 .
+
+go:pummel rdfs:subClassOf go:spank-18.3 .
+
+go:slam rdfs:subClassOf go:spank-18.3 .
+
+go:sock rdfs:subClassOf go:spank-18.3 .
+
+go:spank rdfs:subClassOf go:spank-18.3 .
+
+go:strap rdfs:subClassOf go:spank-18.3 .
+
+go:thrash rdfs:subClassOf go:spank-18.3 .
+
+go:thump rdfs:subClassOf go:spank-18.3 .
+
+go:truncheon rdfs:subClassOf go:spank-18.3 .
+
+go:wallop rdfs:subClassOf go:spank-18.3 .
+
+go:wham rdfs:subClassOf go:spank-18.3 .
+
+go:whap rdfs:subClassOf go:spank-18.3 .
+
+go:whip rdfs:subClassOf go:spank-18.3 .
+
+go:whisk rdfs:subClassOf go:spank-18.3 .
+
+go:whomp rdfs:subClassOf go:spank-18.3 .
+
+go:whop rdfs:subClassOf go:spank-18.3 .
+
+go:spank-18.3 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasLocation,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#spank-18.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#spank-18.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#spank-18.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#spank-18.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

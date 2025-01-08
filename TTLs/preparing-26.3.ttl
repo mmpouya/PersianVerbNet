@@ -1,0 +1,126 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bake rdfs:subClassOf go:preparing-26.3-1 .
+
+go:barbecue rdfs:subClassOf go:preparing-26.3-2 .
+
+go:barbeque rdfs:subClassOf go:preparing-26.3-2 .
+
+go:blend rdfs:subClassOf go:preparing-26.3-1 .
+
+go:boil rdfs:subClassOf go:preparing-26.3-2 .
+
+go:brew rdfs:subClassOf go:preparing-26.3-1 .
+
+go:broil rdfs:subClassOf go:preparing-26.3-2 .
+
+go:clean rdfs:subClassOf go:preparing-26.3-2 .
+
+go:clear rdfs:subClassOf go:preparing-26.3-1 .
+
+go:cook rdfs:subClassOf go:preparing-26.3-1 .
+
+go:cook_up rdfs:subClassOf go:preparing-26.3-1 .
+
+go:cultivate rdfs:subClassOf go:preparing-26.3-1 .
+
+go:fix rdfs:subClassOf go:preparing-26.3-1 .
+
+go:fry rdfs:subClassOf go:preparing-26.3-2 .
+
+go:grill rdfs:subClassOf go:preparing-26.3-2 .
+
+go:hardboil rdfs:subClassOf go:preparing-26.3-2 .
+
+go:iron rdfs:subClassOf go:preparing-26.3-2 .
+
+go:kindle rdfs:subClassOf go:preparing-26.3-1 .
+
+go:light rdfs:subClassOf go:preparing-26.3-1 .
+
+go:microwave rdfs:subClassOf go:preparing-26.3-2 .
+
+go:mix rdfs:subClassOf go:preparing-26.3-1 .
+
+go:overbake rdfs:subClassOf go:preparing-26.3-2 .
+
+go:poach rdfs:subClassOf go:preparing-26.3-2 .
+
+go:pour rdfs:subClassOf go:preparing-26.3-2 .
+
+go:prepare rdfs:subClassOf go:preparing-26.3-1 .
+
+go:ready rdfs:subClassOf go:preparing-26.3-1 .
+
+go:roast rdfs:subClassOf go:preparing-26.3-2 .
+
+go:roll rdfs:subClassOf go:preparing-26.3-1 .
+
+go:run rdfs:subClassOf go:preparing-26.3-1 .
+
+go:scramble rdfs:subClassOf go:preparing-26.3-2 .
+
+go:set rdfs:subClassOf go:preparing-26.3-2 .
+
+go:softboil rdfs:subClassOf go:preparing-26.3-2 .
+
+go:toast rdfs:subClassOf go:preparing-26.3-2 .
+
+go:toss rdfs:subClassOf go:preparing-26.3-1 .
+
+go:wash rdfs:subClassOf go:preparing-26.3-2 .
+
+go:weld rdfs:subClassOf go:preparing-26.3-2 .
+
+go:preparing-26.3 rdfs:subClassOf go:hasAgent,
+        go:hasBeneficiary,
+        go:hasMaterial,
+        go:hasPatient,
+        go:hasProduct .
+
+go:preparing-26.3-1 rdfs:subClassOf go:preparing-26.3 .
+
+go:preparing-26.3-2 rdfs:subClassOf go:preparing-26.3 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#preparing-26.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#preparing-26.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#preparing-26.3-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasProduct> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#preparing-26.3-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasMaterial> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#preparing-26.3-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

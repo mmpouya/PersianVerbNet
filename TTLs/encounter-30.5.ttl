@@ -1,0 +1,41 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:chance_across rdfs:subClassOf go:encounter-30.5 .
+
+go:chance_upon rdfs:subClassOf go:encounter-30.5 .
+
+go:come_across rdfs:subClassOf go:encounter-30.5 .
+
+go:discover rdfs:subClassOf go:encounter-30.5 .
+
+go:encounter rdfs:subClassOf go:encounter-30.5 .
+
+go:find rdfs:subClassOf go:encounter-30.5 .
+
+go:happen_on rdfs:subClassOf go:encounter-30.5 .
+
+go:happen_upon rdfs:subClassOf go:encounter-30.5 .
+
+go:meet rdfs:subClassOf go:encounter-30.5 .
+
+go:meet_with rdfs:subClassOf go:encounter-30.5 .
+
+go:stumble_on rdfs:subClassOf go:encounter-30.5 .
+
+go:stumble_upon rdfs:subClassOf go:encounter-30.5 .
+
+go:encounter-30.5 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#encounter-30.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

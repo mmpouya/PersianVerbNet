@@ -1,0 +1,45 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:attend rdfs:subClassOf go:caring-75.2-1-1 .
+
+go:babysit rdfs:subClassOf go:caring-75.2-1 .
+
+go:care rdfs:subClassOf go:caring-75.2-2 .
+
+go:look_after rdfs:subClassOf go:caring-75.2-1 .
+
+go:look_out rdfs:subClassOf go:caring-75.2-2 .
+
+go:manage rdfs:subClassOf go:caring-75.2-1 .
+
+go:mind rdfs:subClassOf go:caring-75.2-1 .
+
+go:tend rdfs:subClassOf go:caring-75.2-1-1 .
+
+go:wait_on rdfs:subClassOf go:caring-75.2-1 .
+
+go:caring-75.2 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+go:caring-75.2-1-1 rdfs:subClassOf go:caring-75.2-1 .
+
+go:caring-75.2-2 rdfs:subClassOf go:caring-75.2 .
+
+go:caring-75.2-1 rdfs:subClassOf go:caring-75.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#caring-75.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

@@ -1,0 +1,58 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accede rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:acquiesce rdfs:subClassOf go:acquiesce-95.1-1-1 .
+
+go:bow rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:capitulate rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:consent rdfs:subClassOf go:acquiesce-95.1-1-1 .
+
+go:defer rdfs:subClassOf go:acquiesce-95.1 .
+
+go:fall rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:give_in rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:give_way rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:submit rdfs:subClassOf go:acquiesce-95.1-1-1 .
+
+go:succumb rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:yield rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:acquiesce-95.1 rdfs:subClassOf go:hasAgent,
+        go:hasPivot,
+        go:hasTheme .
+
+go:acquiesce-95.1-1-1 rdfs:subClassOf go:acquiesce-95.1-1 .
+
+go:acquiesce-95.1-1 rdfs:subClassOf go:acquiesce-95.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#acquiesce-95.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#acquiesce-95.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPivot> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

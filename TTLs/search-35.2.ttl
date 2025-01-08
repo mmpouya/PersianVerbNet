@@ -1,0 +1,70 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:check rdfs:subClassOf go:search-35.2 .
+
+go:comb rdfs:subClassOf go:search-35.2 .
+
+go:dive rdfs:subClassOf go:search-35.2 .
+
+go:drag rdfs:subClassOf go:search-35.2 .
+
+go:dredge rdfs:subClassOf go:search-35.2 .
+
+go:excavate rdfs:subClassOf go:search-35.2 .
+
+go:nose rdfs:subClassOf go:search-35.2 .
+
+go:patrol rdfs:subClassOf go:search-35.2 .
+
+go:plumb rdfs:subClassOf go:search-35.2 .
+
+go:probe rdfs:subClassOf go:search-35.2 .
+
+go:prospect rdfs:subClassOf go:search-35.2 .
+
+go:prowl rdfs:subClassOf go:search-35.2 .
+
+go:quarry rdfs:subClassOf go:search-35.2 .
+
+go:quest rdfs:subClassOf go:search-35.2 .
+
+go:rake rdfs:subClassOf go:search-35.2 .
+
+go:rifle rdfs:subClassOf go:search-35.2 .
+
+go:scavenge rdfs:subClassOf go:search-35.2 .
+
+go:scour rdfs:subClassOf go:search-35.2 .
+
+go:scout rdfs:subClassOf go:search-35.2 .
+
+go:search rdfs:subClassOf go:search-35.2 .
+
+go:shop rdfs:subClassOf go:search-35.2 .
+
+go:sift rdfs:subClassOf go:search-35.2 .
+
+go:sweep rdfs:subClassOf go:search-35.2 .
+
+go:trawl rdfs:subClassOf go:search-35.2 .
+
+go:troll rdfs:subClassOf go:search-35.2 .
+
+go:watch rdfs:subClassOf go:search-35.2 .
+
+go:search-35.2 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#search-35.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

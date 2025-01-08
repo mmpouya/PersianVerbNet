@@ -1,0 +1,74 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bend rdfs:subClassOf go:assuming_position-50 .
+
+go:bow rdfs:subClassOf go:assuming_position-50 .
+
+go:crouch rdfs:subClassOf go:assuming_position-50 .
+
+go:flop rdfs:subClassOf go:assuming_position-50 .
+
+go:hang rdfs:subClassOf go:assuming_position-50 .
+
+go:hunch rdfs:subClassOf go:assuming_position-50 .
+
+go:hunch_up rdfs:subClassOf go:assuming_position-50 .
+
+go:kneel rdfs:subClassOf go:assuming_position-50 .
+
+go:lean rdfs:subClassOf go:assuming_position-50 .
+
+go:lie rdfs:subClassOf go:assuming_position-50 .
+
+go:lie_down rdfs:subClassOf go:assuming_position-50 .
+
+go:perch rdfs:subClassOf go:assuming_position-50 .
+
+go:plop rdfs:subClassOf go:assuming_position-50 .
+
+go:rise rdfs:subClassOf go:assuming_position-50 .
+
+go:sit rdfs:subClassOf go:assuming_position-50 .
+
+go:sit_down rdfs:subClassOf go:assuming_position-50 .
+
+go:slouch rdfs:subClassOf go:assuming_position-50 .
+
+go:slump rdfs:subClassOf go:assuming_position-50 .
+
+go:sprawl rdfs:subClassOf go:assuming_position-50 .
+
+go:squat rdfs:subClassOf go:assuming_position-50 .
+
+go:squat_down rdfs:subClassOf go:assuming_position-50 .
+
+go:stand rdfs:subClassOf go:assuming_position-50 .
+
+go:stand_up rdfs:subClassOf go:assuming_position-50 .
+
+go:stoop rdfs:subClassOf go:assuming_position-50 .
+
+go:straddle rdfs:subClassOf go:assuming_position-50 .
+
+go:assuming_position-50 rdfs:subClassOf go:hasAgent,
+        go:hasLocation .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#assuming_position-50> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#assuming_position-50> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

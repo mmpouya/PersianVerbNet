@@ -1,0 +1,74 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:comment rdfs:subClassOf go:lecture-37.11-1-1 .
+
+go:dwell rdfs:subClassOf go:lecture-37.11-2 .
+
+go:elaborate rdfs:subClassOf go:lecture-37.11-1-1 .
+
+go:gush rdfs:subClassOf go:lecture-37.11-1 .
+
+go:lecture rdfs:subClassOf go:lecture-37.11-1 .
+
+go:moralize rdfs:subClassOf go:lecture-37.11-1 .
+
+go:pontificate rdfs:subClassOf go:lecture-37.11-1 .
+
+go:preach rdfs:subClassOf go:lecture-37.11-1 .
+
+go:rant rdfs:subClassOf go:lecture-37.11-1 .
+
+go:rave rdfs:subClassOf go:lecture-37.11-1 .
+
+go:remark rdfs:subClassOf go:lecture-37.11-1 .
+
+go:rhapsodize rdfs:subClassOf go:lecture-37.11-1 .
+
+go:speak rdfs:subClassOf go:lecture-37.11-1 .
+
+go:speak_out rdfs:subClassOf go:lecture-37.11-1 .
+
+go:speak_up rdfs:subClassOf go:lecture-37.11-1 .
+
+go:talk rdfs:subClassOf go:lecture-37.11-1 .
+
+go:testify rdfs:subClassOf go:lecture-37.11-1 .
+
+go:theorize rdfs:subClassOf go:lecture-37.11-1 .
+
+go:write rdfs:subClassOf go:lecture-37.11-1 .
+
+go:lecture-37.11-2 rdfs:subClassOf go:lecture-37.11 .
+
+go:lecture-37.11 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+go:lecture-37.11-1-1 rdfs:subClassOf go:lecture-37.11-1 .
+
+go:lecture-37.11-1 rdfs:subClassOf go:lecture-37.11 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#lecture-37.11> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#lecture-37.11> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

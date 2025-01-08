@@ -1,0 +1,44 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:December rdfs:subClassOf go:weekend-56 .
+
+go:holiday rdfs:subClassOf go:weekend-56 .
+
+go:honeymoon rdfs:subClassOf go:weekend-56 .
+
+go:junket rdfs:subClassOf go:weekend-56 .
+
+go:overnight rdfs:subClassOf go:weekend-56 .
+
+go:sojourn rdfs:subClassOf go:weekend-56 .
+
+go:summer rdfs:subClassOf go:weekend-56 .
+
+go:vacation rdfs:subClassOf go:weekend-56 .
+
+go:weekend rdfs:subClassOf go:weekend-56 .
+
+go:winter rdfs:subClassOf go:weekend-56 .
+
+go:weekend-56 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#weekend-56> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#weekend-56> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

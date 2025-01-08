@@ -1,0 +1,97 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:annihilate rdfs:subClassOf go:destroy-44 .
+
+go:blight rdfs:subClassOf go:destroy-44 .
+
+go:blitz rdfs:subClassOf go:destroy-44 .
+
+go:damage rdfs:subClassOf go:destroy-44 .
+
+go:decimate rdfs:subClassOf go:destroy-44 .
+
+go:demolish rdfs:subClassOf go:destroy-44 .
+
+go:desecrate rdfs:subClassOf go:destroy-44 .
+
+go:destroy rdfs:subClassOf go:destroy-44 .
+
+go:devastate rdfs:subClassOf go:destroy-44 .
+
+go:disfigure rdfs:subClassOf go:destroy-44 .
+
+go:efface rdfs:subClassOf go:destroy-44 .
+
+go:exterminate rdfs:subClassOf go:destroy-44 .
+
+go:extirpate rdfs:subClassOf go:destroy-44 .
+
+go:level rdfs:subClassOf go:destroy-44 .
+
+go:louse_up rdfs:subClassOf go:destroy-44 .
+
+go:maim rdfs:subClassOf go:destroy-44 .
+
+go:mutilate rdfs:subClassOf go:destroy-44 .
+
+go:obliterate rdfs:subClassOf go:destroy-44 .
+
+go:rack rdfs:subClassOf go:destroy-44 .
+
+go:ravage rdfs:subClassOf go:destroy-44 .
+
+go:raze rdfs:subClassOf go:destroy-44 .
+
+go:ruin rdfs:subClassOf go:destroy-44 .
+
+go:shatter rdfs:subClassOf go:destroy-44 .
+
+go:shipwreck rdfs:subClassOf go:destroy-44 .
+
+go:smoke rdfs:subClassOf go:destroy-44 .
+
+go:undo rdfs:subClassOf go:destroy-44 .
+
+go:unmake rdfs:subClassOf go:destroy-44 .
+
+go:vaporize rdfs:subClassOf go:destroy-44 .
+
+go:waste rdfs:subClassOf go:destroy-44 .
+
+go:wrack rdfs:subClassOf go:destroy-44 .
+
+go:wreck rdfs:subClassOf go:destroy-44 .
+
+go:destroy-44 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#destroy-44> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#destroy-44> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#destroy-44> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

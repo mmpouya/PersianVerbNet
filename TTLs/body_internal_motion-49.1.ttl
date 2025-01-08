@@ -1,0 +1,48 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:buck rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:fidget rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:flap rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:gyrate rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:jiggle rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:kick rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:rock rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:squirm rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:sway rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:teeter rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:totter rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:twitch rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:waggle rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:wiggle rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:wobble rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:wriggle rdfs:subClassOf go:body_internal_motion-49.1 .
+
+go:body_internal_motion-49.1 rdfs:subClassOf go:hasAgent .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#body_internal_motion-49.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

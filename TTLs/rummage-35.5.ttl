@@ -1,0 +1,62 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bore rdfs:subClassOf go:rummage-35.5 .
+
+go:burrow rdfs:subClassOf go:rummage-35.5 .
+
+go:delve rdfs:subClassOf go:rummage-35.5-1 .
+
+go:forage rdfs:subClassOf go:rummage-35.5-1 .
+
+go:fumble rdfs:subClassOf go:rummage-35.5 .
+
+go:go rdfs:subClassOf go:rummage-35.5 .
+
+go:grope rdfs:subClassOf go:rummage-35.5-1 .
+
+go:leaf rdfs:subClassOf go:rummage-35.5 .
+
+go:listen rdfs:subClassOf go:rummage-35.5 .
+
+go:look rdfs:subClassOf go:rummage-35.5 .
+
+go:page rdfs:subClassOf go:rummage-35.5 .
+
+go:paw rdfs:subClassOf go:rummage-35.5-1 .
+
+go:poke rdfs:subClassOf go:rummage-35.5 .
+
+go:rifle rdfs:subClassOf go:rummage-35.5-1 .
+
+go:root rdfs:subClassOf go:rummage-35.5-1 .
+
+go:rummage rdfs:subClassOf go:rummage-35.5-1 .
+
+go:scrabble rdfs:subClassOf go:rummage-35.5 .
+
+go:scratch rdfs:subClassOf go:rummage-35.5 .
+
+go:snoop rdfs:subClassOf go:rummage-35.5-1 .
+
+go:thumb rdfs:subClassOf go:rummage-35.5-1 .
+
+go:tunnel rdfs:subClassOf go:rummage-35.5-1 .
+
+go:rummage-35.5-1 rdfs:subClassOf go:rummage-35.5 .
+
+go:rummage-35.5 rdfs:subClassOf go:hasAgent,
+        go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#rummage-35.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

@@ -1,0 +1,39 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:chase rdfs:subClassOf go:chase-51.6 .
+
+go:follow rdfs:subClassOf go:chase-51.6 .
+
+go:pursue rdfs:subClassOf go:chase-51.6 .
+
+go:shadow rdfs:subClassOf go:chase-51.6 .
+
+go:tail rdfs:subClassOf go:chase-51.6 .
+
+go:track rdfs:subClassOf go:chase-51.6 .
+
+go:trail rdfs:subClassOf go:chase-51.6 .
+
+go:chase-51.6 rdfs:subClassOf go:hasAgent,
+        go:hasTheme,
+        go:hasTrajectory .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#chase-51.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#chase-51.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

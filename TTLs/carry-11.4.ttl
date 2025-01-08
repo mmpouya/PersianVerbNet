@@ -1,0 +1,84 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:carry rdfs:subClassOf go:carry-11.4 .
+
+go:drag rdfs:subClassOf go:carry-11.4 .
+
+go:draw rdfs:subClassOf go:carry-11.4 .
+
+go:haul rdfs:subClassOf go:carry-11.4 .
+
+go:heave rdfs:subClassOf go:carry-11.4-1-1 .
+
+go:heft rdfs:subClassOf go:carry-11.4 .
+
+go:hoist rdfs:subClassOf go:carry-11.4 .
+
+go:kick rdfs:subClassOf go:carry-11.4-1-1 .
+
+go:lug rdfs:subClassOf go:carry-11.4 .
+
+go:nudge rdfs:subClassOf go:carry-11.4 .
+
+go:pull rdfs:subClassOf go:carry-11.4 .
+
+go:push rdfs:subClassOf go:carry-11.4-1-1 .
+
+go:run rdfs:subClassOf go:carry-11.4 .
+
+go:schlep rdfs:subClassOf go:carry-11.4 .
+
+go:shove rdfs:subClassOf go:carry-11.4-1-1 .
+
+go:thrust rdfs:subClassOf go:carry-11.4-1-1 .
+
+go:tote rdfs:subClassOf go:carry-11.4 .
+
+go:tow rdfs:subClassOf go:carry-11.4 .
+
+go:tug rdfs:subClassOf go:carry-11.4 .
+
+go:yank rdfs:subClassOf go:carry-11.4 .
+
+go:carry-11.4-1 rdfs:subClassOf go:carry-11.4 .
+
+go:carry-11.4-1-1 rdfs:subClassOf go:carry-11.4-1 .
+
+go:carry-11.4 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#carry-11.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#carry-11.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#carry-11.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#carry-11.4-1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

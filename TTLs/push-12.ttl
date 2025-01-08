@@ -1,0 +1,54 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:heave rdfs:subClassOf go:push-12 .
+
+go:jerk rdfs:subClassOf go:push-12-1 .
+
+go:jostle rdfs:subClassOf go:push-12-1-1 .
+
+go:nudge rdfs:subClassOf go:push-12-1-1 .
+
+go:press rdfs:subClassOf go:push-12-1-1 .
+
+go:pull rdfs:subClassOf go:push-12-1 .
+
+go:push rdfs:subClassOf go:push-12-1-1 .
+
+go:shove rdfs:subClassOf go:push-12-1-1 .
+
+go:squeeze rdfs:subClassOf go:push-12-1-1 .
+
+go:thrust rdfs:subClassOf go:push-12-1-1 .
+
+go:tug rdfs:subClassOf go:push-12-1 .
+
+go:yank rdfs:subClassOf go:push-12-1 .
+
+go:push-12 rdfs:subClassOf go:hasAgent,
+        go:hasResult,
+        go:hasTheme,
+        go:hasTrajectory .
+
+go:push-12-1 rdfs:subClassOf go:push-12 .
+
+go:push-12-1-1 rdfs:subClassOf go:push-12-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#push-12> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#push-12> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

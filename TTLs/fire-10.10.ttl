@@ -1,0 +1,76 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:can rdfs:subClassOf go:fire-10.10 .
+
+go:dismiss rdfs:subClassOf go:fire-10.10 .
+
+go:drop rdfs:subClassOf go:fire-10.10 .
+
+go:expel rdfs:subClassOf go:fire-10.10 .
+
+go:fire rdfs:subClassOf go:fire-10.10 .
+
+go:force_out rdfs:subClassOf go:fire-10.10 .
+
+go:give_the_boot rdfs:subClassOf go:fire-10.10 .
+
+go:lay_off rdfs:subClassOf go:fire-10.10 .
+
+go:let_go rdfs:subClassOf go:fire-10.10 .
+
+go:oust rdfs:subClassOf go:fire-10.10 .
+
+go:remove rdfs:subClassOf go:fire-10.10 .
+
+go:sack rdfs:subClassOf go:fire-10.10 .
+
+go:send_away rdfs:subClassOf go:fire-10.10 .
+
+go:shitcan rdfs:subClassOf go:fire-10.10 .
+
+go:suspend rdfs:subClassOf go:fire-10.10 .
+
+go:terminate rdfs:subClassOf go:fire-10.10 .
+
+go:unseat rdfs:subClassOf go:fire-10.10 .
+
+go:fire-10.10 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#fire-10.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#fire-10.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#fire-10.10> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

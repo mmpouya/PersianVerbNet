@@ -1,0 +1,56 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:approach rdfs:subClassOf go:confront-98 .
+
+go:brave rdfs:subClassOf go:confront-98 .
+
+go:breast rdfs:subClassOf go:confront-98 .
+
+go:combat rdfs:subClassOf go:confront-98 .
+
+go:confront rdfs:subClassOf go:confront-98 .
+
+go:counter rdfs:subClassOf go:confront-98 .
+
+go:face rdfs:subClassOf go:confront-98 .
+
+go:go_about rdfs:subClassOf go:confront-98 .
+
+go:handle rdfs:subClassOf go:confront-98 .
+
+go:head_on rdfs:subClassOf go:confront-98 .
+
+go:intercept rdfs:subClassOf go:confront-98 .
+
+go:move_in_on rdfs:subClassOf go:confront-98 .
+
+go:pre-empt rdfs:subClassOf go:confront-98 .
+
+go:tackle rdfs:subClassOf go:confront-98 .
+
+go:take_on rdfs:subClassOf go:confront-98 .
+
+go:target rdfs:subClassOf go:confront-98 .
+
+go:undertake rdfs:subClassOf go:confront-98 .
+
+go:confront-98 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#confront-98> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

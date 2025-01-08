@@ -1,0 +1,69 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:amerce rdfs:subClassOf go:bill-54.5-1 .
+
+go:bet rdfs:subClassOf go:bill-54.5-1 .
+
+go:bill rdfs:subClassOf go:bill-54.5-1 .
+
+go:charge rdfs:subClassOf go:bill-54.5-1 .
+
+go:fine rdfs:subClassOf go:bill-54.5-1 .
+
+go:invoice rdfs:subClassOf go:bill-54.5-1 .
+
+go:mulct rdfs:subClassOf go:bill-54.5-1 .
+
+go:overcharge rdfs:subClassOf go:bill-54.5-1 .
+
+go:save rdfs:subClassOf go:bill-54.5 .
+
+go:spare rdfs:subClassOf go:bill-54.5 .
+
+go:tax rdfs:subClassOf go:bill-54.5-1 .
+
+go:undercharge rdfs:subClassOf go:bill-54.5-1 .
+
+go:wager rdfs:subClassOf go:bill-54.5-1 .
+
+go:bill-54.5 rdfs:subClassOf go:hasAgent,
+        go:hasAsset,
+        go:hasRecipient .
+
+go:bill-54.5-1 rdfs:subClassOf go:bill-54.5 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#bill-54.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#bill-54.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAsset> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#currency>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#bill-54.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

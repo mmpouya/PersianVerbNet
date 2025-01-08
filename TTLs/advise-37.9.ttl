@@ -1,0 +1,67 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:admonish rdfs:subClassOf go:advise-37.9-1 .
+
+go:advise rdfs:subClassOf go:advise-37.9-1 .
+
+go:alert rdfs:subClassOf go:advise-37.9 .
+
+go:assure rdfs:subClassOf go:advise-37.9 .
+
+go:brief rdfs:subClassOf go:advise-37.9 .
+
+go:caution rdfs:subClassOf go:advise-37.9-1 .
+
+go:counsel rdfs:subClassOf go:advise-37.9-1 .
+
+go:educate rdfs:subClassOf go:advise-37.9 .
+
+go:encourage rdfs:subClassOf go:advise-37.9 .
+
+go:instruct rdfs:subClassOf go:advise-37.9-1 .
+
+go:notify rdfs:subClassOf go:advise-37.9 .
+
+go:warn rdfs:subClassOf go:advise-37.9-1 .
+
+go:advise-37.9-1 rdfs:subClassOf go:advise-37.9 .
+
+go:advise-37.9 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#advise-37.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#advise-37.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#communication>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#advise-37.9> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

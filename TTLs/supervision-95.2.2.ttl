@@ -1,0 +1,55 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:command rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:direct rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:govern rdfs:subClassOf go:supervision-95.2.2 .
+
+go:lead rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:manage rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:micromanage rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:oversee rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:preside_over rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:reign_over rdfs:subClassOf go:supervision-95.2.2 .
+
+go:rule rdfs:subClassOf go:supervision-95.2.2 .
+
+go:superintend rdfs:subClassOf go:supervision-95.2.2 .
+
+go:supervise rdfs:subClassOf go:supervision-95.2.2-1 .
+
+go:supervision-95.2.2 rdfs:subClassOf go:hasAgent,
+        go:hasTheme .
+
+go:supervision-95.2.2-1 rdfs:subClassOf go:supervision-95.2.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#supervision-95.2.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#supervision-95.2.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

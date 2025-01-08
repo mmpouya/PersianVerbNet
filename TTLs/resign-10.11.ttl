@@ -1,0 +1,60 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abdicate rdfs:subClassOf go:resign-10.11-2 .
+
+go:depart rdfs:subClassOf go:resign-10.11-2 .
+
+go:give_up rdfs:subClassOf go:resign-10.11-2 .
+
+go:leave rdfs:subClassOf go:resign-10.11-2 .
+
+go:leave_office rdfs:subClassOf go:resign-10.11 .
+
+go:quit rdfs:subClassOf go:resign-10.11-2 .
+
+go:renounce rdfs:subClassOf go:resign-10.11-2 .
+
+go:resign rdfs:subClassOf go:resign-10.11-1,
+        go:resign-10.11-2 .
+
+go:retire rdfs:subClassOf go:resign-10.11-1 .
+
+go:step_down rdfs:subClassOf go:resign-10.11 .
+
+go:vacate rdfs:subClassOf go:resign-10.11-2 .
+
+go:walk rdfs:subClassOf go:resign-10.11-1 .
+
+go:walk_away rdfs:subClassOf go:resign-10.11-1 .
+
+go:walk_off rdfs:subClassOf go:resign-10.11-2 .
+
+go:walk_out rdfs:subClassOf go:resign-10.11,
+        go:resign-10.11-1 .
+
+go:withdraw rdfs:subClassOf go:resign-10.11-1 .
+
+go:resign-10.11 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasSource .
+
+go:resign-10.11-1 rdfs:subClassOf go:resign-10.11 .
+
+go:resign-10.11-2 rdfs:subClassOf go:resign-10.11 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#resign-10.11> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

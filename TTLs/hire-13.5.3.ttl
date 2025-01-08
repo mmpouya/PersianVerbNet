@@ -1,0 +1,64 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:commission rdfs:subClassOf go:hire-13.5.3 .
+
+go:contract rdfs:subClassOf go:hire-13.5.3 .
+
+go:draft rdfs:subClassOf go:hire-13.5.3 .
+
+go:employ rdfs:subClassOf go:hire-13.5.3 .
+
+go:engage rdfs:subClassOf go:hire-13.5.3 .
+
+go:enlist rdfs:subClassOf go:hire-13.5.3 .
+
+go:groom rdfs:subClassOf go:hire-13.5.3 .
+
+go:hire rdfs:subClassOf go:hire-13.5.3 .
+
+go:prepare rdfs:subClassOf go:hire-13.5.3 .
+
+go:recruit rdfs:subClassOf go:hire-13.5.3 .
+
+go:reinstate rdfs:subClassOf go:hire-13.5.3 .
+
+go:sign rdfs:subClassOf go:hire-13.5.3 .
+
+go:sign_on rdfs:subClassOf go:hire-13.5.3 .
+
+go:sign_up rdfs:subClassOf go:hire-13.5.3 .
+
+go:subcontract rdfs:subClassOf go:hire-13.5.3 .
+
+go:take_on rdfs:subClassOf go:hire-13.5.3 .
+
+go:train rdfs:subClassOf go:hire-13.5.3 .
+
+go:hire-13.5.3 rdfs:subClassOf go:hasAgent,
+        go:hasAttribute,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#hire-13.5.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#hire-13.5.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

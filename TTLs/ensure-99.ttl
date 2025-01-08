@@ -1,0 +1,29 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:ascertain rdfs:subClassOf go:ensure-99 .
+
+go:assure rdfs:subClassOf go:ensure-99 .
+
+go:ensure rdfs:subClassOf go:ensure-99 .
+
+go:guarantee rdfs:subClassOf go:ensure-99 .
+
+go:insure rdfs:subClassOf go:ensure-99 .
+
+go:provide rdfs:subClassOf go:ensure-99 .
+
+go:reinsure rdfs:subClassOf go:ensure-99 .
+
+go:secure rdfs:subClassOf go:ensure-99 .
+
+go:ensure-99 rdfs:subClassOf go:hasBeneficiary,
+        go:hasPrecondition,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

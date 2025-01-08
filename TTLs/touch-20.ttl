@@ -1,0 +1,109 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:caress rdfs:subClassOf go:touch-20-1 .
+
+go:chafe rdfs:subClassOf go:touch-20 .
+
+go:fondle rdfs:subClassOf go:touch-20-1 .
+
+go:grasp rdfs:subClassOf go:touch-20-1 .
+
+go:graze rdfs:subClassOf go:touch-20-1 .
+
+go:grip rdfs:subClassOf go:touch-20-1 .
+
+go:grope rdfs:subClassOf go:touch-20 .
+
+go:kiss rdfs:subClassOf go:touch-20-1 .
+
+go:knead rdfs:subClassOf go:touch-20 .
+
+go:lick rdfs:subClassOf go:touch-20-1 .
+
+go:massage rdfs:subClassOf go:touch-20-1 .
+
+go:nudge rdfs:subClassOf go:touch-20-1 .
+
+go:osculate rdfs:subClassOf go:touch-20 .
+
+go:pat rdfs:subClassOf go:touch-20-1 .
+
+go:paw rdfs:subClassOf go:touch-20-1 .
+
+go:peck rdfs:subClassOf go:touch-20-1 .
+
+go:pet rdfs:subClassOf go:touch-20-1 .
+
+go:pinch rdfs:subClassOf go:touch-20-1 .
+
+go:prod rdfs:subClassOf go:touch-20-1 .
+
+go:rub rdfs:subClassOf go:touch-20-1 .
+
+go:squeeze rdfs:subClassOf go:touch-20 .
+
+go:sting rdfs:subClassOf go:touch-20-1 .
+
+go:stroke rdfs:subClassOf go:touch-20-1 .
+
+go:tickle rdfs:subClassOf go:touch-20-1 .
+
+go:touch rdfs:subClassOf go:touch-20-1 .
+
+go:tug rdfs:subClassOf go:touch-20 .
+
+go:tweak rdfs:subClassOf go:touch-20 .
+
+go:twinge rdfs:subClassOf go:touch-20 .
+
+go:wring rdfs:subClassOf go:touch-20 .
+
+go:touch-20 rdfs:subClassOf go:hasAgent,
+        go:hasExperiencer,
+        go:hasInstrument,
+        go:hasTheme .
+
+go:touch-20-1 rdfs:subClassOf go:touch-20 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#touch-20> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#touch-20> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#touch-20> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#touch-20> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,45 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:black_out rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:blanch rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:blench rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:doze_off rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:drift_off rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:drowse_off rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:faint rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:konk_out rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:nod_off rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:pale rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:pass_out rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:sicken rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:swoon rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:zonk_out rdfs:subClassOf go:change_bodily_state-40.8.4 .
+
+go:change_bodily_state-40.8.4 rdfs:subClassOf go:hasExperiencer,
+        go:hasStimulus .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#change_bodily_state-40.8.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasExperiencer> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

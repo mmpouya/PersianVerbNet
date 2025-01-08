@@ -1,0 +1,120 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:angle rdfs:subClassOf go:meander-47.7 .
+
+go:ascend rdfs:subClassOf go:meander-47.7-1 .
+
+go:bend rdfs:subClassOf go:meander-47.7-1 .
+
+go:cascade rdfs:subClassOf go:meander-47.7 .
+
+go:climb rdfs:subClassOf go:meander-47.7-1 .
+
+go:converge rdfs:subClassOf go:meander-47.7-1 .
+
+go:crawl rdfs:subClassOf go:meander-47.7 .
+
+go:crest rdfs:subClassOf go:meander-47.7 .
+
+go:crisscross rdfs:subClassOf go:meander-47.7-1 .
+
+go:cross rdfs:subClassOf go:meander-47.7 .
+
+go:cut rdfs:subClassOf go:meander-47.7 .
+
+go:descend rdfs:subClassOf go:meander-47.7-1 .
+
+go:dip rdfs:subClassOf go:meander-47.7-1 .
+
+go:dive rdfs:subClassOf go:meander-47.7 .
+
+go:drop rdfs:subClassOf go:meander-47.7-1 .
+
+go:edge rdfs:subClassOf go:meander-47.7 .
+
+go:emerge rdfs:subClassOf go:meander-47.7 .
+
+go:fall rdfs:subClassOf go:meander-47.7 .
+
+go:go rdfs:subClassOf go:meander-47.7 .
+
+go:lance rdfs:subClassOf go:meander-47.7 .
+
+go:meander rdfs:subClassOf go:meander-47.7-1 .
+
+go:mount rdfs:subClassOf go:meander-47.7 .
+
+go:pass rdfs:subClassOf go:meander-47.7 .
+
+go:plummit rdfs:subClassOf go:meander-47.7-1 .
+
+go:plunge rdfs:subClassOf go:meander-47.7-1 .
+
+go:range rdfs:subClassOf go:meander-47.7 .
+
+go:rise rdfs:subClassOf go:meander-47.7-1 .
+
+go:round rdfs:subClassOf go:meander-47.7 .
+
+go:run rdfs:subClassOf go:meander-47.7-1 .
+
+go:skirt rdfs:subClassOf go:meander-47.7 .
+
+go:slant rdfs:subClassOf go:meander-47.7-1 .
+
+go:snake rdfs:subClassOf go:meander-47.7-1 .
+
+go:straggle rdfs:subClassOf go:meander-47.7 .
+
+go:stretch rdfs:subClassOf go:meander-47.7 .
+
+go:sweep rdfs:subClassOf go:meander-47.7 .
+
+go:swerve rdfs:subClassOf go:meander-47.7-1 .
+
+go:tumble rdfs:subClassOf go:meander-47.7 .
+
+go:turn rdfs:subClassOf go:meander-47.7-1 .
+
+go:twist rdfs:subClassOf go:meander-47.7-1 .
+
+go:undulate rdfs:subClassOf go:meander-47.7-1 .
+
+go:veer rdfs:subClassOf go:meander-47.7 .
+
+go:wander rdfs:subClassOf go:meander-47.7 .
+
+go:weave rdfs:subClassOf go:meander-47.7 .
+
+go:wind rdfs:subClassOf go:meander-47.7 .
+
+go:zag rdfs:subClassOf go:meander-47.7 .
+
+go:zig rdfs:subClassOf go:meander-47.7 .
+
+go:zigzag rdfs:subClassOf go:meander-47.7-1 .
+
+go:meander-47.7-1 rdfs:subClassOf go:meander-47.7 .
+
+go:meander-47.7 rdfs:subClassOf go:hasLocation,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#meander-47.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasLocation> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+<http://tavasi.majles.ir/ontology/general#meander-47.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#elongated>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,53 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:brood rdfs:subClassOf go:focus-87.1-1 .
+
+go:center rdfs:subClassOf go:focus-87.1 .
+
+go:concentrate rdfs:subClassOf go:focus-87.1 .
+
+go:contemplate rdfs:subClassOf go:focus-87.1 .
+
+go:converge rdfs:subClassOf go:focus-87.1 .
+
+go:deliberate rdfs:subClassOf go:focus-87.1-1 .
+
+go:dwell rdfs:subClassOf go:focus-87.1 .
+
+go:fixate rdfs:subClassOf go:focus-87.1 .
+
+go:focalize rdfs:subClassOf go:focus-87.1 .
+
+go:focus rdfs:subClassOf go:focus-87.1 .
+
+go:meditate rdfs:subClassOf go:focus-87.1-1 .
+
+go:muse rdfs:subClassOf go:focus-87.1-1 .
+
+go:ponder rdfs:subClassOf go:focus-87.1-1 .
+
+go:reflect rdfs:subClassOf go:focus-87.1-1 .
+
+go:ruminate rdfs:subClassOf go:focus-87.1-1 .
+
+go:think rdfs:subClassOf go:focus-87.1-1 .
+
+go:wonder rdfs:subClassOf go:focus-87.1-1 .
+
+go:focus-87.1 rdfs:subClassOf go:hasAgent,
+        go:hasTopic .
+
+go:focus-87.1-1 rdfs:subClassOf go:focus-87.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#focus-87.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

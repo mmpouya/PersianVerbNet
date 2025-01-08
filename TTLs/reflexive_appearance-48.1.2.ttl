@@ -1,0 +1,72 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:announce rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:assert rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:declare rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:define rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:display rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:exhibit rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:expose rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:express rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:flaunt rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:form rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:intrude rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:manifest rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:offer rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:pose rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:present rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:proffer rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:propose rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:reassert rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:recommend rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:reveal rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:shape rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:show rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:suggest rdfs:subClassOf go:reflexive_appearance-48.1.2 .
+
+go:reflexive_appearance-48.1.2 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasReflexive,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#reflexive_appearance-48.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#reflexive_appearance-48.1.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

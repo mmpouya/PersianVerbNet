@@ -1,0 +1,43 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:calve rdfs:subClassOf go:calve-28.1 .
+
+go:cub rdfs:subClassOf go:calve-28.1 .
+
+go:fawn rdfs:subClassOf go:calve-28.1 .
+
+go:foal rdfs:subClassOf go:calve-28.1-1 .
+
+go:kitten rdfs:subClassOf go:calve-28.1 .
+
+go:lamb rdfs:subClassOf go:calve-28.1 .
+
+go:litter rdfs:subClassOf go:calve-28.1-1 .
+
+go:pup rdfs:subClassOf go:calve-28.1 .
+
+go:spawn rdfs:subClassOf go:calve-28.1-1 .
+
+go:whelp rdfs:subClassOf go:calve-28.1-1 .
+
+go:calve-28.1-1 rdfs:subClassOf go:calve-28.1 .
+
+go:calve-28.1 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#calve-28.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animal>
+                    ].
+<http://tavasi.majles.ir/ontology/general#calve-28.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animal>
+                    ].
+

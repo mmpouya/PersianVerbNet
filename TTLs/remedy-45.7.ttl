@@ -1,0 +1,342 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:abase rdfs:subClassOf go:remedy-45.7 .
+
+go:africanize rdfs:subClassOf go:remedy-45.7 .
+
+go:alcoholize rdfs:subClassOf go:remedy-45.7 .
+
+go:alleviate rdfs:subClassOf go:remedy-45.7 .
+
+go:anesthetize rdfs:subClassOf go:remedy-45.7 .
+
+go:animate rdfs:subClassOf go:remedy-45.7 .
+
+go:backfill rdfs:subClassOf go:remedy-45.7 .
+
+go:bastardize rdfs:subClassOf go:remedy-45.7 .
+
+go:bedew rdfs:subClassOf go:remedy-45.7 .
+
+go:blast rdfs:subClassOf go:remedy-45.7 .
+
+go:blemish rdfs:subClassOf go:remedy-45.7 .
+
+go:bloody rdfs:subClassOf go:remedy-45.7 .
+
+go:botch rdfs:subClassOf go:remedy-45.7 .
+
+go:bowdlerize rdfs:subClassOf go:remedy-45.7 .
+
+go:bring-out rdfs:subClassOf go:remedy-45.7 .
+
+go:bring-up rdfs:subClassOf go:remedy-45.7 .
+
+go:bungle rdfs:subClassOf go:remedy-45.7 .
+
+go:capacitate rdfs:subClassOf go:remedy-45.7 .
+
+go:carbonify rdfs:subClassOf go:remedy-45.7 .
+
+go:castrate rdfs:subClassOf go:remedy-45.7 .
+
+go:categorize rdfs:subClassOf go:remedy-45.7-1 .
+
+go:catholicize rdfs:subClassOf go:remedy-45.7 .
+
+go:cauterize rdfs:subClassOf go:remedy-45.7 .
+
+go:chamfer rdfs:subClassOf go:remedy-45.7 .
+
+go:chlorinate rdfs:subClassOf go:remedy-45.7 .
+
+go:christianize rdfs:subClassOf go:remedy-45.7 .
+
+go:circumcise rdfs:subClassOf go:remedy-45.7 .
+
+go:circumscribe rdfs:subClassOf go:remedy-45.7 .
+
+go:coif rdfs:subClassOf go:remedy-45.7 .
+
+go:commercialize rdfs:subClassOf go:remedy-45.7 .
+
+go:configure rdfs:subClassOf go:remedy-45.7 .
+
+go:conflate rdfs:subClassOf go:remedy-45.7-1 .
+
+go:constipate rdfs:subClassOf go:remedy-45.7 .
+
+go:constringe rdfs:subClassOf go:remedy-45.7 .
+
+go:construct rdfs:subClassOf go:remedy-45.7 .
+
+go:contextualize rdfs:subClassOf go:remedy-45.7 .
+
+go:correct rdfs:subClassOf go:remedy-45.7 .
+
+go:counteract rdfs:subClassOf go:remedy-45.7 .
+
+go:cremate rdfs:subClassOf go:remedy-45.7 .
+
+go:deafen rdfs:subClassOf go:remedy-45.7 .
+
+go:debase rdfs:subClassOf go:remedy-45.7 .
+
+go:deconstruct rdfs:subClassOf go:remedy-45.7 .
+
+go:dehumidify rdfs:subClassOf go:remedy-45.7 .
+
+go:delineate rdfs:subClassOf go:remedy-45.7 .
+
+go:demean rdfs:subClassOf go:remedy-45.7 .
+
+go:dement rdfs:subClassOf go:remedy-45.7 .
+
+go:demobilize rdfs:subClassOf go:remedy-45.7 .
+
+go:desalinate rdfs:subClassOf go:remedy-45.7 .
+
+go:desensitize rdfs:subClassOf go:remedy-45.7 .
+
+go:diffract rdfs:subClassOf go:remedy-45.7 .
+
+go:disable rdfs:subClassOf go:remedy-45.7 .
+
+go:dishevel rdfs:subClassOf go:remedy-45.7 .
+
+go:disinfect rdfs:subClassOf go:remedy-45.7 .
+
+go:disinter rdfs:subClassOf go:remedy-45.7 .
+
+go:dislocate rdfs:subClassOf go:remedy-45.7 .
+
+go:disorganize rdfs:subClassOf go:remedy-45.7 .
+
+go:dispel rdfs:subClassOf go:remedy-45.7 .
+
+go:domesticate rdfs:subClassOf go:remedy-45.7-1 .
+
+go:edify rdfs:subClassOf go:remedy-45.7 .
+
+go:emasculate rdfs:subClassOf go:remedy-45.7 .
+
+go:embitter rdfs:subClassOf go:remedy-45.7 .
+
+go:embrocate rdfs:subClassOf go:remedy-45.7 .
+
+go:enhance rdfs:subClassOf go:remedy-45.7 .
+
+go:enunciate rdfs:subClassOf go:remedy-45.7 .
+
+go:eternalize rdfs:subClassOf go:remedy-45.7 .
+
+go:eternize rdfs:subClassOf go:remedy-45.7 .
+
+go:europeanize rdfs:subClassOf go:remedy-45.7 .
+
+go:exacerbate rdfs:subClassOf go:remedy-45.7 .
+
+go:exhume rdfs:subClassOf go:remedy-45.7 .
+
+go:expropriate rdfs:subClassOf go:remedy-45.7 .
+
+go:extinguish rdfs:subClassOf go:remedy-45.7-1 .
+
+go:fanaticize rdfs:subClassOf go:remedy-45.7 .
+
+go:federalize rdfs:subClassOf go:remedy-45.7 .
+
+go:fertilize rdfs:subClassOf go:remedy-45.7 .
+
+go:flouridate rdfs:subClassOf go:remedy-45.7 .
+
+go:fortify rdfs:subClassOf go:remedy-45.7 .
+
+go:grade rdfs:subClassOf go:remedy-45.7 .
+
+go:halve rdfs:subClassOf go:remedy-45.7-1 .
+
+go:homogenize rdfs:subClassOf go:remedy-45.7-1 .
+
+go:humanize rdfs:subClassOf go:remedy-45.7 .
+
+go:humidify rdfs:subClassOf go:remedy-45.7 .
+
+go:hydrogenate rdfs:subClassOf go:remedy-45.7 .
+
+go:ice rdfs:subClassOf go:remedy-45.7 .
+
+go:immortalize rdfs:subClassOf go:remedy-45.7 .
+
+go:inactivate rdfs:subClassOf go:remedy-45.7 .
+
+go:incinerate rdfs:subClassOf go:remedy-45.7 .
+
+go:inseminate rdfs:subClassOf go:remedy-45.7 .
+
+go:inspissate rdfs:subClassOf go:remedy-45.7 .
+
+go:invert rdfs:subClassOf go:remedy-45.7 .
+
+go:iodize rdfs:subClassOf go:remedy-45.7 .
+
+go:light rdfs:subClassOf go:remedy-45.7 .
+
+go:lighten rdfs:subClassOf go:remedy-45.7-1 .
+
+go:magnetize rdfs:subClassOf go:remedy-45.7-1 .
+
+go:magnify rdfs:subClassOf go:remedy-45.7-1 .
+
+go:manure rdfs:subClassOf go:remedy-45.7 .
+
+go:marginalize rdfs:subClassOf go:remedy-45.7 .
+
+go:mechanize rdfs:subClassOf go:remedy-45.7 .
+
+go:medicate rdfs:subClassOf go:remedy-45.7 .
+
+go:militarize rdfs:subClassOf go:remedy-45.7 .
+
+go:mineralize rdfs:subClassOf go:remedy-45.7 .
+
+go:miniaturize rdfs:subClassOf go:remedy-45.7 .
+
+go:minimize rdfs:subClassOf go:remedy-45.7 .
+
+go:mishandle rdfs:subClassOf go:remedy-45.7 .
+
+go:mismanage rdfs:subClassOf go:remedy-45.7 .
+
+go:motorize rdfs:subClassOf go:remedy-45.7 .
+
+go:muddy rdfs:subClassOf go:remedy-45.7 .
+
+go:mummify rdfs:subClassOf go:remedy-45.7 .
+
+go:mute rdfs:subClassOf go:remedy-45.7 .
+
+go:nasalize rdfs:subClassOf go:remedy-45.7 .
+
+go:nitrify rdfs:subClassOf go:remedy-45.7 .
+
+go:objectify rdfs:subClassOf go:remedy-45.7 .
+
+go:obscure rdfs:subClassOf go:remedy-45.7 .
+
+go:obviate rdfs:subClassOf go:remedy-45.7 .
+
+go:overshadow rdfs:subClassOf go:remedy-45.7 .
+
+go:oxygenate rdfs:subClassOf go:remedy-45.7 .
+
+go:paralyze rdfs:subClassOf go:remedy-45.7 .
+
+go:pasteurize rdfs:subClassOf go:remedy-45.7 .
+
+go:perfect rdfs:subClassOf go:remedy-45.7 .
+
+go:perpetuate rdfs:subClassOf go:remedy-45.7 .
+
+go:pink rdfs:subClassOf go:remedy-45.7 .
+
+go:pollard rdfs:subClassOf go:remedy-45.7 .
+
+go:popularize rdfs:subClassOf go:remedy-45.7 .
+
+go:prejudge rdfs:subClassOf go:remedy-45.7 .
+
+go:prettify rdfs:subClassOf go:remedy-45.7 .
+
+go:publicize rdfs:subClassOf go:remedy-45.7 .
+
+go:raise rdfs:subClassOf go:remedy-45.7 .
+
+go:reanimate rdfs:subClassOf go:remedy-45.7 .
+
+go:rectify rdfs:subClassOf go:remedy-45.7 .
+
+go:redact rdfs:subClassOf go:remedy-45.7 .
+
+go:refract rdfs:subClassOf go:remedy-45.7 .
+
+go:regularize rdfs:subClassOf go:remedy-45.7 .
+
+go:remaster rdfs:subClassOf go:remedy-45.7 .
+
+go:remedy rdfs:subClassOf go:remedy-45.7 .
+
+go:repair rdfs:subClassOf go:remedy-45.7 .
+
+go:revise rdfs:subClassOf go:remedy-45.7 .
+
+go:secularize rdfs:subClassOf go:remedy-45.7 .
+
+go:sensationalize rdfs:subClassOf go:remedy-45.7 .
+
+go:shortchange rdfs:subClassOf go:remedy-45.7 .
+
+go:silence rdfs:subClassOf go:remedy-45.7 .
+
+go:singe rdfs:subClassOf go:remedy-45.7 .
+
+go:sinter rdfs:subClassOf go:remedy-45.7 .
+
+go:sovietize rdfs:subClassOf go:remedy-45.7 .
+
+go:sterilize rdfs:subClassOf go:remedy-45.7 .
+
+go:streamline rdfs:subClassOf go:remedy-45.7 .
+
+go:subvert rdfs:subClassOf go:remedy-45.7 .
+
+go:sulfurize rdfs:subClassOf go:remedy-45.7 .
+
+go:tabulate rdfs:subClassOf go:remedy-45.7 .
+
+go:taiwanize rdfs:subClassOf go:remedy-45.7 .
+
+go:tart_up rdfs:subClassOf go:remedy-45.7 .
+
+go:tousle rdfs:subClassOf go:remedy-45.7 .
+
+go:transplant rdfs:subClassOf go:remedy-45.7-1 .
+
+go:traumatize rdfs:subClassOf go:remedy-45.7 .
+
+go:trivialize rdfs:subClassOf go:remedy-45.7 .
+
+go:truncate rdfs:subClassOf go:remedy-45.7 .
+
+go:turn-down rdfs:subClassOf go:remedy-45.7 .
+
+go:turn-up rdfs:subClassOf go:remedy-45.7 .
+
+go:underfeed rdfs:subClassOf go:remedy-45.7 .
+
+go:upload rdfs:subClassOf go:remedy-45.7-1 .
+
+go:urbanize rdfs:subClassOf go:remedy-45.7 .
+
+go:ventilate rdfs:subClassOf go:remedy-45.7 .
+
+go:vulgarize rdfs:subClassOf go:remedy-45.7 .
+
+go:remedy-45.7-1 rdfs:subClassOf go:remedy-45.7 .
+
+go:remedy-45.7 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#remedy-45.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+

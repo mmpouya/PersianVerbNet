@@ -1,0 +1,159 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:add rdfs:subClassOf go:say-37.7-1 .
+
+go:advise rdfs:subClassOf go:say-37.7-1-1 .
+
+go:allege rdfs:subClassOf go:say-37.7-1 .
+
+go:announce rdfs:subClassOf go:say-37.7-1-1 .
+
+go:articulate rdfs:subClassOf go:say-37.7-1-1 .
+
+go:be_like rdfs:subClassOf go:say-37.7 .
+
+go:blab rdfs:subClassOf go:say-37.7-1-1 .
+
+go:blabber rdfs:subClassOf go:say-37.7-1 .
+
+go:blurt rdfs:subClassOf go:say-37.7-1-1 .
+
+go:claim rdfs:subClassOf go:say-37.7-1-1 .
+
+go:confess rdfs:subClassOf go:say-37.7-1-1 .
+
+go:confide rdfs:subClassOf go:say-37.7-1-1 .
+
+go:continue rdfs:subClassOf go:say-37.7 .
+
+go:convey rdfs:subClassOf go:say-37.7-1-1 .
+
+go:declare rdfs:subClassOf go:say-37.7-1-1 .
+
+go:disclose rdfs:subClassOf go:say-37.7-1 .
+
+go:divulge rdfs:subClassOf go:say-37.7-1 .
+
+go:exclaim rdfs:subClassOf go:say-37.7-1 .
+
+go:go rdfs:subClassOf go:say-37.7 .
+
+go:go_like rdfs:subClassOf go:say-37.7 .
+
+go:go_on rdfs:subClassOf go:say-37.7 .
+
+go:hint rdfs:subClassOf go:say-37.7-1-2 .
+
+go:insinuate rdfs:subClassOf go:say-37.7-1 .
+
+go:insist rdfs:subClassOf go:say-37.7-1 .
+
+go:interject rdfs:subClassOf go:say-37.7-1-1 .
+
+go:interpose rdfs:subClassOf go:say-37.7-1-1 .
+
+go:intimate rdfs:subClassOf go:say-37.7-1 .
+
+go:leak rdfs:subClassOf go:say-37.7-1 .
+
+go:mention rdfs:subClassOf go:say-37.7-1-1 .
+
+go:note rdfs:subClassOf go:say-37.7-1-1 .
+
+go:observe rdfs:subClassOf go:say-37.7-1-1 .
+
+go:proclaim rdfs:subClassOf go:say-37.7-1-1 .
+
+go:promulgate rdfs:subClassOf go:say-37.7-1 .
+
+go:propose rdfs:subClassOf go:say-37.7-1-1 .
+
+go:purpose rdfs:subClassOf go:say-37.7-1-1-1 .
+
+go:recommend rdfs:subClassOf go:say-37.7-1-1-1 .
+
+go:recount rdfs:subClassOf go:say-37.7-1-1 .
+
+go:reiterate rdfs:subClassOf go:say-37.7-1-1 .
+
+go:relate rdfs:subClassOf go:say-37.7-1-1 .
+
+go:remark rdfs:subClassOf go:say-37.7-1-1 .
+
+go:repeat rdfs:subClassOf go:say-37.7-1-1 .
+
+go:reply rdfs:subClassOf go:say-37.7-1 .
+
+go:report rdfs:subClassOf go:say-37.7-1-1 .
+
+go:respond rdfs:subClassOf go:say-37.7-1 .
+
+go:retort rdfs:subClassOf go:say-37.7-1 .
+
+go:reveal rdfs:subClassOf go:say-37.7-1-1 .
+
+go:say rdfs:subClassOf go:say-37.7-1-1 .
+
+go:state rdfs:subClassOf go:say-37.7-1-1 .
+
+go:suggest rdfs:subClassOf go:say-37.7-1-1-1 .
+
+go:utter rdfs:subClassOf go:say-37.7-1 .
+
+go:venture rdfs:subClassOf go:say-37.7-1 .
+
+go:vocalize rdfs:subClassOf go:say-37.7-1 .
+
+go:voice rdfs:subClassOf go:say-37.7-1 .
+
+go:volunteer rdfs:subClassOf go:say-37.7-1-1 .
+
+go:write rdfs:subClassOf go:say-37.7-1 .
+
+go:say-37.7-1-2 rdfs:subClassOf go:say-37.7-1 .
+
+go:say-37.7-1-1-1 rdfs:subClassOf go:say-37.7-1-1 .
+
+go:say-37.7 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasTopic .
+
+go:say-37.7-1 rdfs:subClassOf go:say-37.7 .
+
+go:say-37.7-1-1 rdfs:subClassOf go:say-37.7-1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#say-37.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#say-37.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#communication>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#say-37.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

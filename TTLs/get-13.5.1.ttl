@@ -1,0 +1,116 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:attain rdfs:subClassOf go:get-13.5.1 .
+
+go:book rdfs:subClassOf go:get-13.5.1 .
+
+go:buy rdfs:subClassOf go:get-13.5.1 .
+
+go:call rdfs:subClassOf go:get-13.5.1 .
+
+go:cash rdfs:subClassOf go:get-13.5.1-1 .
+
+go:catch rdfs:subClassOf go:get-13.5.1 .
+
+go:charter rdfs:subClassOf go:get-13.5.1 .
+
+go:choose rdfs:subClassOf go:get-13.5.1 .
+
+go:earn rdfs:subClassOf go:get-13.5.1-1 .
+
+go:fetch rdfs:subClassOf go:get-13.5.1-1 .
+
+go:find rdfs:subClassOf go:get-13.5.1 .
+
+go:gain rdfs:subClassOf go:get-13.5.1-1 .
+
+go:gather rdfs:subClassOf go:get-13.5.1 .
+
+go:get rdfs:subClassOf go:get-13.5.1-1 .
+
+go:hire rdfs:subClassOf go:get-13.5.1 .
+
+go:lease rdfs:subClassOf go:get-13.5.1 .
+
+go:order rdfs:subClassOf go:get-13.5.1 .
+
+go:phone rdfs:subClassOf go:get-13.5.1 .
+
+go:pick rdfs:subClassOf go:get-13.5.1 .
+
+go:pluck rdfs:subClassOf go:get-13.5.1 .
+
+go:procure rdfs:subClassOf go:get-13.5.1 .
+
+go:pull rdfs:subClassOf go:get-13.5.1 .
+
+go:reach rdfs:subClassOf go:get-13.5.1 .
+
+go:rent rdfs:subClassOf go:get-13.5.1 .
+
+go:reserve rdfs:subClassOf go:get-13.5.1 .
+
+go:save rdfs:subClassOf go:get-13.5.1-1 .
+
+go:score rdfs:subClassOf go:get-13.5.1-1 .
+
+go:secure rdfs:subClassOf go:get-13.5.1-1 .
+
+go:take rdfs:subClassOf go:get-13.5.1 .
+
+go:win rdfs:subClassOf go:get-13.5.1 .
+
+go:get-13.5.1-1 rdfs:subClassOf go:get-13.5.1 .
+
+go:get-13.5.1 rdfs:subClassOf go:hasAgent,
+        go:hasAsset,
+        go:hasBeneficiary,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#get-13.5.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#get-13.5.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#get-13.5.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#get-13.5.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAsset> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#location> ]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#get-13.5.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#abstract>
+                    ].
+

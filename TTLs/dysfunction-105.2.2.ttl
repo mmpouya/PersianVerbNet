@@ -1,0 +1,21 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:die rdfs:subClassOf go:disfunction-105.2.2 .
+
+go:go_down rdfs:subClassOf go:disfunction-105.2.2 .
+
+go:go_off rdfs:subClassOf go:disfunction-105.2.2 .
+
+go:go_out rdfs:subClassOf go:disfunction-105.2.2 .
+
+go:poop_out rdfs:subClassOf go:disfunction-105.2.2 .
+
+go:disfunction-105.2.2 rdfs:subClassOf go:hasTheme .
+
+
+#This verb has no selectional restriction 

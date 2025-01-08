@@ -1,0 +1,46 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accredit rdfs:subClassOf go:patent-101 .
+
+go:certify rdfs:subClassOf go:patent-101 .
+
+go:copyright rdfs:subClassOf go:patent-101 .
+
+go:credential rdfs:subClassOf go:patent-101 .
+
+go:evidence rdfs:subClassOf go:patent-101 .
+
+go:imitate rdfs:subClassOf go:patent-101 .
+
+go:impersonate rdfs:subClassOf go:patent-101 .
+
+go:license rdfs:subClassOf go:patent-101 .
+
+go:patent rdfs:subClassOf go:patent-101 .
+
+go:register rdfs:subClassOf go:patent-101 .
+
+go:trademark rdfs:subClassOf go:patent-101 .
+
+go:verify rdfs:subClassOf go:patent-101 .
+
+go:patent-101 rdfs:subClassOf go:hasAgent,
+        go:hasResult,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#patent-101> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

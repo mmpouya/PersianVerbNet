@@ -1,0 +1,104 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:calm_down rdfs:subClassOf go:subjugate-42.3 .
+
+go:choke rdfs:subClassOf go:subjugate-42.3 .
+
+go:conquer rdfs:subClassOf go:subjugate-42.3 .
+
+go:crush rdfs:subClassOf go:subjugate-42.3 .
+
+go:curb rdfs:subClassOf go:subjugate-42.3 .
+
+go:dampen rdfs:subClassOf go:subjugate-42.3 .
+
+go:disenfranchise rdfs:subClassOf go:subjugate-42.3 .
+
+go:enslave rdfs:subClassOf go:subjugate-42.3 .
+
+go:gag rdfs:subClassOf go:subjugate-42.3 .
+
+go:hush rdfs:subClassOf go:subjugate-42.3 .
+
+go:hush_up rdfs:subClassOf go:subjugate-42.3 .
+
+go:keep_down rdfs:subClassOf go:subjugate-42.3 .
+
+go:kill rdfs:subClassOf go:subjugate-42.3 .
+
+go:lull rdfs:subClassOf go:subjugate-42.3 .
+
+go:mob rdfs:subClassOf go:subjugate-42.3 .
+
+go:muffle rdfs:subClassOf go:subjugate-42.3 .
+
+go:muzzle rdfs:subClassOf go:subjugate-42.3 .
+
+go:nourish rdfs:subClassOf go:subjugate-42.3 .
+
+go:quash rdfs:subClassOf go:subjugate-42.3 .
+
+go:quell rdfs:subClassOf go:subjugate-42.3 .
+
+go:quench rdfs:subClassOf go:subjugate-42.3 .
+
+go:reduce rdfs:subClassOf go:subjugate-42.3 .
+
+go:repress rdfs:subClassOf go:subjugate-42.3 .
+
+go:shut_up rdfs:subClassOf go:subjugate-42.3 .
+
+go:silence rdfs:subClassOf go:subjugate-42.3 .
+
+go:slake rdfs:subClassOf go:subjugate-42.3 .
+
+go:smother rdfs:subClassOf go:subjugate-42.3 .
+
+go:squelch rdfs:subClassOf go:subjugate-42.3 .
+
+go:stamp_down rdfs:subClassOf go:subjugate-42.3 .
+
+go:stifle rdfs:subClassOf go:subjugate-42.3 .
+
+go:still rdfs:subClassOf go:subjugate-42.3 .
+
+go:strangle rdfs:subClassOf go:subjugate-42.3 .
+
+go:subdue rdfs:subClassOf go:subjugate-42.3 .
+
+go:subjugate rdfs:subClassOf go:subjugate-42.3 .
+
+go:suffocate rdfs:subClassOf go:subjugate-42.3 .
+
+go:suppress rdfs:subClassOf go:subjugate-42.3 .
+
+go:walk_over rdfs:subClassOf go:subjugate-42.3 .
+
+go:subjugate-42.3 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#subjugate-42.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#subjugate-42.3> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

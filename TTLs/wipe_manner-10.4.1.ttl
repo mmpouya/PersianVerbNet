@@ -1,0 +1,143 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bail rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:buff rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:dab rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:distil rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:distill rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:dust rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:erase rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:exorcise rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:expunge rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:expurgate rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:flush rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:leach rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:lick rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:offload rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:pluck rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:polish rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:prune rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:purge rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:rinse rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:rub rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:scour rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:scrape rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:scratch rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:scrub rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:shave rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:skim rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:smooth rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:soak rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:squeeze rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:strain rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:strip rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:suck rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:suction rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:swab rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:sweep rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:trim rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:unload rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:wash rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:wear rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:weed rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:whisk rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:winnow rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:wipe rdfs:subClassOf go:wipe_manner-10.4.1-1 .
+
+go:wring rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:wipe_manner-10.4.1-1 rdfs:subClassOf go:wipe_manner-10.4.1 .
+
+go:wipe_manner-10.4.1 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasSource,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#animate> ]
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#wipe_manner-10.4.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasSource> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                    ].
+

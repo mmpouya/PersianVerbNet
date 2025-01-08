@@ -1,0 +1,69 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:annihilate rdfs:subClassOf go:murder-42.1 .
+
+go:assassinate rdfs:subClassOf go:murder-42.1 .
+
+go:bushwhack rdfs:subClassOf go:murder-42.1 .
+
+go:butcher rdfs:subClassOf go:murder-42.1 .
+
+go:dispatch rdfs:subClassOf go:murder-42.1 .
+
+go:eliminate rdfs:subClassOf go:murder-42.1 .
+
+go:euthanize rdfs:subClassOf go:murder-42.1 .
+
+go:execute rdfs:subClassOf go:murder-42.1 .
+
+go:exterminate rdfs:subClassOf go:murder-42.1 .
+
+go:immolate rdfs:subClassOf go:murder-42.1 .
+
+go:kill rdfs:subClassOf go:murder-42.1-1 .
+
+go:kill-off rdfs:subClassOf go:murder-42.1-1 .
+
+go:liquidate rdfs:subClassOf go:murder-42.1 .
+
+go:lynch rdfs:subClassOf go:murder-42.1 .
+
+go:massacre rdfs:subClassOf go:murder-42.1 .
+
+go:murder rdfs:subClassOf go:murder-42.1 .
+
+go:off rdfs:subClassOf go:murder-42.1 .
+
+go:slaughter rdfs:subClassOf go:murder-42.1 .
+
+go:slay rdfs:subClassOf go:murder-42.1 .
+
+go:murder-42.1-1 rdfs:subClassOf go:murder-42.1 .
+
+go:murder-42.1 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#murder-42.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#murder-42.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#murder-42.1-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

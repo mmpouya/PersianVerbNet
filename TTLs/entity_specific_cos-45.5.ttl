@@ -1,0 +1,98 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:apostatize rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:atrophy rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:blister rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:bloom rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:blossom rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:bud rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:burgeon rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:burn rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:corrode rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:crust rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:decay rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:decompose rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:deteriorate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:ebb rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:erode rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:ferment rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:fester rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:flower rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:foliate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:germinate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:green rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:molder rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:molt rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:moult rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:oxidize rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:phosphoresce rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:progress rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:pullulate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:putrefy rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:rot rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:rust rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:spoil rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:sprout rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:stagnate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:subside rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:suppurate rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:swell rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:tarnish rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:wane rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:wilt rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:wither rdfs:subClassOf go:entity_specific_cos-45.5 .
+
+go:entity_specific_cos-45.5 rdfs:subClassOf go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#entity_specific_cos-45.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

@@ -1,0 +1,149 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:baste rdfs:subClassOf go:spray-9.7-1 .
+
+go:brush rdfs:subClassOf go:spray-9.7-1 .
+
+go:cram rdfs:subClassOf go:spray-9.7-1-1 .
+
+go:crowd rdfs:subClassOf go:spray-9.7-1-1 .
+
+go:dab rdfs:subClassOf go:spray-9.7-2 .
+
+go:daub rdfs:subClassOf go:spray-9.7-2 .
+
+go:drape rdfs:subClassOf go:spray-9.7-2 .
+
+go:drizzle rdfs:subClassOf go:spray-9.7-1 .
+
+go:dust rdfs:subClassOf go:spray-9.7-2 .
+
+go:hang rdfs:subClassOf go:spray-9.7-1 .
+
+go:heap rdfs:subClassOf go:spray-9.7-2 .
+
+go:jam rdfs:subClassOf go:spray-9.7-1-1 .
+
+go:load rdfs:subClassOf go:spray-9.7-2 .
+
+go:mound rdfs:subClassOf go:spray-9.7-2 .
+
+go:overload rdfs:subClassOf go:spray-9.7 .
+
+go:pack rdfs:subClassOf go:spray-9.7-1-1 .
+
+go:pile rdfs:subClassOf go:spray-9.7-1-1 .
+
+go:plant rdfs:subClassOf go:spray-9.7-2 .
+
+go:plaster rdfs:subClassOf go:spray-9.7-1 .
+
+go:pump rdfs:subClassOf go:spray-9.7-1 .
+
+go:rub rdfs:subClassOf go:spray-9.7-1 .
+
+go:scatter rdfs:subClassOf go:spray-9.7-1 .
+
+go:seed rdfs:subClassOf go:spray-9.7-1,
+        go:spray-9.7-2 .
+
+go:sew rdfs:subClassOf go:spray-9.7-1 .
+
+go:shower rdfs:subClassOf go:spray-9.7-1 .
+
+go:slather rdfs:subClassOf go:spray-9.7-2 .
+
+go:smear rdfs:subClassOf go:spray-9.7-1 .
+
+go:smudge rdfs:subClassOf go:spray-9.7-1 .
+
+go:sow rdfs:subClassOf go:spray-9.7-1 .
+
+go:spatter rdfs:subClassOf go:spray-9.7-1 .
+
+go:splash rdfs:subClassOf go:spray-9.7-1 .
+
+go:splatter rdfs:subClassOf go:spray-9.7-1 .
+
+go:spray rdfs:subClassOf go:spray-9.7-1 .
+
+go:spread rdfs:subClassOf go:spray-9.7-1 .
+
+go:sprinkle rdfs:subClassOf go:spray-9.7-1 .
+
+go:spritz rdfs:subClassOf go:spray-9.7-1 .
+
+go:spurt rdfs:subClassOf go:spray-9.7-1 .
+
+go:squirt rdfs:subClassOf go:spray-9.7-1 .
+
+go:stack rdfs:subClassOf go:spray-9.7-2 .
+
+go:stick rdfs:subClassOf go:spray-9.7-1 .
+
+go:stock rdfs:subClassOf go:spray-9.7-2 .
+
+go:strew rdfs:subClassOf go:spray-9.7-1 .
+
+go:string rdfs:subClassOf go:spray-9.7-1 .
+
+go:stuff rdfs:subClassOf go:spray-9.7-2 .
+
+go:swab rdfs:subClassOf go:spray-9.7-1 .
+
+go:swash rdfs:subClassOf go:spray-9.7-1 .
+
+go:wrap rdfs:subClassOf go:spray-9.7-1 .
+
+go:spray-9.7 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasInitial_Location,
+        go:hasTheme .
+
+go:spray-9.7-1-1 rdfs:subClassOf go:spray-9.7-1 .
+
+go:spray-9.7-2 rdfs:subClassOf go:spray-9.7 .
+
+go:spray-9.7-1 rdfs:subClassOf go:spray-9.7 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#spray-9.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#spray-9.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInitial_Location> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#location>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#spray-9.7> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasDestination> ;
+                      owl:allValuesFrom [owl:intersectionOf ( [ rdf:type owl:Class ; owl:complementOf <http://tavasi.majles.ir/ontology/general#region> ]
+                                            <http://tavasi.majles.ir/ontology/general#location>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#spray-9.7-1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#substance>
+                                                        [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#plural>
+                                            <http://tavasi.majles.ir/ontology/general#concrete>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#spray-9.7-2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#concrete>
+                    ].
+

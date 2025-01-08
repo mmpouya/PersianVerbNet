@@ -1,0 +1,49 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:absorb rdfs:subClassOf go:learn-14-2 .
+
+go:assimilate rdfs:subClassOf go:learn-14-2 .
+
+go:cram rdfs:subClassOf go:learn-14-1 .
+
+go:find_out rdfs:subClassOf go:learn-14-2-1 .
+
+go:glean rdfs:subClassOf go:learn-14-2 .
+
+go:hear rdfs:subClassOf go:learn-14-2-1 .
+
+go:learn rdfs:subClassOf go:learn-14-1,
+        go:learn-14-2-1 .
+
+go:memorize rdfs:subClassOf go:learn-14-2 .
+
+go:read rdfs:subClassOf go:learn-14-1,
+        go:learn-14-2-1 .
+
+go:relearn rdfs:subClassOf go:learn-14-1 .
+
+go:study rdfs:subClassOf go:learn-14-1,
+        go:learn-14-2-1 .
+
+go:learn-14 rdfs:subClassOf go:hasAgent,
+        go:hasSource,
+        go:hasTopic .
+
+go:learn-14-1 rdfs:subClassOf go:learn-14 .
+
+go:learn-14-2 rdfs:subClassOf go:learn-14 .
+
+go:learn-14-2-1 rdfs:subClassOf go:learn-14-2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#learn-14> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+

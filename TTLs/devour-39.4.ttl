@@ -1,0 +1,33 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:consume rdfs:subClassOf go:devour-39.4 .
+
+go:devour rdfs:subClassOf go:devour-39.4 .
+
+go:down rdfs:subClassOf go:devour-39.4 .
+
+go:have rdfs:subClassOf go:devour-39.4 .
+
+go:imbibe rdfs:subClassOf go:devour-39.4 .
+
+go:ingest rdfs:subClassOf go:devour-39.4 .
+
+go:swill rdfs:subClassOf go:devour-39.4 .
+
+go:take rdfs:subClassOf go:devour-39.4 .
+
+go:devour-39.4 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#devour-39.4> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#biotic>
+                    ].
+

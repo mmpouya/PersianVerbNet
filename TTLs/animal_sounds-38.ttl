@@ -1,0 +1,174 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:baa rdfs:subClassOf go:animal_sounds-38 .
+
+go:bark rdfs:subClassOf go:animal_sounds-38 .
+
+go:bay rdfs:subClassOf go:animal_sounds-38 .
+
+go:bellow rdfs:subClassOf go:animal_sounds-38 .
+
+go:blat rdfs:subClassOf go:animal_sounds-38 .
+
+go:bleat rdfs:subClassOf go:animal_sounds-38 .
+
+go:boom rdfs:subClassOf go:animal_sounds-38 .
+
+go:bray rdfs:subClassOf go:animal_sounds-38 .
+
+go:buzz rdfs:subClassOf go:animal_sounds-38 .
+
+go:cackle rdfs:subClassOf go:animal_sounds-38 .
+
+go:call rdfs:subClassOf go:animal_sounds-38 .
+
+go:caw rdfs:subClassOf go:animal_sounds-38 .
+
+go:chatter rdfs:subClassOf go:animal_sounds-38 .
+
+go:cheep rdfs:subClassOf go:animal_sounds-38 .
+
+go:chirp rdfs:subClassOf go:animal_sounds-38 .
+
+go:chirrup rdfs:subClassOf go:animal_sounds-38 .
+
+go:chitter rdfs:subClassOf go:animal_sounds-38 .
+
+go:cluck rdfs:subClassOf go:animal_sounds-38 .
+
+go:coo rdfs:subClassOf go:animal_sounds-38 .
+
+go:croak rdfs:subClassOf go:animal_sounds-38 .
+
+go:crow rdfs:subClassOf go:animal_sounds-38 .
+
+go:cuckoo rdfs:subClassOf go:animal_sounds-38 .
+
+go:drone rdfs:subClassOf go:animal_sounds-38 .
+
+go:gobble rdfs:subClassOf go:animal_sounds-38 .
+
+go:groan rdfs:subClassOf go:animal_sounds-38 .
+
+go:growl rdfs:subClassOf go:animal_sounds-38 .
+
+go:grunt rdfs:subClassOf go:animal_sounds-38 .
+
+go:hee-haw rdfs:subClassOf go:animal_sounds-38 .
+
+go:hiss rdfs:subClassOf go:animal_sounds-38 .
+
+go:honk rdfs:subClassOf go:animal_sounds-38 .
+
+go:hoot rdfs:subClassOf go:animal_sounds-38 .
+
+go:howl rdfs:subClassOf go:animal_sounds-38 .
+
+go:ki-yi rdfs:subClassOf go:animal_sounds-38 .
+
+go:low rdfs:subClassOf go:animal_sounds-38 .
+
+go:meow rdfs:subClassOf go:animal_sounds-38 .
+
+go:mew rdfs:subClassOf go:animal_sounds-38 .
+
+go:moan rdfs:subClassOf go:animal_sounds-38 .
+
+go:moo rdfs:subClassOf go:animal_sounds-38 .
+
+go:neigh rdfs:subClassOf go:animal_sounds-38 .
+
+go:oink rdfs:subClassOf go:animal_sounds-38 .
+
+go:peep rdfs:subClassOf go:animal_sounds-38 .
+
+go:pipe rdfs:subClassOf go:animal_sounds-38 .
+
+go:purr rdfs:subClassOf go:animal_sounds-38 .
+
+go:quack rdfs:subClassOf go:animal_sounds-38 .
+
+go:rattle rdfs:subClassOf go:animal_sounds-38 .
+
+go:roar rdfs:subClassOf go:animal_sounds-38 .
+
+go:rooroo rdfs:subClassOf go:animal_sounds-38 .
+
+go:rumble rdfs:subClassOf go:animal_sounds-38 .
+
+go:scrawk rdfs:subClassOf go:animal_sounds-38 .
+
+go:screech rdfs:subClassOf go:animal_sounds-38 .
+
+go:snarl rdfs:subClassOf go:animal_sounds-38 .
+
+go:squawk rdfs:subClassOf go:animal_sounds-38 .
+
+go:squeak rdfs:subClassOf go:animal_sounds-38 .
+
+go:squeal rdfs:subClassOf go:animal_sounds-38 .
+
+go:stridulate rdfs:subClassOf go:animal_sounds-38 .
+
+go:thunder rdfs:subClassOf go:animal_sounds-38 .
+
+go:trill rdfs:subClassOf go:animal_sounds-38 .
+
+go:trumpet rdfs:subClassOf go:animal_sounds-38 .
+
+go:tweet rdfs:subClassOf go:animal_sounds-38 .
+
+go:twitter rdfs:subClassOf go:animal_sounds-38 .
+
+go:ululate rdfs:subClassOf go:animal_sounds-38 .
+
+go:wail rdfs:subClassOf go:animal_sounds-38 .
+
+go:warble rdfs:subClassOf go:animal_sounds-38 .
+
+go:wheeze rdfs:subClassOf go:animal_sounds-38 .
+
+go:whimper rdfs:subClassOf go:animal_sounds-38 .
+
+go:whine rdfs:subClassOf go:animal_sounds-38 .
+
+go:whinny rdfs:subClassOf go:animal_sounds-38 .
+
+go:whistle rdfs:subClassOf go:animal_sounds-38 .
+
+go:woof rdfs:subClassOf go:animal_sounds-38 .
+
+go:yap rdfs:subClassOf go:animal_sounds-38 .
+
+go:yell rdfs:subClassOf go:animal_sounds-38 .
+
+go:yelp rdfs:subClassOf go:animal_sounds-38 .
+
+go:yip rdfs:subClassOf go:animal_sounds-38 .
+
+go:yowl rdfs:subClassOf go:animal_sounds-38 .
+
+go:animal_sounds-38 rdfs:subClassOf go:hasAgent,
+        go:hasRecipient,
+        go:hasStimulus,
+        go:hasTheme .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#animal_sounds-38> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animal>
+                    ].
+<http://tavasi.majles.ir/ontology/general#animal_sounds-38> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#communication>
+                                            <http://tavasi.majles.ir/ontology/general#animal>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

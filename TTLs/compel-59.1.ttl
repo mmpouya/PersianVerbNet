@@ -1,0 +1,86 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arm-twist rdfs:subClassOf go:compel-59.1-1 .
+
+go:bribe rdfs:subClassOf go:compel-59.1-1 .
+
+go:coerce rdfs:subClassOf go:compel-59.1-1 .
+
+go:commandeer rdfs:subClassOf go:compel-59.1-1 .
+
+go:compel rdfs:subClassOf go:compel-59.1-1 .
+
+go:convince rdfs:subClassOf go:compel-59.1-1 .
+
+go:dragoon rdfs:subClassOf go:compel-59.1-1 .
+
+go:drive rdfs:subClassOf go:compel-59.1-1 .
+
+go:hound rdfs:subClassOf go:compel-59.1-1 .
+
+go:impel rdfs:subClassOf go:compel-59.1-1 .
+
+go:induce rdfs:subClassOf go:compel-59.1-1 .
+
+go:influence rdfs:subClassOf go:compel-59.1-1 .
+
+go:lead rdfs:subClassOf go:compel-59.1-1 .
+
+go:motivate rdfs:subClassOf go:compel-59.1-1 .
+
+go:obligate rdfs:subClassOf go:compel-59.1-1 .
+
+go:oblige rdfs:subClassOf go:compel-59.1-1 .
+
+go:palaver rdfs:subClassOf go:compel-59.1-1 .
+
+go:persuade rdfs:subClassOf go:compel-59.1-1 .
+
+go:railroad rdfs:subClassOf go:compel-59.1-1 .
+
+go:rush rdfs:subClassOf go:compel-59.1-1 .
+
+go:sandbag rdfs:subClassOf go:compel-59.1-1 .
+
+go:steamroller rdfs:subClassOf go:compel-59.1-1 .
+
+go:suborn rdfs:subClassOf go:compel-59.1-1 .
+
+go:sway rdfs:subClassOf go:compel-59.1-1 .
+
+go:talk rdfs:subClassOf go:compel-59.1 .
+
+go:wheedle rdfs:subClassOf go:compel-59.1-1 .
+
+go:woo rdfs:subClassOf go:compel-59.1-1 .
+
+go:compel-59.1 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasResult .
+
+go:compel-59.1-1 rdfs:subClassOf go:compel-59.1 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#compel-59.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#compel-59.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

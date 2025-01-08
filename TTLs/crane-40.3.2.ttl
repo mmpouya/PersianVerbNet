@@ -1,0 +1,137 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arch rdfs:subClassOf go:crane-40.3.2 .
+
+go:bare rdfs:subClassOf go:crane-40.3.2 .
+
+go:bat rdfs:subClassOf go:crane-40.3.2 .
+
+go:beat rdfs:subClassOf go:crane-40.3.2 .
+
+go:blow rdfs:subClassOf go:crane-40.3.2 .
+
+go:clench rdfs:subClassOf go:crane-40.3.2 .
+
+go:click rdfs:subClassOf go:crane-40.3.2 .
+
+go:close rdfs:subClassOf go:crane-40.3.2 .
+
+go:cock rdfs:subClassOf go:crane-40.3.2 .
+
+go:crane rdfs:subClassOf go:crane-40.3.2 .
+
+go:crook rdfs:subClassOf go:crane-40.3.2 .
+
+go:cross rdfs:subClassOf go:crane-40.3.2 .
+
+go:drum rdfs:subClassOf go:crane-40.3.2 .
+
+go:flap rdfs:subClassOf go:crane-40.3.2 .
+
+go:flash rdfs:subClassOf go:crane-40.3.2 .
+
+go:flex rdfs:subClassOf go:crane-40.3.2 .
+
+go:flick rdfs:subClassOf go:crane-40.3.2 .
+
+go:flutter rdfs:subClassOf go:crane-40.3.2 .
+
+go:fold rdfs:subClassOf go:crane-40.3.2 .
+
+go:gnash rdfs:subClassOf go:crane-40.3.2 .
+
+go:grind rdfs:subClassOf go:crane-40.3.2 .
+
+go:hang rdfs:subClassOf go:crane-40.3.2 .
+
+go:hunch rdfs:subClassOf go:crane-40.3.2 .
+
+go:kick rdfs:subClassOf go:crane-40.3.2 .
+
+go:knit rdfs:subClassOf go:crane-40.3.2 .
+
+go:open rdfs:subClassOf go:crane-40.3.2 .
+
+go:pucker rdfs:subClassOf go:crane-40.3.2 .
+
+go:purse rdfs:subClassOf go:crane-40.3.2 .
+
+go:raise rdfs:subClassOf go:crane-40.3.2 .
+
+go:roll rdfs:subClassOf go:crane-40.3.2 .
+
+go:rub rdfs:subClassOf go:crane-40.3.2 .
+
+go:shake rdfs:subClassOf go:crane-40.3.2 .
+
+go:show rdfs:subClassOf go:crane-40.3.2 .
+
+go:shuffle rdfs:subClassOf go:crane-40.3.2 .
+
+go:smack rdfs:subClassOf go:crane-40.3.2 .
+
+go:snap rdfs:subClassOf go:crane-40.3.2 .
+
+go:stamp rdfs:subClassOf go:crane-40.3.2 .
+
+go:stretch rdfs:subClassOf go:crane-40.3.2 .
+
+go:toss rdfs:subClassOf go:crane-40.3.2 .
+
+go:turn rdfs:subClassOf go:crane-40.3.2 .
+
+go:twiddle rdfs:subClassOf go:crane-40.3.2 .
+
+go:twitch rdfs:subClassOf go:crane-40.3.2 .
+
+go:wag rdfs:subClassOf go:crane-40.3.2 .
+
+go:waggle rdfs:subClassOf go:crane-40.3.2 .
+
+go:wiggle rdfs:subClassOf go:crane-40.3.2 .
+
+go:wring rdfs:subClassOf go:crane-40.3.2 .
+
+go:wrinkle rdfs:subClassOf go:crane-40.3.2 .
+
+go:crane-40.3.2 rdfs:subClassOf go:hasAgent,
+        go:hasPatient,
+        go:hasRecipient,
+        go:hasTopic .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#crane-40.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#crane-40.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#crane-40.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTopic> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#crane-40.3.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasRecipient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#body_part>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

@@ -1,0 +1,106 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bend rdfs:subClassOf go:bend-45.2 .
+
+go:compact rdfs:subClassOf go:bend-45.2 .
+
+go:compress rdfs:subClassOf go:bend-45.2 .
+
+go:constrict rdfs:subClassOf go:bend-45.2 .
+
+go:contract rdfs:subClassOf go:bend-45.2 .
+
+go:crease rdfs:subClassOf go:bend-45.2 .
+
+go:crinkle rdfs:subClassOf go:bend-45.2 .
+
+go:crumple rdfs:subClassOf go:bend-45.2 .
+
+go:decompress rdfs:subClassOf go:bend-45.2 .
+
+go:deflate rdfs:subClassOf go:bend-45.2 .
+
+go:distend rdfs:subClassOf go:bend-45.2 .
+
+go:flex rdfs:subClassOf go:bend-45.2 .
+
+go:fold rdfs:subClassOf go:bend-45.2 .
+
+go:furrow rdfs:subClassOf go:bend-45.2 .
+
+go:hyperextend rdfs:subClassOf go:bend-45.2 .
+
+go:inflate rdfs:subClassOf go:bend-45.2 .
+
+go:roll rdfs:subClassOf go:bend-45.2 .
+
+go:round rdfs:subClassOf go:bend-45.2 .
+
+go:rumple rdfs:subClassOf go:bend-45.2 .
+
+go:scrunch rdfs:subClassOf go:bend-45.2 .
+
+go:shrink rdfs:subClassOf go:bend-45.2 .
+
+go:shrivel rdfs:subClassOf go:bend-45.2 .
+
+go:slack rdfs:subClassOf go:bend-45.2 .
+
+go:slacken rdfs:subClassOf go:bend-45.2 .
+
+go:splay rdfs:subClassOf go:bend-45.2 .
+
+go:straighten rdfs:subClassOf go:bend-45.2 .
+
+go:stretch rdfs:subClassOf go:bend-45.2 .
+
+go:tauten rdfs:subClassOf go:bend-45.2 .
+
+go:unbend rdfs:subClassOf go:bend-45.2 .
+
+go:unfold rdfs:subClassOf go:bend-45.2 .
+
+go:unfurl rdfs:subClassOf go:bend-45.2 .
+
+go:unroll rdfs:subClassOf go:bend-45.2 .
+
+go:unwind rdfs:subClassOf go:bend-45.2 .
+
+go:warp rdfs:subClassOf go:bend-45.2 .
+
+go:wrinkle rdfs:subClassOf go:bend-45.2 .
+
+go:bend-45.2 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient,
+        go:hasResult .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#bend-45.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#bend-45.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#bend-45.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#solid>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

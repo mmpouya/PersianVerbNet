@@ -1,0 +1,138 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:arrange rdfs:subClassOf go:build-26.1 .
+
+go:assemble rdfs:subClassOf go:build-26.1 .
+
+go:bake rdfs:subClassOf go:build-26.1 .
+
+go:bead rdfs:subClassOf go:build-26.1 .
+
+go:blow rdfs:subClassOf go:build-26.1 .
+
+go:build rdfs:subClassOf go:build-26.1-1 .
+
+go:carve rdfs:subClassOf go:build-26.1-1 .
+
+go:cast rdfs:subClassOf go:build-26.1 .
+
+go:chisel rdfs:subClassOf go:build-26.1 .
+
+go:churn rdfs:subClassOf go:build-26.1 .
+
+go:compile rdfs:subClassOf go:build-26.1 .
+
+go:cook rdfs:subClassOf go:build-26.1 .
+
+go:crochet rdfs:subClassOf go:build-26.1 .
+
+go:cut rdfs:subClassOf go:build-26.1-1 .
+
+go:develop rdfs:subClassOf go:build-26.1 .
+
+go:embroider rdfs:subClassOf go:build-26.1 .
+
+go:erect rdfs:subClassOf go:build-26.1 .
+
+go:fashion rdfs:subClassOf go:build-26.1 .
+
+go:fold rdfs:subClassOf go:build-26.1 .
+
+go:forge rdfs:subClassOf go:build-26.1 .
+
+go:formulate rdfs:subClassOf go:build-26.1 .
+
+go:grind rdfs:subClassOf go:build-26.1 .
+
+go:grow rdfs:subClassOf go:build-26.1 .
+
+go:hack rdfs:subClassOf go:build-26.1 .
+
+go:hammer rdfs:subClassOf go:build-26.1 .
+
+go:knit rdfs:subClassOf go:build-26.1 .
+
+go:make rdfs:subClassOf go:build-26.1-1 .
+
+go:mold rdfs:subClassOf go:build-26.1 .
+
+go:pound rdfs:subClassOf go:build-26.1 .
+
+go:reassemble rdfs:subClassOf go:build-26.1 .
+
+go:refashion rdfs:subClassOf go:build-26.1 .
+
+go:remake rdfs:subClassOf go:build-26.1-1 .
+
+go:roll rdfs:subClassOf go:build-26.1 .
+
+go:sculpt rdfs:subClassOf go:build-26.1-1 .
+
+go:sculpture rdfs:subClassOf go:build-26.1 .
+
+go:sew rdfs:subClassOf go:build-26.1 .
+
+go:shape rdfs:subClassOf go:build-26.1-1 .
+
+go:spin rdfs:subClassOf go:build-26.1 .
+
+go:stitch rdfs:subClassOf go:build-26.1 .
+
+go:weave rdfs:subClassOf go:build-26.1 .
+
+go:whittle rdfs:subClassOf go:build-26.1 .
+
+go:build-26.1-1 rdfs:subClassOf go:build-26.1 .
+
+go:build-26.1 rdfs:subClassOf go:hasAgent,
+        go:hasAsset,
+        go:hasBeneficiary,
+        go:hasMaterial,
+        go:hasProduct .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#build-26.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#build-26.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasMaterial> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#machine>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#build-26.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasBeneficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+<http://tavasi.majles.ir/ontology/general#build-26.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAsset> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#currency>
+                                            [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

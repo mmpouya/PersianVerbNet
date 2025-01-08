@@ -1,0 +1,77 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:boogie rdfs:subClassOf go:waltz-51.5 .
+
+go:bop rdfs:subClassOf go:waltz-51.5 .
+
+go:cancan rdfs:subClassOf go:waltz-51.5 .
+
+go:clog rdfs:subClassOf go:waltz-51.5 .
+
+go:conga rdfs:subClassOf go:waltz-51.5 .
+
+go:dance rdfs:subClassOf go:waltz-51.5 .
+
+go:foxtrot rdfs:subClassOf go:waltz-51.5 .
+
+go:jig rdfs:subClassOf go:waltz-51.5 .
+
+go:jitterbug rdfs:subClassOf go:waltz-51.5 .
+
+go:jive rdfs:subClassOf go:waltz-51.5 .
+
+go:pirouette rdfs:subClassOf go:waltz-51.5 .
+
+go:polka rdfs:subClassOf go:waltz-51.5 .
+
+go:quickstep rdfs:subClassOf go:waltz-51.5 .
+
+go:rumba rdfs:subClassOf go:waltz-51.5 .
+
+go:samba rdfs:subClassOf go:waltz-51.5 .
+
+go:shuffle rdfs:subClassOf go:waltz-51.5 .
+
+go:squaredance rdfs:subClassOf go:waltz-51.5 .
+
+go:tango rdfs:subClassOf go:waltz-51.5 .
+
+go:tapdance rdfs:subClassOf go:waltz-51.5 .
+
+go:waltz rdfs:subClassOf go:waltz-51.5 .
+
+go:waltz-51.5 rdfs:subClassOf go:hasAgent,
+        go:hasDestination,
+        go:hasResult,
+        go:hasTheme,
+        go:hasTrajectory .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#waltz-51.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#waltz-51.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTheme> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#waltz-51.5> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasTrajectory> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#animate>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

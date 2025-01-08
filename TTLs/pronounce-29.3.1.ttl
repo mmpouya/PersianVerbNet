@@ -1,0 +1,19 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:pronounce rdfs:subClassOf go:pronounce-29.3.1 .
+
+go:say rdfs:subClassOf go:pronounce-29.3.1 .
+
+go:spell rdfs:subClassOf go:pronounce-29.3.1 .
+
+go:pronounce-29.3.1 rdfs:subClassOf go:hasAgent,
+        go:hasManner,
+        go:hasTheme .
+
+
+#This verb has no selectional restriction 

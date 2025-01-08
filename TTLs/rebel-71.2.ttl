@@ -1,0 +1,40 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:discriminate rdfs:subClassOf go:rebel-71.2-1 .
+
+go:legislate rdfs:subClassOf go:rebel-71.2-2 .
+
+go:protest rdfs:subClassOf go:rebel-71.2-2 .
+
+go:rebel rdfs:subClassOf go:rebel-71.2-1 .
+
+go:retaliate rdfs:subClassOf go:rebel-71.2-1 .
+
+go:sin rdfs:subClassOf go:rebel-71.2-1-1 .
+
+go:rebel-71.2-1-1 rdfs:subClassOf go:rebel-71.2-1 .
+
+go:rebel-71.2 rdfs:subClassOf go:hasAgent,
+        go:hasMaleficiary,
+        go:hasTheme .
+
+go:rebel-71.2-2 rdfs:subClassOf go:rebel-71.2 .
+
+go:rebel-71.2-1 rdfs:subClassOf go:rebel-71.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#rebel-71.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasMaleficiary> ;
+                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
+                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                                      )]
+
+                    ].
+

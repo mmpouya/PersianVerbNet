@@ -1,0 +1,40 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:exist rdfs:subClassOf go:gorge-39.6 .
+
+go:feed rdfs:subClassOf go:gorge-39.6 .
+
+go:flourish rdfs:subClassOf go:gorge-39.6 .
+
+go:gorge rdfs:subClassOf go:gorge-39.6 .
+
+go:prosper rdfs:subClassOf go:gorge-39.6 .
+
+go:subsist rdfs:subClassOf go:gorge-39.6 .
+
+go:survive rdfs:subClassOf go:gorge-39.6 .
+
+go:thrive rdfs:subClassOf go:gorge-39.6 .
+
+go:gorge-39.6 rdfs:subClassOf go:hasAgent,
+        go:hasPatient .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#gorge-39.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#animate>
+                    ].
+<http://tavasi.majles.ir/ontology/general#gorge-39.6> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#comestible>
+                                            <http://tavasi.majles.ir/ontology/general#animate>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+

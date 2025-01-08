@@ -1,0 +1,143 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:bore rdfs:subClassOf go:carve-21.2-1 .
+
+go:bruise rdfs:subClassOf go:carve-21.2-1 .
+
+go:carve rdfs:subClassOf go:carve-21.2-2 .
+
+go:chip rdfs:subClassOf go:carve-21.2-1 .
+
+go:chop rdfs:subClassOf go:carve-21.2-2 .
+
+go:cleave rdfs:subClassOf go:carve-21.2-1 .
+
+go:crop rdfs:subClassOf go:carve-21.2-2 .
+
+go:crumb rdfs:subClassOf go:carve-21.2-1 .
+
+go:crumble rdfs:subClassOf go:carve-21.2-1 .
+
+go:crumple rdfs:subClassOf go:carve-21.2-1 .
+
+go:crunch rdfs:subClassOf go:carve-21.2-1 .
+
+go:crush rdfs:subClassOf go:carve-21.2-1 .
+
+go:cube rdfs:subClassOf go:carve-21.2-1 .
+
+go:dent rdfs:subClassOf go:carve-21.2-1 .
+
+go:dice rdfs:subClassOf go:carve-21.2-1 .
+
+go:drill rdfs:subClassOf go:carve-21.2-3 .
+
+go:file rdfs:subClassOf go:carve-21.2-3 .
+
+go:fillet rdfs:subClassOf go:carve-21.2-1 .
+
+go:flake rdfs:subClassOf go:carve-21.2-1 .
+
+go:flatten rdfs:subClassOf go:carve-21.2-1 .
+
+go:gash rdfs:subClassOf go:carve-21.2-1 .
+
+go:gouge rdfs:subClassOf go:carve-21.2-1 .
+
+go:grate rdfs:subClassOf go:carve-21.2-1 .
+
+go:grind rdfs:subClassOf go:carve-21.2-1 .
+
+go:lance rdfs:subClassOf go:carve-21.2-3 .
+
+go:mangle rdfs:subClassOf go:carve-21.2-3 .
+
+go:mash rdfs:subClassOf go:carve-21.2-1 .
+
+go:mill rdfs:subClassOf go:carve-21.2-3 .
+
+go:mince rdfs:subClassOf go:carve-21.2-1 .
+
+go:mow rdfs:subClassOf go:carve-21.2-2 .
+
+go:nick rdfs:subClassOf go:carve-21.2-1 .
+
+go:notch rdfs:subClassOf go:carve-21.2-1 .
+
+go:perforate rdfs:subClassOf go:carve-21.2-1 .
+
+go:pink rdfs:subClassOf go:carve-21.2-2 .
+
+go:prune rdfs:subClassOf go:carve-21.2-2 .
+
+go:pulverize rdfs:subClassOf go:carve-21.2-1 .
+
+go:punch rdfs:subClassOf go:carve-21.2-2 .
+
+go:quarter rdfs:subClassOf go:carve-21.2-1 .
+
+go:sand rdfs:subClassOf go:carve-21.2-3 .
+
+go:scollop rdfs:subClassOf go:carve-21.2-1 .
+
+go:scrunch rdfs:subClassOf go:carve-21.2-1 .
+
+go:shred rdfs:subClassOf go:carve-21.2-1 .
+
+go:slice rdfs:subClassOf go:carve-21.2-1 .
+
+go:slit rdfs:subClassOf go:carve-21.2-1 .
+
+go:smash rdfs:subClassOf go:carve-21.2-1 .
+
+go:spear rdfs:subClassOf go:carve-21.2-3 .
+
+go:squash rdfs:subClassOf go:carve-21.2-1 .
+
+go:squish rdfs:subClassOf go:carve-21.2-1 .
+
+go:tool rdfs:subClassOf go:carve-21.2-3 .
+
+go:tread rdfs:subClassOf go:carve-21.2-2 .
+
+go:trench rdfs:subClassOf go:carve-21.2-1 .
+
+go:carve-21.2 rdfs:subClassOf go:hasAgent,
+        go:hasInstrument,
+        go:hasPatient .
+
+go:carve-21.2-2 rdfs:subClassOf go:carve-21.2 .
+
+go:carve-21.2-3 rdfs:subClassOf go:carve-21.2 .
+
+go:carve-21.2-1 rdfs:subClassOf go:carve-21.2 .
+
+
+# Generated String:
+<http://tavasi.majles.ir/ontology/general#carve-21.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+                      owl:allValuesFrom <http://tavasi.majles.ir/ontology/general#int_control>
+                    ].
+<http://tavasi.majles.ir/ontology/general#carve-21.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasPatient> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+<http://tavasi.majles.ir/ontology/general#carve-21.2> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasInstrument> ;
+                      owl:allValuesFrom [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            [owl:intersectionOf ( <http://tavasi.majles.ir/ontology/general#concrete>
+                                            <http://tavasi.majles.ir/ontology/general#int_control>
+                                            ) ;
+                                          rdf:type owl:Class]
+                                            ) ;
+                                          rdf:type owl:Class]
+                    ].
+
