@@ -1,0 +1,74 @@
+@base <http://tavasi.majles.ir/ontology/general/Verbnet> .
+@prefix go: <http://tavasi.majles.ir/ontology/general#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://tavasi.majles.ir/ontology/general> a owl:Ontology .
+
+go:accept rdfs:subClassOf go:accept-77.1 .
+
+go:animate rdfs:subClassOf go:accept-77.1_Agent_restriction .
+
+go:buy rdfs:subClassOf go:accept-77.1 .
+
+go:encourage rdfs:subClassOf go:accept-77.1 .
+
+go:organization rdfs:subClassOf go:accept-77.1_Agent_restriction .
+
+go:understand rdfs:subClassOf go:accept-77.1 .
+
+go:Frame_0_2_Basic_Transitive a owl:Class ;
+    go:hasDescriptionNumber "0.2" ;
+    go:hasExample "I accepted it." ;
+    go:hasPrimaryPattern "NP V NP" ;
+    go:hasSecondaryPattern "Basic Transitive" ;
+    go:hasSemanticPredicate "approve" ;
+    go:hasXTag "0.2" .
+
+go:Frame_8_1_HOW-S a owl:Class ;
+    go:hasDescriptionNumber "8.1" ;
+    go:hasExample "I accept how you do it." ;
+    go:hasPrimaryPattern "NP V how S" ;
+    go:hasSecondaryPattern "HOW-S" ;
+    go:hasSemanticPredicate "approve" ;
+    go:hasXTag "0.2" .
+
+go:Frame_8_1_POSSING a owl:Class ;
+    go:hasDescriptionNumber "8.1" ;
+    go:hasExample "I accepted their writing novels." ;
+    go:hasPrimaryPattern "NP V S_ING" ;
+    go:hasSecondaryPattern "POSSING" ;
+    go:hasSemanticPredicate "approve" ;
+    go:hasXTag "0.2" .
+
+go:Frame_8_1_S a owl:Class ;
+    go:hasDescriptionNumber "8.1" ;
+    go:hasExample "I accepted that they wrote novels." ;
+    go:hasPrimaryPattern "NP V that S" ;
+    go:hasSecondaryPattern "S" ;
+    go:hasSemanticPredicate "approve" ;
+    go:hasXTag "0.2" .
+
+go:Frame_8_1_WHAT-S a owl:Class ;
+    go:hasDescriptionNumber "8.1" ;
+    go:hasExample "I accepted what they were doing." ;
+    go:hasPrimaryPattern "NP V what S" ;
+    go:hasSecondaryPattern "WHAT-S" ;
+    go:hasSemanticPredicate "approve" ;
+    go:hasXTag "0.2" .
+
+go:accept-77.1_Agent_restriction_axiom a owl:Restriction ;
+    owl:allValuesFrom go:accept-77.1_Agent_restriction ;
+    owl:onProperty go:EventHasAgent .
+
+go:accept-77.1_Agent_restriction a owl:Class .
+
+go:accept-77.1 rdfs:subClassOf go:Frame_0_2_Basic_Transitive,
+        go:Frame_8_1_HOW-S,
+        go:Frame_8_1_POSSING,
+        go:Frame_8_1_S,
+        go:Frame_8_1_WHAT-S,
+        go:accept-77.1_Agent_restriction_axiom,
+        go:hasAgent,
+        go:hasTheme .
+

@@ -2,6 +2,8 @@
 @prefix go: <http://tavasi.majles.ir/ontology/general#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 
 <http://tavasi.majles.ir/ontology/general> a owl:Ontology .
 
@@ -16,14 +18,62 @@ go:understand rdfs:subClassOf go:accept-77.1 .
 go:accept-77.1 rdfs:subClassOf go:hasAgent,
         go:hasTheme .
 
-
-# Generated String:
-<http://tavasi.majles.ir/ontology/general#accept-77.1> rdfs:subClassOf [ rdf:type owl:Restriction ;
-                      owl:onProperty <http://tavasi.majles.ir/ontology/general#EventHasAgent> ;
+# Selectional restrictions for Agent
+go:accept-77.1 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                      owl:onProperty go:EventHasAgent ;
                       owl:allValuesFrom [ rdf:type owl:Class ;
-                                          owl:unionOf ( <http://tavasi.majles.ir/ontology/general#organization>
-                                                        <http://tavasi.majles.ir/ontology/general#animate>
+                                          owl:unionOf ( go:animate
+                                                        go:organization
                                                       )]
+                    ] .
 
-                    ].
+# Frames
+go:accept-77.1 rdfs:subClassOf go:Frame_8_1_how_S,
+        go:Frame_0_2_Basic_Transitive,
+        go:Frame_8_1_POSSING,
+        go:Frame_8_1_that_S,
+        go:Frame_8_1_what_S .
+
+# Frame definitions
+go:Frame_8_1_how_S a owl:Class ;
+                   go:hasDescriptionNumber "8.1" ;
+                   go:hasPrimaryPattern "NP V how S" ;
+                   go:hasSecondaryPattern "HOW-S" ;
+                   go:hasXTag "0.2" ;
+                   go:hasExample "I accept how you do it." ;
+                   go:hasSemanticPredicate "approve" .
+
+go:Frame_0_2_Basic_Transitive a owl:Class ;
+                              go:hasDescriptionNumber "0.2" ;
+                              go:hasPrimaryPattern "NP V NP" ;
+                              go:hasSecondaryPattern "Basic Transitive" ;
+                              go:hasXTag "0.2" ;
+                              go:hasExample "I accepted it." ;
+                              go:hasSemanticPredicate "approve" .
+
+go:Frame_8_1_POSSING a owl:Class ;
+                     go:hasDescriptionNumber "8.1" ;
+                     go:hasPrimaryPattern "NP V S_ING" ;
+                     go:hasSecondaryPattern "POSSING" ;
+                     go:hasXTag "0.2" ;
+                     go:hasExample "I accepted their writing novels." ;
+                     go:hasSemanticPredicate "approve" .
+
+go:Frame_8_1_that_S a owl:Class ;
+                    go:hasDescriptionNumber "8.1" ;
+                    go:hasPrimaryPattern "NP V that S" ;
+                    go:hasSecondaryPattern "S" ;
+                    go:hasXTag "0.2" ;
+                    go:hasExample "I accepted that they wrote novels." ;
+                    go:hasSemanticPredicate "approve" .
+
+go:Frame_8_1_what_S a owl:Class ;
+                    go:hasDescriptionNumber "8.1" ;
+                    go:hasPrimaryPattern "NP V what S" ;
+                    go:hasSecondaryPattern "WHAT-S" ;
+                    go:hasXTag "0.2" ;
+                    go:hasExample "I accepted what they were doing." ;
+                    go:hasSemanticPredicate "approve" .
+
+
 
